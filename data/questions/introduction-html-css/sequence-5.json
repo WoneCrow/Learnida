@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": "ti-s5-q001",
+      "question": "Que signifie l'acronyme CSS ?",
+      "type": "single",
+      "options": ["Cascading Style Sheets", "Computer Style System", "Colorful Style Sheets", "Coded Style Standard"],
+      "answer": [0],
+      "explanation": "CSS est l'acronyme de Cascading Style Sheets, ce qui signifie Feuilles de Styles en Cascade.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q002",
+      "question": "Que décrit une feuille de style CSS ?",
+      "type": "single",
+      "options": ["Comment les éléments HTML doivent être affichés à l'écran, sur papier ou dans d'autres médias", "Le contenu textuel d'une page web", "La structure logique d'une base de données", "Les règles de sécurité d'un serveur web"], 
+      "answer": [0],
+      "explanation": "CSS décrit comment les éléments HTML doivent être affichés à l'écran, sur du papier ou dans d'autres médias.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q003",
+      "question": "Quels avantages présente l'utilisation de feuilles de style qui séparent la forme du fond ?",
+      "type": "multiple",
+      "options": ["Simplifier la conception et la maintenance des sites", "Améliorer l'accessibilité des sites", "Réduire la qualité visuelle des documents", "Aucun de ces avantages"],
+      "answer": [0, 1],
+      "explanation": "Séparer la forme du fond simplifie la conception/maintenance et améliore l'accessibilité, sans altérer la qualité visuelle (bien au contraire).",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q004",
+      "question": "Dans la règle CSS h1 {color: blue;}, que représente h1 ?",
+      "type": "single",
+      "options": ["Le sélecteur", "La déclaration", "La propriété", "La valeur"],
+      "answer": [0],
+      "explanation": "h1 est le sélecteur de la règle CSS ; color: blue est la déclaration.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q005",
+      "question": "De combien de parties principales une règle CSS est-elle composée ?",
+      "type": "single",
+      "options": ["1", "2", "3", "4"],
+      "answer": [1],
+      "explanation": "Une règle CSS est composée de 2 parties : un sélecteur et une déclaration.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q006",
+      "question": "Dans la déclaration color: blue, que représentent color et blue ?",
+      "type": "single",
+      "options": ["color est la propriété et blue est la valeur", "color est le sélecteur et blue est la propriété", "color est la valeur et blue est la propriété", "Il n'y a pas de distinction entre les deux"],
+      "answer": [0],
+      "explanation": "Une déclaration a deux parties : une propriété (color) et une valeur (blue).",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q007",
+      "question": "Comment peut-on regrouper plusieurs sélecteurs qui partagent la même déclaration ?",
+      "type": "single",
+      "options": ["En les séparant par des virgules", "En les séparant par des points-virgules", "En les séparant par des deux-points", "En les séparant par des espaces uniquement"],
+      "answer": [0],
+      "explanation": "On peut regrouper plusieurs sélecteurs en les séparant par des virgules, comme dans h1, p { color: red }.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q008",
+      "question": "Comment peut-on regrouper plusieurs déclarations pour un même sélecteur ?",
+      "type": "single",
+      "options": ["En les séparant par des virgules", "En les séparant par des points-virgules", "En les séparant par des accolades", "Ce n'est pas possible"],
+      "answer": [1],
+      "explanation": "On peut regrouper plusieurs déclarations en les séparant par des points-virgules, comme dans p { margin-left: 1cm; text-style: italic }.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q009",
+      "question": "Quelles sont les trois méthodes principales pour placer une feuille de style ?",
+      "type": "multiple",
+      "options": ["En ligne (attribut style)", "En interne (élément <style> dans <head>)", "En externe (fichier CSS externe)", "En base de données"],
+      "answer": [0, 1, 2],
+      "explanation": "Les trois méthodes principales sont : en ligne, en interne, et en externe.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q010",
+      "question": "Quelle méthode d'intégration CSS utilise l'attribut style directement dans un élément HTML ?",
+      "type": "single",
+      "options": ["La méthode en ligne", "La méthode en interne", "La méthode en externe", "La méthode en cascade"],
+      "answer": [0],
+      "explanation": "La méthode en ligne utilise l'attribut style dans les éléments HTML pour appliquer un style à un seul élément.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q011",
+      "question": "Quelle méthode d'intégration utilise un élément <style> placé dans la section <head> ?",
+      "type": "single",
+      "options": ["La méthode en ligne", "La méthode en interne", "La méthode en externe", "La méthode inline uniquement"],
+      "answer": [1],
+      "explanation": "La méthode en interne utilise un élément <style> dans la section <head> du document.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q012",
+      "question": "Quelle méthode d'intégration CSS est considérée comme la plus courante pour garder les styles dans des fichiers séparés ?",
+      "type": "single",
+      "options": ["La méthode en ligne", "La méthode en interne", "La méthode en externe", "Aucune, elles sont équivalentes"],
+      "answer": [2],
+      "explanation": "La méthode externe est la plus courante pour ajouter du CSS et garder les styles dans des fichiers CSS séparés.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q013",
+      "question": "Quelle balise permet de lier un fichier CSS externe à un document HTML ?",
+      "type": "single",
+      "options": ["<style>", "<css>", "<link rel=\"stylesheet\" href=\"...\">", "<script src=\"...\">"],
+      "answer": [2],
+      "explanation": "On utilise <link rel=\"stylesheet\" href=\"styles.css\"> dans le <head> pour lier un fichier CSS externe.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q014",
+      "question": "Dans un fichier CSS externe (comme styles.css), doit-on réécrire les balises <style> autour des règles ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Dans un fichier CSS externe, on écrit directement les règles CSS (ex: body { background-color: powderblue; }) sans balises <style>.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q015",
+      "question": "Quelle propriété CSS permet de définir le nom de la police de caractères ?",
+      "type": "single",
+      "options": ["font-style", "font-family", "font-weight", "font-size"],
+      "answer": [1],
+      "explanation": "font-family permet de spécifier le nom de la police de caractères à utiliser, par exemple font-family: Arial;",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q016",
+      "question": "Quelles sont les valeurs possibles pour la propriété font-style ?",
+      "type": "multiple",
+      "options": ["normal", "italic", "oblique", "bold"],
+      "answer": [0, 1, 2],
+      "explanation": "font-style accepte normal, italic et oblique. bold est une valeur de font-weight, pas de font-style.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q017",
+      "question": "Quelle propriété CSS permet de définir l'épaisseur de la police de caractères ?",
+      "type": "single",
+      "options": ["font-weight", "font-style", "font-thickness", "text-weight"],
+      "answer": [0],
+      "explanation": "font-weight définit l'épaisseur de la police, avec des valeurs comme normal, bold, bolder, lighter, ou des nombres de 100 à 900.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q018",
+      "question": "Quelles valeurs numériques peut prendre la propriété font-weight ?",
+      "type": "single",
+      "options": ["De 100 à 900", "De 1 à 10", "De 0 à 100%", "De 1px à 100px"],
+      "answer": [0],
+      "explanation": "font-weight peut prendre des valeurs numériques allant de 100, 200, 300... jusqu'à 900, en plus de normal, bold, bolder, lighter.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q019",
+      "question": "Comment peut-on exprimer la taille de police avec font-size ?",
+      "type": "multiple",
+      "options": ["Des mots-clés comme small, medium, large", "Une taille absolue comme 12pt", "Un pourcentage comme 150%", "Uniquement en pixels"],
+      "answer": [0, 1, 2],
+      "explanation": "font-size peut utiliser des mots-clés (xx-small à xx-large, larger, smaller), une taille absolue (12pt, 18px) ou un pourcentage (150%).",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q020",
+      "question": "Quelles sont les valeurs possibles pour la propriété text-align ?",
+      "type": "multiple",
+      "options": ["left", "right", "center", "middle"],
+      "answer": [0, 1, 2],
+      "explanation": "text-align accepte left, right, center et justify. « middle » n'est pas une valeur valide de text-align.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q021",
+      "question": "Quelles sont les valeurs possibles pour la propriété text-decoration ?",
+      "type": "multiple",
+      "options": ["none", "underline", "overline", "line-through"],
+      "answer": [0, 1, 2, 3],
+      "explanation": "text-decoration accepte none, underline, overline, line-through et blink, et ces valeurs peuvent être combinées.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q022",
+      "question": "Les valeurs de la propriété text-decoration peuvent-elles être combinées, comme dans « underline line-through » ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Oui, les valeurs de text-decoration peuvent être combinées, comme dans text-decoration: underline line-through;",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q023",
+      "question": "Quelle propriété CSS permet de mettre un texte entièrement en majuscules ?",
+      "type": "single",
+      "options": ["text-transform: uppercase;", "text-decoration: uppercase;", "font-weight: uppercase;", "text-align: uppercase;"],
+      "answer": [0],
+      "explanation": "text-transform: uppercase; met le texte en majuscules. Les autres valeurs possibles sont capitalize, lowercase et none.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q024",
+      "question": "Comment peut-on spécifier la couleur du texte en CSS ?",
+      "type": "multiple",
+      "options": ["Par un nom de couleur : color: red;", "Par une valeur HEX : color: #fd4a88;", "Par une fonction rgb : color: rgb(125,32,98);", "Uniquement par un numéro de police"],
+      "answer": [0, 1, 2],
+      "explanation": "La propriété color accepte un nom de couleur, une valeur HEX ou une fonction rgb().",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q025",
+      "question": "Quelle propriété CSS définit la couleur du fond d'un élément ?",
+      "type": "single",
+      "options": ["color", "background-color", "fill-color", "fond-color"],
+      "answer": [1],
+      "explanation": "background-color définit la couleur du fond, par exemple background-color: blue;",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q026",
+      "question": "Quelles valeurs peut prendre la propriété background-image ?",
+      "type": "single",
+      "options": ["url(\"...\") ou none", "Uniquement un nom de couleur", "Un pourcentage seulement", "Uniquement true ou false"],
+      "answer": [0],
+      "explanation": "background-image peut prendre la valeur url(\"...\") pour spécifier une image, ou none pour aucune image.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q027",
+      "question": "Parmi ces valeurs, lesquelles sont possibles pour la propriété border-style ?",
+      "type": "multiple",
+      "options": ["dotted", "dashed", "solid", "sharp"],
+      "answer": [0, 1, 2],
+      "explanation": "border-style accepte none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset. « sharp » n'existe pas.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q028",
+      "question": "Quelles propriétés CSS permettent de définir les marges d'un élément ?",
+      "type": "multiple",
+      "options": ["margin-top", "margin-bottom", "margin-left", "border-width"],
+      "answer": [0, 1, 2],
+      "explanation": "margin-top, margin-bottom, margin-left et margin-right définissent les marges. border-width concerne l'épaisseur de la bordure, pas les marges.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q029",
+      "question": "Que représente l'unité de mesure « 1em » en CSS ?",
+      "type": "single",
+      "options": ["La hauteur d'un caractère dans la police courante", "1 pixel", "1 centimètre", "1 point"],
+      "answer": [0],
+      "explanation": "1em correspond à la hauteur d'un caractère dans la police courante.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q030",
+      "question": "Que représente l'unité « 1ex » en CSS ?",
+      "type": "single",
+      "options": ["La hauteur du x dans la police courante", "La largeur d'un caractère", "1 pixel exact", "Un pourcentage de la page"],
+      "answer": [0],
+      "explanation": "1ex correspond à la hauteur du caractère x dans la police courante.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q031",
+      "question": "À combien de pouce (inch) correspond 1 point (1pt) selon le cours ?",
+      "type": "single",
+      "options": ["1/72 inch", "1/12 inch", "1/100 inch", "1 inch exactement"],
+      "answer": [0],
+      "explanation": "Selon le cours, 1pt (1 point) correspond à 1/72 inch.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q032",
+      "question": "Combien de points (pt) représente 1 pica (1pc) ?",
+      "type": "single",
+      "options": ["6pt", "12pt", "24pt", "72pt"],
+      "answer": [1],
+      "explanation": "Selon le cours, 1 pica (1pc) équivaut à 12pt.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q033",
+      "question": "Quelle propriété CSS permet de définir l'épaisseur de la bordure d'un élément ?",
+      "type": "single",
+      "options": ["border-width", "border-thickness", "border-size", "border-weight"],
+      "answer": [0],
+      "explanation": "border-width définit l'épaisseur de la bordure, avec des valeurs comme thin, medium, thick ou une longueur (ex: 3px).",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q034",
+      "question": "Quelles sont les valeurs possibles pour la propriété float ?",
+      "type": "multiple",
+      "options": ["left", "center", "right", "top"],
+      "answer": [0, 1, 2],
+      "explanation": "float accepte les valeurs left, center et right. « top » n'est pas une valeur valide de float.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q035",
+      "question": "L'attribut class peut-il être appliqué à tous les éléments HTML ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "L'attribut class peut être appliqué à tous les éléments HTML, permettant de préciser des classes d'éléments.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q036",
+      "question": "Quel sélecteur CSS correspond à la classe « rouge » sans distinction de balise ?",
+      "type": "single",
+      "options": [".rouge { color: red }", "#rouge { color: red }", "rouge { color: red }", "p:rouge { color: red }"],
+      "answer": [0],
+      "explanation": "Le sélecteur .rouge cible tous les éléments ayant la classe « rouge », quels qu'ils soient.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q037",
+      "question": "Que signifie le sélecteur CSS p.entete { font-style: italic } ?",
+      "type": "single",
+      "options": ["Seuls les éléments <p> ayant la classe \"entete\" seront en italique", "Tous les éléments de classe \"entete\" seront en italique, quelle que soit la balise", "Tous les paragraphes de la page seront en italique", "Cela crée une erreur de syntaxe CSS"],
+      "answer": [0],
+      "explanation": "p.entete cible spécifiquement les éléments <p> qui ont la classe \"entete\", contrairement à .entete qui ciblerait tous les éléments de cette classe.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q038",
+      "question": "Quel attribut HTML permet de définir un style spécifique à un seul élément unique de la page ?",
+      "type": "single",
+      "options": ["class", "id", "style-unique", "name"],
+      "answer": [1],
+      "explanation": "L'attribut id peut être utilisé pour définir un style spécifique à un élément, via un sélecteur CSS commençant par #.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q039",
+      "question": "Quel est le symbole utilisé en CSS pour cibler un élément par son id ?",
+      "type": "single",
+      "options": ["Le point (.)", "Le dièse (#)", "L'esperluette (&)", "Le pourcentage (%)"],
+      "answer": [1],
+      "explanation": "Le sélecteur d'id utilise le dièse (#), comme dans #entete { color: red }.",
+      "image": null
+    },
+    {
+      "id": "ti-s5-q040",
+      "question": "L'identifiant (id) d'un élément peut-il être réutilisé plusieurs fois sur la même page ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "L'identifiant d'un élément doit être unique dans une page, de sorte que le sélecteur d'id puisse sélectionner un élément unique.",
+      "image": null
+    }
+  ]
+}

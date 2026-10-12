@@ -1,0 +1,344 @@
+[
+  {
+    "id": "ti-s5-q001",
+    "question": "Quelles sont les différentes approches de développement mobile citées dans le cours ?",
+    "type": "multiple",
+    "options": ["Développement natif", "Solution cross plateforme", "Solutions hybrides", "Développement uniquement en assembleur"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite quatre options : le développement natif, la solution cross plateforme, les solutions hybrides et le développement web (HTML5, CSS, JavaScript).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q002",
+    "question": "Quels langages sont typiquement utilisés pour le développement natif ?",
+    "type": "multiple",
+    "options": ["Objective-C ou Swift", "Java", "C#", "PHP"],
+    "answer": [0, 1, 2],
+    "explanation": "Le développement natif utilise Objective-C ou Swift (iOS), Java (Android), C# (Windows Mobile), entre autres.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q003",
+    "question": "Quelle solution permet de construire des applications iOS, Android et Windows mobile dans un environnement de développement Microsoft en C# ?",
+    "type": "single",
+    "options": ["PhoneGap", "Cordova", "Xamarin", "Ionic"],
+    "answer": [2],
+    "explanation": "Xamarin est cité comme une solution cross plateforme permettant de construire des applications iOS, Android et Windows mobile dans un environnement de développement Microsoft (C#).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q004",
+    "question": "Quelles technologies permettent d'embarquer une web view dans une application native, selon le cours ?",
+    "type": "multiple",
+    "options": ["Phonegap", "Cordova", "Xcode", "Eclipse"],
+    "answer": [0, 1],
+    "explanation": "Les solutions hybrides de type Phonegap ou Cordova permettent d'embarquer une web view dans une application native.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q005",
+    "question": "Les applications natives sont spécifiques à une plate-forme mobile donnée et ont généralement un design plus apprécié et un fonctionnement plus performant.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Les applications natives sont spécifiques à une plate-forme (iOS ou Android) et ont un design plus apprécié et fonctionnent de manière plus performante.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q006",
+    "question": "Quel IDE et quel langage sont associés au développement natif iOS ?",
+    "type": "single",
+    "options": ["Eclipse et Java", "Xcode et Objective-C", "Visual Studio et C#", "Android Studio et Kotlin"],
+    "answer": [1],
+    "explanation": "Le développement natif iOS utilise Xcode comme outil de développement et Objective-C (ou Swift) comme langage.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q007",
+    "question": "Dans l'approche native (\"approche en silo\"), quelles sont les conséquences de devoir créer l'application plusieurs fois ?",
+    "type": "multiple",
+    "options": ["Plus de développeurs nécessaires", "Plus de maintenance", "Différents environnements à gérer", "Aucune conséquence particulière"],
+    "answer": [0, 1, 2],
+    "explanation": "L'approche native impose de créer l'application plusieurs fois, ce qui implique plus de développeurs, plus de maintenance et la gestion de différents environnements.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q008",
+    "question": "Quels sont les avantages de l'approche native cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Accès aux fonctionnalités de l'appareil (caméra, géolocalisation, gyroscope...)", "Visibilité sur les stores d'applications", "Accès aux APIs natives", "Aucune connexion internet nécessaire pour développer"],
+    "answer": [0, 1, 2],
+    "explanation": "Les avantages de l'approche native incluent l'accès aux fonctionnalités matérielles de l'appareil, la visibilité sur les stores, l'accès aux APIs natives, la simplicité de développement et l'intégration à la facturation des stores.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q009",
+    "question": "Quel est le principal inconvénient de l'approche native concernant le coût ?",
+    "type": "single",
+    "options": ["Le coût de développement est faible car le code est commun", "Le coût de développement est important car il faut une version spécifique par OS", "Il n'y a aucun coût de développement", "Le coût ne dépend pas du nombre de plateformes"],
+    "answer": [1],
+    "explanation": "Le coût de développement de l'approche native est important car il faut développer une version spécifique pour chaque système d'exploitation, et chaque mise à jour multiplie ce coût par le nombre de plateformes.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q010",
+    "question": "L'approche web (\"Write Once, Run Anywhere\") utilise principalement quelles technologies ?",
+    "type": "multiple",
+    "options": ["HTML5", "JavaScript", "CSS", "Objective-C"],
+    "answer": [0, 1, 2],
+    "explanation": "L'approche web utilise des technologies Web standard, généralement HTML5, JavaScript et CSS, avec des boîtes à outils comme AngularJS ou React.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q011",
+    "question": "Quels frameworks/boîtes à outils sont cités pour l'approche web ?",
+    "type": "multiple",
+    "options": ["AngularJS", "React", "Xamarin", "PhoneGap"],
+    "answer": [0, 1],
+    "explanation": "AngularJS et React sont cités comme boîtes à outils utilisées à grand renfort de code JavaScript pour l'approche web.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q012",
+    "question": "Quel est l'avantage de l'approche web concernant l'affichage sur différents supports ?",
+    "type": "single",
+    "options": ["Le responsive design", "L'accès direct aux capteurs", "La performance native", "L'intégration à la facturation des stores"],
+    "answer": [0],
+    "explanation": "Le responsive design de l'approche web permet un affichage optimal et adapté aux différents supports (smartphones, tablettes, desktop...).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q013",
+    "question": "Quels sont les inconvénients de l'approche web cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Nécessité d'une connexion internet pour accéder au contenu", "Pas de visibilité sur les stores d'application", "Ne s'exécute pas en plein écran", "Coût de développement multiplié par plateforme"],
+    "answer": [0, 1, 2],
+    "explanation": "Les inconvénients de l'approche web incluent la nécessité d'une connexion internet, l'absence de visibilité sur les stores, l'accès uniquement via navigateur, l'absence d'icône d'application, et le fait de ne pas s'exécuter en plein écran.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q014",
+    "question": "Une application web ne dispose pas d'icône d'application et ne s'exécute pas en plein écran.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est un inconvénient explicite de l'approche web : pas d'icône d'application et exécution qui ne se fait pas en plein écran.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q015",
+    "question": "Dans la comparaison Application native vs Application Web sur l'exemple de Facebook, quelle version obtient globalement de meilleures notes des utilisateurs ?",
+    "type": "single",
+    "options": ["La version Web", "La version native", "Les deux obtiennent des notes identiques", "Aucune information n'est donnée"],
+    "answer": [1],
+    "explanation": "L'exemple Facebook Web (2.0 étoiles) vs Facebook natif (3.9 étoiles) montre que la version native obtient de meilleures notes utilisateurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q016",
+    "question": "Selon le cours, quels problèmes rencontre souvent l'approche web par rapport au natif ?",
+    "type": "multiple",
+    "options": ["Manque d'intégration avec l'OS (capteurs, partage, etc.)", "Performances dégradées", "Développement spécifique selon le navigateur web", "Meilleure expérience utilisateur systématique"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite le développement spécifique selon le navigateur, le manque d'intégration avec l'OS, l'expérience utilisateur et les performances dégradées comme problèmes de l'approche web ; beaucoup ont d'ailleurs fini par revenir au natif.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q017",
+    "question": "Comment le cours définit-il une application hybride ?",
+    "type": "single",
+    "options": ["Une application 100% native sans code web", "Une application Web construite en HTML5/JavaScript, encapsulée dans un conteneur natif mince", "Une application uniquement accessible via navigateur", "Un simple raccourci vers un site web"],
+    "answer": [1],
+    "explanation": "Une application hybride est comme une application Web, principalement construite avec HTML5 et JavaScript, puis encapsulée dans un conteneur natif mince qui donne accès aux fonctionnalités de la plateforme native.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q018",
+    "question": "Quels frameworks mobiles hybrides sont cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Ionic", "NativeScript", "React Native", "Bootstrap"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite Ionic, NativeScript, React Native, Xamarin et PhoneGap comme frameworks mobiles hybrides, PhoneGap étant le conteneur le plus populaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q019",
+    "question": "Quel framework est décrit comme le conteneur le plus populaire pour créer des applications mobiles hybrides ?",
+    "type": "single",
+    "options": ["React Native", "PhoneGap", "NativeScript", "Ionic"],
+    "answer": [1],
+    "explanation": "PhoneGap est cité comme un exemple de conteneur le plus populaire pour créer des applications mobiles hybrides.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q020",
+    "question": "Le développement hybride combine le meilleur (ou le pire) des mondes natif et web.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est la formule exacte utilisée dans le cours pour décrire le développement hybride.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q021",
+    "question": "Que permet l'approche multiplateforme, selon le cours ?",
+    "type": "single",
+    "options": ["Créer des applications Android, iOS et Windows Phone avec un code presque 100% commun", "Créer uniquement des applications iOS", "Développer sans langage de programmation", "Créer des applications sans logique métier"],
+    "answer": [0],
+    "explanation": "L'approche multiplateforme permet de créer des applications Android, iOS et Windows Phone - de la logique métier à l'interface utilisateur - avec un code presque 100% commun.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q022",
+    "question": "Selon les prévisions citées (blog.octo.com), à combien devrait atteindre le marché des applications multiplateformes d'ici 2018 ?",
+    "type": "single",
+    "options": ["750 000 dollars", "7,5 millions de dollars", "75 millions de dollars", "7,5 milliards de dollars"],
+    "answer": [1],
+    "explanation": "Le marché des applications multiplateformes devrait atteindre 7,5 millions de dollars d'ici 2018, selon la source citée.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q023",
+    "question": "Quels sont les avantages de l'approche multiplateforme cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Économie de budget", "Idéale pour des applications de jeu en 2D ou 3D", "Visibilité sur les stores d'applications", "Accès garanti à toutes les fonctionnalités des appareils"],
+    "answer": [0, 1, 2],
+    "explanation": "Les avantages incluent : version native pour chaque OS, visibilité sur les stores, mises à jour effectives sur chaque plateforme, économie de budget, et adaptation aux jeux 2D/3D.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q024",
+    "question": "Quels sont les inconvénients de l'approche multiplateforme cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Problème d'accès aux APIs", "Difficulté à maintenir et faire évoluer l'application", "Problème d'ergonomie (UX/UI non optimisées)", "Coût toujours plus élevé qu'en natif"],
+    "answer": [0, 1, 2],
+    "explanation": "Les inconvénients incluent un problème d'accès aux APIs, des problèmes de validation par les stores, une difficulté de maintenance et d'évolution, et des problèmes d'ergonomie UX/UI.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q025",
+    "question": "Dans l'approche Xamarin, quel langage et framework sont utilisés pour partager la logique applicative entre plateformes ?",
+    "type": "single",
+    "options": ["Java et Android SDK", "C# et .NET Framework", "Swift et Cocoa", "JavaScript et Node.js"],
+    "answer": [1],
+    "explanation": "L'approche Xamarin repose sur C# et le .NET Framework, avec un accès à toutes les APIs de chaque plateforme et une UI native.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q026",
+    "question": "Dans l'architecture Xamarin, qu'est-ce qui est partagé entre les différentes plateformes (iOS, Android, Windows) ?",
+    "type": "single",
+    "options": ["Uniquement l'interface graphique", "La logique métier, l'accès aux données, la communication réseau (Shared App Logic)", "Uniquement le nom de l'application", "Rien n'est partagé entre les plateformes"],
+    "answer": [1],
+    "explanation": "Dans l'architecture Xamarin, la logique métier, l'accès aux données, la communication réseau et la logique applicative sont partagés (Shared App Logic), tandis que l'interface graphique utilise les APIs natives de chaque plateforme.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q027",
+    "question": "L'approche Xamarin propose une UI native et une performance native tout en partageant le code.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Xamarin combine UI native, performance native, code partagé, C# & .NET Framework, ainsi que l'accès à toutes les APIs de chaque plateforme.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q028",
+    "question": "Quels défis du développement d'applications mobiles sont cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Absence d'appareil \"standard\"", "Faible bande passante", "Taille d'écran limitée", "Uniformité totale des systèmes d'exploitation"],
+    "answer": [0, 1, 2],
+    "explanation": "Les défis cités sont : paysage de fournisseurs concurrentiel, absence d'appareil standard, faible bande passante, taille d'écran limitée, manque de fiabilité de la connectivité, et intégration des compromis avec le cloud.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q029",
+    "question": "Quels fournisseurs sont cités comme composant le paysage concurrentiel des appareils mobiles ?",
+    "type": "multiple",
+    "options": ["Apple", "Le consortium Android (Amazon, RIM, HP)", "Microsoft Windows 95", "Toutes les réponses précédentes sauf Windows 95"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite Apple et le consortium Android, notamment Amazon, RIM et HP, comme acteurs du paysage concurrentiel.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q030",
+    "question": "Le manque de fiabilité de la connectivité et du périphérique concerne notamment quels éléments ?",
+    "type": "multiple",
+    "options": ["Accès réseau", "Alimentation (batterie)", "Lumière ambiante et bruit", "Couleur de l'écran"],
+    "answer": [0, 1, 2],
+    "explanation": "Le manque de fiabilité concerne l'accès réseau, l'alimentation, la lumière ambiante et le bruit, entre autres.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q031",
+    "question": "Quels sont les supports (langages/outils) du développement d'applications mobiles cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Langages orientés objet de 3e génération (Objective C/Swift, Java, C#)", "Langages de script (JavaScript, Ruby)", "Structures multiplateformes (Titane, RhoMobile, Xamarin, PhoneGap)", "Uniquement l'assembleur"],
+    "answer": [0, 1, 2],
+    "explanation": "Les supports cités sont les langages orientés objet de 3e génération, les langages de script comme JavaScript et Ruby, et les structures multiplateformes telles que Titane, RhoMobile, Xamarin et PhoneGap.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q032",
+    "question": "Quel langage est associé nativement au développement Windows Phone selon le tableau des supports ?",
+    "type": "single",
+    "options": ["Java", "Objective-C", "C#", "Swift"],
+    "answer": [2],
+    "explanation": "Le tableau des supports de développement associe Windows Phone au langage C#.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q033",
+    "question": "iOS et Android ont participé à réduire la fragmentation de l'industrie mobile et ont attiré rapidement de nombreux développeurs.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est un point clé du cours : iOS et Android ont contribué à réduire la fragmentation de l'industrie mobile, attirant ainsi de nombreux développeurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q034",
+    "question": "Quelles tentatives précédentes à iOS et Android ont échoué dans l'essor de l'Internet mobile, selon le cours ?",
+    "type": "single",
+    "options": ["Le WAP et les \"Walled gardens\"", "Le Minitel", "Les premiers navigateurs web", "Les ordinateurs portables"],
+    "answer": [0],
+    "explanation": "Le cours indique que les tentatives précédentes de type WAP et de \"Walled gardens\" ont échoué, contrairement à l'essor porté par iOS et Android.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q035",
+    "question": "Selon le rapport IDATE cité, combien d'emplois et de revenus l'économie des applications mobiles a-t-elle générés en Europe en 2016 ?",
+    "type": "single",
+    "options": ["500 000 emplois et 5 milliards EUR", "1,5 million d'emplois et 13 milliards EUR", "3 millions d'emplois et 30 milliards EUR", "150 000 emplois et 1,3 milliard EUR"],
+    "answer": [1],
+    "explanation": "En 2016, l'économie des applications mobiles en Europe représentait près de 1,5 million d'emplois et 13 milliards EUR de revenus générés (applications payantes, publicités).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q036",
+    "question": "Quel jeu mobile est cité comme exemple de success story indépendante de iOS et Android (écosystème propre) ?",
+    "type": "single",
+    "options": ["Candy Crush", "Angry Bird de Rovio", "Clash of Clans", "Pokémon Go"],
+    "answer": [1],
+    "explanation": "Angry Bird de Rovio est cité comme exemple de success story dans le domaine des jeux mobiles, avec l'écosystème Facebook.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q037",
+    "question": "Selon le cours, Android a notamment favorisé l'arrivée de nouveaux entrants sur le marché grâce à quoi ?",
+    "type": "single",
+    "options": ["Un abaissement des prix", "Une interdiction de la concurrence", "Une fermeture totale du système", "Un contrat d'exclusivité avec Apple"],
+    "answer": [0],
+    "explanation": "Android a favorisé l'arrivée de nouveaux entrants grâce à un abaissement des prix, renforçant la concurrence entre les acteurs des terminaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q038",
+    "question": "Les développeurs utilisent couramment de multiples plateformes, notamment en tirant profit des outils cross-platform.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est l'un des points clés retenus dans le cours concernant les pratiques actuelles des développeurs.",
+    "image": null
+  }
+]

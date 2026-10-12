@@ -1,0 +1,430 @@
+[
+  {
+    "id": "js-s2-q001",
+    "question": "Quel est le type de données fondamental de JavaScript selon le cours ?",
+    "type": "single",
+    "options": ["L'objet", "Le tableau", "La chaîne de caractères", "Le nombre"],
+    "answer": [0],
+    "explanation": "Le cours affirme explicitement que le type de données fondamental de JavaScript est l'objet.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q002",
+    "question": "Comment le cours définit-il un objet en JavaScript ?",
+    "type": "single",
+    "options": [
+      "Une collection non ordonnée de propriétés, chacune ayant un nom et une valeur",
+      "Une liste ordonnée de valeurs indexées numériquement",
+      "Un bloc de code exécutable plusieurs fois",
+      "Une chaîne de caractères convertie automatiquement"
+    ],
+    "answer": [0],
+    "explanation": "Un objet est une collection non ordonnée de propriétés, chacune ayant un nom (une chaîne) et une valeur.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q003",
+    "question": "Toute valeur en JavaScript qui n'est pas une chaîne, un nombre, true, false, null ou undefined est un objet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours l'affirme explicitement : toute valeur qui n'entre pas dans ces catégories est considérée comme un objet.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q004",
+    "question": "Comment appelle-t-on le second objet associé à chaque objet JavaScript, dont il hérite les propriétés ?",
+    "type": "single",
+    "options": ["Le prototype", "Le parent", "Le contexte", "Le constructeur"],
+    "answer": [0],
+    "explanation": "Chaque objet JavaScript a un objet associé appelé prototype, dont il hérite les propriétés (notamment les méthodes).",
+    "image": null
+  },
+  {
+    "id": "js-s2-q005",
+    "question": "Quelles sont les techniques de création d'objet présentées dans le cours ?",
+    "type": "multiple",
+    "options": ["De façon littérale ({})", "Avec le mot-clé new", "Avec Object.create()", "Avec le mot-clé delete"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours présente trois techniques : la création littérale, avec new, et avec Object.create() (ECMAScript 5).",
+    "image": null
+  },
+  {
+    "id": "js-s2-q006",
+    "question": "Que crée l'instruction \"var vide = {};\" ?",
+    "type": "single",
+    "options": ["Un objet sans propriétés", "Un tableau vide", "Une erreur de syntaxe", "Une variable indéfinie"],
+    "answer": [0],
+    "explanation": "{} crée un objet littéral sans aucune propriété.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q007",
+    "question": "Que doit obligatoirement suivre le mot-clé new lors de la création d'un objet ?",
+    "type": "single",
+    "options": ["Une invocation de fonction (appelée constructeur)", "Un objet littéral", "Un tableau", "Une chaîne de caractères"],
+    "answer": [0],
+    "explanation": "Le mot-clé new doit être suivi d'une invocation de fonction ; cette fonction utilisée ainsi est appelée un constructeur.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q008",
+    "question": "Quel objet prototype est le seul à ne pas avoir lui-même de prototype ?",
+    "type": "single",
+    "options": ["Object.prototype", "Array.prototype", "Date.prototype", "Function.prototype"],
+    "answer": [0],
+    "explanation": "Object.prototype est l'un des rares objets qui n'a pas de prototype : il n'hérite d'aucune propriété.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q009",
+    "question": "Que fait Object.create() en ECMAScript 5 ?",
+    "type": "single",
+    "options": [
+      "Crée un nouvel objet en utilisant son premier argument comme prototype de cet objet",
+      "Supprime un objet existant",
+      "Convertit un objet en tableau",
+      "Sérialise un objet en JSON"
+    ],
+    "answer": [0],
+    "explanation": "Object.create() crée un nouvel objet en utilisant son premier argument comme prototype, avec un second argument facultatif décrivant les propriétés.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q010",
+    "question": "Quels opérateurs permettent d'obtenir la valeur d'une propriété d'un objet ?",
+    "type": "multiple",
+    "options": ["L'opérateur point (.)", "Les crochets ([])", "Les accolades ({})", "Le symbole dièse (#)"],
+    "answer": [0, 1],
+    "explanation": "On utilise l'opérateur point (.) ou les crochets ([]) pour obtenir ou définir la valeur d'une propriété d'un objet.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q011",
+    "question": "Dans ECMAScript 5, une propriété d'objet peut être définie par une ou deux méthodes appelées :",
+    "type": "single",
+    "options": ["Getter et setter", "Push et pop", "Import et export", "Read et write"],
+    "answer": [0],
+    "explanation": "Les accesseurs getter et setter permettent de remplacer la valeur simple d'une propriété par des méthodes de lecture et d'écriture.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q012",
+    "question": "Comment définit-on un getter dans un objet littéral, par rapport à une fonction classique ?",
+    "type": "single",
+    "options": ["En remplaçant le mot-clé function par get devant le nom de la propriété", "En ajoutant le préfixe getProperty()", "En utilisant le mot-clé return get", "En utilisant l'opérateur =>"],
+    "answer": [0],
+    "explanation": "Les accesseurs sont définis comme des fonctions dont le nom est le même que la propriété, avec le mot-clé function remplacé par get et/ou set.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q013",
+    "question": "Qu'est-ce que la sérialisation d'objets ?",
+    "type": "single",
+    "options": [
+      "Le processus de conversion d'un objet en une chaîne de caractères à partir de laquelle il peut être restauré",
+      "Le processus de suppression définitive d'un objet",
+      "Le processus de création d'un prototype",
+      "Le processus de tri des propriétés d'un objet"
+    ],
+    "answer": [0],
+    "explanation": "La sérialisation est le processus de conversion d'un objet en une chaîne de caractères, à partir de laquelle il peut être restauré ultérieurement.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q014",
+    "question": "Quelles fonctions natives ECMAScript 5 permettent de sérialiser et restaurer des objets JavaScript au format JSON ?",
+    "type": "multiple",
+    "options": ["JSON.stringify()", "JSON.parse()", "JSON.create()", "JSON.build()"],
+    "answer": [0, 1],
+    "explanation": "JSON.stringify() sérialise un objet en chaîne JSON, et JSON.parse() restaure un objet à partir de cette chaîne.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q015",
+    "question": "Que signifie l'acronyme JSON ?",
+    "type": "single",
+    "options": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Ordered Numbers", "Java Serialized Object Network"],
+    "answer": [0],
+    "explanation": "JSON signifie \"JavaScript Object Notation\", un format d'échange de données dont la syntaxe est proche de celle des objets JavaScript.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q016",
+    "question": "Que renvoie la méthode toString() par défaut d'un objet simple comme { x:1, y:1 } ?",
+    "type": "single",
+    "options": ["La chaîne \"[objet objet]\"", "Une représentation JSON de l'objet", "undefined", "Une erreur"],
+    "answer": [0],
+    "explanation": "La méthode toString() par défaut n'est pas très informative : elle renvoie simplement \"[objet objet]\" pour un objet littéral simple.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q017",
+    "question": "Quand JavaScript appelle-t-il la méthode valueOf() d'un objet ?",
+    "type": "single",
+    "options": [
+      "Lorsqu'il doit convertir l'objet en un type primitif autre qu'une chaîne, généralement un nombre",
+      "Uniquement lors de la création de l'objet",
+      "Uniquement lors de la suppression de l'objet",
+      "Jamais automatiquement, seulement sur appel explicite"
+    ],
+    "answer": [0],
+    "explanation": "valueOf() est appelée automatiquement lorsque JavaScript doit convertir un objet en type primitif (souvent un nombre) dans un contexte qui le requiert.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q018",
+    "question": "Comment le cours définit-il un tableau en JavaScript ?",
+    "type": "single",
+    "options": [
+      "Une collection ordonnée de valeurs, chaque élément ayant une position numérique appelée index",
+      "Une collection non ordonnée de propriétés nommées",
+      "Un type de données réservé aux nombres uniquement",
+      "Une fonction qui retourne plusieurs valeurs"
+    ],
+    "answer": [0],
+    "explanation": "Un tableau est une collection ordonnée de valeurs ; chaque valeur (élément) a une position numérique appelée index.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q019",
+    "question": "Les tableaux JavaScript sont typés : tous les éléments doivent être du même type.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : les tableaux JavaScript ne sont pas typés, un élément peut être de n'importe quel type et différents éléments peuvent avoir des types différents.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q020",
+    "question": "Les tableaux JavaScript héritent des propriétés de quel prototype ?",
+    "type": "single",
+    "options": ["Array.prototype", "Object.prototype uniquement", "Number.prototype", "String.prototype"],
+    "answer": [0],
+    "explanation": "Les tableaux héritent des propriétés de Array.prototype, qui définit un ensemble riche de méthodes de manipulation de tableaux.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q021",
+    "question": "Quelle est la syntaxe la plus simple pour créer un tableau en JavaScript ?",
+    "type": "single",
+    "options": ["La syntaxe littérale entre crochets, ex: [2, 3, 5]", "L'opérateur new uniquement", "La fonction Array.build()", "L'objet {}"],
+    "answer": [0],
+    "explanation": "Le moyen le plus simple est la syntaxe littérale de tableau : une liste d'éléments séparés par des virgules entre crochets.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q022",
+    "question": "Dans \"var count = [1,, 3];\", quelle est la valeur de l'élément du milieu (omis) ?",
+    "type": "single",
+    "options": ["undefined", "0", "null", "Une erreur de syntaxe"],
+    "answer": [0],
+    "explanation": "Si on omet une valeur dans un tableau littéral, l'élément omis reçoit la valeur undefined.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q023",
+    "question": "Que fait \"var a = new Array(10);\" ?",
+    "type": "single",
+    "options": [
+      "Crée un tableau avec une longueur de 10, mais sans aucune valeur stockée",
+      "Crée un tableau contenant les nombres de 1 à 10",
+      "Crée un tableau vide",
+      "Provoque une erreur car Array attend au moins deux arguments"
+    ],
+    "answer": [0],
+    "explanation": "Appeler Array() avec un seul argument numérique crée un tableau avec la longueur spécifiée, sans que les valeurs ni les index ne soient définis.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q024",
+    "question": "Quelle propriété d'un tableau permet de connaître son nombre d'éléments ?",
+    "type": "single",
+    "options": ["length", "size", "count", "index"],
+    "answer": [0],
+    "explanation": "Chaque tableau a une propriété length, dont la valeur correspond à l'indice le plus élevé plus un.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q025",
+    "question": "Si a = [1,2,3,4,5] et qu'on exécute a.length = 3, que devient a ?",
+    "type": "single",
+    "options": ["[1,2,3]", "[1,2,3,4,5]", "[4,5]", "Une erreur est levée"],
+    "answer": [0],
+    "explanation": "Si l'on définit la propriété length sur un entier plus petit que la valeur actuelle, tous les éléments dont l'indice est supérieur ou égal à cette valeur sont supprimés du tableau.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q026",
+    "question": "Comment rendre la propriété length d'un tableau en lecture seule en ECMAScript 5 ?",
+    "type": "single",
+    "options": [
+      "Avec Object.defineProperty(a, \"length\", {writable: false})",
+      "Avec a.length = readonly",
+      "Avec a.lock()",
+      "C'est impossible en JavaScript"
+    ],
+    "answer": [0],
+    "explanation": "Object.defineProperty() permet de rendre la propriété length en lecture seule en fixant writable à false.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q027",
+    "question": "Quelle méthode permet d'ajouter une ou plusieurs valeurs à la fin d'un tableau ?",
+    "type": "single",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": [0],
+    "explanation": "La méthode push() ajoute une ou plusieurs valeurs à la fin d'un tableau.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q028",
+    "question": "Quelle méthode permet d'insérer une valeur au début d'un tableau, en décalant les autres éléments ?",
+    "type": "single",
+    "options": ["unshift()", "push()", "splice()", "concat()"],
+    "answer": [0],
+    "explanation": "unshift() insère une valeur au début du tableau en déplaçant les éléments existants vers des index plus élevés.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q029",
+    "question": "L'opérateur delete appliqué à un élément de tableau modifie la propriété length et décale les éléments suivants.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : delete sur un élément de tableau ne modifie pas la propriété length et ne décale pas les éléments avec des index plus élevés.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q030",
+    "question": "Quelle méthode d'itération ECMAScript 5 passe chaque élément du tableau, dans l'ordre de l'index, à une fonction définie par l'utilisateur ?",
+    "type": "single",
+    "options": ["forEach()", "map() uniquement", "filter() uniquement", "reduce() uniquement"],
+    "answer": [0],
+    "explanation": "forEach() est la méthode la plus générale des nouvelles méthodes d'itération de tableau introduites en ECMAScript 5.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q031",
+    "question": "JavaScript prend-il en charge de véritables tableaux multidimensionnels ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : JavaScript ne prend pas en charge les tableaux multidimensionnels réels, mais on peut les approximer avec des tableaux de tableaux.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q032",
+    "question": "Pour accéder à un élément d'un tableau de tableaux \"matrix\", quelle syntaxe utilise-t-on ?",
+    "type": "single",
+    "options": ["matrix[x][y]", "matrix(x,y)", "matrix.x.y", "matrix{x,y}"],
+    "answer": [0],
+    "explanation": "On utilise l'opérateur [] deux fois : matrix[x][y] pour accéder à un élément particulier d'une matrice représentée par un tableau de tableaux.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q033",
+    "question": "Comment le cours définit-il une fonction en JavaScript ?",
+    "type": "single",
+    "options": [
+      "Un bloc de code défini une fois mais pouvant être exécuté (invoqué) autant de fois que nécessaire",
+      "Une variable stockant uniquement des nombres",
+      "Un tableau d'instructions exécutées automatiquement au chargement",
+      "Un objet sans propriétés"
+    ],
+    "answer": [0],
+    "explanation": "Une fonction est un bloc de code JavaScript défini une fois mais pouvant être exécuté, ou invoqué, autant de fois que nécessaire.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q034",
+    "question": "En JavaScript, les fonctions sont des objets et peuvent être manipulées par les programmes (assignées à des variables, passées en argument, etc.).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement qu'en JavaScript, les fonctions sont des objets, ce qui permet de les assigner à des variables et de les passer à d'autres fonctions.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q035",
+    "question": "Que devient une fonction lorsqu'elle est affectée à la propriété d'un objet ?",
+    "type": "single",
+    "options": ["Une méthode de cet objet", "Un constructeur obligatoire", "Un prototype", "Une variable globale"],
+    "answer": [0],
+    "explanation": "Si une fonction est affectée à la propriété d'un objet, elle est appelée méthode de cet objet.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q036",
+    "question": "Quels sont les trois composants obligatoires ou facultatifs d'une définition de fonction en JavaScript ?",
+    "type": "multiple",
+    "options": ["Un identifiant (nom)", "Une liste de paramètres entre parenthèses", "Un corps entre accolades", "Un type de retour explicite obligatoire"],
+    "answer": [0, 1, 2],
+    "explanation": "Une définition de fonction comprend un identifiant (obligatoire pour une déclaration, facultatif pour une expression), une liste de paramètres et un corps entre accolades. JavaScript n'exige pas de type de retour explicite.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q037",
+    "question": "Dans une déclaration de fonction (contrairement à une expression de fonction), le nom est-il obligatoire ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le nom est une partie obligatoire des déclarations de fonction, tandis qu'il est facultatif pour les expressions de définition de fonction.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q038",
+    "question": "De combien de manières une fonction JavaScript peut-elle être invoquée selon le cours ?",
+    "type": "single",
+    "options": ["Quatre manières", "Deux manières", "Une seule manière", "Six manières"],
+    "answer": [0],
+    "explanation": "Le cours cite quatre manières d'invoquer une fonction : en tant que fonction, en tant que méthode, en tant que constructeur, et indirectement via call() et apply().",
+    "image": null
+  },
+  {
+    "id": "js-s2-q039",
+    "question": "Dans une invocation de méthode comme o.m(x, y), à quoi le mot-clé this fait-il référence dans le corps de la fonction m ?",
+    "type": "single",
+    "options": ["À l'objet o (le contexte d'invocation)", "Toujours à l'objet global", "À la fonction m elle-même", "Aux paramètres x et y"],
+    "answer": [0],
+    "explanation": "Dans une invocation de méthode, l'objet o devient le contexte d'invocation, et this dans le corps de la fonction fait référence à cet objet.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q040",
+    "question": "Qu'est-ce qu'une invocation en tant que constructeur ?",
+    "type": "single",
+    "options": [
+      "Une invocation de fonction ou de méthode précédée du mot-clé new",
+      "Une invocation utilisant uniquement des crochets",
+      "Une invocation sans aucun argument",
+      "Une invocation qui retourne toujours undefined"
+    ],
+    "answer": [0],
+    "explanation": "Si une invocation de fonction ou de méthode est précédée du mot-clé new, il s'agit d'un appel de constructeur.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q041",
+    "question": "Les fonctions de constructeur utilisent-elles normalement le mot-clé return pour retourner le nouvel objet ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : les fonctions de constructeur n'utilisent normalement pas return. Elles initialisent le nouvel objet, qui est retourné implicitement à la fin du corps.",
+    "image": null
+  },
+  {
+    "id": "js-s2-q042",
+    "question": "Si un constructeur utilise explicitement return pour retourner une valeur primitive (et non un objet), que se passe-t-il ?",
+    "type": "single",
+    "options": [
+      "Cette valeur de retour est ignorée et le nouvel objet est utilisé comme valeur de l'appel",
+      "Une erreur d'exécution se produit",
+      "La valeur primitive remplace l'objet créé",
+      "Le constructeur s'exécute deux fois"
+    ],
+    "answer": [0],
+    "explanation": "Si le constructeur utilise return sans valeur ou renvoie une valeur primitive, cette valeur est ignorée et le nouvel objet créé est utilisé comme résultat de l'appel.",
+    "image": null
+  }
+]

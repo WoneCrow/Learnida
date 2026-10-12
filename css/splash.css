@@ -1,0 +1,156 @@
+/* splash.css — écran de démarrage. Fond sombre fixe (identité Learnida) pour
+   éviter tout "flash" de thème avant le chargement des réglages ; les accents
+   suivent la teinte dynamique --hue, comme le reste de l'application. */
+
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: calc(24px + env(safe-area-inset-top, 0)) 24px calc(24px + env(safe-area-inset-bottom, 0));
+  background:
+    radial-gradient(60% 45% at 50% 36%, hsl(var(--hue) 85% 58% / 0.28) 0%, transparent 70%),
+    radial-gradient(55% 40% at 85% 92%, hsl(calc(var(--hue) + 60) 80% 60% / 0.20) 0%, transparent 70%),
+    #0A0912;
+  color: #F6F4FB;
+  text-align: center;
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.splash--out {
+  opacity: 0;
+  transform: scale(1.03);
+  pointer-events: none;
+}
+
+.splash__head { display: flex; flex-direction: column; align-items: center; }
+
+/* ---------- Logo (icône de l'application) ---------- */
+
+.splash__logo {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  animation: splash-pop 0.6s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+}
+
+.splash__logo::before,
+.splash__logo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  border: 2px solid hsl(var(--hue) 88% 66%);
+  opacity: 0;
+  animation: splash-ring 2s ease-out infinite;
+}
+
+.splash__logo::after { animation-delay: 1s; }
+
+.splash__logo img {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  border-radius: 30px;
+  box-shadow: 0 14px 44px hsl(var(--hue) 70% 40% / 0.5);
+}
+
+/* ---------- Textes ---------- */
+
+.splash__title {
+  margin: 22px 0 0;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  animation: splash-rise 0.6s 0.15s ease-out both;
+}
+
+.splash__tagline {
+  margin: 6px 0 0;
+  color: #AEA6C8;
+  font-size: 14.5px;
+  animation: splash-rise 0.6s 0.25s ease-out both;
+}
+
+/* ---------- Barre de progression ---------- */
+
+.splash__loader {
+  width: min(280px, 72vw);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: splash-rise 0.6s 0.35s ease-out both;
+}
+
+.splash__bar {
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.10);
+  overflow: hidden;
+}
+
+.splash__bar-fill {
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, hsl(var(--hue) 88% 66%), hsl(calc(var(--hue) + 55) 82% 68%));
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+.splash__status {
+  margin: 0;
+  font-size: 13px;
+  color: #AEA6C8;
+}
+
+/* ---------- Astuce ---------- */
+
+.splash__tip {
+  margin: 0;
+  max-width: 300px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #8F87A8;
+  animation: splash-rise 0.6s 0.5s ease-out both;
+}
+
+.splash__tip::before { content: '💡 '; }
+
+/* ---------- Animations ---------- */
+
+@keyframes splash-pop {
+  from { opacity: 0; transform: scale(0.7); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes splash-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes splash-ring {
+  0% { opacity: 0.55; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.5); }
+}
+
+/* Accessibilité : "réduire les animations" → écran statique, sans anneaux. */
+@media (prefers-reduced-motion: reduce) {
+  .splash,
+  .splash__logo,
+  .splash__title,
+  .splash__tagline,
+  .splash__loader,
+  .splash__tip { animation: none !important; }
+  .splash__logo::before,
+  .splash__logo::after { display: none; }
+  .splash { transition: opacity 0.2s ease; }
+  .splash--out { transform: none; }
+}

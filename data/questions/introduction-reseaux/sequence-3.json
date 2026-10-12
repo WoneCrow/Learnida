@@ -1,0 +1,522 @@
+[
+  {
+    "id": "ti-s3-q001",
+    "question": "Qui a inventé le téléphone dans les années 1890, marquant le début de l'extension rapide du service téléphonique ?",
+    "type": "single",
+    "options": ["Bell", "Marconi", "Shockley", "Tim Berners-Lee"],
+    "answer": [0],
+    "explanation": "Bell invente le téléphone dans les années 1890 ; le service téléphonique s'étend ensuite rapidement.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q002",
+    "question": "En quelle année le ministère de la Défense américain crée-t-il l'ARPA ?",
+    "type": "single",
+    "options": ["1947", "1957", "1969", "1973"],
+    "answer": [1],
+    "explanation": "L'ARPA (Advanced Research Projects Agency) est créée en 1957 par le ministère de la Défense américain.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q003",
+    "question": "Quelles universités ont vu l'établissement d'ARPANET en 1969 ?",
+    "type": "multiple",
+    "options": ["UCLA", "UCSB", "Stanford", "Harvard"],
+    "answer": [0, 1, 2],
+    "explanation": "ARPANET est établi en 1969 dans les universités UCLA, UCSB, Stanford et de l'Utah. Harvard n'en fait pas partie.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q004",
+    "question": "Vrai ou faux : Bob Kahn et Vint Cerf ont commencé à travailler en 1973 sur ce qui deviendra plus tard TCP/IP.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "En 1973, Bob Kahn et Vint Cerf commencent effectivement à travailler sur ce qui deviendra TCP/IP.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q005",
+    "question": "En quelle année TCP/IP devient-il le langage universel d'Internet et ARPANET est-il divisé en ARPANET et MILNET ?",
+    "type": "single",
+    "options": ["1981", "1982", "1983", "1984"],
+    "answer": [2],
+    "explanation": "En 1983, TCP/IP devient le langage universel d'Internet ; ARPANET est divisé en ARPANET et MILNET.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q006",
+    "question": "Qui développe le code du World Wide Web (WWW) en 1991 ?",
+    "type": "single",
+    "options": ["Ray Tomlinson", "Tim Berners-Lee", "Paul Baran", "Larry Roberts"],
+    "answer": [1],
+    "explanation": "En 1991, Tim Berners-Lee développe le code pour le Web, marquant la naissance du WWW.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q007",
+    "question": "Vrai ou faux : Mosaic, disponible en 1993, est le premier navigateur Web à interface graphique.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Mosaic, disponible en 1993, est effectivement le premier navigateur Web à interface graphique.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q008",
+    "question": "Quel équipement compose une 'station de travail' typique dans un réseau ?",
+    "type": "multiple",
+    "options": ["Unité centrale", "Écran", "Clavier", "Routeur"],
+    "answer": [0, 1, 2],
+    "explanation": "Une station de travail comprend typiquement une unité centrale, un écran, un clavier et une souris ; le routeur est un équipement réseau distinct.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q009",
+    "question": "Quel est le rôle principal d'une carte réseau ?",
+    "type": "single",
+    "options": [
+      "Connecter un ordinateur au média réseau",
+      "Régénérer les signaux",
+      "Déterminer le meilleur chemin",
+      "Filtrer les adresses IP"
+    ],
+    "answer": [0],
+    "explanation": "La carte réseau permet de connecter un équipement d'utilisateur final au média physique du réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q010",
+    "question": "Parmi ces équipements, lesquels sont considérés comme des 'équipements d'utilisateur final' ?",
+    "type": "multiple",
+    "options": ["PC", "Imprimante", "Répéteur", "Serveur de fichiers"],
+    "answer": [0, 1, 3],
+    "explanation": "PC, imprimante et serveur de fichiers sont des équipements d'utilisateur final. Le répéteur est un équipement réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q011",
+    "question": "Quel est le rôle du répéteur dans un réseau ?",
+    "type": "single",
+    "options": [
+      "Régénérer et resynchroniser les signaux réseau au niveau du bit",
+      "Déterminer le meilleur chemin entre deux réseaux",
+      "Segmenter un réseau en plusieurs domaines de diffusion",
+      "Chiffrer les données transmises"
+    ],
+    "answer": [0],
+    "explanation": "Le but du répéteur est de régénérer et de resynchroniser les signaux réseau au niveau du bit, afin qu'ils puissent parcourir une plus longue distance.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q012",
+    "question": "Vrai ou faux : Un pont relie deux segments de réseau distincts.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le pont sert précisément à relier deux segments de réseau (par exemple Segment 1 et Segment 2).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q013",
+    "question": "Quel équipement permet de connecter plusieurs hôtes et un serveur au centre d'une topologie en étoile, en filtrant le trafic selon l'adresse MAC ?",
+    "type": "single",
+    "options": ["Le commutateur", "Le répéteur", "Le pont", "Le modem"],
+    "answer": [0],
+    "explanation": "Le commutateur (switch) relie les postes et serveurs au centre d'une topologie en étoile et transmet les trames selon l'adresse de destination.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q014",
+    "question": "Quel équipement réseau est représenté par une icône en forme de cylindre avec des flèches en croix, et sert à déterminer le meilleur chemin entre réseaux ?",
+    "type": "single",
+    "options": ["Le routeur", "Le concentrateur", "Le pont", "Le répéteur"],
+    "answer": [0],
+    "explanation": "Le routeur est représenté par un cylindre avec des flèches croisées ; il détermine le meilleur chemin entre différents réseaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q015",
+    "question": "Quelles sont les topologies physiques présentées dans le cours ?",
+    "type": "multiple",
+    "options": ["Bus", "Anneau", "Étoile", "Hexagonale"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours présente les topologies en bus, en anneau, en étoile, en étoile étendue, hiérarchique et maillée. La topologie 'hexagonale' n'existe pas.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q016",
+    "question": "Dans une topologie maillée, comment les équipements sont-ils généralement reliés entre eux ?",
+    "type": "single",
+    "options": [
+      "Chaque équipement est relié à tous les autres",
+      "Tous les équipements passent par un concentrateur central",
+      "Les équipements sont reliés en cercle fermé",
+      "Les équipements sont reliés en ligne unique"
+    ],
+    "answer": [0],
+    "explanation": "La topologie maillée relie chaque équipement à tous les autres, offrant une redondance maximale.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q017",
+    "question": "Vrai ou faux : Un réseau LAN (Local Area Network) fonctionne dans une région géographique limitée sous administration locale.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Les LAN sont conçus pour fonctionner dans une région géographique limitée, avec un contrôle privé sous administration locale.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q018",
+    "question": "Quels équipements sont typiquement utilisés pour construire un réseau LAN ?",
+    "type": "multiple",
+    "options": ["Routeur", "Pont", "Concentrateur", "Modem CSU/DSU"],
+    "answer": [0, 1, 2],
+    "explanation": "Routeur, pont, concentrateur, commutateur Ethernet et répéteur sont des équipements typiques des LAN. Le modem CSU/DSU est un équipement WAN.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q019",
+    "question": "Les réseaux WAN sont conçus pour :",
+    "type": "multiple",
+    "options": [
+      "Fonctionner sur une vaste région géographique",
+      "Permettre l'accès par des interfaces série plus lentes",
+      "Relier des équipements dispersés à l'échelle planétaire",
+      "Fonctionner uniquement dans un même bâtiment"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les WAN couvrent de vastes zones géographiques, utilisent des interfaces série plus lentes et relient des équipements dispersés mondialement.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q020",
+    "question": "Que signifie l'acronyme MAN dans le contexte des réseaux ?",
+    "type": "single",
+    "options": [
+      "Metropolitan Area Network (réseau métropolitain)",
+      "Multiple Access Node",
+      "Managed Application Network",
+      "Modem Area Network"
+    ],
+    "answer": [0],
+    "explanation": "MAN signifie Metropolitan Area Network, soit un réseau métropolitain reliant plusieurs sites clients au sein d'une même zone urbaine.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q021",
+    "question": "Que signifie l'acronyme SAN dans le contexte des réseaux de stockage ?",
+    "type": "single",
+    "options": [
+      "Storage Area Network (réseau de stockage)",
+      "System Access Node",
+      "Simple Area Network",
+      "Secure Access Network"
+    ],
+    "answer": [0],
+    "explanation": "Un SAN (Storage Area Network) est un réseau dédié permettant de connecter des unités de stockage à des serveurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q022",
+    "question": "Que signifie l'acronyme VPN ?",
+    "type": "single",
+    "options": [
+      "Virtual Private Network",
+      "Visual Public Network",
+      "Verified Private Node",
+      "Virtual Protocol Node"
+    ],
+    "answer": [0],
+    "explanation": "VPN signifie Virtual Private Network (réseau privé virtuel), qui permet une connexion sécurisée à travers un réseau public.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q023",
+    "question": "Quels types de connexions peuvent utiliser un VPN d'après le schéma du cours ?",
+    "type": "multiple",
+    "options": ["Siège", "Agence", "Télétravailleur", "Serveur DNS"],
+    "answer": [0, 1, 2],
+    "explanation": "Le VPN permet de relier le siège, une agence, un télétravailleur et un bureau à domicile via un réseau IP.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q024",
+    "question": "Quelle est la différence entre un VPN d'intranet et un VPN d'extranet ?",
+    "type": "single",
+    "options": [
+      "Le VPN d'intranet relie des sites distants de la même société, le VPN d'extranet relie une société partenaire externe",
+      "Le VPN d'intranet est plus rapide que le VPN d'extranet",
+      "Le VPN d'extranet n'utilise pas de pare-feu",
+      "Il n'y a aucune différence"
+    ],
+    "answer": [0],
+    "explanation": "Le VPN d'intranet connecte les sites distants d'une même société, tandis que le VPN d'extranet connecte une société partenaire (société B) au site central.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q025",
+    "question": "Vrai ou faux : La bande passante n'est pas gratuite et est limitée par des facteurs physiques et technologiques.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que la bande passante est limitée par des facteurs physiques et technologiques, et qu'elle n'est pas gratuite.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q026",
+    "question": "Dans l'analogie entre tuyaux et bande passante, à quoi correspondent les paquets ?",
+    "type": "single",
+    "options": ["À l'eau", "Aux valves", "Au diamètre du tuyau", "Aux raccords"],
+    "answer": [0],
+    "explanation": "Dans cette analogie, les paquets sont comparés à l'eau qui circule dans le tuyau, dont le diamètre représente la bande passante.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q027",
+    "question": "Dans l'analogie entre autoroutes et bande passante, à quoi correspond la bande passante ?",
+    "type": "single",
+    "options": [
+      "Au nombre de voies de l'autoroute",
+      "Au type de véhicule",
+      "Aux feux de signalisation",
+      "À la vitesse maximale autorisée"
+    ],
+    "answer": [0],
+    "explanation": "La bande passante peut être comparée au nombre de voies d'une autoroute ; plus il y a de voies, plus le trafic (paquets) peut circuler.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q028",
+    "question": "Quelle unité correspond à 1 000 000 de bits par seconde ?",
+    "type": "single",
+    "options": ["Kilobits/s", "Mégabits/s", "Gigabits/s", "Térabits/s"],
+    "answer": [1],
+    "explanation": "1 Mbits/s = 1 000 000 bits/s (10^6 bits/s).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q029",
+    "question": "Quelle est la bande passante théorique maximale d'un câble à paire torsadée non blindée (UTP) de catégorie 5 en Ethernet 100BaseTX ?",
+    "type": "single",
+    "options": ["10 Mbits/s", "100 Mbits/s", "1000 Mbits/s", "10 Gbits/s"],
+    "answer": [1],
+    "explanation": "L'Ethernet 100BaseTX sur UTP catégorie 5 offre une bande passante théorique maximale de 100 Mbits/s, sur une distance maximale de 100 m.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q030",
+    "question": "Vrai ou faux : La fibre optique monomode (Ethernet 1000BaseLX) permet une distance théorique maximale de 5000 m.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "La fibre optique monomode (9/125 µm, Ethernet 1000BaseLX) permet effectivement d'atteindre 1000 Mbits/s sur une distance théorique maximale de 5000 m.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q031",
+    "question": "Quelle est la bande passante d'une liaison T1 ?",
+    "type": "single",
+    "options": ["0.128 Mbits/s", "1.544 Mbits/s", "2.048 Mbits/s", "44.736 Mbits/s"],
+    "answer": [1],
+    "explanation": "Une liaison T1, utilisée par les grandes organisations, offre une bande passante de 1.544 Mbits/s.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q032",
+    "question": "Quels facteurs peuvent affecter le débit réel par rapport à la bande passante numérique théorique d'un média ?",
+    "type": "multiple",
+    "options": [
+      "Les autres utilisateurs sur le réseau local",
+      "Le type de données transmises",
+      "L'heure du jour",
+      "La couleur du câble réseau"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le débit effectif peut être affecté par le PC, le serveur, les autres utilisateurs, le routage, la topologie, le type de données et l'heure du jour. La couleur du câble n'a aucun impact.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q033",
+    "question": "Dans la formule du calcul du temps de transfert 'meilleur téléchargement' D = T/BP, que représente BP ?",
+    "type": "single",
+    "options": [
+      "La bande passante théorique maximale de la liaison la plus lente",
+      "Le débit effectif au moment du transfert",
+      "La taille du fichier en bits",
+      "La durée du transfert en secondes"
+    ],
+    "answer": [0],
+    "explanation": "BP représente la bande passante théorique maximale de la liaison la plus lente entre la source et la destination, mesurée en bits par seconde.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q034",
+    "question": "Combien de couches compte le modèle OSI ?",
+    "type": "single",
+    "options": ["4", "5", "6", "7"],
+    "answer": [3],
+    "explanation": "Le modèle OSI (Open Systems Interconnection) compte 7 couches : Physique, Liaison de données, Réseau, Transport, Session, Présentation et Application.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q035",
+    "question": "Associez la couche du modèle OSI à sa fonction principale : la couche Réseau (3) est responsable de :",
+    "type": "single",
+    "options": [
+      "L'adressage réseau et la détermination du meilleur chemin",
+      "La transmission binaire brute",
+      "L'établissement des sessions entre applications",
+      "La représentation et le formatage des données"
+    ],
+    "answer": [0],
+    "explanation": "La couche Réseau (couche 3) assure l'adressage logique et la détermination du meilleur chemin (acheminement) entre les hôtes.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q036",
+    "question": "Quelle couche du modèle OSI est responsable des 'connexions de bout en bout' et de la fiabilité du transport des données ?",
+    "type": "single",
+    "options": ["La couche Transport (4)", "La couche Session (5)", "La couche Réseau (3)", "La couche Liaison de données (2)"],
+    "answer": [0],
+    "explanation": "La couche Transport (4) gère les connexions de bout en bout, la fiabilité du transport et la détection des pannes.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q037",
+    "question": "Quelle couche du modèle OSI établit, gère et ferme les sessions entre les applications ?",
+    "type": "single",
+    "options": ["La couche Session (5)", "La couche Présentation (6)", "La couche Application (7)", "La couche Transport (4)"],
+    "answer": [0],
+    "explanation": "La couche Session (5) est responsable d'établir, gérer et fermer les sessions de communication entre les hôtes.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q038",
+    "question": "Quelle couche du modèle OSI s'occupe de la représentation, du format et de la syntaxe de transfert des données ?",
+    "type": "single",
+    "options": ["La couche Présentation (6)", "La couche Application (7)", "La couche Réseau (3)", "La couche Physique (1)"],
+    "answer": [0],
+    "explanation": "La couche Présentation (6) gère la lisibilité des données, leur format, leur structure et négocie la syntaxe de transfert.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q039",
+    "question": "La couche Application (7) du modèle OSI fournit des services aux processus tels que :",
+    "type": "multiple",
+    "options": ["Le courrier électronique", "Le transfert de fichiers", "L'émulation de terminal", "La régénération de signaux binaires"],
+    "answer": [0, 1, 2],
+    "explanation": "La couche Application fournit des services comme le courrier électronique, le transfert de fichiers et l'émulation de terminal. La régénération de signaux binaires relève de la couche Physique.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q040",
+    "question": "Vrai ou faux : Dans le modèle OSI, chaque couche communique uniquement avec sa couche homologue sur le système de destination.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le principe de communication d'égal à égal (peer-to-peer) veut que chaque couche communique logiquement avec sa couche homologue chez le destinataire.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q041",
+    "question": "Quelle unité de données est utilisée au niveau de la couche Transport lors de la communication d'égal à égal ?",
+    "type": "single",
+    "options": ["Segments", "Paquets", "Trames", "Bits"],
+    "answer": [0],
+    "explanation": "Au niveau de la couche Transport, les unités de données échangées sont appelées segments. La couche Réseau utilise des paquets, la couche Liaison de données des trames, et la couche Physique des bits.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q042",
+    "question": "Combien de couches compte le modèle TCP/IP ?",
+    "type": "single",
+    "options": ["3", "4", "5", "7"],
+    "answer": [1],
+    "explanation": "Le modèle TCP/IP compte 4 couches : Application, Transport, Internet et Accès réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q043",
+    "question": "Quelles couches du modèle OSI correspondent à la couche 'Application' du modèle TCP/IP ?",
+    "type": "multiple",
+    "options": ["Application", "Présentation", "Session", "Transport"],
+    "answer": [0, 1, 2],
+    "explanation": "La couche Application du modèle TCP/IP regroupe les couches Application, Présentation et Session du modèle OSI.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q044",
+    "question": "Parmi ces protocoles, lesquels s'appuient sur TCP dans le schéma des protocoles TCP/IP communs ?",
+    "type": "multiple",
+    "options": ["FTP", "HTTP", "SMTP", "TFTP"],
+    "answer": [0, 1, 2],
+    "explanation": "FTP, HTTP, SMTP et DNS s'appuient sur TCP. TFTP s'appuie quant à lui sur UDP.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q045",
+    "question": "Vrai ou faux : Le protocole DNS peut fonctionner à la fois avec TCP et UDP.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "D'après le schéma des protocoles TCP/IP communs, DNS apparaît relié à la fois à TCP et à UDP.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q046",
+    "question": "À quelle couche du modèle OSI correspond le protocole Ethernet ?",
+    "type": "single",
+    "options": ["Couche Liaison de données (2)", "Couche Réseau (3)", "Couche Transport (4)", "Couche Application (7)"],
+    "answer": [0],
+    "explanation": "Ethernet est un protocole qui correspond principalement à la couche Liaison de données (et implique aussi la couche Physique).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q047",
+    "question": "À quelle couche du modèle OSI le protocole IP correspond-il ?",
+    "type": "single",
+    "options": ["Couche Réseau (3)", "Couche Transport (4)", "Couche Liaison de données (2)", "Couche Session (5)"],
+    "answer": [0],
+    "explanation": "Le protocole IP correspond à la couche Réseau (couche 3) du modèle OSI.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q048",
+    "question": "Quels sont les avantages du modèle OSI mentionnés dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "Il réduit la complexité",
+      "Il uniformise les interfaces",
+      "Il facilite la conception modulaire",
+      "Il remplace tous les protocoles existants"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le modèle OSI réduit la complexité, uniformise les interfaces, facilite la conception modulaire, assure l'interopérabilité, accélère l'évolution et simplifie l'enseignement. Il ne remplace pas les protocoles, il sert de référence.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q049",
+    "question": "Dans l'analyse d'un réseau en couches, quelle question correspond à la couche qui détermine 'où' circule l'information ?",
+    "type": "single",
+    "options": [
+      "Où cette circulation se fait-elle ?",
+      "Qu'est-ce qui circule ?",
+      "Quels objets circulent ?",
+      "Quelles règles régissent le flux ?"
+    ],
+    "answer": [0],
+    "explanation": "La question 'Où cette circulation se fait-elle ?' correspond au média physique par lequel circulent les informations.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q050",
+    "question": "Vrai ou faux : Dans la comparaison du réseau proposée par le cours, le courrier postal fait circuler des 'objets' selon des 'règles d'emballage et d'affranchissement'.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le tableau comparatif indique que dans le réseau postal, ce qui circule ce sont des objets (lettres, colis), régis par des règles d'emballage et d'affranchissement.",
+    "image": null
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "tm-s1-q001",
+    "question": "Comment peut-on définir un « environnement mobile » ?",
+    "type": "single",
+    "options": [
+      "L'ensemble des éléments autour du mobile qui contribuent à maintenir son écosystème",
+      "Uniquement le système d'exploitation installé sur le smartphone",
+      "Le réseau de télécommunication utilisé par l'appareil mobile",
+      "La mémoire de stockage disponible sur l'appareil"
+    ],
+    "answer": [0],
+    "explanation": "Un environnement mobile désigne l'ensemble des éléments autour du mobile (périphériques, OS, applications, approches de développement, marché) qui contribuent à maintenir son écosystème.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q002",
+    "question": "Quels éléments composent un environnement mobile selon le cours ?",
+    "type": "multiple",
+    "options": ["Périphériques mobiles", "Systèmes d'exploitation mobile", "Applications mobiles", "Uniquement le matériel réseau 4G"],
+    "answer": [0, 1, 2],
+    "explanation": "L'environnement mobile regroupe les périphériques mobiles, les systèmes d'exploitation mobile, les applications mobiles, les approches de développement d'applications et le marché du mobile.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q003",
+    "question": "Les approches de développement d'applications et le marché du mobile font partie des éléments constitutifs de l'environnement mobile.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours cite explicitement cinq composants de l'environnement mobile : périphériques, systèmes d'exploitation, applications, approches de développement et marché du mobile.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q004",
+    "question": "Comment sont définies les applications mobiles dans ce cours ?",
+    "type": "single",
+    "options": [
+      "Des applications logicielles conçues pour fonctionner sur les smartphones, tablettes et autres appareils mobiles",
+      "Des sites web accessibles uniquement depuis un ordinateur",
+      "Des logiciels installés exclusivement sur les ordinateurs de bureau",
+      "Des systèmes d'exploitation pour appareils mobiles"
+    ],
+    "answer": [0],
+    "explanation": "Les applications mobiles sont des applications logicielles conçues pour fonctionner sur les smartphones, tablettes et autres appareils mobiles.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q005",
+    "question": "Par quel biais les applications mobiles sont-elles typiquement rendues disponibles aux utilisateurs ?",
+    "type": "single",
+    "options": [
+      "Par des App Stores exploités par les propriétaires du système d'exploitation mobile",
+      "Uniquement par téléchargement direct depuis le site de l'éditeur",
+      "Par courrier électronique",
+      "Par clé USB fournie avec l'appareil"
+    ],
+    "answer": [0],
+    "explanation": "Les applications mobiles sont disponibles par le biais des plateformes de distribution natives, typiquement des App Stores exploités par les propriétaires du système d'exploitation mobile.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q006",
+    "question": "Quels sont, parmi les magasins d'applications cités dans le cours, ceux considérés comme les plus populaires ?",
+    "type": "multiple",
+    "options": ["App Store d'Apple", "Google Play", "Windows Phone Store", "BlackBerry App World"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le cours cite ces quatre magasins comme parmi les plus populaires : App Store d'Apple, Google Play, Windows Phone Store et BlackBerry App World.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q007",
+    "question": "Selon le cours, environ combien de nouvelles applications ont été téléchargées sur l'App Store et Google Play en 2016 ?",
+    "type": "single",
+    "options": ["Plus de 90 milliards", "Plus de 9 millions", "Environ 35 millions", "Plus de 405 milliards"],
+    "answer": [0],
+    "explanation": "En 2016, plus de 90 milliards de nouvelles applications ont été téléchargées sur l'App Store et Google Play, selon un article du journal Le Monde cité dans le cours.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q008",
+    "question": "Quel montant de revenus les services mobiles (jeux, messageries, outils, sites d'information, etc.) ont-ils générés en 2016 via les stores de Google et d'Apple ?",
+    "type": "single",
+    "options": ["35 milliards de dollars", "90 milliards de dollars", "405 milliards de dollars", "28 milliards de dollars"],
+    "answer": [0],
+    "explanation": "En 2016, ces services ont rapporté à leurs éditeurs 35 milliards de dollars (environ 19 444 milliards de francs CFA), à travers les stores de Google et d'Apple.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q009",
+    "question": "35 milliards de dollars équivalent, selon le cours, à environ 19 444 milliards de francs CFA.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours donne cette conversion explicite issue de l'article du Monde cité en source.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q010",
+    "question": "Selon le panorama de l'écosystème mobile en 2016, combien de sociétés étaient représentées dans cet écosystème ?",
+    "type": "single",
+    "options": ["Plus de 350 sociétés", "Plus de 90 sociétés", "Environ 62 sociétés", "Environ 15 sociétés"],
+    "answer": [0],
+    "explanation": "L'écosystème mobile en 2016 représentait plus de 350 sociétés selon la source citée (programmatique-marketing.fr).",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q011",
+    "question": "Quelle était la valorisation estimée de l'écosystème mobile en 2016 ?",
+    "type": "single",
+    "options": ["405 milliards de dollars", "28 milliards de dollars", "35 milliards de dollars", "90 milliards de dollars"],
+    "answer": [0],
+    "explanation": "L'écosystème mobile représentait 28 milliards de dollars d'investissement, pour une valorisation estimée à 405 milliards de dollars en 2016.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q012",
+    "question": "Quel était le montant d'investissement associé à l'écosystème mobile en 2016 ?",
+    "type": "single",
+    "options": ["28 milliards de dollars", "405 milliards de dollars", "35 milliards de dollars", "19 444 milliards de dollars"],
+    "answer": [0],
+    "explanation": "Le panorama de l'écosystème mobile en 2016 évoque 28 milliards de dollars d'investissement pour une valorisation estimée à 405 milliards de dollars.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q013",
+    "question": "Dans le schéma « Mobile Foundations Landscape » présenté dans le cours, quel domaine comptabilise le plus grand nombre d'acteurs ?",
+    "type": "single",
+    "options": ["User Acquisition (81)", "Analytics (62)", "Development (76)", "Monetization (78)"],
+    "answer": [0],
+    "explanation": "Selon le schéma « Mobile Foundations Landscape », le domaine User Acquisition regroupe 81 acteurs, le plus grand nombre parmi les catégories présentées.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q014",
+    "question": "Quels domaines figurent parmi les catégories du « Mobile Foundations Landscape » présenté dans le cours ?",
+    "type": "multiple",
+    "options": ["Analytics", "User Engagement", "Monetization", "Cryptographie"],
+    "answer": [0, 1, 2],
+    "explanation": "Le schéma présente notamment les catégories Analytics, User Acquisition, User Engagement, Monetization, Attribution, Geolocation, Development, API Layer, UX et Monitoring. « Cryptographie » n'y figure pas.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q015",
+    "question": "Le domaine « Monitoring » est celui qui comptabilise le moins d'acteurs dans le panorama présenté (7 acteurs).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Dans le schéma présenté, le domaine Monitoring ne compte que 7 acteurs, ce qui en fait la catégorie la moins peuplée, devant Attribution (15).",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q016",
+    "question": "Selon le cours, les environnements mobiles, autrefois fragmentés, se résument aujourd'hui de plus en plus autour de quels deux systèmes ?",
+    "type": "single",
+    "options": ["Android et iOS", "Windows Phone et BlackBerry OS", "Symbian et Android", "iOS et Windows Phone"],
+    "answer": [0],
+    "explanation": "Il existe une variété de solutions mobiles ayant favorisé la prolifération d'environnements mobiles fragmentés au départ, mais qui se résument de plus en plus autour d'Android et iOS.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q017",
+    "question": "Quels sont les objectifs annoncés de cette séquence introductive ?",
+    "type": "multiple",
+    "options": [
+      "Définir un environnement mobile",
+      "Distinguer les principaux App Stores",
+      "Dresser le panorama des environnements mobiles",
+      "Programmer une application Android complète"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les objectifs de la séquence sont de définir un environnement mobile, distinguer les App Stores les plus utilisés, dresser le panorama des environnements mobiles et expliquer les enjeux liés à ces environnements. La programmation complète d'une application n'est pas un objectif annoncé.",
+    "image": null
+  },
+  {
+    "id": "tm-s1-q018",
+    "question": "D'après la définition générale rappelée dans le cours, un environnement informatique désigne, pour une application, l'ensemble des matériels et des logiciels système, dont le système d'exploitation, sur lesquels sont exécutés les programmes de l'application.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Cette définition est directement reprise dans le cours (source Wikipédia) pour introduire la notion d'environnement mobile.",
+    "image": null
+  }
+]

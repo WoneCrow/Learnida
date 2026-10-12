@@ -1,0 +1,409 @@
+{
+  "quiz": [
+    {
+      "id": "ti-s6-q001",
+      "question": "Qu'est-ce qu'un lien (hyperlien) en HTML ?",
+      "type": "single",
+      "options": ["Un mot, un groupe de mots ou une image qui peut être cliqué pour passer à un autre document ou une autre section", "Uniquement une image cliquable", "Un fichier CSS externe", "Une balise obsolète"],
+      "answer": [0],
+      "explanation": "Un lien (hyperlien) est un mot, un groupe de mots ou une image qui peut être cliqué pour passer à un autre document ou à une autre section du document courant.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q002",
+      "question": "Quelle balise permet de spécifier un lien en HTML ?",
+      "type": "single",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": [1],
+      "explanation": "Les liens sont spécifiés en utilisant la balise <a>.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q003",
+      "question": "Quel attribut de la balise <a> indique la destination du lien ?",
+      "type": "single",
+      "options": ["src", "href", "target", "url"],
+      "answer": [1],
+      "explanation": "L'attribut href indique la destination du lien, comme dans <a href=\"url\">Texte du lien</a>.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q004",
+      "question": "Le texte d'un lien peut-il être une image plutôt que du texte simple ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Le texte du lien peut être du texte, une image ou tout autre élément HTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q005",
+      "question": "Par défaut, de quelle couleur est un lien non visité dans la plupart des navigateurs ?",
+      "type": "single",
+      "options": ["Rouge", "Bleu", "Violet", "Vert"],
+      "answer": [1],
+      "explanation": "Par défaut, un lien non visité est souligné et de couleur bleue.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q006",
+      "question": "Par défaut, de quelle couleur est un lien visité dans la plupart des navigateurs ?",
+      "type": "single",
+      "options": ["Bleu", "Rouge", "Violet", "Jaune"],
+      "answer": [2],
+      "explanation": "Par défaut, un lien visité est souligné et de couleur violette.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q007",
+      "question": "Associez chaque pseudo-classe CSS de lien à son état : a:hover correspond à...",
+      "type": "single",
+      "options": ["Le lien lorsque la souris passe dessus", "Le lien non visité", "Le lien visité", "Le lien actif au moment du clic"],
+      "answer": [0],
+      "explanation": "a:hover cible le lien lorsque la souris passe dessus (survol), contrairement à a:link, a:visited et a:active.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q008",
+      "question": "Quelles sont les valeurs possibles de l'attribut target d'un lien ?",
+      "type": "multiple",
+      "options": ["_blank", "_self", "_parent", "_current"],
+      "answer": [0, 1, 2],
+      "explanation": "Les valeurs possibles sont _blank, _self, _parent, _top ou un nom de cadre (nomFrame). « _current » n'existe pas.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q009",
+      "question": "Quelle valeur de l'attribut target ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet ?",
+      "type": "single",
+      "options": ["_self", "_blank", "_parent", "_top"],
+      "answer": [1],
+      "explanation": "_blank ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q010",
+      "question": "Quelle est la valeur par défaut de l'attribut target si on ne le précise pas ?",
+      "type": "single",
+      "options": ["_blank", "_self", "_top", "_parent"],
+      "answer": [1],
+      "explanation": "_self est la valeur par défaut : elle ouvre le document lié dans la même fenêtre/onglet que le document contenant le lien.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q011",
+      "question": "À quoi sert un signet HTML ?",
+      "type": "single",
+      "options": ["Permettre aux lecteurs de passer à une partie spécifique d'une page Web", "Créer un lien vers un site externe uniquement", "Ajouter une image de fond", "Changer la couleur des liens"],
+      "answer": [0],
+      "explanation": "Un signet permet aux lecteurs de passer à des parties spécifiques d'une page Web, particulièrement utile pour les pages longues.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q012",
+      "question": "Comment crée-t-on un signet HTML dans une page ?",
+      "type": "single",
+      "options": ["En donnant un attribut id à un élément, comme <h2 id=\"C4\">Chapitre 4</h2>", "En utilisant la balise <bookmark>", "En utilisant l'attribut href sur un <h2>", "Ce n'est pas possible en HTML"],
+      "answer": [0],
+      "explanation": "On crée un signet en donnant un identifiant (attribut id) à un élément, comme <h2 id=\"C4\">Chapitre 4</h2>, puis en créant un lien avec <a href=\"#C4\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q013",
+      "question": "Quelle balise vide définit une image en HTML ?",
+      "type": "single",
+      "options": ["<image>", "<img>", "<pic>", "<photo>"],
+      "answer": [1],
+      "explanation": "Les images sont définies en HTML avec la balise vide img.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q014",
+      "question": "Quel attribut de <img> spécifie l'URL de l'image ?",
+      "type": "single",
+      "options": ["href", "src", "url", "link"],
+      "answer": [1],
+      "explanation": "L'attribut src (source) spécifie l'URL de l'image qui pointe vers son emplacement de stockage.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q015",
+      "question": "L'attribut alt de la balise <img> est-il obligatoire ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "L'attribut alt est obligatoire et spécifie un texte alternatif si l'image ne peut pas être affichée.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q016",
+      "question": "Dans quels cas le texte alternatif (attribut alt) est-il affiché ?",
+      "type": "multiple",
+      "options": ["Lenteur de connexion", "Erreur dans l'attribut src", "Utilisation d'un lecteur d'écran", "Lorsque l'image est trop grande"],
+      "answer": [0, 1, 2],
+      "explanation": "Le texte alternatif s'affiche en cas de lenteur de connexion, d'erreur dans src, ou si l'utilisateur utilise un lecteur d'écran. La taille de l'image n'a pas d'influence sur l'affichage de l'alt.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q017",
+      "question": "Comment peut-on définir les dimensions d'une image en HTML5 ?",
+      "type": "multiple",
+      "options": ["Avec l'attribut style (width et height)", "Avec les attributs HTML width et height", "Uniquement avec la balise <size>", "Ce n'est pas possible en HTML5"],
+      "answer": [0, 1],
+      "explanation": "On peut utiliser l'attribut style (width:val;height:val;) ou les attributs HTML width et height ; les deux méthodes sont valables en HTML5.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q018",
+      "question": "Pourquoi est-il conseillé d'utiliser l'attribut style plutôt que les attributs width/height pour les dimensions d'une image ?",
+      "type": "single",
+      "options": ["Car il empêche les feuilles de style internes/externes de changer la taille d'origine de l'image", "Car les attributs width/height sont obsolètes en HTML5", "Car l'attribut style est plus rapide à charger", "Il n'y a aucune raison particulière"],
+      "answer": [0],
+      "explanation": "Utiliser l'attribut style empêche les feuilles de styles internes ou externes de changer la taille d'origine des images.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q019",
+      "question": "Quelle propriété CSS permet de faire flotter une image à droite ou à gauche d'un texte ?",
+      "type": "single",
+      "options": ["align", "position", "float", "flow"],
+      "answer": [2],
+      "explanation": "La propriété CSS float permet de faire flotter une image à droite ou à gauche du texte.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q020",
+      "question": "Qu'est-ce qu'une image cliquable définie avec la balise <map> ?",
+      "type": "single",
+      "options": ["Une image avec des zones réactives (cliquables)", "Une image en mouvement", "Une image de fond", "Une image toujours ronde"],
+      "answer": [0],
+      "explanation": "Une image cliquable définie avec la balise <map> est une image comportant des zones réactives (cliquables).",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q021",
+      "question": "Quel attribut relie la balise <img> à la balise <map> pour créer une image cliquable ?",
+      "type": "single",
+      "options": ["L'attribut name de <map> associé à l'attribut usemap de <img>", "L'attribut src de <map> associé à href de <img>", "L'attribut id de <img> associé à ref de <map>", "Aucune association n'est nécessaire"],
+      "answer": [0],
+      "explanation": "L'attribut name de la balise <map> est associé à l'attribut usemap de <img>, créant une relation entre l'image et la carte.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q022",
+      "question": "Quelle balise définit une zone cliquable à l'intérieur d'une balise <map> ?",
+      "type": "single",
+      "options": ["<zone>", "<area>", "<click>", "<region>"],
+      "answer": [1],
+      "explanation": "La balise <map> contient un certain nombre de zones <area>, qui définissent les zones cliquables dans l'image.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q023",
+      "question": "Quelle propriété CSS permet d'ajouter une image de fond sur un élément HTML ?",
+      "type": "single",
+      "options": ["background-color", "background-image", "background-src", "img-background"],
+      "answer": [1],
+      "explanation": "La propriété CSS background-image permet d'ajouter une image de fond sur un élément HTML, par exemple background-image:url('image.jpg').",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q024",
+      "question": "L'image de fond via background-image peut-elle être appliquée uniquement à <body> ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "On peut ajouter une image de fond sur tout élément HTML, pas seulement sur <body> (par exemple aussi sur <p>).",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q025",
+      "question": "Dans quelle version de HTML l'élément <picture> a-t-il été introduit ?",
+      "type": "single",
+      "options": ["HTML 4", "XHTML", "HTML5", "HTML3.2"],
+      "answer": [2],
+      "explanation": "L'élément <picture> est introduit dans HTML5 pour ajouter une plus grande flexibilité lors de la spécification des ressources d'image.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q026",
+      "question": "À quoi servent les éléments <source> à l'intérieur d'une balise <picture> ?",
+      "type": "single",
+      "options": ["Ils référent chacun à différentes sources d'image selon des conditions (comme la largeur de la fenêtre)", "Ils définissent le titre de l'image", "Ils créent automatiquement un lien hypertexte", "Ils sont obsolètes et ne servent à rien"],
+      "answer": [0],
+      "explanation": "Chaque <source> réfère à une source d'image différente et possède des attributs décrivant quand cette image est la plus appropriée (ex: media=\"(min-width: 650px)\").",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q027",
+      "question": "Dans un élément <picture>, quel <source> le navigateur utilise-t-il ?",
+      "type": "single",
+      "options": ["Le dernier élément <source> de la liste", "Le premier élément <source> correspondant aux valeurs d'attribut", "Tous les éléments <source> en même temps", "Aucun, il utilise toujours l'attribut src de <img>"],
+      "answer": [1],
+      "explanation": "Le navigateur utilise le premier élément <source> correspondant aux valeurs d'attribut et ignore les suivants.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q028",
+      "question": "À quoi sert une iframe en HTML ?",
+      "type": "single",
+      "options": ["Afficher une page Web dans une page Web", "Afficher une image de fond", "Créer un lien hypertexte", "Définir une couleur de texte"],
+      "answer": [0],
+      "explanation": "Une iframe est utilisée pour afficher une page Web dans une page web.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q029",
+      "question": "Quelle est la syntaxe correcte d'une iframe ?",
+      "type": "single",
+      "options": ["<iframe src=\"URL\"></iframe>", "<iframe href=\"URL\" />", "<frame url=\"URL\"></frame>", "<iframe>URL</iframe>"],
+      "answer": [0],
+      "explanation": "La syntaxe correcte est <iframe src=\"URL\"></iframe>, où l'URL pointe vers l'emplacement de la page.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q030",
+      "question": "Quels attributs spécifient la hauteur et la largeur d'une iframe ?",
+      "type": "single",
+      "options": ["height et width", "size et scale", "rows et cols", "top et left"],
+      "answer": [0],
+      "explanation": "Les attributs height et width spécifient la hauteur et la largeur de l'iframe, en pixels par défaut ou en pourcentage.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q031",
+      "question": "Comment peut-on supprimer la bordure d'une iframe ?",
+      "type": "single",
+      "options": ["Avec style=\"border:none;\"", "Avec l'attribut noborder", "Ce n'est pas possible", "Avec l'attribut frame=\"0\""],
+      "answer": [0],
+      "explanation": "Pour supprimer la bordure d'une iframe, on utilise style=\"border:none;\".",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q032",
+      "question": "Comment une iframe peut-elle être utilisée comme cible d'un lien ?",
+      "type": "single",
+      "options": ["L'attribut target du lien doit faire référence à l'attribut name de l'iframe", "En utilisant l'attribut href sur l'iframe", "Ce n'est pas possible", "En mettant l'iframe dans la balise <a>"],
+      "answer": [0],
+      "explanation": "L'attribut target d'un lien doit faire référence à l'attribut name de la balise iframe pour l'utiliser comme cadre cible.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q033",
+      "question": "Quels sont les nouveaux éléments multimédias introduits par HTML5 ?",
+      "type": "multiple",
+      "options": ["<audio>", "<video>", "<source>", "<sound>"],
+      "answer": [0, 1, 2],
+      "explanation": "HTML5 introduit <audio>, <video>, <source>, <embed> et <track>. <sound> n'existe pas.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q034",
+      "question": "À quoi sert la balise <track> ?",
+      "type": "single",
+      "options": ["Définir des pistes de texte pour <video> et <audio>", "Définir la couleur du texte", "Créer un lien de navigation", "Ajouter un plug-in externe"],
+      "answer": [0],
+      "explanation": "<track> définit des pistes de texte (comme des sous-titres) pour les éléments <video> et <audio>.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q035",
+      "question": "Pourquoi HTML5 a-t-il introduit les éléments <video> et <audio> ?",
+      "type": "single",
+      "options": ["Pour standardiser l'intégration de fichiers vidéo/audio sans dépendre de plug-ins différents selon les navigateurs", "Pour remplacer complètement CSS", "Parce que les images étaient devenues obsolètes", "Pour supprimer les liens hypertextes"],
+      "answer": [0],
+      "explanation": "Avant HTML5, il n'y avait pas de norme et les vidéos/audios dépendaient de plug-ins (comme flash), différents selon les navigateurs ; HTML5 a standardisé cela avec <video> et <audio>.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q036",
+      "question": "Quel attribut de <video> ajoute des contrôles (lecture, pause, volume) ?",
+      "type": "single",
+      "options": ["controls", "buttons", "player", "toolbar"],
+      "answer": [0],
+      "explanation": "L'attribut controls ajoute des contrôles vidéo comme lecture, pause et volume.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q037",
+      "question": "Que se passe-t-il si on ne définit pas les attributs width et height d'une vidéo ?",
+      "type": "single",
+      "options": ["Le navigateur ne connaît pas la taille de la vidéo et la mise en page peut changer au chargement", "La vidéo ne se charge jamais", "La vidéo s'affiche automatiquement en plein écran", "Cela n'a aucun impact"],
+      "answer": [0],
+      "explanation": "Sans width et height, le navigateur ne connaît pas la taille de la vidéo et ne peut pas réserver l'espace approprié ; la mise en page changera au chargement.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q038",
+      "question": "L'élément <video> permet-il d'inclure plusieurs balises <source> pour différents formats ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "L'élément <video> permet plusieurs <source> liées à des fichiers vidéo différents ; le navigateur utilise le premier format qu'il reconnaît.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q039",
+      "question": "Pourquoi insère-t-on du texte entre les balises <video> et </video> (ou <audio> et </audio>) ?",
+      "type": "single",
+      "options": ["Pour les navigateurs qui ne prennent pas en charge ces éléments", "Pour décorer visuellement la vidéo", "C'est une obligation syntaxique sans utilité pratique", "Pour créer un sous-titre automatique"],
+      "answer": [0],
+      "explanation": "On insère du contenu texte entre les balises pour les navigateurs qui ne prennent pas en charge l'élément <video> ou <audio>.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q040",
+      "question": "Quelle balise HTML5 permet de lire un fichier audio ?",
+      "type": "single",
+      "options": ["<sound>", "<audio>", "<music>", "<player>"],
+      "answer": [1],
+      "explanation": "La balise <audio> permet de lire un fichier audio en HTML5.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q041",
+      "question": "Quel est le but des éléments <embed> et <object> ?",
+      "type": "single",
+      "options": ["Ajouter des plug-ins dans une page web pour étendre les fonctionnalités du navigateur", "Créer des liens hypertextes", "Définir des marges CSS", "Afficher des titres de rubrique"],
+      "answer": [0],
+      "explanation": "Les éléments <embed> et <object> sont utilisés pour ajouter des plug-ins dans une page web, dans le but d'étendre les fonctionnalités du navigateur (ex: applets Java).",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q042",
+      "question": "Quelle méthode est recommandée pour intégrer une vidéo YouTube dans une page HTML ?",
+      "type": "single",
+      "options": ["Avec <iframe>", "Avec <object> (obsolète)", "Avec <embed> (obsolète)", "Avec <video> directement pointant sur YouTube"],
+      "answer": [0],
+      "explanation": "L'exemple avec <iframe> est recommandé, tandis que les méthodes avec <object> et <embed> sont obsolètes depuis janvier 2015.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q043",
+      "question": "Pourquoi le cours recommande-t-il d'utiliser YouTube plutôt que de gérer soi-même les formats vidéo ?",
+      "type": "single",
+      "options": ["Car les différents formats vidéo pris en charge varient selon navigateurs, et YouTube gère cette conversion", "Car YouTube est gratuit uniquement pour les universités", "Car HTML5 interdit les vidéos locales", "Car cela améliore le référencement Google automatiquement"],
+      "answer": [0],
+      "explanation": "Les différents navigateurs prennent en charge différents formats vidéo ; la conversion vers plusieurs formats est difficile, donc laisser cette conversion à YouTube est plus simple.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q044",
+      "question": "Les méthodes d'intégration YouTube avec <object> et <embed> sont-elles toujours recommandées aujourd'hui ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Ces méthodes sont obsolètes depuis janvier 2015 ; la méthode recommandée est désormais l'iframe.",
+      "image": null
+    },
+    {
+      "id": "ti-s6-q045",
+      "question": "Si un fichier HTML contient dix images, combien de fichiers son affichage requiert-il au total ?",
+      "type": "single",
+      "options": ["Dix fichiers", "Onze fichiers (le fichier HTML plus les dix images)", "Un seul fichier fusionné", "Cela dépend uniquement du navigateur"],
+      "answer": [1],
+      "explanation": "Si un fichier HTML contient dix images, son affichage requiert onze fichiers : le document HTML et les dix fichiers image.",
+      "image": null
+    }
+  ]
+}

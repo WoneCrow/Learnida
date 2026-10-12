@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ti-s4-q001",
+    "question": "Pourquoi le marché des systèmes d'exploitation mobiles reste-t-il fragmenté malgré la domination de Google et Apple ?",
+    "type": "single",
+    "options": [
+      "Parce que d'autres acteurs existent, comme Windows Phone, BlackBerry OS, Firefox OS, Sailfish OS, Tizen...",
+      "Parce que Google et Apple n'ont pas de smartphones",
+      "Parce qu'il n'existe qu'un seul système d'exploitation",
+      "Parce que Google et Apple ont fusionné"
+    ],
+    "answer": [0],
+    "explanation": "Bien que Google et Apple représentent une large majorité du marché, celui-ci reste fragmenté avec d'autres acteurs comme Windows Phone, BlackBerry OS, Firefox OS, Sailfish OS, Tizen, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q002",
+    "question": "Quel est le principal inconvénient de la tendance au « tout natif » évoqué en introduction ?",
+    "type": "single",
+    "options": [
+      "Elle peut doubler voire tripler les ressources nécessaires à un projet et sa maintenance",
+      "Elle rend les applications plus lentes systématiquement",
+      "Elle est interdite par Apple",
+      "Elle empêche l'accès aux fonctionnalités natives"
+    ],
+    "answer": [0],
+    "explanation": "La tendance au « tout natif » peut rapidement revenir à doubler voire tripler les ressources nécessaires à un projet, maintenance comprise, représentant un investissement considérable.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q003",
+    "question": "Vrai ou Faux : les solutions de développement multiplateforme comme PhoneGap, Appcelerator et Xamarin sont nées pour répondre à la problématique de la fragmentation des OS mobiles.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Face au gain de notoriété des applications natives et à l'accroissement de la problématique du multiplateforme, des entreprises ont développé des solutions pour uniformiser le développement natif.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q004",
+    "question": "Selon le cours, sur quoi reposent généralement les solutions multiplateformes pour résoudre le problème du duo environnement/langage spécifique à chaque plateforme ?",
+    "type": "single",
+    "options": [
+      "Sur un langage ou une combinaison de langages génériques et populaires servant d'interface avec les fonctionnalités de l'appareil",
+      "Sur l'obligation d'apprendre Swift et Java en parallèle",
+      "Sur l'utilisation exclusive de C++",
+      "Sur le développement 100% natif dupliqué pour chaque OS"
+    ],
+    "answer": [0],
+    "explanation": "Les différentes solutions multiplateformes consistent généralement en des outils sur un langage ou une combinaison de langages génériques et populaires, qui servent d'interface avec les fonctionnalités de l'appareil mobile.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q005",
+    "question": "Que doit maîtriser un développeur qui utilise une solution multiplateforme pour créer plusieurs applications ?",
+    "type": "single",
+    "options": [
+      "Uniquement les outils offerts par la solution choisie, qui compilera une application native spécifique à chaque plateforme",
+      "Tous les SDK natifs de chaque plateforme séparément",
+      "Le langage assembleur de chaque architecture",
+      "Uniquement le langage Java"
+    ],
+    "answer": [0],
+    "explanation": "Le développeur n'a plus à se soucier des outils spécifiques à chaque plateforme ; il lui suffit de maîtriser ceux offerts par la solution choisie, qui compilera une application native à partir de son unique projet de départ.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q006",
+    "question": "Quel trio de langages web PhoneGap (Apache Cordova) propose-t-il comme source pour ses applications ?",
+    "type": "single",
+    "options": ["HTML5 / CSS3 / JavaScript", "Java / Kotlin / XML", "Swift / Objective-C / C", "C# / XAML / .NET"],
+    "answer": [0],
+    "explanation": "PhoneGap (Apache Cordova) fût l'un des pionniers du développement mobile multiplateforme, proposant le populaire trio de langages web HTML5/CSS3/JavaScript comme source pour ses applications.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q007",
+    "question": "Vrai ou Faux : une « application hybride » est toujours forcément développée avec une solution exploitant « l'approche hybride ».",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le terme « hybride » s'est démocratisé pour désigner globalement toute application développée avec une solution multiplateforme ; une application hybride n'est donc pas forcément développée avec une solution exploitant l'approche hybride.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q008",
+    "question": "D'où vient le terme « hybride » selon le cours ?",
+    "type": "single",
+    "options": [
+      "De l'approche utilisée par PhoneGap, qui s'apparente à une hybridation entre application web et native",
+      "Du nom de la société Hybrid Inc.",
+      "D'un terme marketing d'Apple",
+      "De la combinaison entre iOS et Android"
+    ],
+    "answer": [0],
+    "explanation": "L'approche utilisée par PhoneGap s'apparentant à une hybridation entre application web et native, le terme « hybride » s'est par la suite démocratisé pour désigner toute application développée avec une solution multiplateforme.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q009",
+    "question": "Du point de vue du système d'exploitation et de l'utilisateur, que sont ultimement les applications hybrides ?",
+    "type": "single",
+    "options": [
+      "Toutes des applications natives",
+      "Toutes des sites web accessibles uniquement en ligne",
+      "Toutes des extensions de navigateur",
+      "Toutes des applications interdites sur les stores officiels"
+    ],
+    "answer": [0],
+    "explanation": "Si les applications hybrides sont ultimement toutes des applications natives du point de vue du système d'exploitation et de l'utilisateur, il existe différentes variantes dans la manière dont l'application finale est créée selon la solution utilisée.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q010",
+    "question": "Sur quel type d'objet natif l'approche hybride (utilisée notamment par Apache Cordova) s'appuie-t-elle ?",
+    "type": "single",
+    "options": [
+      "Les objets de type WebView (UIWebView sur iOS, android.webkit.WebView sur Android)",
+      "Les objets ContentProvider",
+      "Les objets Intent",
+      "Les objets Service"
+    ],
+    "answer": [0],
+    "explanation": "L'approche hybride vise à tirer parti des objets de type WebView (tels UIWebView sur iOS et android.webkit.WebView sur Android) disponibles nativement sur le système d'exploitation.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q011",
+    "question": "Dans l'approche hybride, en quoi consiste l'intégralité de l'interface utilisateur de l'application compilée ?",
+    "type": "single",
+    "options": [
+      "En une WebView qui enveloppe l'application de départ",
+      "En des composants graphiques 100% natifs indépendants",
+      "En une machine virtuelle Java",
+      "En un fichier PDF interactif"
+    ],
+    "answer": [0],
+    "explanation": "Les solutions exploitant l'approche hybride compilent une application native qui enveloppe l'application de départ, et dont l'intégralité de l'interface utilisateur consiste en une WebView.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q012",
+    "question": "Comment le code et le langage web du projet sont-ils traités dans l'approche hybride ?",
+    "type": "single",
+    "options": [
+      "Ils sont interprétés par la WebView à la manière d'un navigateur, comme une application web standard",
+      "Ils sont convertis en langage assembleur avant exécution",
+      "Ils sont exécutés directement par le noyau Linux",
+      "Ils sont ignorés au profit du code natif"
+    ],
+    "answer": [0],
+    "explanation": "La WebView va interpréter, à la manière d'un navigateur, le code et langage web du projet, tout à fait comme s'il s'agissait d'une application web standard.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q013",
+    "question": "Dans l'architecture PhoneGap, à quoi servent les « PhoneGap Plug-ins » (Accelerometer, Camera, Compass, Contacts, Geolocation, Media, Network, Notification, File, Storage...) ?",
+    "type": "single",
+    "options": [
+      "À donner accès depuis le code web/JS aux fonctionnalités natives de l'appareil",
+      "À styliser l'interface CSS",
+      "À compiler le code JavaScript en C#",
+      "À remplacer le moteur de rendu HTML"
+    ],
+    "answer": [0],
+    "explanation": "D'après le diagramme d'architecture PhoneGap, les Plug-ins (Accelerometer, Camera, Compass, Contacts, Geolocation, Media, Network, Notification, File, Storage, Custom Plug-ins) donnent accès aux fonctionnalités natives de l'appareil via les OS APIs.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q014",
+    "question": "Quelle est la différence principale entre l'approche hybride et l'approche compilation directe ?",
+    "type": "single",
+    "options": [
+      "L'approche hybride enveloppe un langage web interprété à l'exécution, tandis que l'approche compilation directe compile le code en assembleur natif via un compilateur spécialisé",
+      "L'approche compilation directe n'utilise jamais de runtime",
+      "L'approche hybride ne fonctionne que sur iOS",
+      "Il n'y a aucune différence, ce sont des synonymes"
+    ],
+    "answer": [0],
+    "explanation": "L'approche compilation directe tire parti d'un compilateur spécialisé propre à la solution, capable de créer directement le code assembleur natif à partir d'un langage de départ unique, contrairement à l'approche hybride qui interprète un langage web à l'exécution.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q015",
+    "question": "Quel est l'avantage principal de l'approche compilation directe par rapport à l'approche hybride ?",
+    "type": "single",
+    "options": [
+      "Une performance plus élevée, l'architecture étant plus proche d'une réelle application native",
+      "Elle ne nécessite jamais de runtime",
+      "Elle ne nécessite aucune connaissance en programmation",
+      "Elle fonctionne uniquement en HTML5"
+    ],
+    "answer": [0],
+    "explanation": "L'avantage de l'approche compilation directe par rapport à l'approche hybride est une performance plus élevée, l'architecture étant plus proche d'une réelle application native.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q016",
+    "question": "Quelle solution est citée comme typiquement représentative de l'approche compilation directe ?",
+    "type": "single",
+    "options": ["Xamarin", "Apache Cordova", "Ionic", "PhoneGap"],
+    "answer": [0],
+    "explanation": "L'approche compilation directe est typiquement utilisée par Xamarin, les applications fonctionnant à l'intérieur du runtime Mono.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q017",
+    "question": "Dans l'architecture Xamarin sur Android, à quel composant l'environnement Mono est-il comparé pour son rôle vis-à-vis du Linux Kernel ?",
+    "type": "single",
+    "options": [
+      "L'Android Runtime (ART), qui permet aux applications Android standards (Java) de fonctionner",
+      "Le SDK Android",
+      "Le compilateur GCC",
+      "Le navigateur WebView"
+    ],
+    "answer": [0],
+    "explanation": "L'environnement Mono accède au Kernel Linux et l'expose aux applications Xamarin (C#) de la même manière que l'Android Runtime (ART) permet aux applications Android standards (Java) de fonctionner.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q018",
+    "question": "Vrai ou Faux : Apache Cordova est lui-même un framework de développement front-end complet lié à un IDE particulier.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Apache Cordova en tant que tel n'est pas un framework de développement front-end et n'est pas lié à un IDE particulier ; de nombreuses solutions (comme Ionic) visent à le complémenter sur ces points.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q019",
+    "question": "Sous quelle licence le système développé par Apache Cordova est-il distribué ?",
+    "type": "single",
+    "options": ["Licence libre (open source)", "Licence propriétaire payante", "Licence freeware fermée", "Licence commerciale exclusive à Adobe"],
+    "answer": [0],
+    "explanation": "Le système développé par Apache Cordova étant en licence libre, de nombreuses solutions l'exploitant existent et rencontrent beaucoup de succès auprès des développeurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q020",
+    "question": "PhoneGap était initialement développé par quelle entreprise avant d'être racheté ?",
+    "type": "single",
+    "options": ["Nitobi", "Google", "Microsoft", "Xamarin Inc."],
+    "answer": [0],
+    "explanation": "PhoneGap est un framework de développement mobile multiplateforme initialement développé par Nitobi, entreprise par la suite rachetée par Adobe Systems en 2011.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q021",
+    "question": "Quelle entreprise a racheté Nitobi (créateur de PhoneGap) en 2011 ?",
+    "type": "single",
+    "options": ["Adobe Systems", "Google", "Facebook", "IBM"],
+    "answer": [0],
+    "explanation": "PhoneGap fut initialement développé par Nitobi, entreprise rachetée par Adobe Systems en 2011.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q022",
+    "question": "Que s'est-il passé parallèlement au rachat de Nitobi par Adobe Systems ?",
+    "type": "single",
+    "options": [
+      "Le code du projet fut cédé à la Fondation Apache et la solution renommée Apache Cordova",
+      "Le projet PhoneGap a été abandonné définitivement",
+      "Le code a été racheté par Google",
+      "Le projet est devenu payant pour tous les utilisateurs"
+    ],
+    "answer": [0],
+    "explanation": "Parallèlement au rachat par Adobe, le code du projet fut cédé à la Fondation Apache et la solution renommée Apache Cordova, Adobe utilisant celle-ci pour proposer ses propres services Adobe PhoneGap puis Adobe PhoneGap Build.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q023",
+    "question": "Quelles plateformes sont citées comme supportées par Apache Cordova dans le cours ?",
+    "type": "multiple",
+    "options": ["Android", "iOS", "Windows Phone", "BlackBerry"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le cours cite Android, iOS, Windows Phone, BlackBerry, LG webOS, Firefox OS, Tizen, Ubuntu Touch, Bada et Symbian OS comme plateformes supportées par Apache Cordova.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q024",
+    "question": "En quelle année a été fondée l'entreprise Appcelerator ?",
+    "type": "single",
+    "options": ["2006", "2001", "2010", "2015"],
+    "answer": [0],
+    "explanation": "Appcelerator est une entreprise américaine spécialisée dans les technologies mobiles et fondée en 2006.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q025",
+    "question": "Quel type d'applications ciblait initialement Appcelerator Titanium, lors de sa première version fin 2008 ?",
+    "type": "single",
+    "options": [
+      "Les applications multiplateforme pour ordinateurs de bureau",
+      "Uniquement les applications iPhone",
+      "Uniquement les applications Android",
+      "Les jeux vidéo console"
+    ],
+    "answer": [0],
+    "explanation": "La première version d'Appcelerator Titanium, fin 2008, ciblait au départ le développement d'applications multiplateforme pour ordinateurs de bureau, avant que l'entreprise ne se concentre sur le mobile.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q026",
+    "question": "En quelle année Appcelerator a-t-il lancé son propre environnement de développement, Appcelerator Studio ?",
+    "type": "single",
+    "options": ["2010", "2006", "2008", "2011"],
+    "answer": [0],
+    "explanation": "Appcelerator a lancé son propre environnement de développement Appcelerator Studio en 2010, après avoir ajouté le support iPhone et Android l'année suivant le lancement de Titanium (2008).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q027",
+    "question": "Avec Appcelerator Studio, en quel langage le code source de l'application est-il écrit, et comment est-il exécuté ?",
+    "type": "single",
+    "options": [
+      "En JavaScript, interprété par un moteur JavaScript à l'exécution",
+      "En Java, compilé en bytecode Dalvik",
+      "En Swift, compilé en code natif iOS uniquement",
+      "En C#, exécuté par le runtime Mono"
+    ],
+    "answer": [0],
+    "explanation": "Appcelerator Studio offre la possibilité de développer des applications mobiles multiplateformes à partir de JavaScript, le code source étant interprété par un moteur JavaScript à l'exécution.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q028",
+    "question": "En quelle année Xamarin a-t-elle été fondée, et par qui ?",
+    "type": "single",
+    "options": [
+      "2011, par l'équipe d'ingénieurs fondatrice du projet open-source Mono",
+      "2006, par d'anciens employés de Google",
+      "2015, par Microsoft directement",
+      "2008, par Nitobi"
+    ],
+    "answer": [0],
+    "explanation": "Xamarin est une entreprise américaine fondée en 2011 par l'équipe d'ingénieurs fondatrice du projet open-source Mono.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q029",
+    "question": "À partir de quel langage Xamarin permet-il de développer des applications mobiles multi-plateforme ?",
+    "type": "single",
+    "options": ["C#", "Java", "JavaScript", "Swift"],
+    "answer": [0],
+    "explanation": "Xamarin permet de développer des applications mobiles multi-plateforme à partir du langage C#.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q030",
+    "question": "Quel set d'outils Xamarin permet la plus grande réutilisabilité de code pour des applications exigeant peu de fonctionnalités spécifiques aux plateformes cibles ?",
+    "type": "single",
+    "options": ["Xamarin.Forms", "Xamarin.iOS", "Xamarin.Android", "Xamarin.Studio"],
+    "answer": [0],
+    "explanation": "Xamarin.Forms permet la plus grande réutilisabilité de code pour des applications exigeant peu de fonctionnalités spécifiques aux plateformes cibles.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q031",
+    "question": "Que promettent Xamarin.iOS et Xamarin.Android, par opposition à Xamarin.Forms ?",
+    "type": "single",
+    "options": [
+      "Des interactions plus spécialisées et un accès plus direct aux API spécifiques des différentes plateformes",
+      "Une compatibilité totale avec Windows uniquement",
+      "L'absence totale de code natif",
+      "Une réutilisabilité de code à 100% sans configuration"
+    ],
+    "answer": [0],
+    "explanation": "Xamarin.iOS et Xamarin.Android promettent des interactions plus spécialisées et un accès plus direct aux API spécifiques des différentes plateformes, contrairement à Xamarin.Forms.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q032",
+    "question": "Dans quels langages Ionic permet-il de créer des applications hybrides ?",
+    "type": "single",
+    "options": ["HTML5, CSS et JavaScript", "Java, Kotlin et XML", "C# et .NET", "Swift et Objective-C"],
+    "answer": [0],
+    "explanation": "Ionic est un framework de développement qui permet de créer des applications hybrides en HTML5, CSS, JavaScript.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q033",
+    "question": "Sur quelles deux technologies/frameworks Ionic est-il basé ?",
+    "type": "multiple",
+    "options": ["AngularJS", "Apache Cordova", "React Native", "Xamarin"],
+    "answer": [0, 1],
+    "explanation": "Ionic est basé sur des frameworks/technologies qui ont fait leurs preuves telles qu'AngularJS et Apache Cordova (Angular + Cordova = Ionic).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q034",
+    "question": "Dans l'écosystème Ionic, quel rôle joue AngularJS ?",
+    "type": "single",
+    "options": [
+      "Il est utilisé pour l'implémentation de la partie applicative web (backend)",
+      "Il compile le code en assembleur natif",
+      "Il gère uniquement l'accès à la caméra",
+      "Il remplace complètement Apache Cordova"
+    ],
+    "answer": [0],
+    "explanation": "Ionic est développé avec AngularJS, utilisé pour l'implémentation de la partie applicative web (backend), tandis qu'Apache Cordova permet la construction des applications natives.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q035",
+    "question": "Quel est le rôle d'Apache Cordova dans le fonctionnement d'une application Ionic ?",
+    "type": "single",
+    "options": [
+      "C'est un pont de développement qui encapsule du code client Web (Ionic/AngularJS) dans une application native (Android, iOS, Windows Phone)",
+      "Il génère uniquement le design graphique",
+      "Il remplace AngularJS pour la logique métier",
+      "Il ne sert qu'à la publication sur les stores"
+    ],
+    "answer": [0],
+    "explanation": "Apache Cordova est un pont de développement qui permet d'encapsuler du code client Web (Ionic/AngularJS) dans une application native telle qu'Android, iOS ou Windows Phone, et permet l'accès aux fonctionnalités natives comme la caméra ou l'accéléromètre.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q036",
+    "question": "Sur quelle plateforme Ionic s'appuie-t-il et qu'il est indispensable d'installer avant de commencer ?",
+    "type": "single",
+    "options": ["Node JS", "Python", "Ruby on Rails", ".NET Framework"],
+    "answer": [0],
+    "explanation": "Ionic s'appuie sur la plateforme Node JS, qu'il est donc indispensable d'installer avant de commencer, disponible sur https://nodejs.org/en/download/.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q037",
+    "question": "Vrai ou Faux : sous Windows, la commande npm fonctionnera normalement sans configurer aucune variable d'environnement.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Sous Windows, la commande npm ne fonctionnera pas sans les variables d'environnement système JAVA_HOME, ANDROID_HOME et NPM. Sous Unix, JAVA_HOME et ANDROID_HOME sont nécessaires.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q038",
+    "question": "Quelle commande npm permet d'installer Apache Cordova globalement ?",
+    "type": "single",
+    "options": ["npm install -g cordova", "npm install cordova --local", "npm add cordova", "cordova install npm -g"],
+    "answer": [0],
+    "explanation": "La commande pour installer Apache Cordova globalement est : $ npm install –g cordova",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q039",
+    "question": "Quelle commande npm permet d'installer Ionic globalement ?",
+    "type": "single",
+    "options": ["npm install -g ionic", "npm install ionic --save", "ionic install -g npm", "npm ionic init"],
+    "answer": [0],
+    "explanation": "La commande pour installer Ionic est : $ npm install -g ionic",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q040",
+    "question": "Pourquoi est-il indispensable de disposer du SDK Android (ou du SDK de la plateforme visée) pour développer avec Ionic ?",
+    "type": "single",
+    "options": [
+      "Le SDK sert à la compilation et à la construction de l'application pour la plateforme ciblée",
+      "Le SDK sert uniquement à afficher les logs",
+      "Le SDK remplace Node JS",
+      "Le SDK n'est nécessaire que pour publier sur le store"
+    ],
+    "answer": [0],
+    "explanation": "Pour développer une application pour appareils Android (ou toute autre plateforme), il est indispensable de disposer du SDK correspondant, qui servira à la compilation et à la construction de l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q041",
+    "question": "Quels sont les trois templates de projet Ionic présentés dans le cours pour créer un projet nommé « uvsApp » ?",
+    "type": "multiple",
+    "options": ["blank", "tabs", "sidemenu", "gridview"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours présente trois commandes de création de projet : $ ionic start uvsApp blank, $ ionic start uvsApp tabs et $ ionic start uvsApp sidemenu.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q042",
+    "question": "Quelle commande permet d'ajouter la plateforme Android à un projet Ionic ?",
+    "type": "single",
+    "options": ["ionic platform add android", "ionic add android", "cordova build android", "ionic run android --add"],
+    "answer": [0],
+    "explanation": "Pour configurer l'application pour les appareils Android, il suffit d'exécuter la commande $ ionic platform add android à la racine du projet.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q043",
+    "question": "Quelle commande permet de compiler, lancer et déployer une application Ionic sur un appareil Android connecté ou un émulateur ?",
+    "type": "single",
+    "options": ["ionic run android", "ionic platform add android", "ionic build android --run", "npm run android"],
+    "answer": [0],
+    "explanation": "Pour compiler puis lancer et déployer l'application sur un appareil connecté ou un émulateur, il suffit d'exécuter la commande $ ionic run android.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q044",
+    "question": "Quelles sont les deux commandes équivalentes pour iOS à « ionic platform add android » et « ionic run android » ?",
+    "type": "multiple",
+    "options": ["ionic platform add ios", "ionic run ios", "ionic build ios --deploy", "ionic add ios --run"],
+    "answer": [0, 1],
+    "explanation": "Pour iOS, on utilise $ ionic platform add ios pour configurer la plateforme, puis $ ionic run ios pour compiler, lancer et déployer l'application.",
+    "image": null
+  }
+]

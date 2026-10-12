@@ -1,0 +1,605 @@
+[
+  {
+    "id": "ti-as-q001",
+    "question": "Depuis quand l'environnement Eclipse (avec son module ADT) a-t-il été remplacé par Android Studio ?",
+    "type": "single",
+    "options": ["Décembre 2012", "Décembre 2014", "Décembre 2016", "Décembre 2018"],
+    "answer": [1],
+    "explanation": "Le cours précise que depuis décembre 2014, l'environnement Eclipse avec son module ADT ont pris leur retraite pour faire place à Android Studio.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q002",
+    "question": "Quel IDE a été remplacé par Android Studio comme environnement officiel de développement Android ?",
+    "type": "single",
+    "options": ["NetBeans", "Eclipse (avec le module ADT)", "Visual Studio", "IntelliJ IDEA seul"],
+    "answer": [1],
+    "explanation": "Eclipse, avec son module ADT (Android Development Tools), a été remplacé par Android Studio.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q003",
+    "question": "Sur quelle plateforme Android Studio est-il construit (« Powered by ») ?",
+    "type": "single",
+    "options": ["Eclipse Platform", "IntelliJ Platform", "NetBeans Platform", "Visual Studio Platform"],
+    "answer": [1],
+    "explanation": "Le logo d'Android Studio indique 'Powered by IntelliJ Platform'.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q004",
+    "question": "Que faut-il télécharger en premier avant d'installer Android Studio, selon le cours ?",
+    "type": "single",
+    "options": ["Le SDK Android", "Le JDK (Java Development Kit)", "Un émulateur tiers", "Gradle"],
+    "answer": [1],
+    "explanation": "La première étape consiste à télécharger le dernier JDK (Java Development Kit) disponible sur le site d'Oracle.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q005",
+    "question": "Quelles sont les étapes recommandées pour l'installation de l'environnement de développement Android, dans l'ordre suggéré ?",
+    "type": "multiple",
+    "options": [
+      "Télécharger le dernier JDK",
+      "Désinstaller les éventuelles versions antérieures du JDK",
+      "Installer le nouveau JDK",
+      "Écrire directement le code sans installer aucun outil"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les étapes sont : télécharger le JDK, désinstaller les anciennes versions, installer le nouveau JDK, puis télécharger Android Studio. Il n'est pas possible de développer sans ces outils.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q006",
+    "question": "Que contient l'installateur d'Android Studio, en plus de l'environnement de développement ?",
+    "type": "multiple",
+    "options": [
+      "Le SDK (Software Development Kit) Android",
+      "La dernière version de la plateforme Android",
+      "Un émulateur",
+      "Un serveur mail intégré"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Android Studio contient l'environnement de développement, le SDK Android avec la dernière version de la plateforme, ainsi qu'un émulateur.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q007",
+    "question": "Sur quel site officiel peut-on télécharger Android Studio ?",
+    "type": "single",
+    "options": [
+      "developer.android.com/studio",
+      "oracle.com/studio",
+      "eclipse.org/android",
+      "intellij.com/android"
+    ],
+    "answer": [0],
+    "explanation": "Le cours indique le lien https://developer.android.com/studio/index.html pour télécharger Android Studio.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q008",
+    "question": "Il faut exécuter les étapes d'installation du JDK et d'Android Studio dans un ordre précis (téléchargement JDK, désinstallation ancienne version, installation JDK, téléchargement et installation Android Studio).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le cours précise explicitement qu'il faut exécuter les étapes dans l'ordre cité (de a à e).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q009",
+    "question": "Dans la page de démarrage d'Android Studio, quel menu permet d'accéder au SDK Manager pour installer les paquets supplémentaires ?",
+    "type": "single",
+    "options": ["File > New", "Configure > SDK Manager", "Tools > Options", "Help > Update"],
+    "answer": [1],
+    "explanation": "Dans la page de démarrage, il faut sélectionner Configure > SDK Manager pour gérer les paquets et mises à jour du SDK.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q010",
+    "question": "Dans le SDK Manager, que faut-il s'assurer de cocher au minimum pour pouvoir utiliser l'émulateur ?",
+    "type": "single",
+    "options": ["Un thème graphique", "Au moins un System Image", "Un pilote USB", "Une licence Google Play"],
+    "answer": [1],
+    "explanation": "Le cours précise qu'il faut s'assurer de cocher au moins un System Image pour l'émulateur.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q011",
+    "question": "Que représente l'API (Application Programming Interface) visible dans le SDK Manager ?",
+    "type": "single",
+    "options": [
+      "Le nom du projet créé",
+      "La version associée à la plateforme Android pour laquelle on développe",
+      "Le chemin d'installation du JDK",
+      "Le nom de l'émulateur"
+    ],
+    "answer": [1],
+    "explanation": "Le SDK Manager affiche la version de l'API installée, associée à la version de l'OS pour laquelle elle permettra de développer.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q012",
+    "question": "Parmi les éléments suivants, lesquels doivent être présents dans l'onglet 'SDK Tools' selon le cours ?",
+    "type": "multiple",
+    "options": [
+      "Android SDK Build Tools",
+      "Android SDK Platform Tools",
+      "Google Play Services",
+      "Un compilateur PHP"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite notamment Android SDK Build Tools, Android SDK Tools, Android SDK Platform Tools, Android Support Library, Android Support Repository, Google Repository et Google Play Services. Un compilateur PHP n'a aucun rapport avec le développement Android natif.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q013",
+    "question": "Lors de la création d'un nouveau projet Android, que représente le champ 'Application name' ?",
+    "type": "single",
+    "options": [
+      "L'identifiant unique du package",
+      "Le nom qui apparaîtra dans la liste des applications sur l'appareil et dans le Play Store",
+      "Le nom du dossier Gradle",
+      "Le nom du fichier manifest"
+    ],
+    "answer": [1],
+    "explanation": "L'Application name est le nom qui va apparaître dans la liste des applications sur l'appareil et dans le Play Store.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q014",
+    "question": "Que représente le 'Company domain' lors de la création d'un projet Android ?",
+    "type": "single",
+    "options": [
+      "Un qualifiant qui apparaîtra dans le nom du package",
+      "L'adresse du serveur de test",
+      "Le nom de l'entreprise affiché dans le Play Store",
+      "Le mot de passe du compte développeur"
+    ],
+    "answer": [0],
+    "explanation": "Le Company domain est un qualifiant qui apparaîtra dans le nom du package de l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q015",
+    "question": "À quoi sert le 'Package name' d'une application Android ?",
+    "type": "single",
+    "options": [
+      "Il définit uniquement la couleur du thème de l'application",
+      "Il sert d'identifiant unique de l'application, permettant de considérer différentes versions comme une même application",
+      "Il correspond au nom affiché sur l'écran d'accueil du téléphone",
+      "Il définit la taille de l'écran cible"
+    ],
+    "answer": [1],
+    "explanation": "Le Package name est utilisé comme identifiant de l'application, il permet de considérer différentes versions d'une application comme étant une même application, et doit être unique parmi tous les packages installés sur le système.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q016",
+    "question": "Le Package name d'une application Android doit être unique parmi tous les packages installés sur le système.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le cours précise explicitement que le package name doit être unique parmi tous les packages installés sur le système.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q017",
+    "question": "Qu'est-ce qu'une 'activité' (Activity) dans le contexte de la création d'un projet Android ?",
+    "type": "single",
+    "options": [
+      "Un fichier de configuration Gradle",
+      "Un écran avec une interface graphique",
+      "Un dossier contenant les images",
+      "Une bibliothèque tierce"
+    ],
+    "answer": [1],
+    "explanation": "Le cours définit une activité comme un écran avec une interface graphique.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q018",
+    "question": "Quel type d'activité est sélectionné dans le cours pour créer simplement le premier projet ?",
+    "type": "single",
+    "options": ["Basic Activity", "Empty Activity", "Google Maps Activity", "Login Activity"],
+    "answer": [1],
+    "explanation": "Le cours indique de sélectionner 'Empty Activity' et de cliquer sur Next.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q019",
+    "question": "Qu'est-ce qu'un 'layout' dans une activité Android ?",
+    "type": "single",
+    "options": [
+      "Un fichier qui définit la façon dont les composants seront disposés sur l'écran",
+      "Le nom du package de l'application",
+      "Un script de compilation Gradle",
+      "Une classe Java qui gère la logique métier"
+    ],
+    "answer": [0],
+    "explanation": "Chaque activité dispose d'un layout qui définit la façon dont les composants seront disposés sur l'écran.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q020",
+    "question": "Pourquoi la notion de 'fragment' a-t-elle été introduite dans le développement Android, selon le cours ?",
+    "type": "single",
+    "options": [
+      "Pour remplacer complètement les activités",
+      "Pour favoriser la réutilisabilité de morceaux d'activité",
+      "Pour accélérer la compilation Gradle",
+      "Pour gérer uniquement les bases de données"
+    ],
+    "answer": [1],
+    "explanation": "La notion de fragment a été introduite pour favoriser la réutilisabilité de morceaux d'activité : un fragment peut être défini une fois et réutilisé dans plusieurs activités.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q021",
+    "question": "Une activité peut être divisée en plusieurs fragments, chacun ayant son propre layout.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le cours précise qu'une activité peut être divisée en portions (fragments), chacune ayant son propre layout.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q022",
+    "question": "Quel bouton faut-il cliquer pour finaliser la création du projet dans Android Studio ?",
+    "type": "single",
+    "options": ["Next", "Cancel", "Finish", "Apply"],
+    "answer": [2],
+    "explanation": "Le cours indique de cliquer sur 'Finish' pour que le projet soit créé.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q023",
+    "question": "Dans l'interface d'Android Studio, quelle zone permet de voir un aperçu de l'activité en cours d'édition ?",
+    "type": "single",
+    "options": [
+      "L'Explorateur",
+      "L'aperçu de l'activité (au centre)",
+      "L'Output en bas",
+      "La liste des composants uniquement"
+    ],
+    "answer": [1],
+    "explanation": "L'interface d'Android Studio comporte une zone centrale d'aperçu de l'activité, entourée de l'explorateur, la palette de composants graphiques, la liste des composants de l'activité, les propriétés du composant sélectionné et l'output.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q024",
+    "question": "Quel élément de l'interface Android Studio affiche les logs et le résultat de la compilation en bas de l'écran ?",
+    "type": "single",
+    "options": ["La palette", "L'Output", "Le navigateur des fichiers ouverts", "La liste des composants"],
+    "answer": [1],
+    "explanation": "L'Output, situé en bas de l'interface, affiche notamment les logs (logcat) et les résultats de la compilation.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q025",
+    "question": "Quel fichier, obligatoire dans tout projet Android, permet au système de reconnaître l'application ?",
+    "type": "single",
+    "options": ["build.gradle", "AndroidManifest.xml", "activity_main.xml", "strings.xml"],
+    "answer": [1],
+    "explanation": "Le fichier AndroidManifest.xml, situé dans le dossier manifests, est obligatoire dans tout projet Android et permet au système de reconnaître l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q026",
+    "question": "Le fichier AndroidManifest.xml peut porter un nom différent selon les projets.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : ce fichier doit toujours avoir ce même nom (AndroidManifest.xml) dans tout projet Android.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q027",
+    "question": "Dans quel dossier du projet sont enregistrées toutes les classes Java créées par le développeur ?",
+    "type": "single",
+    "options": ["res", "manifests", "java", "gradle"],
+    "answer": [2],
+    "explanation": "C'est dans le dossier java que sont enregistrées toutes les classes Java créées dans le projet.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q028",
+    "question": "Où se trouve le code de la classe principale MainActivity.java d'un nouveau projet ?",
+    "type": "single",
+    "options": [
+      "Dans le dossier res/layout",
+      "Dans le sous-dossier correspondant au package, à l'intérieur du dossier java",
+      "Dans le dossier manifests",
+      "Dans le dossier Gradle Scripts"
+    ],
+    "answer": [1],
+    "explanation": "Le code de MainActivity.java est situé dans le sous-dossier correspondant au package (ex: com.example.bass.uvsi_nitiation) à l'intérieur du dossier java.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q029",
+    "question": "Que regroupe le dossier 'layout' du répertoire res ?",
+    "type": "single",
+    "options": [
+      "Les images de l'application",
+      "Les fichiers XML qui définissent la disposition des composants sur l'écran",
+      "Les fichiers de code Java",
+      "Les scripts de compilation"
+    ],
+    "answer": [1],
+    "explanation": "Le dossier layout regroupe les fichiers XML qui définissent la disposition des composants sur l'écran.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q030",
+    "question": "Quels deux fichiers XML sont créés par défaut par Android Studio dans le dossier layout, lors de la création d'un projet ?",
+    "type": "single",
+    "options": [
+      "index.xml et main.xml",
+      "activity_main.xml et content_main.xml",
+      "manifest.xml et strings.xml",
+      "build.xml et config.xml"
+    ],
+    "answer": [1],
+    "explanation": "Android Studio crée deux fichiers XML : activity_main.xml (qui définit l'apparence générale de l'activité) et content_main.xml (le layout que l'on manipule pour disposer les composants).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q031",
+    "question": "Quel est le rôle du fichier activity_main.xml par rapport à content_main.xml ?",
+    "type": "single",
+    "options": [
+      "activity_main.xml définit l'apparence générale de l'activité (disposition, taille, barre d'outil), et son propre layout est content_main.xml",
+      "Ils sont totalement indépendants l'un de l'autre",
+      "content_main.xml définit l'apparence générale, activity_main.xml n'a aucune fonction",
+      "Les deux fichiers sont identiques et interchangeables"
+    ],
+    "answer": [0],
+    "explanation": "activity_main.xml définit l'apparence générale de l'activité (sa disposition, sa taille, sa barre d'outil), et son propre layout n'est autre que content_main.xml, que l'on manipule pour disposer les composants.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q032",
+    "question": "Que contient le dossier 'drawable' d'un projet Android ?",
+    "type": "single",
+    "options": [
+      "Uniquement le code source Java",
+      "Tout élément qui peut être dessiné sur l'écran : images, formes, animations, transitions",
+      "Les fichiers de configuration Gradle",
+      "Les fichiers audio de l'application"
+    ],
+    "answer": [1],
+    "explanation": "Le dossier drawable contient tout élément qui peut être dessiné sur l'écran : images (de préférence en PNG), formes, animations, transitions, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q033",
+    "question": "Combien de dossiers drawable différents existent pour gérer les différentes résolutions d'écran ?",
+    "type": "single",
+    "options": ["Trois", "Quatre", "Cinq", "Six"],
+    "answer": [2],
+    "explanation": "Le cours cite cinq dossiers drawable : ldpi, mdpi, hdpi, xhdpi et xxhdpi, correspondant à différentes résolutions d'écran.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q034",
+    "question": "Associez chaque dossier drawable à sa résolution d'écran approximative correspondante.",
+    "type": "multiple",
+    "options": [
+      "mdpi = ~160dpi",
+      "hdpi = ~240dpi",
+      "xxhdpi = ~480dpi",
+      "ldpi = ~320dpi"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "mdpi correspond à ~160dpi, hdpi à ~240dpi, et xxhdpi à ~480dpi. En réalité, ldpi correspond à ~120dpi (basse résolution), pas ~320dpi (qui correspond à xhdpi).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q035",
+    "question": "Grâce aux différents dossiers drawable, une application peut adapter son interface à chaque résolution d'écran avec combien de fichiers .apk ?",
+    "type": "single",
+    "options": ["Un seul fichier .apk", "Un fichier .apk par résolution", "Deux fichiers .apk minimum", "Cela nécessite obligatoirement plusieurs applications distinctes"],
+    "answer": [0],
+    "explanation": "En populant correctement les dossiers drawable, on peut créer des applications avec une interface qui s'adapte à chaque résolution d'écran avec un seul fichier .apk.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q036",
+    "question": "Que contient le dossier 'menu' d'un projet Android ?",
+    "type": "single",
+    "options": ["Les icônes de l'application", "Les fichiers XML définissant les menus", "Les fichiers de style CSS", "Le code Java des activités"],
+    "answer": [1],
+    "explanation": "Le dossier menu contient les fichiers XML définissant les menus de l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q037",
+    "question": "Que contient le dossier 'mipmap' d'un projet Android ?",
+    "type": "single",
+    "options": [
+      "Les fichiers de traduction",
+      "Les images de l'icône de l'application sous différentes résolutions",
+      "Les fichiers de test unitaire",
+      "Le fichier manifest"
+    ],
+    "answer": [1],
+    "explanation": "Le dossier mipmap contient les images de l'icône de l'application sous différentes résolutions.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q038",
+    "question": "Que contient le dossier 'values' d'un projet Android ?",
+    "type": "single",
+    "options": [
+      "Les fichiers XML qui définissent des valeurs constantes (chaînes de caractères, dimensions, couleurs, styles)",
+      "Le code source des activités",
+      "Les images de fond d'écran",
+      "Les scripts de test"
+    ],
+    "answer": [0],
+    "explanation": "Le dossier values contient les fichiers XML qui définissent des valeurs constantes : chaînes de caractères, dimensions, couleurs, styles, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q039",
+    "question": "Associez chaque fichier du dossier values à son contenu typique.",
+    "type": "multiple",
+    "options": [
+      "strings.xml = chaînes de caractères",
+      "colors.xml = définitions de couleurs",
+      "styles.xml = styles de l'application",
+      "strings.xml = images de l'icône"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "strings.xml contient les chaînes de caractères, colors.xml les couleurs, et styles.xml les styles. Les images de l'icône se trouvent dans mipmap, pas dans strings.xml.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q040",
+    "question": "Quel système Android Studio utilise-t-il pour compiler et générer les applications ?",
+    "type": "single",
+    "options": ["Maven", "Ant", "Gradle", "Make"],
+    "answer": [2],
+    "explanation": "Android Studio utilise un système appelé Gradle pour compiler et générer les applications.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q041",
+    "question": "De quoi Gradle a-t-il besoin pour fonctionner et définir les règles de compilation et de génération ?",
+    "type": "single",
+    "options": [
+      "D'un fichier image",
+      "D'un script qui définit la configuration et les dépendances",
+      "D'une connexion internet permanente",
+      "D'un compte Google Play obligatoire"
+    ],
+    "answer": [1],
+    "explanation": "Pour fonctionner, Gradle a besoin d'un script qui définit les règles de compilation et génération (configuration et dépendances).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q042",
+    "question": "Combien de scripts Gradle Android Studio crée-t-il typiquement pour un projet ?",
+    "type": "single",
+    "options": [
+      "Un seul script pour tout le projet",
+      "Un script par module (ex: build.gradle Module :app) et un script pour le projet entier",
+      "Un script par activité créée",
+      "Un script par fichier XML"
+    ],
+    "answer": [1],
+    "explanation": "Android Studio crée un script gradle pour chaque module (build.gradle (Module :app)) ainsi qu'un script pour le projet entier (build.gradle (Project : MonAppli)).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q043",
+    "question": "Que définit-on notamment dans le fichier build.gradle de l'application ?",
+    "type": "multiple",
+    "options": [
+      "La version du SDK utilisée pour la compilation",
+      "La version minimale du SDK nécessaire (rétro-compatibilité)",
+      "L'identifiant de l'application (nom du package)",
+      "Le mot de passe du compte développeur Google"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le build.gradle de l'application définit entre autres la version du SDK de compilation, la version minimale du SDK pour la rétro-compatibilité, et l'identifiant de l'application (nom du package).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q044",
+    "question": "À quoi sert un émulateur dans le développement Android ?",
+    "type": "single",
+    "options": [
+      "À reproduire le comportement d'un appareil réel de façon virtuelle",
+      "À compiler le code Java plus rapidement",
+      "À remplacer définitivement Android Studio",
+      "À créer automatiquement le fichier manifest"
+    ],
+    "answer": [0],
+    "explanation": "Un émulateur permet de reproduire le comportement d'un appareil réel d'une façon virtuelle, évitant d'avoir à charger l'application sur un appareil physique à chaque test.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q045",
+    "question": "Comment s'appelle l'appareil virtuel utilisé par Android Studio pour tester une application ?",
+    "type": "single",
+    "options": ["Virtual Test Device (VTD)", "Android Virtual Device (AVD)", "Android Simulation Kit (ASK)", "Mobile Emulation Tool (MET)"],
+    "answer": [1],
+    "explanation": "L'appareil virtuel s'appelle Android Virtual Device (AVD), qui émule le comportement d'un téléphone, d'une tablette ou autre.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q046",
+    "question": "Quel menu/outil permet de configurer un émulateur dans Android Studio ?",
+    "type": "single",
+    "options": ["Project Explorer", "AVD Manager", "SDK Tools uniquement", "Gradle Scripts"],
+    "answer": [1],
+    "explanation": "Pour configurer un émulateur, il faut aller dans AVD Manager.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q047",
+    "question": "Lors de la création d'un AVD, que faut-il faire après avoir choisi son téléphone dans la liste des dispositifs matériels ?",
+    "type": "single",
+    "options": ["Cliquer sur Cancel", "Cliquer sur Next", "Fermer directement la fenêtre", "Redémarrer l'ordinateur"],
+    "answer": [1],
+    "explanation": "Après avoir choisi le téléphone/dispositif, il faut cliquer sur Next pour continuer la configuration de l'AVD.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q048",
+    "question": "Quel bouton permet de lancer l'exécution de l'application dans Android Studio ?",
+    "type": "single",
+    "options": ["Stop", "Run (le bouton play vert)", "Debug uniquement", "Build APK"],
+    "answer": [1],
+    "explanation": "Pour lancer l'exécution sur l'émulateur, il faut appuyer sur le bouton d'exécution 'Run', représenté par une flèche verte (play).",
+    "image": null
+  },
+  {
+    "id": "ti-as-q049",
+    "question": "Lors du lancement d'une application, l'option 'Use same device for future launches' permet quoi ?",
+    "type": "single",
+    "options": [
+      "De sélectionner automatiquement le même appareil à chaque lancement, sans avoir à le resélectionner",
+      "De dupliquer l'application sur plusieurs appareils simultanément",
+      "De supprimer l'émulateur après chaque test",
+      "De changer automatiquement la version du SDK"
+    ],
+    "answer": [0],
+    "explanation": "Cocher 'Use same device for future launches' évite d'avoir à sélectionner l'appareil à chaque lancement de l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q050",
+    "question": "Pour exécuter une application sur un appareil réel (et non un émulateur), quelle option doit être activée dans les paramètres du téléphone ?",
+    "type": "single",
+    "options": ["Le mode avion", "L'option de débogage USB", "Le Bluetooth", "La localisation GPS"],
+    "answer": [1],
+    "explanation": "Pour exécuter l'application sur un appareil réel, il faut connecter le téléphone en USB et activer l'option de débogage USB dans les paramètres du développeur.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q051",
+    "question": "Sur les versions Android supérieures à 4.2, comment faire apparaître les 'Options pour les développeurs', cachées par défaut ?",
+    "type": "single",
+    "options": [
+      "Redémarrer le téléphone en mode sans échec",
+      "Aller dans Paramètres > À propos et toucher 'Numéro de build' sept fois",
+      "Installer une application tierce",
+      "Réinitialiser complètement le téléphone"
+    ],
+    "answer": [1],
+    "explanation": "Pour faire apparaître les options pour les développeurs, cachées par défaut sur les versions supérieures à 4.2, il faut aller dans Paramètres > À propos et toucher 'Numéro de build' sept fois.",
+    "image": null
+  },
+  {
+    "id": "ti-as-q052",
+    "question": "Lors du lancement d'une application sur un appareil réel connecté, que faut-il sélectionner si Android Studio demande de choisir l'appareil ?",
+    "type": "single",
+    "options": ["Create New Virtual Device", "Choose a running device, puis son téléphone/tablette", "Cancel", "Aucune sélection n'est nécessaire"],
+    "answer": [1],
+    "explanation": "Il faut sélectionner 'Choose a running device', puis son téléphone ou sa tablette ; Android Studio installera alors l'application sur l'appareil et la lancera.",
+    "image": null
+  }
+]

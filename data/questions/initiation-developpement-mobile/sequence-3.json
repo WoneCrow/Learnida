@@ -1,0 +1,497 @@
+[
+  {
+    "id": "ti-s3-q001",
+    "question": "Pourquoi dit-on que la plate-forme Android est « innovante » ?",
+    "type": "single",
+    "options": [
+      "Parce qu'elle intègre les dernières technologies de téléphonie (écran tactile, accéléromètre, GPS, appareil photo...)",
+      "Parce qu'elle est gratuite",
+      "Parce qu'elle utilise uniquement le langage C++",
+      "Parce qu'elle est fermée aux développeurs"
+    ],
+    "answer": [0],
+    "explanation": "Android est innovante car toutes les dernières technologies de téléphonie y sont intégrées : écran tactile, accéléromètre, GPS, appareil photo numérique, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q002",
+    "question": "Quels sont les points clés qui caractérisent Android en tant que plate-forme ?",
+    "type": "multiple",
+    "options": ["Innovante", "Accessible", "Ouverte (open source)", "Payante et fermée"],
+    "answer": [0, 1, 2],
+    "explanation": "Android est innovante (technologies intégrées), accessible (pas de matériel spécifique ni langage rare requis) et ouverte (licence open source).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q003",
+    "question": "En tant que développeur, dans quel langage réalise-t-on le développement sur la plate-forme Android d'après le cours ?",
+    "type": "single",
+    "options": ["Java", "Swift", "C#", "Python"],
+    "answer": [0],
+    "explanation": "Le développement sur la plate-forme Android est réalisé en langage Java, un des langages de programmation les plus répandus.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q004",
+    "question": "Vrai ou Faux : pour développer sur Android, il faut obligatoirement acheter du matériel spécifique.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. En tant que développeur, on n'a pas besoin d'acheter de matériel spécifique : un émulateur suffit (un téléphone Android n'est nécessaire que pour aller plus loin dans les tests).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q005",
+    "question": "Sous quelle forme de licence la plate-forme Android est-elle fournie ?",
+    "type": "single",
+    "options": ["Licence propriétaire fermée", "Licence open source", "Licence commerciale payante", "Licence freeware sans accès au code"],
+    "answer": [1],
+    "explanation": "La plate-forme Android est fournie sous licence open source, permettant à tous les développeurs et constructeurs de consulter les sources et d'effectuer les modifications qu'ils souhaitent.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q006",
+    "question": "Quel est le nom de code de la toute première version majeure référencée (Android 1.5) ?",
+    "type": "single",
+    "options": ["Cupcake", "Donut", "Eclair", "Froyo"],
+    "answer": [0],
+    "explanation": "Android 1.5 porte le nom de code « Cupcake », avec un API Level de 3.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q007",
+    "question": "Quel est le niveau d'API (API Level) associé à la version Gingerbread (Android 2.3) ?",
+    "type": "single",
+    "options": ["7", "8", "9", "11"],
+    "answer": [2],
+    "explanation": "Gingerbread correspond à Android 2.3 et à l'API Level 9, d'après le tableau des versions.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q008",
+    "question": "Associez correctement : Android 4.4 correspond à quel nom de code ?",
+    "type": "single",
+    "options": ["Jelly Bean", "KitKat", "Lollipop", "Honeycomb"],
+    "answer": [1],
+    "explanation": "Android 4.4 porte le nom de code KitKat, avec un API Level de 19.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q009",
+    "question": "Vrai ou Faux : les évolutions rapides entre versions Android n'ont jamais eu d'impact sur la compatibilité des applications.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le cours précise que ces évolutions n'ont pas toujours été sans impact sur le bon fonctionnement et la compatibilité des applications entre versions.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q010",
+    "question": "Sur quel noyau (kernel) l'architecture Android est-elle construite ?",
+    "type": "single",
+    "options": ["Noyau Windows", "Noyau Linux", "Noyau macOS (XNU)", "Noyau FreeBSD"],
+    "answer": [1],
+    "explanation": "L'architecture Android est construite autour du noyau Linux (par exemple, la version 3.4 pour Lollipop 5.1).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q011",
+    "question": "Quelles sont les grandes couches de l'architecture Android présentées dans le cours ?",
+    "type": "multiple",
+    "options": ["Applications", "Applications Framework", "Libraries / Android Runtime", "Linux Kernel"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "L'architecture Android est composée de 4 grandes couches : Applications, Applications Framework, Libraries (avec Android Runtime) et Linux Kernel.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q012",
+    "question": "Quel est le rôle principal du Linux Kernel dans l'architecture Android ?",
+    "type": "single",
+    "options": [
+      "Offrir les services fondamentaux (drivers matériels, gestion des process/mémoire, sécurité, réseau, power management) et une couche d'abstraction entre le matériel et le reste de la pile logicielle",
+      "Afficher les interfaces graphiques des applications",
+      "Gérer uniquement le Wi-Fi",
+      "Compiler le code Java en bytecode"
+    ],
+    "answer": [0],
+    "explanation": "Le Linux Kernel offre les services fondamentaux (hardware drivers, process & memory management, security, network, power management) et une couche d'abstraction entre le HW et le reste de la pile logicielle.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q013",
+    "question": "Quelle machine virtuelle a officiellement remplacé Dalvik depuis la version Lollipop ?",
+    "type": "single",
+    "options": ["JVM (Java Virtual Machine)", "ART (Android RunTime)", "CLR (.NET)", "V8"],
+    "answer": [1],
+    "explanation": "L'Android Runtime inclut les librairies fondamentales et la machine virtuelle ART (Android RunTime), remplaçant officiellement Dalvik depuis la version Lollipop.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q014",
+    "question": "Que fournit la couche « Applications Framework » de l'architecture Android ?",
+    "type": "single",
+    "options": [
+      "Les classes utilisées pour la création d'applications Android, une abstraction pour les accès matériels et la gestion de l'interface utilisateur et des ressources",
+      "Uniquement les pilotes de la caméra",
+      "Le compilateur Java",
+      "La gestion du Wi-Fi uniquement"
+    ],
+    "answer": [0],
+    "explanation": "L'Applications Framework fournit les classes utilisées pour créer des applications Android et représente une abstraction pour les accès HW, la gestion de l'interface utilisateur et des ressources.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q015",
+    "question": "Vrai ou Faux : toutes les applications Android, natives ou tierces, sont basées sur la même API.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Toutes les applications, natives ou tierces, sont basées sur la même API et s'exécutent sur un runtime Android en utilisant les classes et services de la couche Applications Framework.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q016",
+    "question": "Quel composant applicatif représente le bloc de base d'une application Android et gère la partie présentation ?",
+    "type": "single",
+    "options": ["Le service", "L'activité", "Le fournisseur de contenu", "Le récepteur d'intents"],
+    "answer": [1],
+    "explanation": "L'activité représente le bloc de base d'une application. Elle correspond à la partie présentation et fonctionne par le biais de vues qui affichent des interfaces graphiques et répondent aux actions utilisateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q017",
+    "question": "Vrai ou Faux : toute application Android a au moins une activité, à l'exception des applications de type services.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Toute application, à l'exception des applications de type services, a au moins une activité dont la première est celle qu'on voit au démarrage de l'application.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q018",
+    "question": "Quelles étapes sont nécessaires pour implanter une activité dans une application Android ?",
+    "type": "multiple",
+    "options": [
+      "Créer une classe qui étend android.app.Activity",
+      "Déclarer l'activité dans le fichier de manifeste",
+      "Créer le fichier de layout associé à l'activité",
+      "Créer un ContentProvider obligatoire"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "L'implantation d'une activité se fait en créant une classe qui étend android.app.Activity, en la déclarant dans le fichier de manifeste, et en créant le fichier de layout associé.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q019",
+    "question": "Quel composant fonctionne en tâche de fond, de manière invisible, notamment pour mettre à jour des sources de données ou déclencher des notifications ?",
+    "type": "single",
+    "options": ["L'activité", "Le service", "Le gadget", "La vue"],
+    "answer": [1],
+    "explanation": "Le service est un composant qui fonctionne en tâche de fond, de manière invisible. Ses principales utilisations sont la mise à jour de sources de données, d'activités visibles et le déclenchement de notifications.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q020",
+    "question": "Vrai ou Faux : un service qui n'est pas déclaré dans le fichier manifeste (via la balise <service>) sera tout de même exécuté par le système.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Tous les services doivent être représentés par des éléments <service> dans le fichier manifeste. Tout ce qui n'est pas déclaré ne sera pas vu par le système et ne sera jamais exécuté.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q021",
+    "question": "Quel composant applicatif permet de gérer et de partager des informations, aussi bien au sein d'une application qu'entre applications ?",
+    "type": "single",
+    "options": ["Le fournisseur de contenu (Content Provider)", "L'activité", "Le récepteur d'intents", "La notification"],
+    "answer": [0],
+    "explanation": "Le fournisseur de contenu permet de gérer et de partager des informations ; un même fournisseur permet d'accéder à des données au sein d'une application et entre applications.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q022",
+    "question": "Qu'est-ce qu'un « gadget » dans une application Android ?",
+    "type": "single",
+    "options": [
+      "Un composant graphique qui s'installe sur le bureau Android (ex : calendrier, lecteur audio)",
+      "Une classe de gestion réseau",
+      "Un type d'activité cachée",
+      "Un fichier de configuration XML"
+    ],
+    "answer": [0],
+    "explanation": "Le gadget est un composant graphique qui s'installe sur le bureau Android. Le calendrier ou le lecteur audio sont deux exemples de gadgets que l'on trouve souvent sur un écran d'accueil.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q023",
+    "question": "Associez chaque composant applicatif Android à sa classe/paquetage : que vaut « Activité » ?",
+    "type": "single",
+    "options": ["android.app.Activity", "android.app.Service", "android.content.ContentProvider", "android.appwidget.*"],
+    "answer": [0],
+    "explanation": "Le composant Activité est associé à la classe android.app.Activity.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q024",
+    "question": "Associez chaque composant applicatif Android à sa classe/paquetage : que vaut « Fournisseur de contenu » ?",
+    "type": "single",
+    "options": ["android.app.Activity", "android.app.Service", "android.content.ContentProvider", "android.appwidget.*"],
+    "answer": [2],
+    "explanation": "Le fournisseur de contenu est associé à la classe android.content.ContentProvider.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q025",
+    "question": "Quel objet permet de diffuser des messages en demandant la réalisation d'une action, et de fournir ou demander des services/données entre applications ?",
+    "type": "single",
+    "options": ["L'objet Intent", "L'objet Notification", "L'objet ContentProvider", "L'objet ViewGroup"],
+    "answer": [0],
+    "explanation": "L'objet Intent permet de diffuser des messages en demandant la réalisation d'une action ; ces objets permettent aux applications de fournir ou demander des services ou des données.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q026",
+    "question": "Vrai ou Faux : la transmission d'un Intent se fait uniquement au sein d'une seule application et ne peut jamais cibler une activité ou un service précis.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. La transmission d'un Intent se fait à travers tout le système et peut cibler précisément une activité ou un service.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q027",
+    "question": "Quel composant permet à une application d'être à l'écoute des autres afin de répondre aux objets Intent qui lui sont destinés ?",
+    "type": "single",
+    "options": ["Le récepteur d'Intents (Broadcast Receiver)", "Le fournisseur de contenu", "Le gadget", "La vue"],
+    "answer": [0],
+    "explanation": "Le récepteur d'Intents (Broadcast Receiver) permet à une application d'être à l'écoute des autres afin de répondre aux objets Intent qui lui sont destinés.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q028",
+    "question": "Qu'est-ce qu'une notification, selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une information qui signale quelque chose à l'utilisateur sans interrompre ses actions en cours",
+      "Un message qui bloque obligatoirement l'écran",
+      "Un type de service qui s'exécute au démarrage",
+      "Un fichier de mise en page XML"
+    ],
+    "answer": [0],
+    "explanation": "Une notification signale une information à l'utilisateur sans interrompre ses actions en cours.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q029",
+    "question": "Associez la classe concernée : le Récepteur d'Intents (Broadcast Receiver) correspond à quelle classe ?",
+    "type": "single",
+    "options": ["android.content.Intent", "android.content.BroadcastReceiver", "android.app.Notification", "android.app.Activity"],
+    "answer": [1],
+    "explanation": "Le Récepteur d'Intents correspond à la classe android.content.BroadcastReceiver.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q030",
+    "question": "Vrai ou Faux : un programme Android comporte une méthode main() comme point d'entrée, à l'image d'un programme Java classique.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Il n'y a aucune méthode main dans un programme Android : Android exécute le code d'une activité en appelant des callbacks correspondant aux phases de sa vie.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q031",
+    "question": "Quelle méthode du cycle de vie est invoquée lorsque l'activité est créée pour la première fois ?",
+    "type": "single",
+    "options": ["onStart()", "onCreate()", "onResume()", "onRestart()"],
+    "answer": [1],
+    "explanation": "onCreate() est invoquée quand l'activité est créée pour la première fois (« Called when the activity is first created »).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q032",
+    "question": "Quelle méthode du cycle de vie est appelée lorsque l'activité est visible et que l'utilisateur peut interagir avec elle ?",
+    "type": "single",
+    "options": ["onPause()", "onStop()", "onResume()", "onDestroy()"],
+    "answer": [2],
+    "explanation": "onResume() est appelée lorsque l'activité est visible pour l'utilisateur et que celui-ci peut interagir avec elle.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q033",
+    "question": "Quelle méthode est appelée lorsque l'activité n'est plus visible pour l'utilisateur car une autre activité l'a remplacée ?",
+    "type": "single",
+    "options": ["onPause()", "onStop()", "onCreate()", "onStart()"],
+    "answer": [1],
+    "explanation": "onStop() est appelée lorsque l'activité n'est pas visible pour l'utilisateur car une autre activité l'a remplacée.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q034",
+    "question": "Vrai ou Faux : il est obligatoire d'implémenter toutes les méthodes de callback du cycle de vie d'une activité.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Il n'est pas nécessaire d'implémenter toutes les callbacks du cycle de vie d'une activité.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q035",
+    "question": "Dans le cycle de vie d'une activité, quelle méthode est appelée juste avant onStart() lorsqu'on relance une activité arrêtée (onStop) ?",
+    "type": "single",
+    "options": ["onRestart()", "onPause()", "onDestroy()", "onCreate()"],
+    "answer": [0],
+    "explanation": "onRestart() est appelée lorsque l'utilisateur revient à l'écran ou reprend l'activité qui avait été arrêtée, juste avant onStart().",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q036",
+    "question": "Quel est le composant graphique élémentaire de la plate-forme Android dont héritent tous les composants graphiques (boutons, images, cases à cocher...) ?",
+    "type": "single",
+    "options": ["La classe View", "La classe Activity", "La classe Intent", "La classe Service"],
+    "answer": [0],
+    "explanation": "Le composant graphique élémentaire de la plate-forme Android est la vue : tous les composants graphiques d'Android héritent de la classe View.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q037",
+    "question": "Quelle classe permet de regrouper plusieurs vues dans une structure arborescente ?",
+    "type": "single",
+    "options": ["View", "ViewGroup", "Activity", "Intent"],
+    "answer": [1],
+    "explanation": "Android offre la possibilité de regrouper plusieurs vues dans une structure arborescente à l'aide de la classe ViewGroup, qui peut elle-même en regrouper d'autres.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q038",
+    "question": "Qu'est-ce qu'un « gabarit » (layout) en Android ?",
+    "type": "single",
+    "options": [
+      "Une extension de la classe ViewGroup permettant de positionner les vues",
+      "Une sous-classe de Service",
+      "Un fichier de configuration réseau",
+      "Une méthode du cycle de vie d'une activité"
+    ],
+    "answer": [0],
+    "explanation": "Un gabarit, ou layout, est une extension de la classe ViewGroup ; on peut imbriquer des gabarits les uns dans les autres pour créer des mises en forme évoluées.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q039",
+    "question": "Quels types de gabarits sont présentés dans le cours pour positionner les vues ?",
+    "type": "multiple",
+    "options": ["LinearLayout", "RelativeLayout", "FrameLayout", "TableLayout"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Les gabarits présentés sont LinearLayout, RelativeLayout, FrameLayout et TableLayout, chacun disposant différemment les vues et gabarits enfants.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q040",
+    "question": "Dans un LinearLayout, quelle propriété permet de définir si les éléments sont affichés de gauche à droite ou de haut en bas ?",
+    "type": "single",
+    "options": ["gravity", "orientation", "layout_width", "id"],
+    "answer": [1],
+    "explanation": "En modifiant la propriété orientation, on signale au LinearLayout dans quel sens afficher ses enfants : horizontal (gauche à droite) ou vertical (haut en bas).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q041",
+    "question": "Comment fonctionne le positionnement des vues dans un RelativeLayout ?",
+    "type": "single",
+    "options": [
+      "Les enfants sont positionnés les uns par rapport aux autres, le premier enfant servant de référence",
+      "Chaque enfant est empilé au même endroit, cachant les précédents",
+      "Les enfants sont disposés en lignes et colonnes comme un tableau",
+      "Les enfants sont toujours centrés automatiquement"
+    ],
+    "answer": [0],
+    "explanation": "Dans un RelativeLayout, les enfants sont positionnés les uns par rapport aux autres, le premier enfant servant de référence aux autres.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q042",
+    "question": "Quel gabarit est le plus basique, positionnant chaque enfant en haut à gauche et l'affichant par-dessus les enfants précédents ?",
+    "type": "single",
+    "options": ["LinearLayout", "RelativeLayout", "FrameLayout", "TableLayout"],
+    "answer": [2],
+    "explanation": "FrameLayout est le plus basique des gabarits : chaque enfant est positionné dans le coin en haut à gauche et affiché par-dessus les enfants précédents, les cachant en partie ou complètement.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q043",
+    "question": "Vrai ou Faux : le TableLayout permet de positionner les vues en lignes et colonnes, à l'instar d'un tableau.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. TableLayout permet de positionner les vues en lignes et colonnes à l'instar d'un tableau.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q044",
+    "question": "Sur quelle notion repose le mécanisme d'interception des événements sous Android ?",
+    "type": "single",
+    "options": ["Les threads", "Les écouteurs (listeners)", "Les services", "Les fournisseurs de contenu"],
+    "answer": [1],
+    "explanation": "Le mécanisme d'interception repose sur la notion d'écouteurs, aussi appelés listeners dans la documentation Java, permettant d'associer un événement à une méthode à appeler.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q045",
+    "question": "Quelle méthode faut-il appeler sur une vue (ex : un bouton) pour lui associer un écouteur de clic ?",
+    "type": "single",
+    "options": ["setOnClickListener()", "setImageResource()", "findViewById()", "onCreate()"],
+    "answer": [0],
+    "explanation": "Une fois l'instance du bouton récupérée avec findViewById, on associe l'écouteur correspondant à l'événement désiré à l'aide de setOnClickListener().",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q046",
+    "question": "Pour un événement de type « OnClick » (élément cliqué), quelle est la méthode associée à implémenter dans l'écouteur ?",
+    "type": "single",
+    "options": ["onClick()", "onTouch()", "onStart()", "onCreate()"],
+    "answer": [0],
+    "explanation": "Les événements interceptés et les méthodes associées sont imposés : pour un événement OnClick, la méthode associée sera onClick().",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q047",
+    "question": "Quelle vue permet de proposer à l'utilisateur de saisir du texte ?",
+    "type": "single",
+    "options": ["ImageView", "EditText", "Button", "TextView statique uniquement"],
+    "answer": [1],
+    "explanation": "Pour proposer à l'utilisateur de saisir du texte, on utilise la vue EditText.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q048",
+    "question": "Quelle vue utilise-t-on pour ajouter une image dans une interface Android, et quelle méthode permet d'en changer la source dynamiquement ?",
+    "type": "single",
+    "options": [
+      "ImageView, avec la méthode setImageResource",
+      "EditText, avec la méthode setText",
+      "Button, avec la méthode setOnClickListener",
+      "RatingBar, avec la méthode setRating"
+    ],
+    "answer": [0],
+    "explanation": "Pour ajouter une image, on utilise la vue ImageView. La source peut être définie en XML via l'attribut src, ou dynamiquement via la méthode setImageResource.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q049",
+    "question": "Parmi les composants graphiques suivants, lesquels sont cités dans l'exemple d'interface enrichie du cours ?",
+    "type": "multiple",
+    "options": ["CheckBox (case à cocher)", "RatingBar (barre de vote/étoiles)", "AnalogClock (horloge analogique)", "MediaPlayer (lecteur vidéo natif)"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite notamment CheckBox, ImageButton, RadioGroup/RadioButton, DatePicker, RatingBar, DigitalClock et AnalogClock comme composants graphiques intégrables.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q050",
+    "question": "Vrai ou Faux : la représentation effective des composants graphiques d'une interface Android se fait sous forme d'une structure hiérarchique (arbre).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. La représentation effective de l'ensemble des composants graphiques se fait sous forme d'arbre, en une structure hiérarchique, pouvant compter d'un seul à des milliers de composants.",
+    "image": null
+  }
+]

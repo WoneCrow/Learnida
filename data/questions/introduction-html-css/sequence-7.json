@@ -1,0 +1,380 @@
+[
+  {
+    "id": "ti-s7-q001",
+    "question": "Quelle balise permet de définir un tableau HTML ?",
+    "type": "single",
+    "options": ["<table>", "<tab>", "<tr>", "<grid>"],
+    "answer": [0],
+    "explanation": "La balise <table> est la balise racine qui définit un tableau HTML.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q002",
+    "question": "Quelle balise définit une ligne dans un tableau ?",
+    "type": "single",
+    "options": ["<td>", "<th>", "<tr>", "<row>"],
+    "answer": [2],
+    "explanation": "Chaque ligne de la table est définie par la balise <tr> (table row).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q003",
+    "question": "Quelle balise définit une cellule d'en-tête, affichée en gras et centrée par défaut ?",
+    "type": "single",
+    "options": ["<td>", "<th>", "<tr>", "<head>"],
+    "answer": [1],
+    "explanation": "La balise <th> définit un en-tête de tableau, affiché en gras et centré par défaut.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q004",
+    "question": "Quelle balise définit une cellule de données classique dans un tableau ?",
+    "type": "single",
+    "options": ["<th>", "<td>", "<tr>", "<cell>"],
+    "answer": [1],
+    "explanation": "La balise <td> (table data) définit une cellule contenant les données du tableau.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q005",
+    "question": "Les éléments <td> peuvent contenir uniquement du texte, aucun autre élément HTML.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Les <td> peuvent contenir toutes sortes d'éléments HTML : texte, images, listes, autres tableaux, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q006",
+    "question": "Si l'attribut/propriété border n'est pas spécifié, comment est affiché un tableau par défaut ?",
+    "type": "single",
+    "options": ["Avec une bordure fine", "Sans bordure", "Avec une bordure épaisse", "Avec une bordure en pointillés"],
+    "answer": [1],
+    "explanation": "Si la bordure n'est pas spécifiée, la table sera affichée sans bordure.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q007",
+    "question": "Quelle propriété CSS permet d'ajouter une bordure à un tableau ?",
+    "type": "single",
+    "options": ["outline", "border", "frame", "table-border"],
+    "answer": [1],
+    "explanation": "La propriété CSS border (ex: border: 1px solid black;) définit les bordures pour la table et les cellules.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q008",
+    "question": "Quelle propriété CSS permet de fusionner les bordures de la table et des cellules en une seule bordure ?",
+    "type": "single",
+    "options": ["border-merge", "border-collapse", "border-fusion", "border-join"],
+    "answer": [1],
+    "explanation": "La propriété border-collapse: collapse; permet de façonner (fusionner) les bordures.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q009",
+    "question": "Quelle propriété CSS spécifie l'espace entre le contenu d'une cellule et ses bordures ?",
+    "type": "single",
+    "options": ["margin", "padding", "spacing", "gap"],
+    "answer": [1],
+    "explanation": "La propriété padding (ex: padding: 15px;) spécifie le rembourrage entre le contenu et les bordures de la cellule.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q010",
+    "question": "Quelle propriété CSS permet de changer l'alignement du texte dans les cellules ?",
+    "type": "single",
+    "options": ["align", "text-align", "vertical-align", "content-align"],
+    "answer": [1],
+    "explanation": "La propriété CSS text-align (ex: text-align: right;) permet de changer l'alignement du contenu des cellules.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q011",
+    "question": "Quelle propriété CSS spécifie l'espace entre les cellules d'un tableau ?",
+    "type": "single",
+    "options": ["cell-spacing", "border-spacing", "padding", "gap"],
+    "answer": [1],
+    "explanation": "La propriété border-spacing (ex: border-spacing: 5px;) spécifie l'espace entre les cellules.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q012",
+    "question": "À quoi sert l'attribut colspan sur une balise <td> ou <th> ?",
+    "type": "single",
+    "options": [
+      "Indique que la cellule s'étend sur plusieurs lignes",
+      "Indique que la cellule s'étend sur plusieurs colonnes",
+      "Définit la couleur de la cellule",
+      "Définit l'espacement entre colonnes"
+    ],
+    "answer": [1],
+    "explanation": "colspan indique que la cellule courante s'étend sur plusieurs colonnes (ex : <th colspan=\"2\">Telephone</th>).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q013",
+    "question": "À quoi sert l'attribut rowspan sur une balise <td> ou <th> ?",
+    "type": "single",
+    "options": [
+      "Indique que la cellule s'étend sur plusieurs colonnes",
+      "Indique que la cellule s'étend sur plusieurs lignes",
+      "Définit la hauteur du tableau",
+      "Ajoute une ligne vide"
+    ],
+    "answer": [1],
+    "explanation": "rowspan indique que la cellule courante s'étend sur plusieurs lignes.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q014",
+    "question": "Quels attributs peuvent être utilisés avec les balises <td> et <th> ?",
+    "type": "multiple",
+    "options": ["colspan", "rowspan", "placeholder", "required"],
+    "answer": [0, 1],
+    "explanation": "colspan et rowspan sont des attributs valides pour <td>/<th>. placeholder et required sont des attributs de formulaire (<input>).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q015",
+    "question": "Quelle balise permet d'ajouter une légende à un tableau ?",
+    "type": "single",
+    "options": ["<legend>", "<title>", "<caption>", "<label>"],
+    "answer": [2],
+    "explanation": "La balise <caption> est utilisée pour ajouter une légende à une table, et doit être insérée immédiatement après la balise <table>.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q016",
+    "question": "La balise <caption> doit être insérée juste avant la fermeture de </table>.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : <caption> doit être insérée immédiatement après la balise <table>, pas avant la fermeture.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q017",
+    "question": "Pour appliquer un style CSS spécifique à un seul tableau, quel attribut lui ajoute-t-on généralement ?",
+    "type": "single",
+    "options": ["class uniquement", "name", "id", "style-ref"],
+    "answer": [2],
+    "explanation": "L'attribut id est ajouté à une table si on veut lui définir un style spécial (ex: table#t01 { ... }).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q018",
+    "question": "Que fait le sélecteur CSS table#t01 tr:nth-child(even) ?",
+    "type": "single",
+    "options": [
+      "Il cible toutes les lignes paires du tableau ayant l'id t01",
+      "Il cible toutes les lignes impaires du tableau",
+      "Il cible uniquement la première ligne",
+      "Il cible toutes les colonnes paires"
+    ],
+    "answer": [0],
+    "explanation": "nth-child(even) sélectionne les lignes (tr) paires de la table identifiée par l'id t01, permettant par exemple d'alterner les couleurs de fond.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q019",
+    "question": "Combien de types de listes existe-t-il en HTML selon le cours ?",
+    "type": "single",
+    "options": ["2", "3", "4", "5"],
+    "answer": [1],
+    "explanation": "Il existe 3 types de listes : les listes non numérotées (UL), les listes numérotées (OL) et les listes descriptives (DL).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q020",
+    "question": "Associez chaque type de liste à sa balise HTML correspondante.",
+    "type": "multiple",
+    "options": [
+      "Liste non numérotée = <ul>",
+      "Liste numérotée = <ol>",
+      "Liste descriptive = <dl>",
+      "Liste numérotée = <ul>"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les listes non numérotées utilisent <ul>, les listes numérotées <ol>, et les listes descriptives <dl>. La 4e proposition est fausse.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q021",
+    "question": "Quelle balise indique chaque nouvel item dans une liste <ul> ou <ol> ?",
+    "type": "single",
+    "options": ["<item>", "<li>", "<el>", "<dt>"],
+    "answer": [1],
+    "explanation": "La balise <li> (list item) indique chaque nouvel élément d'une liste <ul> ou <ol>.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q022",
+    "question": "Quelle propriété CSS permet de définir le style du marqueur (puce) des éléments d'une liste non numérotée ?",
+    "type": "single",
+    "options": ["list-style-type", "marker-style", "bullet-type", "li-style"],
+    "answer": [0],
+    "explanation": "La propriété list-style-type permet de définir le style du marqueur des éléments de la liste (disc, circle, square, none).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q023",
+    "question": "Quelles sont des valeurs valides pour la propriété list-style-type ?",
+    "type": "multiple",
+    "options": ["disc", "circle", "square", "colspan"],
+    "answer": [0, 1, 2],
+    "explanation": "disc, circle et square sont des valeurs valides de list-style-type. colspan est un attribut de tableau, pas une valeur CSS de liste.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q024",
+    "question": "Quelle valeur de list-style-type permet de ne pas afficher de marqueur devant les éléments de la liste ?",
+    "type": "single",
+    "options": ["disc", "none", "circle", "empty"],
+    "answer": [1],
+    "explanation": "La valeur none fait en sorte que les éléments de la liste ne soient pas marqués.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q025",
+    "question": "Dans une liste numérotée <ol>, quel attribut permet de définir le type de marqueur (chiffres, lettres, chiffres romains) ?",
+    "type": "single",
+    "options": ["style", "marker", "type", "format"],
+    "answer": [2],
+    "explanation": "L'attribut type définit le type de marqueur des éléments de la liste (type=\"1\", \"A\", \"a\", \"I\", \"i\").",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q026",
+    "question": "Que produit l'attribut type=\"I\" sur une balise <ol> ?",
+    "type": "single",
+    "options": [
+      "Des chiffres classiques (1, 2, 3...)",
+      "Des lettres minuscules",
+      "Des nombres romains en majuscules",
+      "Des nombres romains en minuscules"
+    ],
+    "answer": [2],
+    "explanation": "type=\"I\" affiche les numéros de la liste sous forme de nombres romains en majuscules (I, II, III...).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q027",
+    "question": "Que produit l'attribut type=\"a\" sur une balise <ol> ?",
+    "type": "single",
+    "options": [
+      "Des lettres majuscules",
+      "Des lettres minuscules",
+      "Des chiffres",
+      "Des nombres romains en minuscules"
+    ],
+    "answer": [1],
+    "explanation": "type=\"a\" affiche les numéros de la liste sous forme de lettres minuscules (a, b, c...).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q028",
+    "question": "À quoi sert l'attribut start sur une balise <ol> ?",
+    "type": "single",
+    "options": [
+      "Il définit le rang du numéro de début de la liste",
+      "Il définit le premier caractère du texte",
+      "Il démarre automatiquement une nouvelle liste",
+      "Il définit la couleur du premier élément"
+    ],
+    "answer": [0],
+    "explanation": "L'attribut start définit le rang du numéro de début (ex: start=\"3\" avec type=\"a\" commence à la lettre c).",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q029",
+    "question": "Avec <ol type=\"a\" start=\"3\">, quel sera le marqueur du premier élément de la liste ?",
+    "type": "single",
+    "options": ["a", "b", "c", "3"],
+    "answer": [2],
+    "explanation": "start=\"3\" avec type=\"a\" démarre au 3e rang alphabétique, soit la lettre c.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q030",
+    "question": "Qu'est-ce qu'une liste descriptive en HTML ?",
+    "type": "single",
+    "options": [
+      "Une liste numérotée avec des descriptions",
+      "Une liste de termes suivis chacun de leur description",
+      "Une liste sans marqueur",
+      "Une liste imbriquée dans un tableau"
+    ],
+    "answer": [1],
+    "explanation": "Une liste de description est une liste de termes suivis chacun de sa description, définie par <dl>.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q031",
+    "question": "Associez chaque balise à son rôle dans une liste descriptive.",
+    "type": "multiple",
+    "options": [
+      "<dl> = conteneur de la liste",
+      "<dt> = définit un terme",
+      "<dd> = définit la description du terme",
+      "<dt> = définit la description du terme"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "<dl> est le conteneur, <dt> définit le terme et <dd> sa description. La 4e proposition inverse les rôles et est donc fausse.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q032",
+    "question": "Dans le code <dl><dt>UCAD</dt><dd>- Université Cheikh Anta Diop de Dakar</dd></dl>, quel est le terme défini ?",
+    "type": "single",
+    "options": ["Université Cheikh Anta Diop de Dakar", "UCAD", "dl", "dd"],
+    "answer": [1],
+    "explanation": "UCAD est placé dans la balise <dt>, ce qui en fait le terme ; sa description figure dans <dd>.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q033",
+    "question": "Pour créer un menu horizontal à partir d'une liste <ul>, quelle propriété CSS applique-t-on aux <li> pour les aligner côte à côte ?",
+    "type": "single",
+    "options": ["display: block", "float: left", "position: absolute", "text-align: center"],
+    "answer": [1],
+    "explanation": "La propriété float: left; appliquée aux <li> permet de les afficher côte à côte, formant un menu horizontal.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q034",
+    "question": "Dans l'exemple de menu horizontal du cours, quelle propriété est utilisée sur <ul> pour retirer les puces par défaut ?",
+    "type": "single",
+    "options": ["list-style-type: none", "display: none", "padding: none", "border: none"],
+    "answer": [0],
+    "explanation": "list-style-type: none; retire les puces par défaut de la liste utilisée comme menu.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q035",
+    "question": "Quel sélecteur CSS est utilisé pour changer la couleur de fond d'un lien de menu lorsqu'on le survole avec la souris ?",
+    "type": "single",
+    "options": ["li a:active", "li a:hover", "li a:focus", "li a:visited"],
+    "answer": [1],
+    "explanation": "Le pseudo-sélecteur li a:hover permet de changer le style (ex: background-color) lorsqu'on survole le lien avec la souris.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q036",
+    "question": "Dans l'exemple de menu, quelle balise est utilisée à l'intérieur de chaque <li> pour créer un lien cliquable ?",
+    "type": "single",
+    "options": ["<link>", "<a>", "<button>", "<nav>"],
+    "answer": [1],
+    "explanation": "Chaque <li> contient une balise <a href=\"...\"> pour créer un lien cliquable dans le menu.",
+    "image": null
+  },
+  {
+    "id": "ti-s7-q037",
+    "question": "La propriété text-decoration: none; appliquée aux liens du menu sert à retirer le soulignement par défaut des liens.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : text-decoration: none; supprime le soulignement automatique des liens <a>.",
+    "image": null
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "id": "ti-s2-q001",
+    "question": "Quels sont les trois grands thèmes abordés dans le module 3 « Médias réseau » ?",
+    "type": "multiple",
+    "options": ["Médias de cuivre", "Médias optiques", "Médias sans fil", "Médias satellites"],
+    "answer": [0, 1, 2],
+    "explanation": "Le module 3 couvre les médias de cuivre, les médias optiques et les médias sans fil (le satellite n'est pas traité).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q002",
+    "question": "De quoi est composé un atome ?",
+    "type": "multiple",
+    "options": ["Protons", "Neutrons", "Électrons", "Photons"],
+    "answer": [0, 1, 2],
+    "explanation": "Un atome est composé de protons (charge +), de neutrons (neutres) situés dans le noyau, et d'électrons (charge -) qui gravitent autour.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q003",
+    "question": "Quelle charge porte un électron ?",
+    "type": "single",
+    "options": ["Positive", "Négative", "Neutre", "Variable"],
+    "answer": [1],
+    "explanation": "L'électron porte une charge négative (-), contrairement au proton qui porte une charge positive (+).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q004",
+    "question": "Des charges positives attirent des charges négatives.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est vrai : les charges de même signe se repoussent, tandis que les charges de signe opposé s'attirent.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q005",
+    "question": "Que produit une force électrique nette nulle sur des électrons libres au repos ?",
+    "type": "single",
+    "options": [
+      "L'équilibre des champs électriques qui repoussent les électrons",
+      "L'absence totale d'électrons",
+      "Un champ magnétique externe",
+      "La mise à la terre du matériel"
+    ],
+    "answer": [0],
+    "explanation": "Lorsque des électrons proches les uns des autres ne se déplacent pas, c'est parce que les champs électriques qui les repoussent s'équilibrent, d'où une force nette égale à zéro.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q006",
+    "question": "Classez chaque matériau : le cuivre est un isolant.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cuivre (Cu) est un conducteur, les électrons y circulent facilement. Les isolants (plastique, caoutchouc, verre...) laissent difficilement circuler les électrons.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q007",
+    "question": "Quels éléments sont considérés comme des semi-conducteurs ?",
+    "type": "multiple",
+    "options": ["Silicium (Si)", "Germanium (Ge)", "Argent (Ag)", "Carbone (C)"],
+    "answer": [0, 1, 3],
+    "explanation": "Le silicium, le germanium et le carbone sont des semi-conducteurs : le flux d'électrons peut y être contrôlé de manière précise. L'argent est un conducteur.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q008",
+    "question": "Comment appelle-t-on le flux d'électrons qui se déplacent vers la borne positive d'une batterie ?",
+    "type": "single",
+    "options": ["La tension", "Le courant électrique", "La résistance", "L'impédance"],
+    "answer": [1],
+    "explanation": "Ce flux d'électrons est un exemple de courant électrique, représenté par le symbole I et mesuré en ampères (A).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q009",
+    "question": "Le courant électrique est mesuré en volts.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le courant électrique est mesuré en ampères (symbole I, abréviation A). Le volt mesure la tension.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q010",
+    "question": "Dans l'analogie de l'électricité avec l'eau, associez chaque élément électrique à son équivalent hydraulique.",
+    "type": "multiple",
+    "options": [
+      "Tension = Hauteur d'eau",
+      "Courant = Débit d'eau",
+      "Fil = Tuyau",
+      "Résistance = Boucle complète"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "La tension correspond à la hauteur d'eau, le courant au débit d'eau, le fil au tuyau et la résistance/impédance au robinet. La boucle complète correspond au circuit, pas à la résistance.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q011",
+    "question": "Que représente un « circuit ouvert » dans un circuit en série (ex. lampe de poche) ?",
+    "type": "single",
+    "options": [
+      "Le fil est un conducteur et le courant circule",
+      "L'interrupteur est hors tension, la boucle est interrompue et il n'y a pas de courant",
+      "La lampe est allumée en continu",
+      "La résistance est nulle"
+    ],
+    "answer": [1],
+    "explanation": "Lorsque l'interrupteur est hors tension, le circuit est ouvert, la boucle est interrompue : il n'y a ni courant ni continuité.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q012",
+    "question": "Quels éléments composent la chaîne de mise à la terre du matériel réseau ?",
+    "type": "multiple",
+    "options": [
+      "Transformateur",
+      "Panneau de distribution électrique",
+      "Limiteur de surtensions",
+      "Antenne omnidirectionnelle"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "La chaîne comprend le transformateur, le panneau de distribution, le limiteur de surtensions, la prise de courant, l'alimentation sans coupure et le réseau, chacun relié à une prise de terre.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q013",
+    "question": "Dans la spécification « 10BaseT », que signifie « 10 » ?",
+    "type": "single",
+    "options": [
+      "Le nombre de connecteurs",
+      "Le débit du réseau local en Mbits/s",
+      "La longueur du câble en mètres",
+      "Le nombre de paires torsadées"
+    ],
+    "answer": [1],
+    "explanation": "Le « 10 » indique le débit du réseau local, soit 10 Mbits/s. « BASE » signifie bande de base et « T » indique le type de câble (paires torsadées).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q014",
+    "question": "« BASE » dans une norme de câble comme 10BaseT signifie « large bande ».",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : BASE signifie bande de base. Broad signifie large bande (comme dans Broadband).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q015",
+    "question": "Quel connecteur est utilisé avec un câble coaxial ?",
+    "type": "single",
+    "options": ["Connecteur RJ-45", "Connecteur BNC", "Connecteur SC", "Connecteur DB-9"],
+    "answer": [1],
+    "explanation": "Le câble coaxial utilise un connecteur BNC.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q016",
+    "question": "Quelle est la longueur de câble maximale d'un câble coaxial ?",
+    "type": "single",
+    "options": ["100 m", "250 m", "500 m", "1000 m"],
+    "answer": [2],
+    "explanation": "Le câble coaxial a une longueur de câble maximale de 500 m, avec un débit de 10 à 100 Mbits/s.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q017",
+    "question": "Quels sont les composants d'un câble coaxial ?",
+    "type": "multiple",
+    "options": ["Conducteur en cuivre", "Isolant en matière plastique", "Blindage en cuivre tressé", "Gaine extérieure"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Un câble coaxial est composé, du centre vers l'extérieur, d'un conducteur en cuivre, d'un isolant en matière plastique, d'un blindage en cuivre tressé et d'une gaine extérieure.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q018",
+    "question": "Quelle est la longueur de câble maximale pour un câble à paires torsadées blindées (STP) ou ScTP ?",
+    "type": "single",
+    "options": ["50 m", "100 m", "300 m", "500 m"],
+    "answer": [1],
+    "explanation": "Les câbles STP et ScTP ont une longueur de câble maximale de 100 m, avec un débit de 0 à 100 Mbits/s.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q019",
+    "question": "Que signifie l'acronyme ScTP ?",
+    "type": "single",
+    "options": [
+      "Screened Twisted Pair",
+      "Shielded Copper Twisted Pair",
+      "Serial Cable Twisted Pair",
+      "Standard Coaxial Twisted Pair"
+    ],
+    "answer": [0],
+    "explanation": "ScTP signifie « Screened Twisted Pair », un câble à paires torsadées avec un blindage intégral (feuille métallique).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q020",
+    "question": "Le câble à paires torsadées non blindées (UTP) est plus onéreux que le câble à paires torsadées blindées (STP).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le câble UTP est le moins onéreux des câbles cuivre, contrairement au STP dont le coût est modéré à moyennement onéreux.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q021",
+    "question": "Quels débits peut atteindre un câble à paires torsadées non blindées (UTP) selon sa catégorie ?",
+    "type": "multiple",
+    "options": ["10 Mbits/s", "100 Mbits/s", "1000 Mbits/s", "10 000 Mbits/s"],
+    "answer": [0, 1, 2],
+    "explanation": "Selon la qualité/catégorie du câble UTP, le débit peut être de 10, 100 ou 1000 Mbits/s.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q022",
+    "question": "Dans une topologie avec concentrateur, répéteur et station de travail reliés par UTP, quelle est la distance maximale typique entre chaque équipement ?",
+    "type": "single",
+    "options": ["50 m", "100 m", "150 m", "200 m"],
+    "answer": [1],
+    "explanation": "Chaque segment de câble UTP (concentrateur-répéteur, répéteur-station de travail) est limité à 100 m maximum.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q023",
+    "question": "Quel type de câble utilise-t-on pour connecter des équipements différents, comme un switch à un ordinateur ?",
+    "type": "single",
+    "options": ["Câble croisé", "Câble droit", "Câble console", "Câble coaxial"],
+    "answer": [1],
+    "explanation": "Un câble droit (straight-through) est utilisé pour connecter des équipements différents (ex. switch-PC).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q024",
+    "question": "Sur un câble droit, la broche 1 d'une extrémité est reliée à quelle broche de l'autre extrémité ?",
+    "type": "single",
+    "options": ["Broche 1", "Broche 3", "Broche 6", "Broche 8"],
+    "answer": [0],
+    "explanation": "Sur un câble droit, chaque broche est reliée à la broche de même numéro (broche 1 à broche 1, etc.).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q025",
+    "question": "Quel type de câble faut-il utiliser pour connecter deux équipements similaires entre eux (ex. switch-switch) ?",
+    "type": "single",
+    "options": ["Câble droit", "Câble croisé", "Câble console", "Câble ScTP"],
+    "answer": [1],
+    "explanation": "Un câble croisé (crossover) est utilisé pour connecter des équipements similaires, comme deux switchs.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q026",
+    "question": "Dans un câble croisé Ethernet (10BaseT/100BaseTX), quelles broches sont actives ?",
+    "type": "multiple",
+    "options": ["Broche 1", "Broche 2", "Broche 3", "Broche 6"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Seuls quatre fils (broches 1, 2, 3 et 6) sont actifs dans un câble d'interconnexion Ethernet 10BaseT/100BaseTX.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q027",
+    "question": "Sur un câble croisé, la broche 1 d'une extrémité est reliée à quelle broche de l'autre extrémité ?",
+    "type": "single",
+    "options": ["Broche 1", "Broche 2", "Broche 3", "Broche 6"],
+    "answer": [2],
+    "explanation": "Sur un câble croisé, la broche 1 est reliée à la broche 3, et la broche 2 est reliée à la broche 6 (inversion de la paire d'émission/réception).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q028",
+    "question": "Quel câble permet de se connecter à un port console d'un équipement réseau depuis un PC ?",
+    "type": "single",
+    "options": [
+      "Câble croisé RJ-45 à RJ-45",
+      "Câble console RJ-45 à RJ-45 avec adaptateur RJ-45 à DB-9",
+      "Câble fibre optique duplex",
+      "Câble coaxial avec connecteur BNC"
+    ],
+    "answer": [1],
+    "explanation": "La connexion au port console se fait via un câble console RJ-45 à RJ-45, associé à un adaptateur RJ-45 à DB-9 (ou DB-25) étiqueté TERMINAL sur le PC.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q029",
+    "question": "Quels sont les paramètres standard du port COM pour une connexion console ?",
+    "type": "single",
+    "options": [
+      "9600 bits/s, 8 bits de données, sans parité, 1 bit d'arrêt, pas de contrôle de flux",
+      "115200 bits/s, 7 bits de données, parité paire, 2 bits d'arrêt",
+      "9600 bits/s, 16 bits de données, parité impaire",
+      "38400 bits/s, 8 bits de données, sans parité, sans bit d'arrêt"
+    ],
+    "answer": [0],
+    "explanation": "Les paramètres standard sont : 9 600 bits/s, 8 bits de données, sans parité, 1 bit d'arrêt et pas de contrôle de flux.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q030",
+    "question": "Sur un câble console, les broches sont câblées en configuration directe (broche 1 vers broche 1).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le câble console (rollover) inverse toutes les broches : broche 1 vers broche 8, broche 2 vers broche 7, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q031",
+    "question": "Quelles sont les trois couches principales d'une fibre optique ?",
+    "type": "multiple",
+    "options": ["Cœur", "Enveloppe", "Gaine intermédiaire", "Blindage tressé"],
+    "answer": [0, 1, 2],
+    "explanation": "Une fibre optique de base est composée du cœur, de l'enveloppe et de la gaine intermédiaire (le blindage tressé et la fibre aramide s'ajoutent dans une coupe transversale plus complète).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q032",
+    "question": "Quelle affirmation décrit correctement la fibre monomode ?",
+    "type": "single",
+    "options": [
+      "Cœur de petit diamètre, requiert un chemin très direct, adaptée aux longues distances (jusqu'à environ 3 km) avec un laser",
+      "Cœur large, plusieurs chemins inclinés, adaptée aux courtes distances avec une LED",
+      "Utilisée uniquement pour les connexions console",
+      "Ne peut transporter que des signaux électriques"
+    ],
+    "answer": [0],
+    "explanation": "La fibre monomode a un cœur de petit diamètre (8,3 à 10 microns), requiert un chemin très direct, moins de dispersion, et est adaptée aux longues distances (jusqu'à environ 3 km) en utilisant des lasers comme source lumineuse.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q033",
+    "question": "La fibre multimode utilise généralement des LEDs comme source lumineuse.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : la fibre multimode utilise des LEDs comme source lumineuse, souvent dans des LAN sur des distances de quelques centaines de mètres, contrairement au monomode qui utilise des lasers.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q034",
+    "question": "Quel est le diamètre approximatif d'une fibre monomode (cœur/enveloppe) ?",
+    "type": "single",
+    "options": ["100/140 microns", "62,5/125 microns", "50/125 microns", "10/125 microns"],
+    "answer": [3],
+    "explanation": "La fibre monomode a un diamètre typique de 10/125 microns, plus petit que les fibres multimodes (50/125, 62,5/125 ou 100/140 microns).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q035",
+    "question": "Dans un câble à fibre optique duplex, à quoi servent les désignations Tx et Rx ?",
+    "type": "single",
+    "options": [
+      "Tx = transmission, Rx = réception",
+      "Tx = terminal, Rx = résistance",
+      "Tx = tension, Rx = rayonnement",
+      "Tx = torsadé, Rx = redondant"
+    ],
+    "answer": [0],
+    "explanation": "Tx désigne la fibre de transmission (émission) et Rx la fibre de réception, permettant une communication bidirectionnelle (duplex).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q036",
+    "question": "Quels connecteurs sont utilisés avec les câbles à fibre optique, comme illustré dans le module ?",
+    "type": "multiple",
+    "options": ["Connecteur ST", "Connecteur SC", "Connecteur BNC", "Connecteur DB-9"],
+    "answer": [0, 1],
+    "explanation": "Les connecteurs ST et SC sont des connecteurs typiques utilisés avec les câbles à fibre optique. Le BNC est utilisé avec le câble coaxial et le DB-9 pour les connexions console/série.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q037",
+    "question": "Dans les équipements de transmission optique, que génère l'émetteur (Tx) et que détecte le récepteur (Rx) ?",
+    "type": "single",
+    "options": [
+      "Tx génère de la lumière (LASER ou LED), Rx détecte la lumière via une photodiode PIN",
+      "Tx génère un signal magnétique, Rx détecte une tension électrique",
+      "Tx génère un signal radio, Rx détecte une onde sonore",
+      "Tx et Rx transmettent tous deux un signal électrique brut sans conversion"
+    ],
+    "answer": [0],
+    "explanation": "Le signal électrique entrant est converti en lumière par un LASER ou une LED (Tx), transmise via la fibre, puis reconvertie en signal électrique par une photodiode PIN (Rx).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q038",
+    "question": "Un panneau de brassage optique permet de séparer le côté câblage du côté utilisateur.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le panneau de brassage optique fait la jonction entre le côté câblage (connecteurs duplex) et le côté utilisateur (connecteurs simplex).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q039",
+    "question": "Quelles sont les normes de réseaux LAN sans fil mentionnées dans le module ?",
+    "type": "multiple",
+    "options": ["802.11", "802.11b", "802.11a", "802.11g"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le module cite les normes 802.11, 802.11b, 802.11a et 802.11g comme normes de réseaux LAN sans fil.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q040",
+    "question": "Quels types de cartes réseau sans fil sont présentés dans le module ?",
+    "type": "multiple",
+    "options": ["Carte interne pour ordinateur de bureau ou serveur", "Carte PCMCIA pour portable", "Carte USB externe", "Carte fibre optique interne"],
+    "answer": [0, 1, 2],
+    "explanation": "Le module présente une carte réseau sans fil interne (PCI), une carte PCMCIA pour ordinateur portable, et une carte USB externe.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q041",
+    "question": "Qu'est-ce que le « roaming » (itinérance) dans un réseau LAN sans fil ?",
+    "type": "single",
+    "options": [
+      "La possibilité pour un utilisateur mobile de se déplacer entre plusieurs zones de couverture sans perdre la connexion",
+      "Un protocole de chiffrement des données",
+      "Le processus de mise à la terre du matériel",
+      "Un type de connecteur de fibre optique"
+    ],
+    "answer": [0],
+    "explanation": "Le roaming permet à un utilisateur équipé d'un appareil sans fil de se déplacer entre différentes zones de couverture (points d'accès) sans interruption de la connexion au réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q042",
+    "question": "Quels types de trames existent dans les réseaux sans fil 802.11 ?",
+    "type": "multiple",
+    "options": ["Trames d'administration", "Trames de contrôle", "Trames de données", "Trames de mise à la terre"],
+    "answer": [0, 1, 2],
+    "explanation": "Il existe trois grandes catégories de trames : les trames d'administration (association, sonde, Beacon...), les trames de contrôle (RTS, CTS, accusé de réception) et les trames de données.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q043",
+    "question": "Que signifient les abréviations RTS et CTS dans les trames de contrôle sans fil ?",
+    "type": "single",
+    "options": [
+      "RTS = Demande pour émettre, CTS = Prêt à émettre",
+      "RTS = Retour au sol, CTS = Contrôle total du signal",
+      "RTS = Réseau très sécurisé, CTS = Carte très spécialisée",
+      "RTS = Réception totale, CTS = Contrôle temporel du système"
+    ],
+    "answer": [0],
+    "explanation": "RTS signifie « Demande pour émettre » (Request To Send) et CTS signifie « Prêt à émettre » (Clear To Send), deux trames de contrôle utilisées pour éviter les collisions.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q044",
+    "question": "Plus un client sans fil s'éloigne du point d'accès, plus le débit sélectionné est faible.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : avec la sélection de débit adaptable, le débit diminue progressivement avec la distance (ex. de 11 Mbps près du point d'accès jusqu'à 1-2 Mbps en périphérie).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q045",
+    "question": "Quels types de modulation sont illustrés pour transmettre un signal numérique sur une onde radio ?",
+    "type": "multiple",
+    "options": ["AM (modulation d'amplitude)", "FM (modulation de fréquence)", "PM (modulation de phase)", "DM (modulation directe)"],
+    "answer": [0, 1, 2],
+    "explanation": "Le module illustre trois types de modulation : AM (amplitude), FM (fréquence) et PM (phase), utilisées pour coder un signal numérique sur une porteuse analogique.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q046",
+    "question": "Une antenne omnidirectionnelle émet le signal dans une seule direction précise.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : une antenne omnidirectionnelle diffuse le signal dans toutes les directions autour d'elle, créant un périmètre de couverture circulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q047",
+    "question": "Quels mécanismes contribuent à la sécurité des réseaux LAN sans fil selon le module ?",
+    "type": "multiple",
+    "options": ["Échange EAP-MD5", "LEAP", "Cryptage", "Câble console"],
+    "answer": [0, 1, 2],
+    "explanation": "La sécurité des réseaux sans fil repose notamment sur l'échange EAP-MD5, LEAP, l'authentification de l'utilisateur, le cryptage et l'authentification des données.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q048",
+    "question": "Selon le résumé du module 3, quels sont les quatre grands types de médias réseau étudiés ?",
+    "type": "multiple",
+    "options": ["Câble coaxial", "Câble à paires torsadées (blindées)", "Câble à paires torsadées non blindées", "Sans fil"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le résumé du module liste : câble coaxial, câble à paires torsadées, câble à paires torsadées non blindées, et sans fil.",
+    "image": null
+  }
+]

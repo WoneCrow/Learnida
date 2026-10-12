@@ -1,0 +1,49 @@
+/* responsive.css — bascule mobile (nav flottante basse) → desktop (nav
+ * flottante haute), avec les mêmes proportions "glass" partout. */
+
+@media (min-width: 780px) {
+  #nav {
+    top: 0;
+    bottom: auto;
+    padding: 16px 14px 0;
+  }
+
+  .nav__list {
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 4px;
+    padding: 6px;
+    max-width: none;
+    width: auto;
+  }
+
+  .nav__item {
+    flex-direction: row;
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+  .nav__icon { font-size: 16px; }
+
+  #app { padding: 96px 24px 64px; }
+
+  .quick-grid { grid-template-columns: repeat(4, 1fr); }
+
+  .stat-grid { grid-template-columns: repeat(3, 1fr); }
+
+  .hero { padding: 32px; }
+  .hero__title { font-size: 27px; }
+
+  .question-card__text { font-size: 19px; }
+
+  .modal-overlay { align-items: center; }
+  .modal-box { border-radius: 26px; }
+
+  .mode-list { max-width: 520px; }
+}
+
+@media (max-width: 380px) {
+  .question-card__text { font-size: 15.5px; }
+  .btn { font-size: 13.5px; padding: 12px 16px; }
+  .hero__title { font-size: 20px; }
+}

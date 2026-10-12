@@ -1,0 +1,307 @@
+[
+  {
+    "id": "algo-s3-q001",
+    "question": "Quel problème motive l'introduction du type tableau dans le cours ?",
+    "type": "single",
+    "options": [
+      "Devoir déclarer un grand nombre de variables devient fastidieux voire impossible",
+      "Les variables simples ne peuvent pas contenir de nombres réels",
+      "Il est impossible de lire plusieurs valeurs au clavier",
+      "Le pseudo-langage n'autorise pas les boucles"
+    ],
+    "answer": [0],
+    "explanation": "Pour saisir n valeurs, déclarer n variables devient impropre, fastidieux voire impossible quand n est grand, d'où l'intérêt du type tableau.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q002",
+    "question": "Quelle est la définition exacte d'un tableau selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une collection séquentielle d'éléments de même type, où chaque élément est identifié par sa position (indice)",
+      "Une collection d'éléments de types différents identifiés par un nom",
+      "Une structure de contrôle permettant de répéter des instructions",
+      "Une fonction qui trie des données"
+    ],
+    "answer": [0],
+    "explanation": "Un tableau est une collection séquentielle d'éléments de même type, où chaque élément peut être identifié par sa position (l'indice) dans la collection.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q003",
+    "question": "L'indice d'un tableau doit être de type scalaire.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que la position (indice) d'un élément dans le tableau doit être de type scalaire.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q004",
+    "question": "Quels éléments faut-il fournir pour déclarer un tableau ?",
+    "type": "multiple",
+    "options": ["Son nom", "Ses bornes (indice minimal et maximal)", "Le type des éléments", "Sa valeur initiale par défaut"],
+    "answer": [0, 1, 2],
+    "explanation": "Pour déclarer un tableau, il faut donner son nom, ses bornes (inférieure et supérieure) et le type des éléments le composant. La valeur initiale n'est pas exigée à la déclaration.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q005",
+    "question": "Quelle est la syntaxe correcte pour déclarer une variable tableau ?",
+    "type": "single",
+    "options": [
+      "nom : tableau[<indice minimum> .. <indice maximum>] de <type des composants>",
+      "nom : <type des composants>[tableau]",
+      "tableau nom(min, max, type)",
+      "Variable[nom] = type(min..max)"
+    ],
+    "answer": [0],
+    "explanation": "La syntaxe exacte donnée dans le cours est : Variable nom : tableau[<indice minimum> .. <indice maximum>] de <type des composants>.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q006",
+    "question": "Dans l'exemple \"variable t : tableau[1..10] de réels\", combien d'éléments contient le tableau t ?",
+    "type": "single",
+    "options": ["10", "1", "9", "11"],
+    "answer": [0],
+    "explanation": "Le tableau va de l'indice 1 à l'indice 10 inclus, il contient donc 10 éléments. On dit que le tableau t est de taille 10.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q007",
+    "question": "Comment note-t-on l'élément numéro I d'un tableau t ?",
+    "type": "single",
+    "options": ["t[I]", "t(I)", "t.I", "I[t]"],
+    "answer": [0],
+    "explanation": "L'élément n° I est représenté par l'expression t[I], qui peut être traité comme une variable simple.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q008",
+    "question": "Dans la mémoire centrale, les éléments d'un tableau sont stockés de façon linéaire dans des zones contiguës.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement que les éléments d'un tableau sont stockés de façon linéaire, dans des zones contiguës de la mémoire.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q009",
+    "question": "Un tableau à une seule dimension est-il le seul type de tableau possible en algorithmique ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le cours indique qu'on peut aussi représenter des tableaux à 2 dimensions, voire plus, en plus des tableaux de dimension 1.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q010",
+    "question": "Comment peut-on remplir (créer) un tableau selon le cours ?",
+    "type": "multiple",
+    "options": ["Par saisie (lecture au clavier)", "Par affectation directe", "Par compilation automatique", "Par tri préalable"],
+    "answer": [0, 1],
+    "explanation": "La création d'un tableau consiste au remplissage de ses cases, ce qui peut se faire par saisie ou par affectation.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q011",
+    "question": "Quelle structure utilise-t-on généralement pour saisir ou afficher tous les éléments d'un tableau ?",
+    "type": "single",
+    "options": ["Une boucle Pour (avec compteur)", "Un schéma conditionnel simple", "Une structure de choix multiple", "Une déclaration de constante"],
+    "answer": [0],
+    "explanation": "Pour parcourir un tableau (saisie ou affichage), on utilise généralement une boucle Pour avec un compteur allant de la borne min à la borne max.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q012",
+    "question": "Pour calculer la somme des éléments d'un tableau t de n entiers, à quelle valeur doit-on initialiser la variable S avant la boucle ?",
+    "type": "single",
+    "options": ["0", "1", "n", "t[1]"],
+    "answer": [0],
+    "explanation": "L'algorithme du cours initialise S à 0 avant de parcourir le tableau avec \"S <- S + t[i]\" pour chaque élément.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q013",
+    "question": "Pour rechercher le minimum d'un tableau t, à quelle valeur initialise-t-on la variable min avant la boucle ?",
+    "type": "single",
+    "options": ["t[1]", "0", "n", "t[n]"],
+    "answer": [0],
+    "explanation": "L'algorithme initialise min avec la première valeur du tableau (min <- t[1]), puis compare chaque élément suivant pour le mettre à jour si besoin.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q014",
+    "question": "Dans l'algorithme du minimum, la mise à jour de min se fait uniquement si t[i] < min.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "La condition \"Si t[i] < min Alors min <- t[i]\" garantit que min contient toujours la plus petite valeur rencontrée jusque-là.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q015",
+    "question": "Dans l'algorithme du test d'appartenance, quel est le type de la variable \"appartient\" ?",
+    "type": "single",
+    "options": ["Booléen", "Entier", "Chaîne de caractères", "Réel"],
+    "answer": [0],
+    "explanation": "\"appartient\" est une variable booléenne, initialisée à false, puis mise à VRAI si l'élément recherché est trouvé dans le tableau.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q016",
+    "question": "Dans l'algorithme complet de test d'appartenance (avec parcours total), pourquoi peut-on optimiser la recherche pour l'arrêter dès que l'élément est trouvé ?",
+    "type": "single",
+    "options": [
+      "Parce qu'il est inutile de continuer à parcourir le tableau une fois l'élément trouvé",
+      "Parce que le tableau doit toujours être trié",
+      "Parce que la boucle Pour ne peut pas être interrompue",
+      "Parce que cela change le résultat final"
+    ],
+    "answer": [0],
+    "explanation": "Le cours indique qu'on peut arrêter les itérations dès qu'on rencontre l'élément x, ce qui rend nécessaire l'usage d'une boucle Tant Que ou Répéter au lieu de Pour.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q017",
+    "question": "Quelle(s) boucle(s) sont utilisées pour arrêter la recherche dès que l'élément x est trouvé dans le tableau ?",
+    "type": "multiple",
+    "options": ["Tant Que", "Répéter", "Pour", "FinCas"],
+    "answer": [0, 1],
+    "explanation": "Le cours propose deux versions équivalentes de la recherche optimisée : l'une avec Tant Que, l'autre avec Répéter.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q018",
+    "question": "Dans la version avec Tant Que du test d'appartenance, quelle est la condition de poursuite de la boucle ?",
+    "type": "single",
+    "options": ["(t[i]<>x) et (i<=n)", "(t[i]=x) ou (i>n)", "(t[i]=x) et (i<=n)", "(t[i]<>x) ou (i>n)"],
+    "answer": [0],
+    "explanation": "La boucle continue tant que l'élément courant n'est pas x ET que l'indice i n'a pas dépassé n : \"Tant que (t[i]<>x) et (i<=n) Faire\".",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q019",
+    "question": "Dans la version avec Répéter du test d'appartenance, quelle est la condition de sortie de la boucle ?",
+    "type": "single",
+    "options": ["(t[i]=x) ou (i>n)", "(t[i]<>x) et (i<=n)", "(t[i]=x) et (i<=n)", "i=n"],
+    "answer": [0],
+    "explanation": "La boucle Répéter s'arrête \"Jusqu'à (t[i]=x) ou (i>n)\", c'est-à-dire dès qu'on trouve x ou qu'on a dépassé la fin du tableau.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q020",
+    "question": "Si x appartient au tableau t, que représente la valeur de i à la fin de la recherche optimisée ?",
+    "type": "single",
+    "options": ["L'indice de la case qui contient x", "Le nombre total d'éléments du tableau", "La valeur de x elle-même", "Toujours 1"],
+    "answer": [0],
+    "explanation": "Le cours précise que dans les deux versions (Tant Que ou Répéter), si x appartient à t, la valeur de i correspond à l'indice de la case qui le contient.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q021",
+    "question": "Qu'est-ce qu'une chaîne de caractères selon le cours ?",
+    "type": "single",
+    "options": [
+      "Soit une chaîne vide, soit un caractère suivi d'une chaîne de caractères",
+      "Un tableau obligatoirement de taille fixe 255",
+      "Un type de données réservé aux entiers",
+      "Une constante non modifiable"
+    ],
+    "answer": [0],
+    "explanation": "Une chaîne de caractères est soit une chaîne vide, soit un caractère suivi d'une chaîne de caractères ; en somme, une collection de caractères.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q022",
+    "question": "Une chaîne de caractères peut être traitée comme un tableau de caractères.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement qu'une chaîne de caractères peut être traitée comme un tableau de caractères.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q023",
+    "question": "Quelle est la taille par défaut réservée pour une variable de type chaîne non bornée (variable s : chaine) en algorithme ?",
+    "type": "single",
+    "options": ["255 caractères", "10 caractères", "1 caractère", "1000 caractères"],
+    "answer": [0],
+    "explanation": "Une variable de type chaîne a une taille prédéfinie entre 1 et 255 ; sans précision, 255 caractères sont réservés.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q024",
+    "question": "Dans la déclaration \"s10 : chaîne[10]\", combien de caractères sont réservés ?",
+    "type": "single",
+    "options": ["10", "255", "1", "100"],
+    "answer": [0],
+    "explanation": "La précision [10] indique que seuls 10 caractères sont réservés pour cette variable, contrairement au type chaîne standard qui réserve 255 caractères.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q025",
+    "question": "Quels opérateurs peuvent être appliqués sur des variables de type Chaîne selon le cours ?",
+    "type": "multiple",
+    "options": ["+", "=", "<>", "MOD"],
+    "answer": [0, 1, 2],
+    "explanation": "Les opérateurs applicables sur les chaînes sont : +, =, <>, <=, >=, <, >. MOD est un opérateur arithmétique réservé aux entiers.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q026",
+    "question": "Quelle fonction prédéfinie permet d'obtenir la longueur courante d'une chaîne ?",
+    "type": "single",
+    "options": ["length(s)", "size(s)", "count(s)", "len(s)"],
+    "answer": [0],
+    "explanation": "La fonction length(s : Chaîne) : entier retourne la longueur courante de la chaîne s.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q027",
+    "question": "Que fait la fonction copy(s, p, l) sur une chaîne ?",
+    "type": "single",
+    "options": [
+      "Elle renvoie une chaîne constituée de l caractères à partir de la position p",
+      "Elle duplique entièrement la chaîne s",
+      "Elle compare s à une autre chaîne",
+      "Elle convertit s en majuscules"
+    ],
+    "answer": [0],
+    "explanation": "copy(s : Chaine ; p : entier ; l : entier) : Chaine renvoie une sous-chaîne de l caractères à partir de la position p dans s.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q028",
+    "question": "À quoi sert la fonction concat(s1, s2) ?",
+    "type": "single",
+    "options": [
+      "Elle renvoie la chaîne résultant de la concaténation de s1 et s2",
+      "Elle compare s1 et s2 caractère par caractère",
+      "Elle renvoie la position de s1 dans s2",
+      "Elle supprime les espaces entre s1 et s2"
+    ],
+    "answer": [0],
+    "explanation": "concat(s1, s2 : Chaine) : Chaine renvoie la chaîne obtenue en concaténant s1 et s2.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q029",
+    "question": "Que renvoie la fonction pos(ssch, ch) si la sous-chaîne ssch ne se trouve pas dans ch ?",
+    "type": "single",
+    "options": ["0", "-1", "Une erreur d'exécution", "La longueur de ch"],
+    "answer": [0],
+    "explanation": "pos(ssch : Chaîne; ch : Chaîne) : Entier renvoie la position du premier caractère de ssch dans ch, ou 0 si la sous-chaîne n'y figure pas.",
+    "image": null
+  },
+  {
+    "id": "algo-s3-q030",
+    "question": "Une variable de type chaîne est une séquence de caractères dont la longueur peut varier au cours de l'exécution, dans la limite de sa taille prédéfinie.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'une variable de type chaîne est une séquence de caractères de longueur variable au cours de l'exécution, avec une taille prédéfinie entre 1 et 255.",
+    "image": null
+  }
+]

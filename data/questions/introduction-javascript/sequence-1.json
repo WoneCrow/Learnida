@@ -1,0 +1,405 @@
+[
+  {
+    "id": "js-s1-q001",
+    "question": "Que désigne JavaScript selon le cours ?",
+    "type": "single",
+    "options": ["Le langage de programmation du Web", "Un langage exclusivement côté serveur", "Un langage compilé pour applications de bureau", "Une base de données relationnelle"],
+    "answer": [0],
+    "explanation": "JavaScript (JS) est présenté comme le langage de programmation du Web, compris et interprété par tous les navigateurs modernes.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q002",
+    "question": "Quelle est la triade de technologies que tout développeur Web doit apprendre selon le cours ?",
+    "type": "multiple",
+    "options": ["HTML", "CSS", "JavaScript", "SQL"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite HTML (contenu), CSS (présentation) et JavaScript (comportement) comme la triade fondamentale du développement Web.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q003",
+    "question": "JavaScript est identique au langage de programmation Java.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le cours précise explicitement que JavaScript est différent du langage de programmation Java.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q004",
+    "question": "Sous quel nom le JavaScript a-t-il été standardisé par l'ECMA ?",
+    "type": "single",
+    "options": ["ECMAScript", "JScript", "WebScript", "NodeScript"],
+    "answer": [0],
+    "explanation": "Le JavaScript était à la base un langage côté client standardisé par l'ECMA sous le nom d'ECMAScript.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q005",
+    "question": "Quelle version de l'ECMAScript a été ratifiée en juin 2015 et est aussi appelée ES6 ?",
+    "type": "single",
+    "options": ["ECMAScript 2015", "ECMAScript 5", "ECMAScript 3", "ECMAScript 2020"],
+    "answer": [0],
+    "explanation": "L'ECMAScript 2015, aussi appelé ES6, a été ratifiée en juin 2015 pour suivre les évolutions du langage.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q006",
+    "question": "Quelles sont les trois caractéristiques globales de JavaScript citées dans le cours ?",
+    "type": "multiple",
+    "options": ["C'est un langage de script", "C'est un langage orienté objet", "C'est un langage interprété par le navigateur", "C'est un langage exclusivement fonctionnel"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours retient trois caractéristiques : langage de script, orienté objet, et interprété par le navigateur.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q007",
+    "question": "Qu'est-ce qu'un langage de script par opposition à un langage compilé ?",
+    "type": "single",
+    "options": ["Un langage qui s'interprète", "Un langage qui doit être transformé en exécutable avant l'exécution", "Un langage qui ne fonctionne que côté serveur", "Un langage sans variables"],
+    "answer": [0],
+    "explanation": "Un script est, par opposition à un langage compilé, un langage qui s'interprète ; ici l'interprète du JavaScript est le navigateur du visiteur.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q008",
+    "question": "Quels logiciels sont nécessaires pour débuter en JavaScript selon le cours ?",
+    "type": "multiple",
+    "options": ["Un éditeur de texte", "Un navigateur", "Un compilateur C++", "Un serveur de base de données"],
+    "answer": [0, 1],
+    "explanation": "Il suffit d'un éditeur de texte (le cours recommande Visual Studio Code) et d'un navigateur pour débuter en JavaScript.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q009",
+    "question": "Quel éditeur de texte est recommandé dans le cours pour écrire du JavaScript ?",
+    "type": "single",
+    "options": ["Visual Studio Code", "Bloc-notes uniquement", "Eclipse", "Xcode"],
+    "answer": [0],
+    "explanation": "Le cours recommande Visual Studio Code, tout en précisant que le Bloc-notes est suffisant mais moins pratique (pas de coloration syntaxique).",
+    "image": null
+  },
+  {
+    "id": "js-s1-q010",
+    "question": "Combien de méthodes différentes existe-t-il pour insérer du JavaScript dans une page Web selon le cours ?",
+    "type": "single",
+    "options": ["Trois", "Une seule", "Deux", "Cinq"],
+    "answer": [0],
+    "explanation": "Le cours présente trois méthodes : directement dans les balises (event handler), entre les balises <script>, et dans un fichier séparé.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q011",
+    "question": "Comment appelle-t-on la propriété qui permet d'écrire du JavaScript directement à l'intérieur d'une balise HTML ?",
+    "type": "single",
+    "options": ["Le gestionnaire d'événements (event handler)", "L'attribut src", "Le type=\"text/javascript\"", "Le DOCTYPE"],
+    "answer": [0],
+    "explanation": "Il s'agit du gestionnaire d'événements (event handler), une propriété qui porte le nom de l'événement déclenchant le script.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q012",
+    "question": "Dans l'exemple \"<a href=\"#\" onclick=\"alert('Bonjour !');\">lien</a>\", quel événement déclenche le script ?",
+    "type": "single",
+    "options": ["Un clic de souris (onclick)", "Le chargement de la page", "Le survol de la souris", "La saisie clavier"],
+    "answer": [0],
+    "explanation": "Le nom de l'événement utilisé ici est onclick, qui correspond à un clic de souris sur le lien.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q013",
+    "question": "Quelle propriété faut-il ajouter à la balise <script> pour préciser au navigateur que le code est du JavaScript ?",
+    "type": "single",
+    "options": ["type=\"text/javascript\"", "lang=\"js\"", "format=\"script\"", "charset=\"js\""],
+    "answer": [0],
+    "explanation": "On rajoute la propriété type=\"text/javascript\" à la balise <script> pour préciser au navigateur qu'il s'agit de JavaScript.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q014",
+    "question": "Quelle extension de fichier est utilisée pour un fichier JavaScript externe ?",
+    "type": "single",
+    "options": [".js", ".javascript", ".jsx", ".script"],
+    "answer": [0],
+    "explanation": "L'extension du fichier externe contenant du code JavaScript est .js.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q015",
+    "question": "Quelle propriété permet d'indiquer à la balise <script> le nom et l'emplacement d'un fichier JavaScript externe ?",
+    "type": "single",
+    "options": ["src", "href", "link", "path"],
+    "answer": [0],
+    "explanation": "On utilise la propriété src, comme pour les images, pour indiquer le fichier externe contenant le script.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q016",
+    "question": "Quel mot-clé était utilisé pour déclarer une variable jusqu'à la spécification ES5 ?",
+    "type": "single",
+    "options": ["var", "let", "const", "define"],
+    "answer": [0],
+    "explanation": "Le mot-clé var était utilisé pour déclarer une variable jusqu'à ES5 ; ES6 ajoute let et const, tout en conservant var.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q017",
+    "question": "Que permet le mot-clé const introduit par ES6 ?",
+    "type": "single",
+    "options": [
+      "Déclarer une variable à assignation unique, accessible au niveau du bloc",
+      "Déclarer une variable globale accessible partout sans restriction",
+      "Créer une boucle infinie",
+      "Convertir une chaîne en nombre"
+    ],
+    "answer": [0],
+    "explanation": "const permet de déclarer une variable à assignation unique (une seule valeur), avec une portée limitée au bloc.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q018",
+    "question": "Un nom de variable en JavaScript peut commencer par un chiffre.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le nom d'une variable peut contenir lettres, chiffres et underscore, mais ne doit pas commencer par un chiffre.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q019",
+    "question": "JavaScript est-il sensible à la casse (différence majuscules/minuscules) ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que JavaScript est sensible à la casse : nom, Nom et NOM sont trois variables différentes.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q020",
+    "question": "Quel symbole est utilisé pour délimiter une chaîne de caractères en JavaScript ?",
+    "type": "multiple",
+    "options": ["Les guillemets doubles \"", "Les apostrophes (simple quotes) '", "Les accolades { }", "Les crochets [ ]"],
+    "answer": [0, 1],
+    "explanation": "Les guillemets \" (double quotes) et les apostrophes ' (simple quotes) sont utilisés pour délimiter une chaîne de caractères.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q021",
+    "question": "Que signifie \"concaténer\" des chaînes de caractères ?",
+    "type": "single",
+    "options": ["Mettre bout à bout plusieurs chaînes pour n'en former qu'une seule", "Comparer deux chaînes entre elles", "Convertir une chaîne en nombre", "Supprimer les espaces d'une chaîne"],
+    "answer": [0],
+    "explanation": "Concaténer, c'est \"mettre bout à bout\" plusieurs chaînes de caractères pour n'en former qu'une seule, en utilisant l'opérateur +.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q022",
+    "question": "Quel caractère est utilisé en JavaScript pour représenter la virgule dans un nombre décimal ?",
+    "type": "single",
+    "options": ["Le point", "La virgule", "Le tiret", "L'apostrophe"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'on utilise un point pour représenter la virgule dans les nombres à virgule, par exemple var nombre = 1.234;.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q023",
+    "question": "Que renvoie l'opérateur modulo (%) dans l'expression a % b ?",
+    "type": "single",
+    "options": ["Le reste de la division de a par b", "Le quotient de la division de a par b", "La somme de a et b", "Le produit de a et b"],
+    "answer": [0],
+    "explanation": "a % b (si b est positif) est le reste de la division de a par b. Exemple : 52 % 19 = 14.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q024",
+    "question": "Quelles fonctions permettent de convertir une chaîne de caractères en nombre en JavaScript ?",
+    "type": "multiple",
+    "options": ["parseInt()", "parseFloat()", "toNumber()", "convert()"],
+    "answer": [0, 1],
+    "explanation": "parseInt() convertit en nombre entier et parseFloat() convertit en nombre décimal. toNumber() et convert() ne sont pas mentionnées.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q025",
+    "question": "Que signifie l'erreur \"NaN\" retournée lors d'une conversion échouée ?",
+    "type": "single",
+    "options": ["Not a Number", "New and Null", "Number and Null", "Not a Null"],
+    "answer": [0],
+    "explanation": "NaN signifie \"Not a Number\" et apparaît lorsque la chaîne à convertir n'est pas un nombre valide.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q026",
+    "question": "Quelle instruction permet d'augmenter de 1 la valeur d'une variable (incrémenter) ?",
+    "type": "single",
+    "options": ["variable++;", "variable--;", "variable+=;", "increment(variable);"],
+    "answer": [0],
+    "explanation": "Pour incrémenter une variable de 1, on utilise la notation variable++;, et variable--; pour décrémenter.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q027",
+    "question": "Qu'est-ce que la portée (scope) d'une variable ?",
+    "type": "single",
+    "options": [
+      "La région du code source dans laquelle une variable est définie",
+      "Le type de données que la variable peut contenir",
+      "La valeur initiale attribuée à la variable",
+      "Le nom donné à la variable"
+    ],
+    "answer": [0],
+    "explanation": "La portée d'une variable est la région du code source de votre programme dans lequel elle est définie.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q028",
+    "question": "Quelle est la différence entre une variable globale et une variable locale ?",
+    "type": "single",
+    "options": [
+      "Une variable globale est définie partout dans le code, une variable locale uniquement dans le corps de la fonction où elle est déclarée",
+      "Une variable globale ne peut contenir que des nombres, une variable locale que des chaînes",
+      "Une variable locale est toujours plus rapide à exécuter",
+      "Il n'y a aucune différence entre les deux"
+    ],
+    "answer": [0],
+    "explanation": "Une variable globale a une portée globale (définie partout), tandis qu'une variable déclarée dans une fonction est locale et n'est définie que dans le corps de cette fonction.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q029",
+    "question": "Dans le corps d'une fonction, si une variable locale porte le même nom qu'une variable globale, laquelle est prioritaire ?",
+    "type": "single",
+    "options": ["La variable locale", "La variable globale", "Aucune des deux, une erreur se produit", "Les deux fusionnent"],
+    "answer": [0],
+    "explanation": "Une variable locale est prioritaire sur une variable globale portant le même nom : elle masque la variable globale dans le corps de la fonction.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q030",
+    "question": "Les paramètres d'une fonction sont-ils considérés comme des variables locales ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que les paramètres de fonction comptent également comme variables locales et ne sont définis que dans le corps de la fonction.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q031",
+    "question": "Quels types d'instructions ou de structures de contrôle sont cités pour modifier l'ordre d'exécution par défaut en JavaScript ?",
+    "type": "multiple",
+    "options": ["Les instructions conditionnelles (if, switch)", "Les boucles (while, for)", "Les sauts (break, return, throw)", "Les commentaires"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite trois catégories : conditionnelles (if, switch), boucles (while, for), et sauts (break, return, throw). Les commentaires ne modifient pas le flux d'exécution.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q032",
+    "question": "Dans la première forme de l'instruction if (sans else), que se passe-t-il si l'expression est fausse ?",
+    "type": "single",
+    "options": ["L'instruction n'est pas exécutée", "Une erreur est levée", "L'instruction est exécutée quand même", "Le programme s'arrête"],
+    "answer": [0],
+    "explanation": "Dans la forme simple if (expression) { ... }, si expression est fausse, l'instruction (ou le bloc) n'est simplement pas exécutée.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q033",
+    "question": "Quelle instruction permet d'enchaîner plusieurs blocs conditionnels dépendant de valeurs différentes d'une même variable n ?",
+    "type": "single",
+    "options": ["else if", "for/in", "do/while", "break"],
+    "answer": [0],
+    "explanation": "L'instruction else if permet d'enchaîner plusieurs blocs conditionnels quand if/else ne suffit pas pour gérer plus de deux cas.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q034",
+    "question": "Quel mot-clé est utilisé dans un bloc switch pour définir le comportement par défaut quand aucun case ne correspond ?",
+    "type": "single",
+    "options": ["default", "else", "otherwise", "finally"],
+    "answer": [0],
+    "explanation": "Le mot-clé default définit le bloc exécuté lorsqu'aucune étiquette case ne correspond à la valeur de l'expression.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q035",
+    "question": "À quoi sert l'instruction break dans un bloc switch ?",
+    "type": "single",
+    "options": [
+      "Empêcher l'exécution de continuer dans les cases suivants",
+      "Terminer définitivement le programme",
+      "Déclarer une nouvelle variable",
+      "Convertir la valeur testée en chaîne"
+    ],
+    "answer": [0],
+    "explanation": "break, placé à la fin de chaque case, évite que l'exécution ne se poursuive dans les cases suivants après un case correspondant.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q036",
+    "question": "Quelles sont les quatre instructions de boucle disponibles en JavaScript selon le cours ?",
+    "type": "multiple",
+    "options": ["while", "do/while", "for", "for/in"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le cours cite explicitement quatre instructions de boucle en JavaScript : while, do/while, for et for/in.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q037",
+    "question": "Dans une boucle while, à quel moment l'expression est-elle testée ?",
+    "type": "single",
+    "options": ["Avant chaque itération, en haut de la boucle", "Après chaque itération, en bas de la boucle", "Une seule fois, avant la boucle", "Jamais, elle est ignorée"],
+    "answer": [0],
+    "explanation": "L'interpréteur commence par évaluer l'expression avant d'exécuter le corps de la boucle while, et répète tant qu'elle est vraie.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q038",
+    "question": "Quelle syntaxe permet de créer une boucle infinie avec while ?",
+    "type": "single",
+    "options": ["while (true) { }", "while (false) { }", "while (0) { }", "while () { }"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'on peut créer une boucle infinie avec la syntaxe while (true).",
+    "image": null
+  },
+  {
+    "id": "js-s1-q039",
+    "question": "Quelle est la particularité de la boucle do/while par rapport à la boucle while ?",
+    "type": "single",
+    "options": [
+      "L'expression de boucle est testée en bas de la boucle, donc le corps s'exécute toujours au moins une fois",
+      "Elle ne peut jamais s'arrêter",
+      "Elle ne peut contenir qu'une seule instruction",
+      "Elle est plus rapide que la boucle for"
+    ],
+    "answer": [0],
+    "explanation": "Dans la boucle do/while, l'expression est testée après l'exécution du corps de la boucle (en bas), garantissant au moins une exécution.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q040",
+    "question": "Quels sont les trois éléments constitutifs de la syntaxe d'une boucle for(...) ?",
+    "type": "multiple",
+    "options": ["Initialisation", "Test", "Incrémentation", "Retour"],
+    "answer": [0, 1, 2],
+    "explanation": "La boucle for suit la syntaxe for(initialisation ; test ; incrémentation) { ... }. Il n'y a pas de composante \"retour\" dans cette syntaxe.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q041",
+    "question": "L'instruction for/in boucle à travers les propriétés d'un objet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement que l'instruction for/in boucle à travers les propriétés d'un objet, exécutant le bloc de code pour chaque propriété.",
+    "image": null
+  },
+  {
+    "id": "js-s1-q042",
+    "question": "Dans une boucle for/in, que se passe-t-il si l'expression de l'objet est évaluée à null ou indéfinie ?",
+    "type": "single",
+    "options": ["L'interpréteur ignore la boucle et passe à l'instruction suivante", "Une exception fatale arrête le programme", "La boucle s'exécute une fois avec une valeur vide", "La boucle devient infinie"],
+    "answer": [0],
+    "explanation": "Si l'expression de l'objet est évaluée à null ou indéfinie, l'interpréteur JavaScript ignore simplement la boucle for/in.",
+    "image": null
+  }
+]

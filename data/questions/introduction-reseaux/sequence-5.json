@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ti-s2-q101",
+    "question": "Quel symbole représente un réseau Token Ring sur les schémas réseau ?",
+    "type": "single",
+    "options": ["Un cercle", "Deux cercles concentriques", "Une ligne droite", "Une ligne en forme d'éclair"],
+    "answer": [0],
+    "explanation": "Le réseau Token Ring est représenté par un cercle, le FDDI par deux cercles concentriques, l'Ethernet par une ligne droite et les connexions série par une ligne en forme d'éclair.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q102",
+    "question": "Associez chaque type de média à son symbole : quels éléments sont corrects ?",
+    "type": "multiple",
+    "options": ["FDDI = deux cercles concentriques", "Ethernet = ligne droite", "Ligne série = éclair", "Token Ring = carré"],
+    "answer": [0, 1, 2],
+    "explanation": "Le Token Ring est représenté par un cercle simple, pas un carré. FDDI, Ethernet et les lignes série suivent bien les symboles cités.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q103",
+    "question": "La norme IEEE 802.3u correspond aux spécifications pour le Fast Ethernet à 100 Mbits/s.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "802.3 correspond à 10 Mbits/s (Ethernet), 802.3u au Fast Ethernet (100 Mbits/s) et 802.3z au Gigabit Ethernet (1000 Mbits/s).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q104",
+    "question": "Quelle norme IEEE définit les spécifications du Gigabit Ethernet (1000 Mbits/s) ?",
+    "type": "single",
+    "options": ["802.3", "802.3u", "802.3z", "802.2"],
+    "answer": [2],
+    "explanation": "802.3z définit les spécifications pour 1000 Mbits/s (Gigabit) Ethernet, tandis que 802.2 concerne la sous-couche LLC commune à toutes les implémentations Ethernet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q105",
+    "question": "Au niveau backbone d'un campus, quelle(s) implémentation(s) Ethernet peuvent être utilisées ?",
+    "type": "multiple",
+    "options": ["Fast Ethernet", "Gigabit Ethernet", "10BaseT", "Ethernet 10Base2 uniquement"],
+    "answer": [0, 1],
+    "explanation": "Le Fast Ethernet et le Gigabit Ethernet permettent la connectivité au niveau backbone, alors que 10BaseT n'est généralement pas utilisé à ce niveau.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q106",
+    "question": "Quel connecteur est utilisé pour le 10BASE2 (Ethernet à câble fin) ?",
+    "type": "single",
+    "options": ["Connecteur BNC", "Connecteur RJ-45", "Connecteur AUI", "Connecteur SC"],
+    "answer": [0],
+    "explanation": "Le 10BASE2 utilise un câble coaxial fin de 50 ohms avec des connecteurs BNC, en topologie bus, sur une longueur maximale de 185 m.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q107",
+    "question": "Quelle est la longueur maximale de segment pour le 10BASE5 (Ethernet épais) ?",
+    "type": "single",
+    "options": ["100 m", "185 m", "400 m", "500 m"],
+    "answer": [3],
+    "explanation": "Le 10BASE5 (Ethernet épais) utilise un câble coaxial de 50 ohms en topologie bus avec des connecteurs AUI, sur une longueur maximale de 500 m.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q108",
+    "question": "Le 100BASE-TX et le 10BASE-T utilisent tous les deux le connecteur RJ-45 (ISO 8877).",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Les deux normes utilisent un câble à paires torsadées EIA/TIA en topologie étoile avec des connecteurs ISO 8877 (RJ-45).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q109",
+    "question": "Quelle est la portée maximale du 100BASE-FX en fibre multimode ?",
+    "type": "single",
+    "options": ["100 m", "185 m", "400 m", "550 m"],
+    "answer": [2],
+    "explanation": "Le 100BASE-FX utilise une fibre multimode de 62,5/125 microns avec une longueur maximale de segment de 400 m, en topologie étoile.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q110",
+    "question": "Quels éléments décrivent correctement le 1000BASE-LX ?",
+    "type": "multiple",
+    "options": ["Utilise une fibre multimode ou monomode", "Peut atteindre 10 km en fibre monomode", "Utilise un connecteur SC", "Utilise uniquement un câble coaxial"],
+    "answer": [0, 1, 2],
+    "explanation": "Le 1000BASE-LX fonctionne sur fibre multimode de 62,5/50 microns (440-550 m) ou monomode de 9 microns (3 à 10 km), avec un connecteur SC.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q111",
+    "question": "Le 1000BASE-CX utilise un câble STP avec une longueur maximale de 25 m.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le 1000BASE-CX utilise un câble STP (paire torsadée blindée) sur une distance maximale de 25 m, en topologie étoile avec connecteur RJ-45.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q112",
+    "question": "Quelle est la principale différence entre les prises/connecteurs RJ-45 et les connecteurs téléphoniques RJ-11 ?",
+    "type": "single",
+    "options": ["Les RJ-45 sont légèrement plus grands que les RJ-11", "Les RJ-45 sont plus petits que les RJ-11", "Ils ont exactement la même taille", "Le RJ-11 est utilisé pour Ethernet"],
+    "answer": [0],
+    "explanation": "Les prises et connecteurs RJ-45 (norme ISO 8877) sont légèrement plus grands que les connecteurs et prises de téléphone RJ-11.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q113",
+    "question": "Quel type de câble doit-on utiliser pour relier un commutateur à un routeur ?",
+    "type": "single",
+    "options": ["Câble droit", "Câble croisé", "Câble coaxial", "Câble série"],
+    "answer": [0],
+    "explanation": "On utilise un câble droit pour les liaisons commutateur-routeur, commutateur-PC/serveur, et concentrateur-PC/serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q114",
+    "question": "Quelles liaisons nécessitent l'utilisation d'un câble croisé ?",
+    "type": "multiple",
+    "options": ["Commutateur vers commutateur", "Routeur vers routeur", "PC vers PC", "Commutateur vers PC"],
+    "answer": [0, 1, 2],
+    "explanation": "Le câble croisé sert pour commutateur-commutateur, commutateur-concentrateur, concentrateur-concentrateur, routeur-routeur, PC-PC et routeur-PC. Commutateur vers PC nécessite un câble droit.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q115",
+    "question": "Dans un câble droit à paires torsadées non blindées, les extrémités des fils suivent le même ordre de broches aux deux bouts.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Dans un câble droit, l'ordre des fils (broches 1 à 8) est identique aux deux extrémités du câble.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q116",
+    "question": "Dans un câble croisé Ethernet, quelles broches sont inversées entre les deux extrémités ?",
+    "type": "multiple",
+    "options": ["Broche 1 (TD+) avec broche 3 (RD+)", "Broche 2 (TD-) avec broche 6 (RD-)", "Broche 4 (NC) avec broche 5 (NC)", "Broche 7 avec broche 8"],
+    "answer": [0, 1],
+    "explanation": "Le câble croisé inverse la paire de transmission (broches 1-2, TD+/TD-) avec la paire de réception (broches 3-6, RD+/RD-) à l'une des extrémités.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q117",
+    "question": "Sur un module de commutation, si un port est désigné par un \"x\" et l'autre non, quel type de câble faut-il utiliser ?",
+    "type": "single",
+    "options": ["Câble droit", "Câble croisé", "Câble coaxial", "Aucun câble n'est nécessaire"],
+    "answer": [0],
+    "explanation": "Un câble droit s'utilise seulement lorsqu'un port est désigné par un « x » et l'autre non. Le câble croisé s'utilise quand les deux ports sont « x » ou qu'aucun ne l'est.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q118",
+    "question": "Quelle est la différence entre les codes de couleurs T568A et T568B ?",
+    "type": "single",
+    "options": ["L'inversion des paires 2 (orange) et 3 (verte)", "L'inversion des paires 1 (bleue) et 4 (marron)", "Le nombre de broches utilisées", "Le type de connecteur (RJ-45 vs BNC)"],
+    "answer": [0],
+    "explanation": "T568A et T568B diffèrent par la position des paires orange et verte sur les broches, alors que les paires bleue (1) et marron (4) restent aux mêmes emplacements.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q119",
+    "question": "Un répéteur régénère et resynchronise les signaux réseau au niveau du bit pour leur permettre de parcourir de plus longues distances.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est exactement le rôle d'un répéteur : recevoir un signal, le régénérer et le resynchroniser au niveau du bit avant de le retransmettre.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q120",
+    "question": "Un concentrateur (hub) est en réalité un répéteur multiports.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "La différence entre un concentrateur et un répéteur réside uniquement dans le nombre de ports respectifs de ces équipements.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q121",
+    "question": "Quels sont les trois principaux types de concentrateurs ?",
+    "type": "multiple",
+    "options": ["Passif", "Actif", "Intelligent", "Managé de couche 3"],
+    "answer": [0, 1, 2],
+    "explanation": "Il existe trois types de concentrateurs : passif (aucune alimentation, ne fait que connecter physiquement), actif (amplifie le signal, nécessite une alimentation) et intelligent (avec microprocesseur et fonctions de diagnostic).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q122",
+    "question": "Quel type de concentrateur n'a besoin d'aucune alimentation électrique et ne peut ni amplifier ni nettoyer le signal ?",
+    "type": "single",
+    "options": ["Concentrateur passif", "Concentrateur actif", "Concentrateur intelligent", "Concentrateur managé"],
+    "answer": [0],
+    "explanation": "Le concentrateur passif sert uniquement de point de connexion physique : il ne manipule pas le trafic, n'amplifie pas le signal et ne nécessite aucune alimentation.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q123",
+    "question": "À quelle couche du modèle OSI les ponts et les commutateurs fonctionnent-ils ?",
+    "type": "single",
+    "options": ["Couche physique", "Couche liaison de données", "Couche réseau", "Couche transport"],
+    "answer": [1],
+    "explanation": "Les commutateurs et les ponts fonctionnent au niveau de la couche liaison de données (couche 2) du modèle OSI, en prenant des décisions intelligentes sur la transmission des trames.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q124",
+    "question": "Segmenter un réseau LAN à l'aide de ponts permet de réduire le trafic et d'étendre la zone géographique couverte.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "La segmentation d'un LAN de taille importante en plusieurs petits segments diminue le trafic sur chaque segment tout en permettant d'étendre la zone géographique couverte.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q125",
+    "question": "Un commutateur est parfois qualifié de \"pont multiports\" car il peut avoir plusieurs ports, contrairement au pont classique limité à deux.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Un pont classique comporte seulement deux ports reliant deux segments, alors qu'un commutateur peut avoir plusieurs ports selon le nombre de segments à relier.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q126",
+    "question": "Sur quelle information un commutateur se base-t-il pour construire sa table de commutation ?",
+    "type": "single",
+    "options": ["L'adresse MAC des trames reçues", "L'adresse IP des paquets reçus", "Le nom d'hôte des ordinateurs", "Le numéro de port TCP"],
+    "answer": [0],
+    "explanation": "Les commutateurs recherchent des informations sur les trames de données reçues (notamment l'adresse MAC source) pour construire une table associant interface et adresse MAC.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q127",
+    "question": "Que permet la microsegmentation d'un réseau au moyen d'un commutateur LAN ?",
+    "type": "single",
+    "options": ["Des chemins dédiés entre hôtes émetteur et récepteur", "Le partage obligatoire du trafic sur tous les segments", "La suppression de toute collision impossible autrement", "L'élimination du besoin de câblage"],
+    "answer": [0],
+    "explanation": "Contrairement à un segment partagé où tout le trafic est visible sur chaque segment, un commutateur LAN crée de multiples voies de trafic, avec des chemins dédiés entre hôtes.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q128",
+    "question": "Dans un environnement d'égal à égal (peer-to-peer), quel(s) élément(s) sont vrais ?",
+    "type": "multiple",
+    "options": ["Chaque ordinateur peut partager ses propres ressources", "Il n'y a pas de serveur dédié centralisé", "Implémentation généralement moins coûteuse", "Nécessite obligatoirement un administrateur réseau dédié"],
+    "answer": [0, 1, 2],
+    "explanation": "Un réseau d'égal à égal ne demande pas d'administrateur dédié : chaque ordinateur peut partager ses ressources sans serveur centralisé, ce qui rend l'implémentation moins coûteuse.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q129",
+    "question": "Quel est un avantage majeur d'un réseau client-serveur par rapport à un réseau d'égal à égal ?",
+    "type": "single",
+    "options": ["Meilleure sécurité et administration centralisée", "Coût d'implémentation plus faible", "Aucun besoin de logiciel spécialisé", "Aucun point de défaillance unique"],
+    "answer": [0],
+    "explanation": "Le réseau client-serveur offre une meilleure sécurité, une administration centralisée facilitée sur les grands réseaux, et permet de sauvegarder toutes les données à un emplacement central.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q130",
+    "question": "Quel est un inconvénient typique d'un réseau client-serveur ?",
+    "type": "multiple",
+    "options": ["Il présente un point de défaillance unique", "Il nécessite un matériel serveur plus puissant et coûteux", "Il ne s'adapte pas bien aux réseaux importants", "Il nécessite un administrateur professionnel"],
+    "answer": [0, 1, 3],
+    "explanation": "Le client-serveur présente un point de défaillance unique (le serveur), nécessite du matériel puissant et coûteux ainsi qu'un administrateur professionnel. C'est le réseau d'égal à égal qui ne s'adapte pas bien aux réseaux importants.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q131",
+    "question": "Quels types de service WAN sont associés à un connecteur RJ-45 selon le document ?",
+    "type": "single",
+    "options": ["RNIS BRI", "Modem DSL", "Modem câble", "Frame Relay uniquement"],
+    "answer": [0],
+    "explanation": "Le RNIS BRI utilise un connecteur RJ-45, bien que les broches du câble RNIS BRI soient différentes de celles utilisées pour Ethernet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q132",
+    "question": "Le modem câble transmet les données via une ligne de télévision par câble en utilisant un connecteur de type F.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le modem câble utilise un connecteur F et transmet les données via une ligne de télévision par câble, tandis que le modem DSL utilise un connecteur RJ-11 sur une ligne téléphonique.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q133",
+    "question": "Quels standards physiques sont associés aux connexions Cisco HDLC, PPP et Frame Relay ?",
+    "type": "multiple",
+    "options": ["EIA/TIA-232", "V.35", "HSSI", "F (connecteur câble)"],
+    "answer": [0, 1, 2],
+    "explanation": "Cisco HDLC, PPP et Frame Relay peuvent utiliser EIA/TIA-232, EIA/TIA-449, X.21, V.24, V.35 ou HSSI. Le connecteur F est propre au modem câble.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q134",
+    "question": "Selon le tableau comparatif, quelle norme physique permet d'atteindre la plus grande distance à un débit de 9600 bits/s ?",
+    "type": "single",
+    "options": ["EIA/TIA-232 (15 m)", "EIA/TIA-449 (312 m)", "Les deux offrent la même distance", "Aucune des deux ne supporte 9600 bits/s"],
+    "answer": [1],
+    "explanation": "À 9600 bits/s, l'EIA/TIA-232 permet 15 mètres alors que l'EIA/TIA-449 permet 312 mètres, une distance bien supérieure.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q135",
+    "question": "Dans une connexion série WAN, qu'est-ce qu'un ETCD (DCE) ?",
+    "type": "single",
+    "options": ["L'extrémité côté fournisseur d'accès, responsable de la synchronisation", "L'extrémité de l'équipement utilisateur sur la liaison WAN", "Un type de câble croisé Ethernet", "Un logiciel de gestion réseau"],
+    "answer": [0],
+    "explanation": "L'ETCD (équipement de communication de données / DCE) se trouve du côté du fournisseur d'accès et est responsable de la synchronisation, contrairement à l'ETTD (DTE) qui est l'équipement utilisateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q136",
+    "question": "Dans une liaison WAN entre deux routeurs via un câble série jumelé, quel équipement joue le rôle DCE et doit fournir l'horloge ?",
+    "type": "single",
+    "options": ["Le routeur dont l'interface est configurée en DCE (ex : S0/0 DCE)", "Toujours le routeur A", "Toujours le routeur B", "Aucun routeur, uniquement le CSU/DSU"],
+    "answer": [0],
+    "explanation": "Sur une connexion série jumelée en environnement de test/labo, l'un des deux routeurs est configuré comme DCE (fournissant l'horloge) et l'autre comme DTE.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q137",
+    "question": "Quel est le rôle du routeur dans un environnement LAN, selon le module ?",
+    "type": "multiple",
+    "options": ["Router les paquets de la source à la destination", "Stopper les broadcasts", "Fournir les services de résolution d'adresse ARP et RARP", "Amplifier uniquement le signal sans analyse"],
+    "answer": [0, 1, 2],
+    "explanation": "Le routeur route les paquets, stoppe les broadcasts au niveau du LAN, fournit les services ARP/RARP et peut segmenter le réseau via des sous-réseaux ; il doit être connecté au LAN et au WAN.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q138",
+    "question": "Sur un routeur Cisco 2503, quels ports figurent en face arrière ?",
+    "type": "multiple",
+    "options": ["Port Ethernet AUI", "Ports série synchrones", "Port BRI et port console", "Port USB"],
+    "answer": [0, 1, 2],
+    "explanation": "Le routeur Cisco 2503 dispose d'un port Ethernet AUI, de deux ports série synchrones, d'un port BRI, d'un port console et d'un port AUX ; il n'y a pas de port USB.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q139",
+    "question": "Pour configurer une connexion à la console d'un équipement Cisco depuis un PC, quel type de câble et quel adaptateur sont nécessaires ?",
+    "type": "single",
+    "options": ["Un câble à paires inversées RJ-45 à RJ-45 avec un adaptateur RJ-45 à DB-9", "Un câble croisé Ethernet standard", "Un câble coaxial avec connecteur BNC", "Un câble à fibre optique avec connecteur SC"],
+    "answer": [0],
+    "explanation": "La connexion console utilise un câble à paires inversées RJ-45 à RJ-45, relié au PC via un adaptateur RJ-45 à DB-9 (ou DB-25) étiqueté TERMINAL.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q140",
+    "question": "Quels sont les paramètres standards du port COM pour une connexion console Cisco ?",
+    "type": "multiple",
+    "options": ["9600 bits/s", "8 bits de données", "Sans parité, 1 bit d'arrêt, sans contrôle de flux", "115200 bits/s par défaut"],
+    "answer": [0, 1, 2],
+    "explanation": "Les paramètres standards sont : 9600 bits/s, 8 bits de données, sans parité, 1 bit d'arrêt et sans contrôle de flux.",
+    "image": null
+  }
+]

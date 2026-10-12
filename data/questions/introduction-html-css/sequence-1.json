@@ -1,0 +1,299 @@
+[
+  {
+    "id": "html-s1-q001",
+    "question": "Que signifie l'acronyme HTML ?",
+    "type": "single",
+    "options": ["Hyper Text Markup Language", "High Text Modern Language", "Hyperlink Text Markup Language", "Home Tool Markup Language"],
+    "answer": [0],
+    "explanation": "HTML est l'acronyme de Hyper Text Markup Language.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q002",
+    "question": "Que décrit HTML dans une page Web ?",
+    "type": "single",
+    "options": ["La structure des pages Web en utilisant le balisage", "La présentation visuelle des pages Web", "La logique métier côté serveur", "Les requêtes vers une base de données"],
+    "answer": [0],
+    "explanation": "HTML décrit la structure des pages Web en utilisant le balisage ; c'est le CSS qui décrit la présentation.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q003",
+    "question": "Que permet de faire HTML selon le cours ?",
+    "type": "multiple",
+    "options": ["Formater du texte", "Ajouter des graphiques", "Créer des liens et des formulaires", "Exécuter des requêtes SQL"],
+    "answer": [0, 1, 2],
+    "explanation": "HTML permet de formater du texte, ajouter des graphiques, créer des liens, des formulaires, des blocs, etc. Il n'exécute pas de requêtes SQL.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q004",
+    "question": "Que signifie l'acronyme CSS ?",
+    "type": "single",
+    "options": ["Cascading Style Sheet", "Computer Style System", "Creative Style Sheet", "Central Style Standard"],
+    "answer": [0],
+    "explanation": "CSS est l'acronyme de Cascading Style Sheet, en français feuilles de style en cascade.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q005",
+    "question": "Que décrit le langage CSS ?",
+    "type": "single",
+    "options": ["La présentation des documents HTML et XML", "La structure sémantique des documents", "Les liens hypertextes d'une page", "Le contenu textuel d'un document"],
+    "answer": [0],
+    "explanation": "CSS est un langage qui décrit la présentation des documents HTML et XML.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q006",
+    "question": "Qui a développé les protocoles du World Wide Web en 1992 ?",
+    "type": "single",
+    "options": ["Tim Berners-Lee", "Ted Nelson", "Marc Andreessen", "Bill Gates"],
+    "answer": [0],
+    "explanation": "C'est en 1992 que Tim Berners-Lee, physicien du CERN, développa les protocoles du World Wide Web.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q007",
+    "question": "De quel langage HTML est-il issu, selon le cours ?",
+    "type": "single",
+    "options": ["Un sous-ensemble du SGML", "Une version simplifiée du XML", "Un dérivé du langage C", "Une extension du langage Java"],
+    "answer": [0],
+    "explanation": "Tim Berners-Lee créa le HTML, issu d'un sous-ensemble du SGML, en s'appuyant sur les travaux de Ted Nelson à l'origine du terme hypertexte (1965).",
+    "image": null
+  },
+  {
+    "id": "html-s1-q008",
+    "question": "À qui doit-on l'origine du terme \"hypertexte\" en 1965 ?",
+    "type": "single",
+    "options": ["Ted Nelson", "Tim Berners-Lee", "Marc Andreessen", "Vannevar Bush"],
+    "answer": [0],
+    "explanation": "Le cours indique que Tim Berners-Lee s'est appuyé sur les travaux de Ted Nelson, qui furent à l'origine du terme hypertexte en 1965.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q009",
+    "question": "Quel navigateur a marqué l'explosion de l'Internet en 1993 ?",
+    "type": "single",
+    "options": ["MOSAIC du NCSA", "Netscape Navigator", "Internet Explorer", "Firefox"],
+    "answer": [0],
+    "explanation": "C'est en 1993 que l'explosion de l'Internet eut lieu avec la sortie du navigateur MOSAIC du NCSA.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q010",
+    "question": "Quel organisme a développé les feuilles de style CSS et lancé leur version initiale le 17 décembre 1996 ?",
+    "type": "single",
+    "options": ["Le World Wide Web Consortium (W3C)", "Le CERN", "Le NCSA", "L'ECMA"],
+    "answer": [0],
+    "explanation": "Les feuilles de style CSS sont développées par le World Wide Web Consortium (W3C), qui a lancé la version initiale le 17 décembre 1996.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q011",
+    "question": "Selon le cours, à quelle version en est-on actuellement pour HTML et pour CSS ?",
+    "type": "single",
+    "options": ["HTML version 5 et CSS version 3", "HTML version 4 et CSS version 2", "HTML version 6 et CSS version 4", "HTML version 3 et CSS version 1"],
+    "answer": [0],
+    "explanation": "Le cours indique qu'on est actuellement à la version 5 pour HTML et la version 3 pour CSS.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q012",
+    "question": "Que définit la déclaration <!DOCTYPE html> ?",
+    "type": "single",
+    "options": ["Que le document est du HTML5", "Le titre de la page", "Le contenu visible de la page", "La feuille de style à utiliser"],
+    "answer": [0],
+    "explanation": "La déclaration <!DOCTYPE html> définit que ce document est du HTML5.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q013",
+    "question": "Quel élément est l'élément racine de la page dans un document HTML ?",
+    "type": "single",
+    "options": ["<html>", "<head>", "<body>", "<title>"],
+    "answer": [0],
+    "explanation": "L'élément <html> est l'élément racine de la page HTML.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q014",
+    "question": "Que contient l'élément <head> d'un document HTML ?",
+    "type": "single",
+    "options": ["Des méta informations sur le document", "Le contenu visible de la page", "Les liens hypertextes uniquement", "Les feuilles de style uniquement"],
+    "answer": [0],
+    "explanation": "L'élément <head> contient des méta informations sur le document, comme le titre notamment.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q015",
+    "question": "Quel élément spécifie le titre du document, affiché dans l'onglet du navigateur ?",
+    "type": "single",
+    "options": ["<title>", "<head>", "<h1>", "<body>"],
+    "answer": [0],
+    "explanation": "L'élément <title> spécifie le titre du document.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q016",
+    "question": "Que contient l'élément <body> d'un document HTML ?",
+    "type": "single",
+    "options": ["Le contenu visible de la page", "Les méta informations du document", "Uniquement le titre de la page", "Le nom du navigateur"],
+    "answer": [0],
+    "explanation": "L'élément <body> contient le contenu visible de la page, à l'inverse de <head> qui contient les méta informations.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q017",
+    "question": "Que définissent les éléments <h1> et <p> dans un document HTML ?",
+    "type": "single",
+    "options": ["<h1> définit un gros titre et <p> définit un paragraphe", "<h1> définit un paragraphe et <p> définit un lien", "<h1> et <p> sont strictement identiques", "<h1> définit le corps du document et <p> l'en-tête"],
+    "answer": [0],
+    "explanation": "L'élément <h1> définit un gros titre (entête) et l'élément <p> définit un paragraphe.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q018",
+    "question": "Comment sont structurées les balises HTML selon le cours ?",
+    "type": "single",
+    "options": ["Ce sont des noms d'éléments entourés de crochets (chevrons)", "Ce sont des mots-clés entourés de parenthèses", "Ce sont des identifiants entourés d'accolades", "Ce sont des chaînes entourées de guillemets"],
+    "answer": [0],
+    "explanation": "Les balises HTML sont des noms d'éléments entourés de crochets (chevrons < >), selon la syntaxe <nomelement> le contenu </nomelement>.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q019",
+    "question": "Comment appelle-t-on la première balise d'une paire, comme <b> dans <b>...</b> ?",
+    "type": "single",
+    "options": ["La balise de début", "La balise de fin", "La balise racine", "La balise fermante"],
+    "answer": [0],
+    "explanation": "La première balise dans une paire est la balise de début, la seconde est la balise de fin.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q020",
+    "question": "Comment la balise de fin se distingue-t-elle de la balise de début ?",
+    "type": "single",
+    "options": ["Une barre oblique est insérée avant le nom de la balise", "Elle porte un nom totalement différent", "Elle est écrite en majuscules", "Elle est entourée d'accolades au lieu de crochets"],
+    "answer": [0],
+    "explanation": "La balise de fin est écrite comme la balise de début, mais avec une barre oblique (/) insérée avant le nom de la balise, par exemple </html>.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q021",
+    "question": "Quelle extension de fichier caractérise un document HTML ?",
+    "type": "multiple",
+    "options": [".htm", ".html", ".css", ".xml"],
+    "answer": [0, 1],
+    "explanation": "Un document HTML est un fichier d'extension .htm ou .html décrivant une page web.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q022",
+    "question": "Un document HTML est aussi appelé...",
+    "type": "single",
+    "options": ["Une page web", "Un fichier de style", "Une base de données", "Un serveur web"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'un document HTML est aussi appelé page web.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q023",
+    "question": "Le navigateur affiche-t-il les balises HTML à l'écran ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : le navigateur n'affiche pas les balises HTML, il les utilise pour interpréter et afficher le contenu de la page.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q024",
+    "question": "Quel est le rôle d'un navigateur Web selon le cours ?",
+    "type": "single",
+    "options": ["Lire les documents HTML et les afficher sous forme de pages Web", "Créer des documents HTML", "Compiler le code HTML en exécutable", "Héberger les fichiers HTML sur un serveur"],
+    "answer": [0],
+    "explanation": "Le but d'un navigateur web (comme Internet Explorer ou Firefox) est de lire les documents HTML et de les afficher sous forme de pages Web.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q025",
+    "question": "Combien de fois la déclaration <!DOCTYPE> doit-elle apparaître dans une page, et où ?",
+    "type": "single",
+    "options": ["Une seule fois, en haut de la page avant les balises HTML", "Plusieurs fois, avant chaque balise", "Une seule fois, à la fin de la page", "Deux fois : au début et à la fin"],
+    "answer": [0],
+    "explanation": "La déclaration <!DOCTYPE> ne doit apparaître qu'une seule fois, en haut de la page, avant les balises HTML.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q026",
+    "question": "La déclaration <!DOCTYPE> est-elle sensible à la casse ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : le cours précise explicitement que la déclaration <!DOCTYPE> n'est pas sensible à la casse.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q027",
+    "question": "En quelle année la version originale du HTML est-elle apparue selon le tableau du cours ?",
+    "type": "single",
+    "options": ["1991", "1995", "1997", "1999"],
+    "answer": [0],
+    "explanation": "Selon le tableau des versions HTML du cours, la première version HTML date de 1991.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q028",
+    "question": "Associez chaque version HTML à son année de sortie selon le tableau du cours.",
+    "type": "multiple",
+    "options": ["HTML 4.01 en 1999", "XHTML en 2000", "HTML5 en 2014", "HTML 2.0 en 2005"],
+    "answer": [0, 1, 2],
+    "explanation": "Selon le tableau : HTML 4.01 (1999), XHTML (2000), HTML5 (2014). HTML 2.0 est en réalité daté de 1995, pas 2005.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q029",
+    "question": "Quels éditeurs HTML professionnels sont cités par le cours ?",
+    "type": "multiple",
+    "options": ["Dreamweaver", "Visual Studio", "Notepad++", "Photoshop"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite Dreamweaver et Visual Studio comme éditeurs HTML professionnels ; Notepad++ est plutôt cité comme simple éditeur de texte recommandé pour apprendre.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q030",
+    "question": "Quel simple éditeur de texte le cours recommande-t-il pour apprendre le HTML ?",
+    "type": "single",
+    "options": ["Notepad++ ou TextEdit (Mac)", "Uniquement Microsoft Word", "Uniquement Excel", "Adobe Photoshop"],
+    "answer": [0],
+    "explanation": "Pour apprendre le langage HTML, le cours recommande un simple éditeur de texte comme Notepad++ ou TextEdit (Mac).",
+    "image": null
+  },
+  {
+    "id": "html-s1-q031",
+    "question": "Une page HTML créée en local peut-elle être visualisée avec n'importe quel navigateur et sans serveur Web ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours confirme qu'une page HTML créée en local peut être visualisée avec n'importe quel navigateur et sans serveur Web.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q032",
+    "question": "Quel outil est cité dans le cours pour obtenir facilement un serveur Web local, un serveur FTP et un serveur de messagerie ?",
+    "type": "single",
+    "options": ["XAMPP", "WordPress", "Node.js", "Docker"],
+    "answer": [0],
+    "explanation": "Le cours cite XAMPP, qui permet d'avoir facilement un serveur Web local, un serveur FTP et un serveur de messagerie électronique.",
+    "image": null
+  },
+  {
+    "id": "html-s1-q033",
+    "question": "Depuis quel site XAMPP est-il téléchargeable, selon le cours ?",
+    "type": "single",
+    "options": ["apachefriends.org", "xampp.com", "w3.org", "mozilla.org"],
+    "answer": [0],
+    "explanation": "XAMPP est libre et téléchargeable depuis apachefriends.org selon le cours.",
+    "image": null
+  }
+]

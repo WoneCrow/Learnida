@@ -1,0 +1,315 @@
+[
+  {
+    "id": "ti-s3-q001",
+    "question": "Qu'est-ce qu'un document HTML ?",
+    "type": "single",
+    "options": [
+      "Un fichier d'extension .htm ou .html contenant du texte brut et des balises HTML",
+      "Un logiciel de navigation",
+      "Un serveur web",
+      "Une base de données"
+    ],
+    "answer": [0],
+    "explanation": "Un document HTML est un fichier d'extension .htm ou .html contenant du texte brute et des balises HTML comme <html> et </html>. Il constitue la base d'un site web.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q002",
+    "question": "Quelle balise indique le type de document au tout début d'un fichier HTML ?",
+    "type": "single",
+    "options": ["<html>", "<!DOCTYPE html>", "<head>", "<title>"],
+    "answer": [1],
+    "explanation": "La déclaration <!DOCTYPE html> se place au tout début du document pour indiquer au navigateur qu'il s'agit d'un document HTML.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q003",
+    "question": "Dans quelle balise place-t-on le titre de la page affiché dans l'onglet du navigateur ?",
+    "type": "single",
+    "options": ["<head>", "<title>", "<h1>", "<body>"],
+    "answer": [1],
+    "explanation": "La balise <title>, placée dans le <head>, contient le titre de la page qui s'affiche dans l'onglet du navigateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q004",
+    "question": "Qu'est-ce qu'une page web ?",
+    "type": "single",
+    "options": [
+      "Un fichier stocké sur l'ordinateur client",
+      "Le format de page obtenu après affichage d'un document HTML par un navigateur web",
+      "Un synonyme de serveur web",
+      "Le code source HTML brut"
+    ],
+    "answer": [1],
+    "explanation": "Le format de page obtenu après affichage d'un document HTML par un navigateur Web est appelé page web.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q005",
+    "question": "Un navigateur web affiche à l'écran les balises HTML du document.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le navigateur web n'affiche pas les balises des documents HTML mais les utilise pour interpréter le contenu de la page.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q006",
+    "question": "Qu'est-ce qu'un navigateur web ?",
+    "type": "single",
+    "options": [
+      "Un logiciel conçu pour consulter et afficher le World Wide Web, au minimum un client HTTP",
+      "Un ordinateur hébergeant des sites",
+      "Un langage de programmation",
+      "Un protocole de transfert de fichiers"
+    ],
+    "answer": [0],
+    "explanation": "Un navigateur web est un logiciel conçu pour consulter et afficher le World Wide Web. Techniquement, c'est au minimum un client HTTP.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q007",
+    "question": "Quels sont des exemples de navigateurs web parmi les plus utilisés ?",
+    "type": "multiple",
+    "options": ["Google Chrome", "Mozilla Firefox", "Safari", "Apache"],
+    "answer": [0, 1, 2],
+    "explanation": "Les navigateurs web les plus utilisés sont Google Chrome, Mozilla Firefox, Internet Explorer/Edge, Safari et Opera. Apache est un serveur HTTP, pas un navigateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q008",
+    "question": "Sur quels types de matériels et systèmes d'exploitation existe-t-il des navigateurs web ?",
+    "type": "multiple",
+    "options": ["Ordinateur personnel", "Tablette tactile", "Téléphones mobiles", "Uniquement Windows"],
+    "answer": [0, 1, 2],
+    "explanation": "Il existe de nombreux navigateurs web pour toutes sortes de matériels (ordinateur personnel, tablette tactile, téléphones mobiles) et pour différents systèmes d'exploitation (GNU/Linux, Windows, Mac OS, iOS, Android).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q009",
+    "question": "Quels sont les modules constitutifs d'un navigateur web ?",
+    "type": "multiple",
+    "options": [
+      "Un interpréteur d'URL",
+      "Un interpréteur de code HTML/XHTML",
+      "Un interpréteur de langage de script",
+      "Un serveur MySQL"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Un navigateur est constitué de modules divers : un interpréteur d'URL, un interpréteur de code HTML ou XHTML, un interpréteur de langage de script, un environnement d'exécution d'applications et une barre d'outils. Le serveur MySQL n'est pas un module du navigateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q010",
+    "question": "L'interpréteur d'URL d'un navigateur est vulnérable à quel type d'attaque ?",
+    "type": "single",
+    "options": ["Attaque par déni de service", "Attaque par hameçonnage (phishing)", "Attaque par force brute", "Attaque virale"],
+    "answer": [1],
+    "explanation": "L'interpréteur d'URL est vulnérable aux attaques par hameçonnage.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q011",
+    "question": "À quoi l'interpréteur de langage de script (JavaScript, VBScript…) d'un navigateur est-il vulnérable ?",
+    "type": "single",
+    "options": [
+      "Aux boucles sans fin et à des exploitations de bugs",
+      "Aux attaques par hameçonnage uniquement",
+      "Aux pannes de serveur",
+      "Aux coupures réseau"
+    ],
+    "answer": [0],
+    "explanation": "L'interpréteur de langage de script (JavaScript, VBScript...) est vulnérable aux boucles sans fin et à des exploitations de bugs.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q012",
+    "question": "Quel élément de l'interface d'un navigateur permet de saisir l'adresse d'un site à consulter ?",
+    "type": "single",
+    "options": ["La barre de menus", "La barre d'adresse", "La barre personnelle", "La barre des états"],
+    "answer": [1],
+    "explanation": "La barre d'adresse est l'élément de l'interface du navigateur où l'utilisateur saisit l'URL du site à consulter.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q013",
+    "question": "Qu'est-ce qu'un site web ?",
+    "type": "single",
+    "options": [
+      "Un ensemble de fichiers HTML ou de fichiers générant du HTML stocké dans un serveur web",
+      "Un seul document HTML isolé",
+      "Un logiciel de navigation",
+      "Un protocole de communication"
+    ],
+    "answer": [0],
+    "explanation": "Un site web est un ensemble de fichiers HTML ou de fichiers générant du HTML stocké dans un serveur web. Il est aussi appelé site internet ou page perso dans le cas d'un site web personnel.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q014",
+    "question": "Un site web peut être statique ou dynamique.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Un site web peut être statique (pages créées en HTML fixe) ou dynamique (pages générées à la demande).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q015",
+    "question": "Qu'est-ce qu'un site web statique ?",
+    "type": "single",
+    "options": [
+      "Un site où chacune des pages est créée en HTML et servie directement telle quelle",
+      "Un site dont les pages sont générées à chaque demande via une base de données",
+      "Un site utilisant uniquement PHP",
+      "Un site hébergé gratuitement"
+    ],
+    "answer": [0],
+    "explanation": "Un site web statique est un site où chacune des pages est créée en HTML. Si un ordinateur connecté au serveur demande une page, celle-ci lui est directement servie car elle est stockée toute prête sur le serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q016",
+    "question": "Quelles sont les limites d'un site web statique ?",
+    "type": "multiple",
+    "options": [
+      "Une maintenance difficile (modification manuelle de chaque page)",
+      "L'impossibilité de renvoyer une page personnalisée selon le visiteur",
+      "L'impossibilité de créer une page dynamiquement selon une base de données",
+      "Un coût d'hébergement toujours très élevé"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les limites d'un site statique sont : une maintenance difficile due à la modification manuelle de chaque page, l'impossibilité de renvoyer une page personnalisée selon le visiteur, et l'impossibilité de créer une page dynamiquement selon les entrées d'une base de données.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q017",
+    "question": "Qu'est-ce qu'un site web dynamique ?",
+    "type": "single",
+    "options": [
+      "Un site dont les pages sont générées dynamiquement à la demande",
+      "Un site dont toutes les pages sont stockées telles quelles sur le serveur",
+      "Un site qui ne contient que des images",
+      "Un site accessible uniquement via wifi"
+    ],
+    "answer": [0],
+    "explanation": "Par opposition au site statique, un site web dynamique est un site web dont les pages sont générées dynamiquement à la demande.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q018",
+    "question": "Comment le contenu d'un site web dynamique est-il généralement obtenu ?",
+    "type": "single",
+    "options": [
+      "En combinant un langage de scripts/programmation et une base de données",
+      "En copiant manuellement chaque page",
+      "Uniquement grâce à des images statiques",
+      "Grâce à un navigateur spécial"
+    ],
+    "answer": [0],
+    "explanation": "Le contenu d'un site dynamique est obtenu, par exemple, en combinant l'utilisation d'un langage de scripts ou de programmation et une base de données.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q019",
+    "question": "Quelles sont des solutions/langages utilisés côté serveur pour générer des sites web dynamiques ?",
+    "type": "multiple",
+    "options": ["CGI", "ASP", "PHP", "HTML"],
+    "answer": [0, 1, 2],
+    "explanation": "Parmi les solutions mettant en œuvre un langage de script sur le serveur, on peut citer CGI, ASP, PHP, etc. Le HTML seul ne permet pas la génération dynamique.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q020",
+    "question": "Qu'est-ce qu'un hébergeur ?",
+    "type": "single",
+    "options": [
+      "La société mettant à disposition un serveur web connecté en permanence à Internet",
+      "Le créateur du langage HTML",
+      "Un type de navigateur",
+      "Un protocole réseau"
+    ],
+    "answer": [0],
+    "explanation": "La personne (ou plus exactement la société) mettant à disposition un serveur web connecté en permanence à Internet est appelée hébergeur.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q021",
+    "question": "Quelles sont les deux principales catégories d'hébergeurs ?",
+    "type": "multiple",
+    "options": ["Les hébergeurs gratuits", "Les hébergeurs professionnels", "Les hébergeurs militaires", "Les hébergeurs universitaires"],
+    "answer": [0, 1],
+    "explanation": "On distingue deux principales catégories d'hébergeurs : les hébergeurs gratuits et les hébergeurs professionnels.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q022",
+    "question": "Comment les hébergeurs gratuits gagnent-ils généralement de l'argent ?",
+    "type": "single",
+    "options": [
+      "Grâce à un espace publicitaire sur le site ou au trafic sur leur propre site",
+      "En vendant les données personnelles des visiteurs",
+      "En facturant chaque page créée",
+      "Ils ne gagnent jamais d'argent"
+    ],
+    "answer": [0],
+    "explanation": "Les hébergeurs gratuits gagnent de l'argent soit avec un espace publicitaire sur le site (procédé de plus en plus rare), soit uniquement grâce au trafic sur leur propre site.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q023",
+    "question": "Citez des exemples d'hébergeurs gratuits mentionnés dans le cours.",
+    "type": "single",
+    "options": ["hebergratuit.com et 000webhost.com", "Apache et XAMPP", "Google Chrome et Firefox", "ICANN et AfriNIC"],
+    "answer": [0],
+    "explanation": "Des exemples d'hébergeurs gratuits cités sont hebergratuit.com et 000webhost.com.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q024",
+    "question": "Que garantissent les hébergeurs professionnels par rapport aux hébergeurs gratuits ?",
+    "type": "single",
+    "options": [
+      "Un service de qualité (bande passante) et de sécurité",
+      "Un espace disque illimité gratuit",
+      "Un accès sans navigateur",
+      "Aucune différence notable"
+    ],
+    "answer": [0],
+    "explanation": "Les hébergeurs professionnels garantissent un service de qualité (bande passante) et de sécurité (sécurité des données et assurance d'un nombre de pannes réduit).",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q025",
+    "question": "À partir de combien de visiteurs par jour un hébergeur professionnel devient-il quasi indispensable ?",
+    "type": "single",
+    "options": ["100 visiteurs par jour", "500 visiteurs par jour", "1000 visiteurs par jour", "10000 visiteurs par jour"],
+    "answer": [2],
+    "explanation": "Un hébergeur professionnel s'avère assez indispensable dans le cas d'un site à trafic important, soit plus de 1000 visiteurs par jour.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q026",
+    "question": "Que permet en plus un hébergeur professionnel, contrairement à un hébergeur gratuit ?",
+    "type": "single",
+    "options": [
+      "L'achat d'un nom de domaine (ex : www.uvs.sn)",
+      "La création illimitée de pages HTML",
+      "L'accès à Internet en wifi",
+      "L'installation automatique de XAMPP"
+    ],
+    "answer": [0],
+    "explanation": "Un hébergeur professionnel permet notamment l'achat d'un nom de domaine, un nom du type www.uvs.sn.",
+    "image": null
+  },
+  {
+    "id": "ti-s3-q027",
+    "question": "Quel logiciel simple est proposé dans l'exercice pour créer un document HTML ?",
+    "type": "single",
+    "options": ["Microsoft Word", "NotePad++", "Adobe Photoshop", "XAMPP"],
+    "answer": [1],
+    "explanation": "L'exercice propose de télécharger et installer un éditeur simple comme NotePad++ pour créer le document HTML.",
+    "image": null
+  }
+]

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schéma requête réponse HTTP entre un client et un serveur">
+  <defs>
+    <style>
+      .box { fill: #131A24; stroke: #2A3444; stroke-width: 2; }
+      .label { font-family: system-ui, sans-serif; font-size: 20px; fill: #E8EDF2; }
+      .sub { font-family: system-ui, sans-serif; font-size: 13px; fill: #8891A5; }
+      .arrow { stroke: #4CD6E8; stroke-width: 2.5; marker-end: url(#arrowhead); fill: none; }
+      .arrow2 { stroke: #7B61FF; stroke-width: 2.5; marker-end: url(#arrowhead2); fill: none; }
+      .txt { font-family: system-ui, sans-serif; font-size: 14px; fill: #4CD6E8; }
+      .txt2 { font-family: system-ui, sans-serif; font-size: 14px; fill: #7B61FF; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4CD6E8" />
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7B61FF" />
+    </marker>
+  </defs>
+  <rect x="20" y="80" width="140" height="80" rx="10" class="box" />
+  <text x="90" y="115" text-anchor="middle" class="label">Client</text>
+  <text x="90" y="138" text-anchor="middle" class="sub">Navigateur</text>
+
+  <rect x="440" y="80" width="140" height="80" rx="10" class="box" />
+  <text x="510" y="115" text-anchor="middle" class="label">Serveur</text>
+  <text x="510" y="138" text-anchor="middle" class="sub">Web</text>
+
+  <path d="M165 105 L435 105" class="arrow" />
+  <text x="300" y="95" text-anchor="middle" class="txt">Requête HTTP →</text>
+
+  <path d="M435 145 L165 145" class="arrow2" />
+  <text x="300" y="168" text-anchor="middle" class="txt2">← Réponse (HTML)</text>
+</svg>

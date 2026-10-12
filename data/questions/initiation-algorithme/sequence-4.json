@@ -1,0 +1,317 @@
+[
+  {
+    "id": "algo-s4-q001",
+    "question": "Que permet un sous-programme selon le cours ?",
+    "type": "single",
+    "options": [
+      "D'associer un nom à une suite d'instructions et d'utiliser ce nom comme abréviation",
+      "De remplacer entièrement les boucles dans un algorithme",
+      "De déclarer uniquement des constantes globales",
+      "De supprimer le besoin de variables locales"
+    ],
+    "answer": [0],
+    "explanation": "Un sous-programme permet d'associer un nom à une suite d'instructions et d'utiliser ce nom comme abréviation chaque fois que la suite apparaît dans le programme.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q002",
+    "question": "Quels avantages procure la modularité obtenue grâce aux sous-programmes ?",
+    "type": "multiple",
+    "options": [
+      "Une meilleure qualité de programmation",
+      "Une diminution du risque d'erreurs de syntaxe",
+      "Une facilité de maintenance accrue",
+      "Une exécution plus rapide du processeur"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite notamment la qualité de programmation, la réduction des erreurs de syntaxe et la facilité de maintenance. La vitesse d'exécution du processeur n'est pas mentionnée comme un bénéfice de la modularité.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q003",
+    "question": "La modularité permet à l'utilisateur de concevoir et construire ses propres bibliothèques de sous-programmes.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que la technique de décomposition en sous-problèmes permet à l'utilisateur de construire ses propres bibliothèques de sous-programmes.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q004",
+    "question": "Quels sont les deux types de sous-programmes en algorithmique ?",
+    "type": "multiple",
+    "options": ["Les fonctions", "Les procédures", "Les boucles", "Les tableaux"],
+    "answer": [0, 1],
+    "explanation": "Le cours distingue explicitement deux types de sous-programmes : les fonctions et les procédures.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q005",
+    "question": "Un sous-programme est obligatoirement caractérisé par :",
+    "type": "single",
+    "options": ["Un nom (identifiant) unique", "Un chiffre", "Une couleur", "Un indice de tableau"],
+    "answer": [0],
+    "explanation": "Le cours indique qu'un sous-programme est obligatoirement caractérisé par un nom (un identifiant) unique.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q006",
+    "question": "Comment appelle-t-on le (sous-)programme qui utilise un sous-programme ?",
+    "type": "single",
+    "options": ["Le (sous-)programme appelant", "Le paramètre formel", "Le module principal", "Le programme racine"],
+    "answer": [0],
+    "explanation": "Le (sous-)programme qui utilise un sous-programme est appelé (sous-)programme appelant.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q007",
+    "question": "Qu'est-ce qu'un paramètre formel ?",
+    "type": "single",
+    "options": [
+      "Une variable locale particulière définie dans l'algorithme du sous-programme, avec un type",
+      "Une variable ou constante donnée par le programme appelant lors de l'appel",
+      "Une valeur numérique fixe utilisée uniquement dans les fonctions",
+      "Le nom du sous-programme lui-même"
+    ],
+    "answer": [0],
+    "explanation": "Un paramètre formel d'un sous-programme est une variable locale particulière, définie lors de la conception du sous-programme, et possède un type.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q008",
+    "question": "Qu'est-ce qu'un paramètre effectif (ou argument) ?",
+    "type": "single",
+    "options": [
+      "Une variable ou constante donnée par le programme appelant lors de l'appel",
+      "Une variable locale du sous-programme appelé",
+      "Le type de la valeur retournée par une fonction",
+      "Une instruction de retour"
+    ],
+    "answer": [0],
+    "explanation": "Un paramètre effectif, aussi appelé argument, est une variable ou constante fournie par le programme appelant A lors de l'appel du sous-programme B.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q009",
+    "question": "L'association entre paramètre formel et paramètre effectif se fait suivant l'ordre de ces paramètres.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que cette association est effectuée suivant l'ordre des paramètres lors de l'appel.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q010",
+    "question": "Les paramètres formel et effectif doivent être de types différents.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le cours précise au contraire que les paramètres formel et effectif doivent être de même type.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q011",
+    "question": "Quels sont les trois types de passage de paramètre présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["En entrée", "En sortie", "En entrée/sortie", "En référence globale"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours distingue trois types de passage de paramètre : en entrée, en sortie, et en entrée/sortie. \"En référence globale\" n'est pas mentionné.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q012",
+    "question": "Combien de résultats une fonction retourne-t-elle ?",
+    "type": "single",
+    "options": ["Un seul résultat", "Aucun résultat", "Autant de résultats que de paramètres", "Toujours deux résultats"],
+    "answer": [0],
+    "explanation": "Les fonctions sont des sous-programmes retournant un seul résultat, comme les fonctions mathématiques y=f(x,y,...).",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q013",
+    "question": "Une fonction renvoie une ou plusieurs valeurs.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : une fonction renvoie un seul résultat, contrairement à ce que cette affirmation suggère.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q014",
+    "question": "Le passage de paramètre dans une fonction se fait uniquement :",
+    "type": "single",
+    "options": ["En entrée", "En sortie", "En entrée/sortie", "Aucun passage n'est possible"],
+    "answer": [0],
+    "explanation": "Pour les fonctions, le passage de paramètre est uniquement en entrée, c'est pourquoi il n'est pas précisé (E, S, E/S) lors de la déclaration.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q015",
+    "question": "Quelle instruction permet de spécifier la valeur de retour d'une fonction ?",
+    "type": "single",
+    "options": ["retourner", "sortie", "afficher", "ecrire"],
+    "answer": [0],
+    "explanation": "La valeur de retour d'une fonction est spécifiée par l'instruction retourner, qui doit apparaître au moins une fois dans le corps de la fonction.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q016",
+    "question": "Quelle est la syntaxe correcte de déclaration d'une fonction ?",
+    "type": "single",
+    "options": [
+      "fonction nom (paramètre(s)) : type de la valeur retournée",
+      "procédure nom (E paramètre(s) ; S paramètre(s))",
+      "Variable nom : tableau[min..max] de type",
+      "Suivant nom faire ... FinCas"
+    ],
+    "answer": [0],
+    "explanation": "La déclaration d'une fonction suit la forme : fonction nom de la fonction (paramètre(s)) : type de la valeur retournée.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q017",
+    "question": "Une fonction possède un seul type : celui de la valeur retournée.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'une fonction possède un seul type, qui est le type de la valeur retournée.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q018",
+    "question": "Peut-on utiliser un résultat de fonction comme paramètre d'une autre fonction ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise qu'on peut utiliser comme paramètre des variables, des constantes, mais aussi des résultats de fonction (comme dans minimum3 qui appelle minimum2).",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q019",
+    "question": "Dans l'exemple \"fonction minimum2 (a,b : Entier) : Entier\", que retourne cette fonction si a >= b ?",
+    "type": "single",
+    "options": ["b", "a", "a+b", "0"],
+    "answer": [0],
+    "explanation": "L'algorithme indique : si a >= b alors retourner b, sinon retourner a. Donc si a >= b, la fonction retourne b (la plus petite valeur).",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q020",
+    "question": "Dans l'exemple \"fonction minimum3 (a,b,c : Entier) : Entier\", comment est calculé le résultat ?",
+    "type": "single",
+    "options": [
+      "En appelant minimum2(a, minimum2(b,c))",
+      "En comparant directement a, b et c avec trois Si imbriqués",
+      "En utilisant une boucle Pour",
+      "En utilisant un tableau"
+    ],
+    "answer": [0],
+    "explanation": "minimum3 réutilise minimum2 en imbriquant les appels : retourner minimum2(a, minimum2(b,c)), ce qui illustre la réutilisation de sous-programmes.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q021",
+    "question": "Les parenthèses sont toujours présentes lors de l'appel d'une fonction, même s'il n'y a pas de paramètre effectif.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement que les parenthèses sont toujours présentes même lorsqu'il n'y a pas de paramètre effectif.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q022",
+    "question": "Combien de résultats une procédure retourne-t-elle ?",
+    "type": "single",
+    "options": ["Aucun résultat", "Un seul résultat", "Deux résultats obligatoirement", "Autant que de paramètres en entrée"],
+    "answer": [0],
+    "explanation": "Les procédures sont des sous-programmes qui ne retournent aucun résultat, contrairement aux fonctions.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q023",
+    "question": "Une procédure renvoie une seule valeur.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : une procédure ne renvoie aucun résultat ; c'est la fonction qui renvoie une valeur.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q024",
+    "question": "Quels préfixes sont utilisés pour indiquer le type de passage de paramètre dans une procédure ?",
+    "type": "multiple",
+    "options": ["Entrée (ou E)", "Sortie (ou S)", "Entrée/Sortie (ou E/S)", "Retour (ou R)"],
+    "answer": [0, 1, 2],
+    "explanation": "Les procédures admettent des paramètres préfixés par Entrée (E), Sortie (S), ou Entrée/Sortie (E/S). \"Retour\" n'est pas un préfixe utilisé.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q025",
+    "question": "Quelle est la syntaxe correcte de déclaration d'une procédure ?",
+    "type": "single",
+    "options": [
+      "procédure nom ( E paramètre(s) en entrée ; S paramètre(s) en sortie ; E/S paramètre(s) en entrée/sortie )",
+      "fonction nom (paramètre(s)) : type",
+      "Variable nom : tableau[min..max] de type",
+      "Si (condition) Alors instruction(s) Finsi"
+    ],
+    "answer": [0],
+    "explanation": "La procédure se déclare avec ses paramètres classés par type de passage : E (entrée), S (sortie), E/S (entrée/sortie).",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q026",
+    "question": "Dans l'exemple \"procédure calculerMinMax3 (E a,b,c : Entier ; S m,M : Entier)\", quels sont les paramètres en sortie ?",
+    "type": "single",
+    "options": ["m et M", "a, b et c", "Aucun paramètre en sortie", "Uniquement M"],
+    "answer": [0],
+    "explanation": "Les paramètres a, b, c sont préfixés par E (entrée) et m, M par S (sortie) : la procédure calcule le minimum et le maximum et les stocke dans m et M.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q027",
+    "question": "On appelle une procédure de la même manière qu'une fonction : en indiquant son nom suivi des paramètres effectifs entre parenthèses.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que l'on appelle une procédure comme une fonction, en indiquant son nom suivi des paramètres effectifs entre parenthèses.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q028",
+    "question": "Dans le pseudo-code d'un programme principal, comment récupère-t-on le résultat d'une fonction appelée ?",
+    "type": "single",
+    "options": [
+      "ResultatFonction ← NomFonction(variable2)",
+      "NomFonction(variable2) sans affectation possible",
+      "Appeler(NomFonction, variable2)",
+      "Retour = NomFonction"
+    ],
+    "answer": [0],
+    "explanation": "Le cours illustre l'appel avec affectation : ResultatFonction ← NomFonction(variable2), le contenu de variable2 étant passé en paramètre.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q029",
+    "question": "Quelle est la différence fondamentale entre une procédure et une fonction ?",
+    "type": "single",
+    "options": [
+      "Une procédure exécute un traitement sans renvoyer de valeur, une fonction renvoie une valeur exploitable dans le programme",
+      "Une procédure ne peut avoir aucun paramètre, une fonction en a toujours au moins un",
+      "Une fonction ne peut être appelée qu'une seule fois, contrairement à une procédure",
+      "Il n'existe aucune différence entre les deux"
+    ],
+    "answer": [0],
+    "explanation": "Le cours résume : une procédure exécute un traitement mais ne renvoie pas de valeur, tandis qu'une fonction renvoie des valeurs exploitables dans le corps du programme.",
+    "image": null
+  },
+  {
+    "id": "algo-s4-q030",
+    "question": "Quel mot-clé marque la fin du corps d'une procédure dans l'écriture algorithmique du cours ?",
+    "type": "single",
+    "options": ["FIN PROCEDURE", "Finsi", "FinCas", "ftanque"],
+    "answer": [0],
+    "explanation": "Dans la structure présentée, le corps d'une procédure se termine par FIN PROCEDURE, tout comme celui d'une fonction se termine par FIN FONCTION.",
+    "image": null
+  }
+]

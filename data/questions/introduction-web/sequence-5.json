@@ -1,0 +1,464 @@
+[
+  {
+    "id": "ti-s5-q001",
+    "question": "Selon quel critère les langages web peuvent-ils être répartis en deux groupes ?",
+    "type": "single",
+    "options": [
+      "Selon leur année de création",
+      "Selon qu'ils s'exécutent au niveau du serveur ou au niveau du client",
+      "Selon leur popularité",
+      "Selon leur système d'exploitation"
+    ],
+    "answer": [1],
+    "explanation": "Les langages Web peuvent être répartis en deux groupes selon qu'ils s'exécutent au niveau du serveur ou au niveau du client.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q002",
+    "question": "Comment appelle-t-on les langages s'exécutant au niveau de la machine cliente ?",
+    "type": "single",
+    "options": ["Langages web côté serveur", "Langages web côté client", "Langages de requête", "Langages de balisage"],
+    "answer": [1],
+    "explanation": "Les langages s'exécutant au niveau de la machine cliente sont appelés langages web côté client.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q003",
+    "question": "Comment appelle-t-on les langages s'exécutant au niveau du serveur ?",
+    "type": "single",
+    "options": ["Langages web côté client", "Langages web côté serveur", "Langages de présentation", "Langages de description"],
+    "answer": [1],
+    "explanation": "Les langages s'exécutant au niveau du serveur sont appelés langages web côté serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q004",
+    "question": "Pourquoi les langages web côté client constituent-ils la partie visible du site web ?",
+    "type": "single",
+    "options": [
+      "Parce que les pages reçues au final par le client sont faites avec ces langages",
+      "Parce qu'ils s'exécutent uniquement sur le serveur",
+      "Parce qu'ils sont plus récents",
+      "Parce qu'ils nécessitent une base de données"
+    ],
+    "answer": [0],
+    "explanation": "Les langages Web côté client constituent la partie visible du site web car les pages reçues au final par le client sont faites avec ces langages.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q005",
+    "question": "De quels types de langages sont constitués les langages web côté client ?",
+    "type": "multiple",
+    "options": [
+      "Langages de description (comme HTML)",
+      "Langages de présentation (comme CSS)",
+      "Langages de script (comme JavaScript)",
+      "Langages de requête (comme SQL)"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les langages web côté client sont constitués de langages de description comme HTML, de langages de présentation comme CSS et de langages de script comme JavaScript. SQL est un langage de requête côté serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q006",
+    "question": "Comment appelle-t-on les développeurs travaillant côté client ?",
+    "type": "single",
+    "options": ["Développeur Back End", "Développeur Front End", "Développeur Full Stack", "Développeur système"],
+    "answer": [1],
+    "explanation": "Les développeurs côté client sont appelés développeur Front End.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q007",
+    "question": "Pourquoi les langages web côté serveur constituent-ils la partie invisible du site web ?",
+    "type": "single",
+    "options": [
+      "Parce qu'ils s'exécutent dans le serveur et seul le résultat est envoyé au client",
+      "Parce qu'ils ne sont jamais utilisés",
+      "Parce qu'ils sont écrits en HTML",
+      "Parce qu'ils s'affichent uniquement sur mobile"
+    ],
+    "answer": [0],
+    "explanation": "Les langages Web côté serveur constituent la partie invisible du site web car ils s'exécutent dans le serveur et le résultat est envoyé au client.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q008",
+    "question": "De quels types de langages sont constitués les langages web côté serveur ?",
+    "type": "multiple",
+    "options": [
+      "Langages de script (comme PHP et Node.js)",
+      "Langages de requête (comme SQL)",
+      "Langages de présentation (comme CSS)",
+      "Langages de description (comme HTML)"
+    ],
+    "answer": [0, 1],
+    "explanation": "Les langages web côté serveur sont constitués de langages de script comme PHP et Node.js, et de langages de requête comme SQL. CSS et HTML sont des langages côté client.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q009",
+    "question": "Comment appelle-t-on les développeurs travaillant côté serveur ?",
+    "type": "single",
+    "options": ["Développeur Front End", "Développeur Back End", "Développeur graphique", "Webdesigner"],
+    "answer": [1],
+    "explanation": "Les développeurs côté serveur sont appelés développeur Back End.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q010",
+    "question": "Que signifie l'acronyme HTML ?",
+    "type": "single",
+    "options": ["High Text Modern Language", "Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlink Text Management Language"],
+    "answer": [1],
+    "explanation": "HTML est l'acronyme de Hyper Text Markup Language.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q011",
+    "question": "Que décrit le langage HTML ?",
+    "type": "single",
+    "options": [
+      "La structure des pages Web en utilisant le balisage",
+      "Uniquement les couleurs des pages",
+      "La base de données du site",
+      "Le comportement dynamique des pages"
+    ],
+    "answer": [0],
+    "explanation": "HTML décrit la structure des pages Web en utilisant le balisage.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q012",
+    "question": "Quelle est la dernière version de HTML mentionnée dans le cours ?",
+    "type": "single",
+    "options": ["HTML 3", "HTML 4", "HTML 5", "XHTML"],
+    "answer": [2],
+    "explanation": "HTML 5 est la dernière version de HTML.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q013",
+    "question": "Que permet de faire le langage HTML ?",
+    "type": "multiple",
+    "options": ["Formater du texte", "Ajouter des graphiques", "Créer des liens et des formulaires", "Manipuler directement une base de données"],
+    "answer": [0, 1, 2],
+    "explanation": "HTML permet de formater du texte, ajouter des graphiques, créer des liens, des formulaires, des blocs, etc. La manipulation de base de données relève de langages côté serveur comme SQL.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q014",
+    "question": "Que signifie l'acronyme CSS ?",
+    "type": "single",
+    "options": ["Computer Style Sheet", "Cascading Style Sheet", "Creative Style System", "Content Structure Sheet"],
+    "answer": [1],
+    "explanation": "CSS est l'acronyme de Cascading Style Sheet (Feuilles de style en cascade).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q015",
+    "question": "Que décrit le langage CSS ?",
+    "type": "single",
+    "options": [
+      "La présentation des documents HTML et XML",
+      "La structure des bases de données",
+      "Le comportement interactif des pages",
+      "La sécurité du serveur"
+    ],
+    "answer": [0],
+    "explanation": "CSS est un langage qui décrit la présentation des documents HTML et XML, c'est-à-dire comment les éléments doivent être affichés à l'écran, sur papier ou dans d'autres médias.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q016",
+    "question": "Quel avantage principal offre CSS pour la gestion de plusieurs pages web ?",
+    "type": "single",
+    "options": [
+      "Il permet d'économiser du travail en contrôlant la mise en page de plusieurs pages en même temps",
+      "Il accélère la connexion Internet",
+      "Il remplace complètement le HTML",
+      "Il gère automatiquement les bases de données"
+    ],
+    "answer": [0],
+    "explanation": "CSS permet d'économiser beaucoup de travail en contrôlant la mise en page de plusieurs pages Web en même temps.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q017",
+    "question": "Quelle est l'extension des fichiers de feuilles de style externes CSS ?",
+    "type": "single",
+    "options": [".html", ".css", ".xml", ".js"],
+    "answer": [1],
+    "explanation": "Les feuilles de style externes sont stockées dans des fichiers CSS d'extension .css.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q018",
+    "question": "JavaScript est un langage de script, c'est-à-dire un langage de programmation léger.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. JavaScript est un langage de script, c'est-à-dire un langage de programmation léger.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q019",
+    "question": "Quels sont les trois langages que tout développeur Web doit apprendre selon le cours ?",
+    "type": "multiple",
+    "options": ["HTML", "CSS", "JavaScript", "SQL"],
+    "answer": [0, 1, 2],
+    "explanation": "JavaScript est l'un des trois langages que tout développeur Web doit apprendre, à savoir HTML, CSS et JavaScript.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q020",
+    "question": "À quoi sert principalement le langage JavaScript ?",
+    "type": "single",
+    "options": [
+      "À programmer le comportement des pages Web",
+      "À définir uniquement la structure des pages",
+      "À gérer exclusivement les bases de données",
+      "À héberger un site web"
+    ],
+    "answer": [0],
+    "explanation": "JavaScript sert à programmer le comportement des pages Web.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q021",
+    "question": "Que signifie l'acronyme CGI ?",
+    "type": "single",
+    "options": ["Common Gateway Interface", "Computer Generated Interface", "Client Gateway Integration", "Common Graphic Interface"],
+    "answer": [0],
+    "explanation": "CGI signifie Common Gateway Interface.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q022",
+    "question": "En quels langages les programmes CGI sont-ils généralement écrits ?",
+    "type": "multiple",
+    "options": ["Perl", "Langage C", "HTML", "CSS"],
+    "answer": [0, 1],
+    "explanation": "La technologie CGI consiste à interpréter des programmes généralement écrits en Perl ou en langage C, puis à leur faire renvoyer un contenu compatible avec le protocole HTTP.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q023",
+    "question": "Quel est l'inconvénient principal de la technologie CGI ?",
+    "type": "single",
+    "options": [
+      "Elle requiert le lancement d'un nouveau processus à chaque requête, causant une charge de traitement évitable",
+      "Elle ne fonctionne qu'avec HTML",
+      "Elle est incompatible avec le protocole HTTP",
+      "Elle nécessite obligatoirement une base de données"
+    ],
+    "answer": [0],
+    "explanation": "L'inconvénient de la technologie CGI est qu'elle requiert le lancement d'un nouveau processus à chaque requête, ce qui cause une charge de traitement évitable.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q024",
+    "question": "Quelle technologie a été créée pour être plus efficace que CGI ?",
+    "type": "single",
+    "options": ["FastCGI", "PHP", "JSP", "XML"],
+    "answer": [0],
+    "explanation": "FastCGI est une technologie plus efficace créée à cet effet, une évolution basée sur CGI.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q025",
+    "question": "Quel est l'avantage de FastCGI par rapport à CGI ?",
+    "type": "single",
+    "options": [
+      "Elle permet de ne lancer le programme CGI qu'une seule fois, et non à chaque requête",
+      "Elle élimine complètement le besoin d'un serveur",
+      "Elle remplace le protocole HTTP",
+      "Elle fonctionne uniquement avec JavaScript"
+    ],
+    "answer": [0],
+    "explanation": "FastCGI est une évolution basée sur CGI qui permet de ne lancer le programme CGI qu'une seule fois, et non pas à chaque requête concernée.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q026",
+    "question": "Que signifie l'acronyme PHP ?",
+    "type": "single",
+    "options": ["Personal Home Page", "PHP Hypertext Preprocessor", "Programming Hyperlink Protocol", "Public Hosting Platform"],
+    "answer": [1],
+    "explanation": "PHP est un acronyme de PHP Hypertext Preprocessor.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q027",
+    "question": "PHP est présenté dans le cours comme une alternative à quelle technologie de Microsoft ?",
+    "type": "single",
+    "options": ["ASP", "JSP", "CGI", ".NET"],
+    "answer": [0],
+    "explanation": "PHP est une alternative à l'ASP de Microsoft.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q028",
+    "question": "Quels sont les pré-requis pour apprendre PHP selon le cours ?",
+    "type": "multiple",
+    "options": ["HTML", "CSS", "JavaScript", "XML"],
+    "answer": [0, 1, 2],
+    "explanation": "Les pré-requis pour PHP sont HTML, CSS et JavaScript.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q029",
+    "question": "PHP est un langage de script open source largement utilisé.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. PHP est un langage de script open source largement utilisé.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q030",
+    "question": "Que signifie l'acronyme JSP ?",
+    "type": "single",
+    "options": ["Java Server Pages", "JavaScript Processor", "Java Simple Pages", "Joint Server Protocol"],
+    "answer": [0],
+    "explanation": "JSP signifie Java Server Pages.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q031",
+    "question": "Le langage JSP est présenté comme la plus récente des technologies côté serveur évoquées dans le cours.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Le langage JSP (Java Server Pages) est la plus récente parmi ces technologies.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q032",
+    "question": "Que permet le langage JSP ?",
+    "type": "single",
+    "options": [
+      "D'utiliser toute la puissance de Java pour créer des pages web dynamiques",
+      "De créer uniquement des pages statiques",
+      "De remplacer entièrement HTML",
+      "De gérer le réseau Internet"
+    ],
+    "answer": [0],
+    "explanation": "JSP permet d'utiliser toute la puissance de Java pour créer des pages web dynamiques.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q033",
+    "question": "Quelle est l'extension des fichiers JSP ?",
+    "type": "single",
+    "options": [".jsp", ".php", ".html", ".xml"],
+    "answer": [0],
+    "explanation": "Les fichiers JSP sont d'extension .jsp.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q034",
+    "question": "Que signifie l'acronyme XML ?",
+    "type": "single",
+    "options": ["eXtensible Markup Language", "eXtra Markup Level", "eXtended Machine Language", "eXternal Markup Layer"],
+    "answer": [0],
+    "explanation": "XML est l'acronyme de eXtensible Markup Language.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q035",
+    "question": "Pour quel usage principal le langage XML a-t-il été conçu ?",
+    "type": "single",
+    "options": [
+      "Le transport et le stockage de données",
+      "L'affichage visuel des pages web",
+      "La gestion du style des pages",
+      "Le comportement interactif des sites"
+    ],
+    "answer": [0],
+    "explanation": "XML a été conçu pour le transport et le stockage de données, et pas pour l'affichage.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q036",
+    "question": "Contrairement à HTML, les balises XML sont prédéfinies par le W3C.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Contrairement à HTML, les balises XML ne sont pas prédéfinies : on les définit soi-même.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q037",
+    "question": "XML est conçu pour être auto-descriptif.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. XML est conçu pour être auto-descriptif.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q038",
+    "question": "XML est une recommandation de quel organisme ?",
+    "type": "single",
+    "options": ["Le W3C", "L'ICANN", "L'AfriNIC", "Le NIC Sénégal"],
+    "answer": [0],
+    "explanation": "XML est une recommandation du W3C et son apprentissage requiert HTML et JavaScript.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q039",
+    "question": "Quelle est l'extension d'un fichier XML ?",
+    "type": "single",
+    "options": [".xml", ".xls", ".xhtml", ".xsl"],
+    "answer": [0],
+    "explanation": "Un fichier XML est d'extension .xml.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q040",
+    "question": "Que signifie l'acronyme SQL ?",
+    "type": "single",
+    "options": ["Structured Query Language", "Simple Query Logic", "System Query Level", "Standard Quality Language"],
+    "answer": [0],
+    "explanation": "SQL est l'acronyme de Structured Query Language.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q041",
+    "question": "À quoi sert le langage SQL ?",
+    "type": "single",
+    "options": [
+      "C'est le langage standard pour accéder et manipuler des bases de données",
+      "C'est un langage de présentation de pages web",
+      "C'est un langage de script côté client uniquement",
+      "C'est un protocole réseau"
+    ],
+    "answer": [0],
+    "explanation": "SQL est le langage standard pour accéder et manipuler des bases de données.",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q042",
+    "question": "Qu'est-ce qu'un exemple de Système de Gestion de Base de Données Relationnelles (SGBD) cité dans le cours ?",
+    "type": "single",
+    "options": ["MySQL", "PHP", "XML", "CSS"],
+    "answer": [0],
+    "explanation": "MySQL est cité comme exemple de Système de Gestion de Base de Données Relationnelles (SGBD).",
+    "image": null
+  },
+  {
+    "id": "ti-s5-q043",
+    "question": "Quels éléments sont nécessaires pour construire un site web affichant des données depuis une base de données ?",
+    "type": "multiple",
+    "options": [
+      "Un SGBD comme MySQL",
+      "Un langage de script côté serveur comme PHP",
+      "SQL pour accéder aux données",
+      "HTML et CSS pour afficher les données"
+    ],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Pour construire un site Web qui affiche les données d'une base de données, il faut : un SGBD comme MySQL, un langage de script côté serveur comme PHP, SQL pour accéder aux données voulues, et HTML/CSS pour afficher les données.",
+    "image": null
+  }
+]

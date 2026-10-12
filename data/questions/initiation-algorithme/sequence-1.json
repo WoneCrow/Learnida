@@ -1,0 +1,298 @@
+[
+  {
+    "id": "algo-s1-q001",
+    "question": "De quel mathématicien vient le nom \"algorithme\" ?",
+    "type": "single",
+    "options": ["El Khawrismi", "Euclide", "Archimède", "Pythagore"],
+    "answer": [0],
+    "explanation": "Le terme \"algorithme\" vient du nom d'un mathématicien arabe du IXème siècle, El Khawrismi.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q002",
+    "question": "Quels mathématiciens grecs sont cités comme précurseurs de l'algorithmique ?",
+    "type": "multiple",
+    "options": ["Euclide", "Archimède", "Pythagore", "Thalès"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite Euclide (calcul du PGCD) et Archimède (calcul du nombre pi) comme précurseurs.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q003",
+    "question": "Un problème concret peut être résolu par un ordinateur uniquement si les opérations peuvent être décomposées en un nombre fini d'étapes élémentaires.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est la définition même donnée dans le cours : un problème n'est résoluble par ordinateur que si on peut le décomposer en étapes élémentaires traitables individuellement.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q004",
+    "question": "Quelle est la bonne définition d'un algorithme selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une suite de règles, de raisonnements ou d'opérations qui transforment des données d'entrée en données de sortie",
+      "Un langage de programmation permettant d'exécuter du code",
+      "Un programme compilé prêt à être exécuté par une machine",
+      "Une base de données contenant des instructions"
+    ],
+    "answer": [0],
+    "explanation": "Un algorithme est une suite de règles, de raisonnements ou d'opérations, qui transforment des données d'entrée (input) en données de sortie (output).",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q005",
+    "question": "Quelles sont les trois propriétés qu'un algorithme doit respecter ?",
+    "type": "multiple",
+    "options": ["Précis", "Déterministe", "Fini dans le temps", "Compilé"],
+    "answer": [0, 1, 2],
+    "explanation": "Un algorithme doit être précis, déterministe (mêmes données → mêmes résultats) et fini dans le temps (il doit s'arrêter).",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q006",
+    "question": "Un algorithme déterministe peut donner des résultats différents à chaque exécution avec les mêmes données d'entrée.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : le déterminisme signifie qu'une suite d'exécutions à partir des mêmes données doit produire des résultats identiques.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q007",
+    "question": "Quelles sont les règles à respecter pour concevoir un algorithme ?",
+    "type": "multiple",
+    "options": ["Entrée", "Sortie", "Terminaison", "Clarté", "Efficacité", "Compilation"],
+    "answer": [0, 1, 2, 3, 4],
+    "explanation": "Le cours cite cinq règles : entrée, sortie, terminaison, clarté et efficacité. La compilation n'en fait pas partie, elle concerne l'étape de codage.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q008",
+    "question": "L'ensemble des données d'entrée d'un algorithme peut être l'ensemble vide.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement que cet ensemble peut être l'ensemble vide.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q009",
+    "question": "Comment appelle-t-on la tâche qui consiste à définir précisément chaque opération d'un algorithme pour éviter toute ambiguïté ?",
+    "type": "single",
+    "options": ["L'affinement progressif (conception descendante)", "La compilation", "Le débogage", "La récursivité"],
+    "answer": [0],
+    "explanation": "Cette tâche est connue sous le nom d'affinement progressif de l'algorithme, ou conception descendante.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q010",
+    "question": "Un algorithme efficace signifie que chaque opération doit être exécutable en un temps fini et que le nombre d'opérations doit être fini et raisonnable.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est exactement la définition de l'efficacité donnée dans le cours (règle n°5).",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q011",
+    "question": "Que constitue le \"programme\" par rapport à l'algorithme ?",
+    "type": "single",
+    "options": [
+      "Le codage de l'algorithme dans un langage de programmation donné",
+      "La version finale sans erreur de l'algorithme",
+      "Un synonyme exact de l'algorithme",
+      "La documentation de l'algorithme"
+    ],
+    "answer": [0],
+    "explanation": "Le programme constitue le codage d'un algorithme dans un langage de programmation donné, pouvant être traité par une machine donnée.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q012",
+    "question": "Quelles sont les étapes du processus de programmation selon le schéma du cours ?",
+    "type": "multiple",
+    "options": ["Analyse", "Codage", "Exécution", "Marketing"],
+    "answer": [0, 1, 2],
+    "explanation": "Le schéma présente : Problème réel → Analyse → Algorithme → Codage (Traduction) → Programme → Exécution → Résultats.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q013",
+    "question": "En cas d'erreur sémantique lors de l'exécution, un retour vers l'analyse (l'algorithme) est inévitable.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Contrairement aux erreurs syntaxiques (corrections simples sur le programme), les erreurs sémantiques obligent à revenir sur l'algorithme.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q014",
+    "question": "Quelles sont les quatre phases principales de l'élaboration d'un algorithme ?",
+    "type": "multiple",
+    "options": [
+      "Analyse du problème",
+      "Expression d'une solution en langage courant",
+      "Expression d'une solution en pseudo-langage",
+      "Tests et vérification de l'adéquation de la solution",
+      "Compilation du code source"
+    ],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Les quatre phases citées sont : analyse du problème, expression en langage courant, expression en pseudo-langage, puis tests et vérification.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q015",
+    "question": "Un type d'objet indique uniquement les valeurs possibles de l'objet, pas les actions autorisées sur lui.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Un type indique à la fois les ensembles de valeurs que peut prendre l'objet ET les actions autorisées sur cet objet.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q016",
+    "question": "Quels sont les types simples présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["Entier", "Réel", "Caractère", "Chaîne de caractère", "Booléen", "Tableau"],
+    "answer": [0, 1, 2, 3, 4],
+    "explanation": "Les cinq types simples cités sont : entier, réel, caractère, chaîne de caractère et booléen. Le tableau n'est pas mentionné dans cette séquence.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q017",
+    "question": "Contrairement au type entier, on ne peut pas trouver de successeur ou de prédécesseur à un type réel donné.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le type entier est un ensemble fini où chaque élément a un successeur et un prédécesseur, ce qui n'est pas le cas du type réel.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q018",
+    "question": "Comment doit commencer un identificateur d'objet ?",
+    "type": "single",
+    "options": ["Par une lettre", "Par un chiffre", "Par un espace", "Par un symbole spécial"],
+    "answer": [0],
+    "explanation": "Pour différencier un identificateur d'un nombre, celui-ci doit commencer par une lettre et ne pas comporter d'espace.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q019",
+    "question": "Qu'est-ce qui différencie une constante d'une variable ?",
+    "type": "single",
+    "options": [
+      "La valeur de la constante n'évolue pas tout au long de l'algorithme",
+      "La constante n'a pas de type",
+      "La constante n'occupe pas d'emplacement mémoire",
+      "Il n'y a aucune différence"
+    ],
+    "answer": [0],
+    "explanation": "Une constante est un objet dont la valeur n'évolue pas tout au long de l'algorithme, contrairement à une variable.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q020",
+    "question": "Quel symbole est utilisé pour l'affectation en pseudo-code ?",
+    "type": "single",
+    "options": ["←", "=", "==", "->"],
+    "answer": [0],
+    "explanation": "Le symbole utilisé pour l'affectation est la flèche ←, comme dans X ← 1.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q021",
+    "question": "Si nb_kg est de type entier et prix_du_kg de type réel, quel est le type du résultat de prix_total <- nb_kg * prix_du_kg ?",
+    "type": "single",
+    "options": ["Réel", "Entier", "Booléen", "Chaîne de caractère"],
+    "answer": [0],
+    "explanation": "Le cours précise que si l'un des opérandes est réel, le résultat doit être de type réel.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q022",
+    "question": "Quels opérateurs de comparaison ont un résultat de type booléen ?",
+    "type": "multiple",
+    "options": ["<", "<=", "DIV", "MOD", "="],
+    "answer": [0, 1, 4],
+    "explanation": "Les opérateurs de comparaison (<, <=, >, >=, =, <>) renvoient un résultat booléen. DIV et MOD sont des opérateurs arithmétiques dont le résultat est entier.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q023",
+    "question": "Quelle est la différence entre l'opérateur DIV et l'opérateur / ?",
+    "type": "single",
+    "options": [
+      "DIV fait une division entière (résultat entier), / fait une division classique (résultat réel)",
+      "DIV et / sont strictement identiques",
+      "DIV fonctionne sur les booléens, / sur les entiers",
+      "DIV calcule le reste, / calcule le quotient"
+    ],
+    "answer": [0],
+    "explanation": "DIV s'applique aux entiers et donne un résultat entier (division entière), tandis que / donne un résultat réel.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q024",
+    "question": "Les opérateurs logiques ET et OU s'appliquent à des opérandes de type booléen.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "D'après le tableau des opérateurs, ET et OU prennent des opérandes booléens et renvoient un résultat booléen.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q025",
+    "question": "Quelle instruction permet d'afficher une valeur à l'écran ?",
+    "type": "single",
+    "options": ["Ecrire", "Lire", "Afficher", "Print"],
+    "answer": [0],
+    "explanation": "L'instruction Ecrire() permet au programme de communiquer des valeurs à l'utilisateur en les affichant à l'écran, tandis que Lire() récupère une saisie clavier.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q026",
+    "question": "Il est fortement conseillé d'écrire un libellé à l'écran avant de lire une variable.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours recommande d'utiliser Ecrire(\"saisir une valeur\") avant Lire(nomVariable) pour informer l'utilisateur de ce qu'il doit saisir.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q027",
+    "question": "Par quels symboles un commentaire est-il encadré en pseudo-code ?",
+    "type": "single",
+    "options": ["% et %", "/* et */", "// ", "# et #"],
+    "answer": [0],
+    "explanation": "Un commentaire est une suite de caractères encadrée par les symboles % et %, non exécutée, servant uniquement à documenter l'algorithme.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q028",
+    "question": "Quels sont les mots-clés qui structurent un algorithme selon la structure générale présentée ?",
+    "type": "multiple",
+    "options": ["Algorithme", "Constante", "Variable", "Début", "Fin", "Import"],
+    "answer": [0, 1, 2, 3, 4],
+    "explanation": "La structure générale comprend : Algorithme (nom), Constante, Type, Variable, puis Début ... Instructions ... Fin. \"Import\" n'existe pas dans ce pseudo-langage.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q029",
+    "question": "Dans l'algorithme \"facture\" du cours, quel est le type de la variable nb_kg ?",
+    "type": "single",
+    "options": ["Entier", "Réel", "Chaîne", "Booléen"],
+    "answer": [0],
+    "explanation": "Dans l'exemple, la déclaration est \"nb_kg : ENTIER\", tandis que prix_total et prix_du_kg sont de type REEL.",
+    "image": null
+  },
+  {
+    "id": "algo-s1-q030",
+    "question": "Un algorithme doit obligatoirement produire au moins une donnée de sortie.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours indique qu'un algorithme possède une ou plusieurs données de sortie, en relation exactement spécifiée avec les données d'entrée.",
+    "image": null
+  }
+]

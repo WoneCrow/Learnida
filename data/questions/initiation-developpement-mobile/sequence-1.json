@@ -1,0 +1,606 @@
+[
+  {
+    "id": "ti-glm-q001",
+    "question": "En quelle année Motorola a-t-il commercialisé le premier téléphone portable, selon le cours ?",
+    "type": "single",
+    "options": ["1980", "1983", "1990", "1995"],
+    "answer": [1],
+    "explanation": "Le cours indique que le téléphone portable a été commercialisé en 1983 par Motorola.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q002",
+    "question": "Que signifie l'acronyme PDA apparu dans les années 1990 ?",
+    "type": "single",
+    "options": [
+      "Personal Digital Assistant (Assistant numérique personnel)",
+      "Public Digital Access",
+      "Personal Data Application",
+      "Portable Device Adapter"
+    ],
+    "answer": [0],
+    "explanation": "PDA désigne les Assistants numériques personnels apparus en 1990, offrant agenda, carnet d'adresses, bloc-notes et synchronisation avec un PC.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q003",
+    "question": "Comment le cours définit-il un smartphone ?",
+    "type": "single",
+    "options": [
+      "Un simple téléphone portable amélioré",
+      "Téléphone portable + PDA",
+      "Un ordinateur miniaturisé sans fonction téléphonique",
+      "Un PDA sans connectivité"
+    ],
+    "answer": [1],
+    "explanation": "Le cours définit le smartphone comme l'union du téléphone portable et du PDA (Smartphone = Téléphone portable + PDA).",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q004",
+    "question": "Quels événements de 2005 ont marqué l'essor des smartphones selon le cours ?",
+    "type": "multiple",
+    "options": [
+      "La sortie de l'iPhone",
+      "Le rachat d'Android par Google",
+      "L'invention du premier téléphone portable",
+      "L'apparition des PDA"
+    ],
+    "answer": [0, 1],
+    "explanation": "L'essor des smartphones en 2005 est lié à la sortie de l'iPhone et au rachat d'Android par Google. Le téléphone portable date de 1983 et les PDA de 1990.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q005",
+    "question": "Quel constructeur a lancé un smartphone dès 2001, selon le cours ?",
+    "type": "single",
+    "options": ["Apple", "Google", "Sagem", "Nokia"],
+    "answer": [2],
+    "explanation": "Le cours précise que le premier smartphone est apparu en 2001 par Sagem, avant l'essor massif de 2005 avec l'iPhone et Android.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q006",
+    "question": "Parmi ces systèmes d'exploitation, lesquels appartiennent à l'ancienne génération selon le cours ?",
+    "type": "multiple",
+    "options": ["Symbian de Nokia", "Blackberry OS de RIM", "iOS de Apple", "Android de Google"],
+    "answer": [0, 1],
+    "explanation": "Symbian et Blackberry OS sont cités comme systèmes d'exploitation d'ancienne génération. iOS et Android sont classés parmi les OS tactiles.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q007",
+    "question": "Parmi ces systèmes d'exploitation, lesquels sont classés comme 'OS Tactiles' dans le cours ?",
+    "type": "multiple",
+    "options": ["iOS de Apple", "Android de Google", "Windows Phone 7 de Microsoft", "Bada de Samsung"],
+    "answer": [0, 1, 2],
+    "explanation": "iOS, Android et Windows Phone 7 sont classés comme OS tactiles. Bada de Samsung est cité parmi les OS d'ancienne génération.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q008",
+    "question": "D'après le graphique du cours, quel système d'exploitation détient la plus grande part de marché mondiale des smartphones en 2016 ?",
+    "type": "single",
+    "options": ["iOS", "Android", "Symbian", "RIM (Blackberry)"],
+    "answer": [1],
+    "explanation": "Selon le graphique, Android détient environ 84,82% du marché mondial des smartphones en 2016, loin devant les autres OS.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q009",
+    "question": "Quelles contraintes matérielles doivent être prises en compte lors du développement d'applications mobiles ?",
+    "type": "multiple",
+    "options": [
+      "Mémoire limitée / Processeur lent",
+      "Capacité de stockage limitée",
+      "Autonomie de la batterie",
+      "Puissance illimitée du serveur cloud"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite comme contraintes matérielles : la mémoire limitée/processeur lent, la capacité de stockage limitée, et l'autonomie. La puissance du serveur cloud n'est pas une contrainte matérielle de l'appareil mobile.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q010",
+    "question": "Pour pallier la capacité de stockage limitée de certains smartphones d'entrée de gamme, que recommande le cours ?",
+    "type": "single",
+    "options": [
+      "Réduire drastiquement la qualité de l'application",
+      "S'orienter vers le stockage sur le cloud",
+      "Interdire l'installation sur ces appareils",
+      "Augmenter le prix de l'application"
+    ],
+    "answer": [1],
+    "explanation": "Le cours recommande de s'orienter plus vers le stockage sur le cloud pour pallier la capacité de stockage limitée des appareils d'entrée de gamme.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q011",
+    "question": "Quelle stratégie est recommandée pour gérer l'autonomie limitée d'un smartphone ?",
+    "type": "single",
+    "options": [
+      "Utiliser systématiquement la caméra vidéo",
+      "Éviter les applications gourmandes en énergie",
+      "Augmenter la fréquence de rafraîchissement de l'écran",
+      "Désactiver le mode veille"
+    ],
+    "answer": [1],
+    "explanation": "Le cours recommande d'éviter les applications gourmandes en énergie, comme l'usage de la caméra vidéo (utile pour la réalité augmentée mais énergivore).",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q012",
+    "question": "Quelle approche de développement est recommandée pour s'adapter aux différentes tailles d'écran (smartphone, tablette, phablette) ?",
+    "type": "single",
+    "options": ["Le responsive-design", "Le fixed-design", "L'over-design", "Le mono-design"],
+    "answer": [0],
+    "explanation": "Le cours recommande de s'orienter vers le responsive-design, une approche adaptable à la taille de l'écran.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q013",
+    "question": "Qu'appelle-t-on le problème du 'FAT FINGER' dans le développement mobile ?",
+    "type": "single",
+    "options": [
+      "Un bug logiciel lié à la mémoire",
+      "Des clics invalides à cause de l'utilisation des doigts sur l'écran tactile",
+      "Un problème de batterie",
+      "Un problème de connectivité réseau"
+    ],
+    "answer": [1],
+    "explanation": "Le FAT FINGER désigne les clics invalides causés par l'imprécision des doigts sur l'écran tactile, nécessitant une attention à la taille et à la proximité des éléments cliquables.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q014",
+    "question": "Quelles solutions sont proposées pour limiter les erreurs de frappe sur le clavier tactile ?",
+    "type": "multiple",
+    "options": [
+      "Minimiser le nombre de champs de texte",
+      "Favoriser les champs préremplis",
+      "Utiliser des fonctionnalités d'auto-complétion et de correction orthographique",
+      "Augmenter le nombre de champs à remplir"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours recommande de minimiser les champs de texte, de favoriser les champs préremplis, et d'utiliser l'auto-complétion et la correction orthographique pour limiter les erreurs de frappe.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q015",
+    "question": "Sur mobile, l'effet de survol (hover) fonctionne exactement comme sur un ordinateur de bureau.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cours mentionne l'absence de l'effet de survol sur mobile, nécessitant plus de liens et de boutons, ainsi que des conventions comme le swipe ou le shake.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q016",
+    "question": "Quelles conventions de conception mobile sont citées pour compenser l'absence d'effet de survol ?",
+    "type": "multiple",
+    "options": ["Balayer l'écran (swipe)", "Secouer le téléphone (shake)", "Double-cliquer avec la souris", "Utiliser la molette de défilement"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite le swipe (balayer l'écran) et le shake (secouer le téléphone) comme conventions de conception mobile compensant l'absence de hover.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q017",
+    "question": "Comment le cours définit-il l'expérience utilisateur (UX) en lien avec les solutions mobiles ?",
+    "type": "single",
+    "options": [
+      "Le prix d'une application",
+      "Le comportement, l'attitude et les émotions d'un utilisateur quand il manipule un produit, système ou service",
+      "La vitesse du processeur du téléphone",
+      "La taille de l'écran uniquement"
+    ],
+    "answer": [1],
+    "explanation": "L'UX est définie comme le comportement, l'attitude et les émotions d'un utilisateur lorsqu'il manipule un certain produit, système ou service.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q018",
+    "question": "Quels aspects concerne l'expérience utilisateur (UX) selon le cours ?",
+    "type": "multiple",
+    "options": ["L'utilité", "La facilité d'utilisation", "L'efficacité", "Le prix de fabrication du composant"],
+    "answer": [0, 1, 2],
+    "explanation": "L'UX concerne l'utilité, la facilité d'utilisation et l'efficacité du produit. Le prix de fabrication n'est pas mentionné comme composante de l'UX.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q019",
+    "question": "L'expérience utilisateur (UX) est une notion objective, identique pour tous les utilisateurs.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cours précise que l'UX est une notion subjective, car elle dépend de la personne considérée, et dynamique car en constante évolution.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q020",
+    "question": "Pourquoi l'expérience utilisateur (UX) est-elle qualifiée de notion dynamique dans le cours ?",
+    "type": "single",
+    "options": [
+      "Parce qu'elle change selon la couleur de l'écran",
+      "Parce qu'elle évolue avec le changement des circonstances d'usage et des habitudes/systèmes",
+      "Parce qu'elle est fixée une fois pour toutes à la sortie du produit",
+      "Parce qu'elle ne dépend que du prix de l'appareil"
+    ],
+    "answer": [1],
+    "explanation": "L'UX est dynamique car elle évolue dans le temps, notamment avec le changement des circonstances d'usage et des habitudes et systèmes.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q021",
+    "question": "Quelles sont les plateformes de téléchargement citées permettant à un éditeur de vendre son application ?",
+    "type": "multiple",
+    "options": ["App Store", "Google Play", "PlayStation Store", "Steam"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite l'App Store (Apple) et Google Play comme plateformes de téléchargement permettant à un éditeur de vendre son application.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q022",
+    "question": "La vente directe via les stores est la seule manière de monétiser une application mobile selon le cours.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cours précise explicitement que ce n'est pas la seule manière de monétiser une application (il existe aussi la publicité, le sponsoring, le freemium, etc.).",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q023",
+    "question": "Concernant l'application payante comme moyen de monétisation, que constate le cours ?",
+    "type": "single",
+    "options": [
+      "Toutes les applications payantes rencontrent un grand succès quel que soit leur prix",
+      "Les applications peu chères (moins d'un euro) ont un grand succès",
+      "Le prix est identique quel que soit l'OS",
+      "Les utilisateurs Android sont plus enclins à payer que les utilisateurs iOS"
+    ],
+    "answer": [1],
+    "explanation": "Le cours indique que les applications peu chères (moins d'un euro) ont un grand succès, que le prix varie selon l'OS, et que certains utilisateurs (surtout sur Android) sont réticents à payer.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q024",
+    "question": "Quel est l'inconvénient principal de la 'Version d'Essai' comme moyen de monétisation, selon le cours ?",
+    "type": "single",
+    "options": [
+      "Elle est interdite sur les stores",
+      "Elle pose un problème de maintenabilité pour les développeurs",
+      "Elle ne fonctionne jamais pour les jeux",
+      "Elle coûte plus cher à développer qu'une version complète"
+    ],
+    "answer": [1],
+    "explanation": "Le cours mentionne que la version d'essai, bien adaptée pour les jeux, pose un problème de maintenabilité pour les développeurs.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q025",
+    "question": "Sous quelles formes la publicité peut-elle apparaître dans une application mobile ?",
+    "type": "multiple",
+    "options": ["Bandeau", "Interstitiel", "Pop-up plein écran obligatoire au démarrage du téléphone", "Notification système forcée"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite la publicité sous forme de bandeau ou interstitiel comme moyen de monétisation.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q026",
+    "question": "Comment les publicités rémunèrent-elles généralement les développeurs, selon le cours ?",
+    "type": "single",
+    "options": ["Au forfait mensuel fixe", "Au clic", "Au nombre de téléchargements de l'application", "Au temps passé sur l'application"],
+    "answer": [1],
+    "explanation": "Le cours précise que les publicités rémunèrent en général au clic, ce qui rend difficile l'estimation du revenu.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q027",
+    "question": "Qu'est-ce que le 'Sponsoring' comme moyen de monétisation d'une application mobile ?",
+    "type": "single",
+    "options": [
+      "Un abonnement mensuel obligatoire",
+      "Inciter les utilisateurs à effectuer une action en échange d'un bien virtuel",
+      "La vente de l'application à un prix fixe",
+      "Un partenariat exclusif avec un opérateur télécom"
+    ],
+    "answer": [1],
+    "explanation": "Le sponsoring incite les utilisateurs à effectuer une action en échange d'un bien virtuel, une approche bien adaptée aux jeux.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q028",
+    "question": "Comment s'appelle le modèle de monétisation Freemium chez Apple et chez Google respectivement ?",
+    "type": "single",
+    "options": [
+      "Apple : in-app purchase / Google : in-app billing",
+      "Apple : in-app billing / Google : in-app purchase",
+      "Apple : App Credit / Google : Play Credit",
+      "Apple : Store Pass / Google : Market Pass"
+    ],
+    "answer": [0],
+    "explanation": "Chez Apple, le Freemium s'appelle 'in-app purchase', et chez Google 'in-app billing'.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q029",
+    "question": "Le modèle Freemium peut être implémenté uniquement sur des applications gratuites, jamais sur des applications payantes.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cours précise que les achats intégrés (in-app) peuvent être implémentés sur une application payante ou gratuite.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q030",
+    "question": "Selon le cours, comment doit être l'achat dans un modèle Freemium pour être efficace ?",
+    "type": "single",
+    "options": [
+      "Long et complexe pour éviter les achats impulsifs",
+      "Simple et rapide, avec le moins de clics possibles",
+      "Réservé aux utilisateurs premium uniquement",
+      "Nécessitant une validation par email à chaque fois"
+    ],
+    "answer": [1],
+    "explanation": "Le cours recommande que l'achat soit simple et rapide, avec le moins de clics possibles, pour un modèle Freemium efficace.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q031",
+    "question": "Quelles sont les 3 catégories principales d'applications mobiles présentées dans le cours ?",
+    "type": "multiple",
+    "options": ["Applications Natives", "Applications Web", "Applications Hybrides", "Applications Desktop"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours présente 3 catégories : Applications Natives, Applications Web et Applications Hybrides. Les applications Desktop ne font pas partie de cette classification mobile.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q032",
+    "question": "Quel langage de programmation est cité comme spécifique au développement natif iOS ?",
+    "type": "single",
+    "options": ["Java", "Objective-C", "HTML5", "Swift uniquement"],
+    "answer": [1],
+    "explanation": "Le cours cite Objective-C comme exemple de langage pour iOS, et Java pour Android, dans le cadre des applications natives.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q033",
+    "question": "Quel langage de programmation est cité comme spécifique au développement natif Android ?",
+    "type": "single",
+    "options": ["Java", "Objective-C", "Swift", "C#"],
+    "answer": [0],
+    "explanation": "Le cours cite Java comme exemple de langage natif pour Android.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q034",
+    "question": "Quels sont les avantages des applications natives selon le cours ?",
+    "type": "multiple",
+    "options": [
+      "Performance accrue et haute fiabilité",
+      "Accès aux fonctionnalités du téléphone (caméra, contacts...)",
+      "Utilisables sans connexion internet",
+      "Développement peu coûteux et rapide à porter sur toutes les plateformes"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les applications natives offrent performance, accès aux fonctionnalités du téléphone et fonctionnement hors connexion. En revanche, elles sont plutôt chères à développer car il faut dupliquer les versions pour chaque plateforme.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q035",
+    "question": "Quel est l'inconvénient principal des applications natives évoqué dans le cours ?",
+    "type": "single",
+    "options": [
+      "Elles n'ont accès à aucune fonctionnalité du téléphone",
+      "Elles sont plutôt chères à développer car il faut dupliquer les versions pour chaque plateforme",
+      "Elles nécessitent obligatoirement une connexion internet",
+      "Elles ne peuvent pas être publiées sur les stores"
+    ],
+    "answer": [1],
+    "explanation": "L'inconvénient principal des applications natives est leur coût de développement élevé, car étant associées à un OS, il faut dupliquer les versions pour les autres plateformes.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q036",
+    "question": "Quelles caractéristiques définissent une application web mobile selon le cours ?",
+    "type": "multiple",
+    "options": [
+      "Accessible via le navigateur web de l'appareil",
+      "Fonctionnement en ligne, sans installation",
+      "Utilise HTML, JavaScript, CSS",
+      "Nécessite obligatoirement d'être installée depuis un store"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les applications web sont accessibles via le navigateur, fonctionnent en ligne sans installation, et sont développées avec HTML, JavaScript et CSS. Elles ne nécessitent pas d'installation depuis un store.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q037",
+    "question": "Quel est l'avantage principal des applications web en termes de maintenance ?",
+    "type": "single",
+    "options": [
+      "Aucune maintenance n'est jamais nécessaire",
+      "Une modification à un seul endroit est vue par tous les utilisateurs",
+      "Chaque utilisateur doit télécharger manuellement les mises à jour",
+      "Elles se mettent à jour uniquement une fois par an"
+    ],
+    "answer": [1],
+    "explanation": "Le cours précise qu'une modification à un seul endroit est immédiatement visible par tous les utilisateurs, contrairement aux applications natives qui nécessitent une mise à jour côté client.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q038",
+    "question": "Qu'est-ce qu'une application hybride selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une application développée uniquement en langage natif mais compilée deux fois",
+      "Du contenu de sites web existants exposé sous forme d'application, enveloppé dans une application native",
+      "Un site web accessible uniquement via navigateur, sans aucune installation",
+      "Une application qui fonctionne uniquement sur ordinateur"
+    ],
+    "answer": [1],
+    "explanation": "Une application hybride expose le contenu de sites web existants sous forme d'application : développée en HTML, JavaScript et CSS, puis enveloppée dans une application native.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q039",
+    "question": "Les applications hybrides sont-elles publiables dans les magasins d'applications (stores) ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le cours précise que les applications hybrides sont publiables dans les magasins d'applications, contrairement aux applications purement web.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q040",
+    "question": "Comparé aux applications natives, l'accès aux fonctionnalités du téléphone des applications hybrides est...",
+    "type": "single",
+    "options": [
+      "Identique et sans aucune limite",
+      "Plus important que les applications web, mais reste un peu limité",
+      "Totalement inexistant",
+      "Supérieur à celui des applications natives"
+    ],
+    "answer": [1],
+    "explanation": "Le cours précise que les applications hybrides ont plus accès aux fonctionnalités du téléphone que les applications purement web, mais restent un peu limitées comparées aux applications natives.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q041",
+    "question": "Selon le tableau comparatif du cours, quel est un avantage (PROS) des applications natives ?",
+    "type": "single",
+    "options": [
+      "Coût de développement bas",
+      "Performance et interface cohérente avec le look-and-feel de l'appareil",
+      "Réellement multi-plateforme",
+      "Création rapide à partir d'un site existant"
+    ],
+    "answer": [1],
+    "explanation": "Selon le tableau, les avantages des applications natives incluent la performance et une interface cohérente avec le look-and-feel de l'appareil.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q042",
+    "question": "Selon le tableau comparatif du cours, quel est un inconvénient (CONS) des applications web ?",
+    "type": "single",
+    "options": [
+      "Développement coûteux",
+      "Pas accès aux fonctionnalités du téléphone et interfaces plutôt basiques",
+      "Code non réutilisable entre plateformes",
+      "Rendu incohérent selon les navigateurs"
+    ],
+    "answer": [1],
+    "explanation": "Les inconvénients des applications web incluent le manque d'accès aux fonctionnalités du téléphone, une UX purement web, des interfaces basiques et l'absence de distribution via les stores.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q043",
+    "question": "Selon le tableau comparatif du cours, quel est un inconvénient (CONS) des applications hybrides ?",
+    "type": "single",
+    "options": [
+      "Elles ne sont pas installables",
+      "Les navigateurs ne donnent pas toujours le même rendu",
+      "Elles n'ont aucun accès aux fonctionnalités du téléphone",
+      "Elles coûtent plus cher que le natif"
+    ],
+    "answer": [1],
+    "explanation": "L'inconvénient des applications hybrides mentionné dans le tableau est que les navigateurs ne donnent pas toujours le même rendu.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q044",
+    "question": "Quel organisme a réalisé l'étude sur les 10 tendances mobiles que les entreprises devront connaître, citée dans le cours ?",
+    "type": "single",
+    "options": ["Gartner", "IDC", "Forrester", "McKinsey"],
+    "answer": [0],
+    "explanation": "Le cours cite une étude de Gartner sur les 10 tendances mobiles que les entreprises devront connaître.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q045",
+    "question": "Parmi les 10 tendances mobiles présentées, laquelle concerne la nécessité de maîtriser plusieurs outils pour créer des applications fonctionnant sur différents OS et architectures ?",
+    "type": "single",
+    "options": [
+      "Internet of Things",
+      "Outils de développement multi-plateformes",
+      "Standards LTE et LTE-A",
+      "Outils de Monitoring"
+    ],
+    "answer": [1],
+    "explanation": "La tendance 'Outils de développement multi-plateformes' souligne l'obligation de maîtriser plusieurs outils pour créer des applications fonctionnant sur les 3 OS connus (Android, iOS, WinPhone) et les 3 architectures (natif, hybride, web).",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q046",
+    "question": "Quel langage est cité comme une tendance qui gagnera en importance pour les applications multiplateformes ?",
+    "type": "single",
+    "options": ["HTML5", "COBOL", "Assembly", "Pascal"],
+    "answer": [0],
+    "explanation": "Le langage HTML5 est cité comme une tendance en évolution qui gagnera en importance pour les applications multiplateformes.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q047",
+    "question": "Concernant la géolocalisation comme tendance mobile, que met en avant le cours ?",
+    "type": "single",
+    "options": [
+      "Elle ne sera jamais utilisée dans les applications mobiles",
+      "Le besoin de contenu contextualisé, comme l'envoi de promotions aux mobinautes à proximité",
+      "Elle remplace complètement le besoin de Wifi",
+      "Elle n'a aucun lien avec le contenu proposé aux utilisateurs"
+    ],
+    "answer": [1],
+    "explanation": "Le cours souligne le besoin de contenu contextualisé grâce à la géolocalisation, par exemple l'envoi de promotions de courte durée aux mobinautes à proximité.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q048",
+    "question": "Selon la tendance 'Smartphones' du cours, quel rôle le smartphone va-t-il jouer ?",
+    "type": "single",
+    "options": [
+      "Un simple accessoire secondaire",
+      "Le point central (hub) du réseau personnel, dialoguant avec tous les gadgets",
+      "Un remplaçant total des ordinateurs de bureau",
+      "Un outil réservé uniquement aux communications téléphoniques"
+    ],
+    "answer": [1],
+    "explanation": "Le cours indique que le smartphone va devenir le point central (hub) du réseau personnel, dialoguant avec tous les gadgets.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q049",
+    "question": "Que désignent les standards LTE et LTE-A évoqués dans les tendances mobiles ?",
+    "type": "single",
+    "options": [
+      "Long Time Evolution et LTE-Advanced, augmentant les performances réseau jusqu'à 1 Gbit/s",
+      "Local Terminal Encryption",
+      "Low Traffic Extension",
+      "Long Term Excellence"
+    ],
+    "answer": [0],
+    "explanation": "LTE (Long Time Evolution) et LTE-A (LTE-Advanced) augmentent les performances/vitesse des réseaux, avec un débit pouvant atteindre 1 Gbit/s, dans la progression de la 4G vers le très haut débit.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q050",
+    "question": "Que recouvre la tendance 'Gestion des Mobiles d'Entreprise' évoquée dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "La gestion des terminaux",
+      "La gestion des applications",
+      "La synchronisation et le partage de fichiers",
+      "La fabrication physique des smartphones"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "La gestion des mobiles d'entreprise comprend la gestion des terminaux, des applications, la synchronisation et le partage de fichiers. La fabrication physique n'en fait pas partie.",
+    "image": null
+  },
+  {
+    "id": "ti-glm-q051",
+    "question": "Selon le cours, à partir de quelle année vivrons-nous entourés d'objets connectés (Internet of Things) ?",
+    "type": "single",
+    "options": ["2015", "2018", "2020", "2025"],
+    "answer": [2],
+    "explanation": "Le cours indique qu'en 2020, on vivra autour d'objets connectés (jouets, électroménager, dispositifs médicaux...).",
+    "image": null
+  }
+]

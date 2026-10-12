@@ -1,0 +1,244 @@
+[
+  {
+    "id": "tm-s3-q001",
+    "question": "Quels sont les objectifs annoncés de cette séquence sur l'évolution des périphériques mobiles ?",
+    "type": "multiple",
+    "options": ["Décrire un périphérique mobile", "Décrire l'évolution des périphériques mobiles", "Décrire les principales fonctionnalités des appareils mobiles des décennies passées", "Développer une application mobile complète"],
+    "answer": [0, 1, 2],
+    "explanation": "À l'issue de cette séquence, l'étudiant doit être en mesure de décrire un périphérique mobile, son évolution, ainsi que les principales fonctionnalités des appareils mobiles des décennies passées.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q002",
+    "question": "Comment le cours définit-il un « appareil mobile » ?",
+    "type": "single",
+    "options": [
+      "Un appareil informatique portatif utilisable de manière autonome lors d'un déplacement",
+      "Un ordinateur de bureau relié à une prise électrique",
+      "Un logiciel installé sur un serveur distant",
+      "Un réseau de télécommunication filaire"
+    ],
+    "answer": [0],
+    "explanation": "Un appareil mobile est la traduction littérale du terme « mobile device » : un appareil informatique portatif utilisable de manière autonome lors d'un déplacement.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q003",
+    "question": "Quelles fonctionnalités les appareils mobiles permettent-ils typiquement, selon la définition citée (Wikipédia) ?",
+    "type": "multiple",
+    "options": ["Accéder au Web et lire du courrier électronique", "Prendre des photos et jouer à des jeux vidéo", "Écouter de la musique et regarder des clips vidéo", "Effectuer des soudures électroniques"],
+    "answer": [0, 1, 2],
+    "explanation": "Les appareils mobiles permettent d'accéder au Web, de lire du courrier électronique, de prendre des photos, de jouer à des jeux vidéo, d'écouter de la musique, de regarder des clips vidéo, de télécharger des applications, et peuvent comporter un calendrier ou un carnet d'adresses.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q004",
+    "question": "Pourquoi les tout premiers téléphones mobiles des années 1985-1988 étaient-ils considérés comme révolutionnaires à leur époque ?",
+    "type": "single",
+    "options": [
+      "Parce qu'ils permettaient de téléphoner sans être obligé d'être à côté du combiné",
+      "Parce qu'ils étaient équipés d'un écran tactile",
+      "Parce qu'ils permettaient d'accéder à Internet en 4G",
+      "Parce qu'ils intégraient un appareil photo numérique"
+    ],
+    "answer": [0],
+    "explanation": "Même si cela paraît incroyable aujourd'hui, ces appareils étaient révolutionnaires à l'époque car ils permettaient de téléphoner sans être obligé d'être à côté du combiné.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q005",
+    "question": "Lesquels de ces modèles font partie des « Mobile Phones 1985-86 » cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Motorola 8000S", "Mitsubishi Roamer", "Technophone PC135", "Nokia 3210"],
+    "answer": [0, 1, 2],
+    "explanation": "Les Mobile Phones 1985-86 cités sont le Motorola 8000S, le Mitsubishi Roamer et le Technophone PC135. Le Nokia 3210 apparaît plus tard, dans les GSM phones 1999.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q006",
+    "question": "Quels modèles figurent parmi les « Mobile Phones 1987-1988 » cités dans le cours ?",
+    "type": "multiple",
+    "options": ["NEC 9A", "Motorola 8500X", "Nokia Cityman 1320", "Motorola StarTAC"],
+    "answer": [0, 1, 2],
+    "explanation": "Les Mobile Phones 1987-1988 cités sont le NEC 9A, le Motorola 8500X, le Nokia Cityman 1320, le Philips PRC30E et le British Telecom Coral. Le Motorola StarTAC apparaît plus tard, dans les GSM phones 1995-6.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q007",
+    "question": "Quels étaient les deux principaux défis adressés par les premiers appareils de téléphonie mobile de la décennie 1990 ?",
+    "type": "single",
+    "options": [
+      "La taille des appareils et l'autonomie suffisante pour tenir toute la journée",
+      "La résolution de l'écran et la vitesse du processeur",
+      "La capacité de stockage et la connectivité Wi-Fi",
+      "Le prix de vente et la disponibilité des applications"
+    ],
+    "answer": [0],
+    "explanation": "Les premiers appareils des années 1990 adressaient la question de la taille des appareils et de l'autonomie suffisante pour émettre des appels toute la journée sans recharge.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q008",
+    "question": "Quelle était, selon le cours, la fonctionnalité principale (et quasi unique) des téléphones du début des années 1990 ?",
+    "type": "single",
+    "options": [
+      "La possibilité d'enregistrer quelques numéros de téléphone",
+      "L'accès à Internet haut débit",
+      "L'envoi de messages multimédias (MMS)",
+      "Le téléchargement d'applications tierces"
+    ],
+    "answer": [0],
+    "explanation": "Côté fonctionnalité, c'était très basique, avec seulement la possibilité d'enregistrer quelques numéros de téléphone.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q009",
+    "question": "Quelle avancée technologique majeure caractérise la décennie 1990-2000 et signe la fin de l'ère analogique ?",
+    "type": "single",
+    "options": ["Le développement fulgurant du GSM", "L'apparition du Wi-Fi", "Le lancement de la 4G", "L'arrivée du Bluetooth"],
+    "answer": [0],
+    "explanation": "Le plus important durant cette décennie est le développement fulgurant du GSM, qui signe la fin de l'ère analogique.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q010",
+    "question": "Lesquels de ces modèles figurent parmi les « GSM phones 1999 » cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Nokia 3210", "Ericsson T28", "Nokia 8210", "Nokia 2140"],
+    "answer": [0, 1, 2],
+    "explanation": "Les GSM phones 1999 cités sont le Motorola Timeport L7089, l'Ericsson T28, le Nokia 8210, le Motorola v3688, le Nokia 3210 et le Sagem 815. Le Nokia 2140 figure dans les GSM phones 1993-4.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q011",
+    "question": "Le Motorola StarTAC fait partie des GSM phones cités pour la période 1995-1996.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours cite les GSM phones 1995-6 : Nokia 1610, Nokia 2110i, Nokia 8110, Motorola 7500, Ericsson GA318 et Motorola StarTAC.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q012",
+    "question": "Comment le cours qualifie-t-il la période allant des années 2000 à aujourd'hui pour les périphériques mobiles ?",
+    "type": "single",
+    "options": [
+      "La période de la convergence technologique et des objets connectés",
+      "La période de disparition des téléphones mobiles",
+      "La période de retour aux téléphones analogiques",
+      "La période exclusivement dominée par le fax mobile"
+    ],
+    "answer": [0],
+    "explanation": "Des années 2000 à nos jours, nous sommes dans la période de la convergence technologique et des objets connectés, avec une diversification des équipements et des services.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q013",
+    "question": "Quels événements ont marqué le début de la révolution des périphériques mobiles connectés selon le cours ?",
+    "type": "multiple",
+    "options": ["L'arrivée de l'iPhone d'Apple", "Le développement du système d'exploitation Android", "La création d'équipements connectés comme tablettes et montres connectées", "L'invention du télégraphe"],
+    "answer": [0, 1, 2],
+    "explanation": "Cette révolution est arrivée avec l'iPhone d'Apple, puis avec le système d'exploitation Android, avant la création d'un ensemble d'équipements connectés (tablettes, montres connectées, télévision, etc.).",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q014",
+    "question": "Parmi les catégories illustrées dans le cours (Android Wear, Phones, Tablets, Android TV, Android Auto), quelles catégories d'équipements connectés sont représentées ?",
+    "type": "multiple",
+    "options": ["Montres connectées", "Smartphones", "Tablettes", "Véhicules connectés"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le cours illustre la diversification des équipements avec Android Wear (montres), Phones (smartphones), Tablets (tablettes), Android TV (télévisions) et Android Auto (véhicules connectés).",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q015",
+    "question": "Comment le cours définit-il un smartphone ?",
+    "type": "single",
+    "options": [
+      "Un ordinateur de poche qui combine les fonctions d'un téléphone mobile avec celles d'un ordinateur",
+      "Un simple téléphone permettant uniquement d'émettre et recevoir des appels",
+      "Un ordinateur de bureau miniaturisé sans fonction téléphonique",
+      "Un accessoire externe se connectant à un téléphone classique"
+    ],
+    "answer": [0],
+    "explanation": "Un smartphone est un ordinateur de poche qui combine les fonctions d'un téléphone mobile avec celles d'un ordinateur, permettant notamment d'accéder au web, d'envoyer des e-mails et d'écouter de la musique.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q016",
+    "question": "Quel appareil est cité comme l'un des premiers smartphones, et par quel groupe et en quelle année a-t-il été lancé ?",
+    "type": "single",
+    "options": [
+      "Le BlackBerry, lancé par Research In Motion (RIM) en 1999",
+      "L'iPhone, lancé par Apple en 1999",
+      "Le Nokia 3210, lancé par Nokia en 1999",
+      "Le Motorola StarTAC, lancé par Motorola en 1995"
+    ],
+    "answer": [0],
+    "explanation": "BlackBerry a été l'un des premiers appareils de ce type, lancé par le groupe canadien Research In Motion (RIM) en 1999.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q017",
+    "question": "Research In Motion (RIM), le groupe à l'origine du BlackBerry, est une entreprise canadienne.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise explicitement que BlackBerry a été lancé par le groupe canadien Research In Motion (RIM) en 1999.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q018",
+    "question": "Outre les appels et les SMS, pour quels usages les smartphones sont-ils couramment utilisés selon le cours ?",
+    "type": "multiple",
+    "options": ["Accéder à Internet et envoyer des e-mails", "Prendre des photos et consulter la météo", "Jouer et accéder aux réseaux sociaux", "Réparer un moteur de voiture"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite : accéder à Internet, envoyer des e-mails, prendre des photos, consulter les prévisions météo, jouer, ou accéder aux réseaux sociaux.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q019",
+    "question": "Grâce à quel facteur technique les technologies mobiles se sont-elles largement répandues à la fin des années 1990, selon le cours ?",
+    "type": "single",
+    "options": ["La miniaturisation des composants électroniques", "L'invention de la fibre optique", "La généralisation du Wi-Fi domestique", "La baisse du prix du pétrole"],
+    "answer": [0],
+    "explanation": "Ce moyen de communication s'est largement répandu à la fin des années 1990 grâce à la miniaturisation des composants électroniques.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q020",
+    "question": "Selon le cours, c'est dans les années 1980 qu'on a commencé à voir apparaître dans le commerce des appareils mobiles destinés au grand public.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours indique : « C'est dans les années 1980 qu'on a commencé à voir dans le commerce des appareils mobiles grands publics. »",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q021",
+    "question": "En 2016, combien de personnes dans le monde avaient accès à Internet selon le cours, et quel taux de pénétration de l'Internet mobile est anticipé pour 2019 ?",
+    "type": "single",
+    "options": ["3 milliards de personnes en 2016, pénétration de 71% attendue en 2019", "5 milliards de personnes en 2016, pénétration de 55% attendue en 2019", "1 milliard de personnes en 2016, pénétration de 96% attendue en 2019", "3 milliards de personnes en 2016, pénétration de 30% attendue en 2019"],
+    "answer": [0],
+    "explanation": "En 2016, 3 milliards de personnes avaient accès à Internet, et la pénétration de l'Internet mobile devrait atteindre 71% en 2019, selon le cours.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q022",
+    "question": "Quels types de dispositifs sont inclus dans la catégorie « appareils mobiles » selon le cours ?",
+    "type": "multiple",
+    "options": ["Téléphones simples", "Smartphones et tablettes", "Pocket PC et PDA", "Serveurs de données centralisés"],
+    "answer": [0, 1, 2],
+    "explanation": "Parmi les dispositifs mobiles cités figurent les téléphones simples, les smartphones, les tablettes, les Pocket PC et les PDA, entre autres.",
+    "image": null
+  },
+  {
+    "id": "tm-s3-q023",
+    "question": "Selon le cours, il ne fait aucun doute que les appareils mobiles vont devenir les principaux moyens d'accès au commerce électronique et au Web.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est la conclusion explicitement formulée dans la synthèse « À retenir » de cette séquence.",
+    "image": null
+  }
+]

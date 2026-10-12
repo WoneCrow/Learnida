@@ -1,0 +1,407 @@
+[
+  {
+    "id": "ti-s9-q001",
+    "question": "À quoi servent les formulaires HTML ?",
+    "type": "single",
+    "options": [
+      "À afficher des images",
+      "À la saisie des données utilisateurs et leur transmission vers un serveur",
+      "À créer des animations",
+      "À styliser une page web"
+    ],
+    "answer": [1],
+    "explanation": "Les formulaires HTML sont utilisés pour la saisie des données utilisateurs et leur transmission vers un serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q002",
+    "question": "Quelle balise permet de déclarer un formulaire ?",
+    "type": "single",
+    "options": ["<form>", "<input>", "<field>", "<data>"],
+    "answer": [0],
+    "explanation": "La déclaration d'un formulaire se fait avec l'élément form : <form action=\"page.php\" method=\"post\">...</form>.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q003",
+    "question": "Un formulaire peut contenir quels types d'éléments ?",
+    "type": "multiple",
+    "options": ["Champs de texte", "Cases à cocher", "Boutons radio", "Balises de tableau <tr>"],
+    "answer": [0, 1, 2],
+    "explanation": "Un formulaire peut contenir des éléments input comme les champs de texte, des cases à cocher, des boutons radio, des boutons submit. <tr> est une balise de tableau, pas de formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q004",
+    "question": "Quel attribut de <form> indique l'adresse (URL) où le formulaire sera soumis ?",
+    "type": "single",
+    "options": ["method", "action", "target", "enctype"],
+    "answer": [1],
+    "explanation": "L'attribut action indique une adresse (URL) où soumettre le formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q005",
+    "question": "Quel attribut de <form> spécifie la méthode HTTP utilisée lors de l'envoi du formulaire ?",
+    "type": "single",
+    "options": ["action", "method", "name", "target"],
+    "answer": [1],
+    "explanation": "L'attribut method spécifie la méthode HTTP utilisée lors de l'envoi du formulaire (par défaut : GET).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q006",
+    "question": "Quelle est la méthode HTTP par défaut de l'attribut method si elle n'est pas précisée ?",
+    "type": "single",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "answer": [1],
+    "explanation": "Par défaut, la méthode HTTP utilisée est GET si l'attribut method n'est pas précisé.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q007",
+    "question": "Quel attribut de <form> indique que le navigateur ne doit pas valider le formulaire ?",
+    "type": "single",
+    "options": ["autocomplete", "novalidate", "enctype", "accept-charset"],
+    "answer": [1],
+    "explanation": "L'attribut novalidate indique que le navigateur ne doit pas valider le formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q008",
+    "question": "Quel attribut de <form> indique si le navigateur doit compléter automatiquement le formulaire ?",
+    "type": "single",
+    "options": ["autocomplete", "autofill", "novalidate", "target"],
+    "answer": [0],
+    "explanation": "L'attribut autocomplete indique si le navigateur doit compléter automatiquement le formulaire (par défaut : on).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q009",
+    "question": "Quel attribut de <form> indique la cible (fenêtre/onglet) de l'adresse spécifiée dans action ?",
+    "type": "single",
+    "options": ["target", "action", "name", "method"],
+    "answer": [0],
+    "explanation": "L'attribut target indique la cible de l'adresse dans l'attribut action (par défaut : _self).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q010",
+    "question": "Associez chaque attribut de <form> à sa description.",
+    "type": "multiple",
+    "options": [
+      "name = identifie le formulaire pour le DOM",
+      "enctype = indique l'encodage des données fournies",
+      "accept-charset = indique le charset utilisé dans le formulaire soumis",
+      "action = spécifie la méthode HTTP utilisée"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "name, enctype et accept-charset correspondent à leurs descriptions respectives. action indique l'URL de soumission, pas la méthode HTTP (c'est le rôle de method).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q011",
+    "question": "En combien de classes sont répartis les éléments de formulaire selon le cours ?",
+    "type": "single",
+    "options": ["2", "3", "4", "5"],
+    "answer": [1],
+    "explanation": "Les éléments de formulaire sont répartis en 3 classes : Input, Select et Textarea.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q012",
+    "question": "Quelles sont les 3 classes d'éléments de formulaire ?",
+    "type": "multiple",
+    "options": ["Input", "Select", "Textarea", "Table"],
+    "answer": [0, 1, 2],
+    "explanation": "Les 3 classes sont Input (champs de saisie et boutons), Select (listes) et Textarea (zone de texte libre). Table n'est pas une classe d'élément de formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q013",
+    "question": "Avec quel attribut nomme-t-on chaque élément de formulaire pour identifier les données lors de leur envoi ?",
+    "type": "single",
+    "options": ["id", "class", "name", "value"],
+    "answer": [2],
+    "explanation": "Chaque élément est nommé avec l'attribut name, qui permet d'identifier les données lors de leur envoi.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q014",
+    "question": "L'attribut name doit toujours être unique pour chaque élément d'un formulaire, sans aucune exception.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le nom doit être unique, sauf dans le cas d'un ensemble composé de plusieurs éléments comme les boutons radio, qui partagent le même name.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q015",
+    "question": "L'attribut value a exactement le même rôle quel que soit le type d'élément input utilisé.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : l'attribut value, bien que commun à ces balises, a un rôle différent selon le type d'élément utilisé.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q016",
+    "question": "Quel attribut de <input> précise le type de champ (texte, mot de passe, case à cocher, etc.) ?",
+    "type": "single",
+    "options": ["kind", "type", "format", "mode"],
+    "answer": [1],
+    "explanation": "L'attribut type précise le type d'élément input utilisé : texte, mot de passe, case à cocher, bouton radio, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q017",
+    "question": "Quel code permet de créer un champ de saisie de texte simple avec le nom 'prenoms' ?",
+    "type": "single",
+    "options": [
+      "<input type=\"text\" name=\"prenoms\">",
+      "<textarea name=\"prenoms\">",
+      "<select name=\"prenoms\">",
+      "<input type=\"password\" name=\"prenoms\">"
+    ],
+    "answer": [0],
+    "explanation": "<input type=\"text\" name=\"prenoms\"> crée un champ de saisie de texte simple.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q018",
+    "question": "Quel type d'input masque les caractères saisis (affichés sous forme de points) ?",
+    "type": "single",
+    "options": ["text", "hidden", "password", "secret"],
+    "answer": [2],
+    "explanation": "Le type password masque les caractères saisis, utile pour les champs de mot de passe.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q019",
+    "question": "Quel type d'input permet de réinitialiser (effacer) les champs d'un formulaire ?",
+    "type": "single",
+    "options": ["submit", "reset", "clear", "erase"],
+    "answer": [1],
+    "explanation": "Le type reset permet de réinitialiser les champs du formulaire, comme dans <input type=\"reset\" value=\"Effacer\">.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q020",
+    "question": "Quel type d'input permet d'envoyer (soumettre) les données du formulaire ?",
+    "type": "single",
+    "options": ["send", "submit", "post", "go"],
+    "answer": [1],
+    "explanation": "Le type submit crée un bouton permettant d'envoyer les données du formulaire, comme <input type=\"submit\" value=\"Submit\">.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q021",
+    "question": "Quel type d'input permet de créer une case à cocher à choix multiple ?",
+    "type": "single",
+    "options": ["radio", "checkbox", "select", "multiple"],
+    "answer": [1],
+    "explanation": "Le type checkbox crée une case à cocher permettant un choix multiple (plusieurs cases peuvent être cochées simultanément).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q022",
+    "question": "Quel type d'input permet de créer une case à cocher à choix unique (bouton radio) ?",
+    "type": "single",
+    "options": ["checkbox", "radio", "single", "unique"],
+    "answer": [1],
+    "explanation": "Le type radio crée un bouton radio à choix unique parmi un groupe d'éléments partageant le même name.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q023",
+    "question": "Dans un groupe de boutons radio, pourquoi utilise-t-on le même attribut name pour chaque option ?",
+    "type": "single",
+    "options": [
+      "Pour qu'ils aient tous la même couleur",
+      "Pour que le navigateur ne permette de sélectionner qu'une seule option du groupe",
+      "C'est une erreur, chaque bouton radio doit avoir un name différent",
+      "Pour accélérer le chargement de la page"
+    ],
+    "answer": [1],
+    "explanation": "Le fait de partager le même name regroupe les boutons radio ensemble, garantissant qu'une seule option du groupe peut être sélectionnée à la fois.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q024",
+    "question": "Que fait l'attribut checked sur un input de type radio ou checkbox ?",
+    "type": "single",
+    "options": [
+      "Il désactive l'élément",
+      "Il présélectionne l'élément (coché par défaut)",
+      "Il rend l'élément obligatoire",
+      "Il cache l'élément"
+    ],
+    "answer": [1],
+    "explanation": "L'attribut checked présélectionne une case à cocher ou un bouton radio, qui apparaît coché par défaut à l'ouverture du formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q025",
+    "question": "Quelle balise permet de créer une zone de saisie de texte libre sur plusieurs lignes ?",
+    "type": "single",
+    "options": ["<input type=\"text\">", "<textarea>", "<select>", "<longtext>"],
+    "answer": [1],
+    "explanation": "La balise <textarea> permet de créer une zone de texte libre, avec sa taille définie par les attributs rows et cols.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q026",
+    "question": "Quels attributs permettent de définir la taille d'un élément <textarea> ?",
+    "type": "multiple",
+    "options": ["rows", "cols", "size", "width"],
+    "answer": [0, 1],
+    "explanation": "Les attributs rows (nombre de lignes) et cols (nombre de colonnes) permettent de définir la taille d'un textarea.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q027",
+    "question": "Quelle balise sert avec <option> à définir des listes (menus déroulants ou ascenseurs) ?",
+    "type": "single",
+    "options": ["<list>", "<select>", "<dropdown>", "<menu>"],
+    "answer": [1],
+    "explanation": "L'élément <select> sert avec l'élément <option> à définir des listes, sous forme de menus déroulants ou d'ascenseurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q028",
+    "question": "Dans une balise <select>, quel attribut sur <option> présélectionne une valeur par défaut ?",
+    "type": "single",
+    "options": ["checked", "default", "selected", "value"],
+    "answer": [2],
+    "explanation": "L'attribut selected sur une balise <option> présélectionne cette option comme valeur par défaut affichée.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q029",
+    "question": "Que permet l'attribut size sur une balise <select> ?",
+    "type": "single",
+    "options": [
+      "Il définit la largeur en pixels de la liste",
+      "Il transforme la liste déroulante en ascenseur affichant plusieurs options visibles",
+      "Il limite le nombre de caractères saisissables",
+      "Il définit la couleur de fond de la liste"
+    ],
+    "answer": [1],
+    "explanation": "L'attribut size (ex: size=\"4\") transforme le menu déroulant en ascenseur affichant plusieurs options visibles simultanément.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q030",
+    "question": "Que permet l'attribut multiple sur une balise <select> ?",
+    "type": "single",
+    "options": [
+      "De sélectionner plusieurs options à la fois",
+      "D'afficher plusieurs listes en même temps",
+      "De dupliquer automatiquement le formulaire",
+      "De valider plusieurs formulaires simultanément"
+    ],
+    "answer": [0],
+    "explanation": "L'attribut multiple permet à l'utilisateur de sélectionner plusieurs options à la fois dans une liste <select>.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q031",
+    "question": "Quelle balise est utilisée pour regrouper les champs associés d'un formulaire ?",
+    "type": "single",
+    "options": ["<group>", "<fieldset>", "<section>", "<form-group>"],
+    "answer": [1],
+    "explanation": "L'élément <fieldset> est utilisé pour regrouper les champs associés à un formulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q032",
+    "question": "Quelle balise définit une légende pour l'élément <fieldset> ?",
+    "type": "single",
+    "options": ["<caption>", "<title>", "<legend>", "<label>"],
+    "answer": [2],
+    "explanation": "L'élément <legend> définit une légende pour l'élément <fieldset>.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q033",
+    "question": "Les éléments et attributs input vus dans ce cours (text, password, checkbox, radio...) sont apparus uniquement avec HTML5.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : les éléments et entrées de formulaire vus précédemment existaient avant HTML5. HTML5 en a ajouté de nouveaux (comme color, date).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q034",
+    "question": "Quel type d'input HTML5 est utilisé pour un champ de saisie devant contenir une couleur ?",
+    "type": "single",
+    "options": ["type=\"colorpicker\"", "type=\"color\"", "type=\"rgb\"", "type=\"paint\""],
+    "answer": [1],
+    "explanation": "Le type color, introduit en HTML5, est utilisé pour les champs de saisie devant contenir une couleur (ex: <input type=\"color\" name=\"favcolor\">).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q035",
+    "question": "Quel type d'input HTML5 permet à l'utilisateur de sélectionner une date ?",
+    "type": "single",
+    "options": ["type=\"day\"", "type=\"calendar\"", "type=\"date\"", "type=\"datetime\""],
+    "answer": [2],
+    "explanation": "Le type date, introduit en HTML5, permet à l'utilisateur de sélectionner une date (ex: <input type=\"date\" name=\"bday\">).",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q036",
+    "question": "Combien de techniques de traitement d'un formulaire sont présentées dans le cours ?",
+    "type": "single",
+    "options": ["2", "3", "4", "5"],
+    "answer": [1],
+    "explanation": "Il existe 3 techniques de traitement des formulaires : programme côté serveur, script côté client, ou expédition des données par mail.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q037",
+    "question": "Quelles sont les 3 techniques de traitement d'un formulaire mentionnées dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "Utiliser un programme côté serveur (PHP, CGI...)",
+      "Utiliser un script côté client (JavaScript)",
+      "Expédier les données par mail",
+      "Utiliser uniquement une base de données locale"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Les 3 techniques citées sont : programme côté serveur (PHP, passerelle CGI), script côté client (JavaScript), et l'expédition des données par mail.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q038",
+    "question": "Pour expédier les données d'un formulaire par mail, que doit-on utiliser dans l'attribut action ?",
+    "type": "single",
+    "options": [
+      "action=\"mail.php\"",
+      "action=\"mailto:nom@adresse.fr\"",
+      "action=\"send-email\"",
+      "action=\"smtp://adresse.fr\""
+    ],
+    "answer": [1],
+    "explanation": "Pour expédier les données par mail, on utilise action=\"mailto:nom@adresse.fr\", ce qui nécessite un serveur mail.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q039",
+    "question": "L'envoi des données d'un formulaire par mail via mailto ne nécessite aucune configuration serveur particulière.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : le cours précise explicitement qu'un serveur mail est requis pour cette technique.",
+    "image": null
+  },
+  {
+    "id": "ti-s9-q040",
+    "question": "Utiliser un script côté client comme JavaScript pour traiter un formulaire permet de réaliser de petites applications sans interaction avec le serveur.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : le cours précise que le traitement côté client (JavaScript) permet de réaliser de petites applications simples sans interaction avec le serveur.",
+    "image": null
+  }
+]

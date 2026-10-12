@@ -1,0 +1,355 @@
+{
+  "quiz": [
+    {
+      "id": "ti-s3-q001",
+      "question": "Qu'est-ce qu'un jeu de caractères (charset) ?",
+      "type": "single",
+      "options": ["Une façon de représenter chaque caractère dans une base binaire", "Un langage de programmation", "Une feuille de style CSS", "Un type de navigateur"],
+      "answer": [0],
+      "explanation": "Un jeu de caractères (encodage de caractères) est une façon de représenter chaque caractère, et donc un texte, dans la base binaire.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q002",
+      "question": "Pourquoi un navigateur Web doit-il connaître le jeu de caractères utilisé ?",
+      "type": "single",
+      "options": ["Pour afficher correctement la page HTML", "Pour accélérer le chargement des images", "Pour activer JavaScript", "Ce n'est pas nécessaire"],
+      "answer": [0],
+      "explanation": "Pour afficher une page HTML correctement, un navigateur Web doit savoir quel jeu de caractères utiliser.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q003",
+      "question": "Combien de caractères différents ASCII définit-il ?",
+      "type": "single",
+      "options": ["64", "128", "256", "1024"],
+      "answer": [1],
+      "explanation": "ASCII a été la première norme d'encodage de caractères et définit 128 différents caractères alphanumériques.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q004",
+      "question": "Quels types de caractères ASCII prend-il en charge ?",
+      "type": "multiple",
+      "options": ["Les chiffres (0-9)", "Les lettres anglaises (A-Z)", "Certains caractères spéciaux comme ! $ + - ( ) @ < >", "Tous les alphabets du monde"],
+      "answer": [0, 1, 2],
+      "explanation": "ASCII définit les chiffres, les lettres anglaises et certains caractères spéciaux, mais ne couvre pas tous les alphabets du monde (contrairement à UTF-8).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q005",
+      "question": "ANSI (Windows 1252) était le jeu de caractères d'origine de Windows.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "ANSI, aussi appelé Windows 1252, était bien le jeu de caractères d'origine de Windows, supportant 256 codes différents.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q006",
+      "question": "Combien de codes de caractères différents ANSI et ISO-8859-1 supportent-ils chacun ?",
+      "type": "single",
+      "options": ["64", "128", "256", "512"],
+      "answer": [2],
+      "explanation": "ANSI (Windows 1252) et ISO-8859-1 supportent tous deux 256 codes de caractères différents.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q007",
+      "question": "Quel est le jeu de caractères par défaut pour HTML 4 ?",
+      "type": "single",
+      "options": ["ASCII", "ISO-8859-1", "UTF-8", "UTF-16"],
+      "answer": [1],
+      "explanation": "ISO-8859-1 est le jeu de caractères par défaut pour HTML 4, bien que HTML 4 prenne aussi en charge UTF-8.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q008",
+      "question": "Quel est l'encodage de caractères par défaut pour HTML5 ?",
+      "type": "single",
+      "options": ["ANSI", "ISO-8859-1", "ASCII", "UTF-8"],
+      "answer": [3],
+      "explanation": "L'encodage de caractère par défaut pour HTML5 est UTF-8, car ANSI et ISO-8859-1 sont trop limités.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q009",
+      "question": "Pourquoi UTF-8 (Unicode) est-il largement utilisé aujourd'hui ?",
+      "type": "single",
+      "options": ["Parce qu'il couvre presque tous les caractères et symboles dans le monde", "Parce qu'il est plus rapide à charger", "Parce qu'il ne supporte que l'anglais", "Parce qu'il remplace le HTML"],
+      "answer": [0],
+      "explanation": "UTF-8 (Unicode) couvre presque tous les caractères et symboles utilisés dans le monde, contrairement à ANSI ou ISO-8859-1 qui sont limités.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q010",
+      "question": "Pourquoi ne peut-on pas utiliser directement les signes < ou > dans le texte d'une page HTML ?",
+      "type": "single",
+      "options": ["Parce que le navigateur les prendra pour des balises", "Parce qu'ils ralentissent le chargement", "Parce qu'ils ne sont pas encodés en UTF-8", "Parce qu'ils sont interdits par le W3C"],
+      "answer": [0],
+      "explanation": "Ce sont des caractères réservés en HTML : le navigateur les interprète comme le début ou la fin d'une balise, il faut donc utiliser des entités.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q011",
+      "question": "Quelle est la syntaxe générale d'une entité de caractère en HTML ?",
+      "type": "single",
+      "options": ["#entity_name# ou #entity_number#", "&entity_name; ou &#entity_number;", "%entity_name% ou %entity_number%", "$entity_name$ ou $entity_number$"],
+      "answer": [1],
+      "explanation": "La syntaxe d'une entité est &entity_name; ou &#entity_number;, par exemple &lt; ou &#60; pour afficher le signe inférieur.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q012",
+      "question": "Quelles entités permettent d'afficher le signe inférieur (<) ?",
+      "type": "multiple",
+      "options": ["&lt;", "&#60;", "&inf;", "&less;"],
+      "answer": [0, 1],
+      "explanation": "Pour afficher le signe inférieur, il faut écrire &lt; (nom) ou &#60; (numéro).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q013",
+      "question": "Quel est l'avantage d'utiliser un nom d'entité plutôt qu'un nombre ?",
+      "type": "single",
+      "options": ["Le nom est facile à retenir", "Le nom est plus court", "Le nom est plus rapide à interpréter", "Le nom fonctionne dans tous les navigateurs sans exception"],
+      "answer": [0],
+      "explanation": "L'avantage du nom d'entité est qu'il est facile à retenir, mais son inconvénient est que tous les navigateurs ne supportent pas tous les noms d'entité.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q014",
+      "question": "Les noms d'entités HTML sont sensibles à la casse.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Les noms d'entités sont sensibles à la casse, contrairement aux noms de balises et d'attributs HTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q015",
+      "question": "Associez chaque entité à son résultat : &amp; correspond à...",
+      "type": "single",
+      "options": ["L'esperluette (&)", "Le signe supérieur (>)", "Le symbole copyright (©)", "L'espace insécable"],
+      "answer": [0],
+      "explanation": "&amp; (ou &#38;) affiche l'esperluette (&).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q016",
+      "question": "Quelle entité permet d'afficher le symbole copyright (©) ?",
+      "type": "single",
+      "options": ["&copy;", "&reg;", "&cent;", "&euro;"],
+      "answer": [0],
+      "explanation": "&copy; (ou &#169;) affiche le symbole copyright ©.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q017",
+      "question": "Quelle entité permet de créer un espace insécable ?",
+      "type": "single",
+      "options": ["&space;", "&nbsp;", "&sp;", "&blank;"],
+      "answer": [1],
+      "explanation": "&nbsp; (ou &#160;) crée un espace insécable, qui empêche un retour à la ligne à cet endroit.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q018",
+      "question": "L'élément <head> est un conteneur pour des métadonnées, c'est-à-dire des données sur les données.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "L'élément <head> est bien un conteneur de métadonnées (données sur le document HTML), placé entre <html> et <body>.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q019",
+      "question": "Quelles balises décrivent des métadonnées dans un document HTML ?",
+      "type": "multiple",
+      "options": ["<title>", "<style>", "<meta>", "<p>"],
+      "answer": [0, 1, 2],
+      "explanation": "Les balises <title>, <style>, <meta>, <link>, <script> et <base> décrivent des métadonnées. <p> définit un paragraphe visible, ce n'est pas une métadonnée.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q020",
+      "question": "À quoi sert l'élément <title> ?",
+      "type": "multiple",
+      "options": ["Définir un titre dans l'onglet du navigateur", "Fournir un titre de la page quand elle est ajoutée aux favoris", "Afficher un titre de la page dans les résultats des moteurs de recherche", "Définir la couleur de fond de la page"],
+      "answer": [0, 1, 2],
+      "explanation": "<title> permet de définir le titre affiché dans l'onglet, dans les favoris et dans les résultats des moteurs de recherche. La couleur de fond relève du CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q021",
+      "question": "L'élément <title> est-il nécessaire dans tous les documents HTML/XHTML ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "L'élément <title> définit le titre du document et est nécessaire dans tous les documents HTML / XHTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q022",
+      "question": "À quoi sert l'élément <style> dans le <head> ?",
+      "type": "single",
+      "options": ["Créer un lien vers une feuille de style externe", "Définir les informations de style pour une seule page HTML", "Définir le titre de la page", "Décrire l'auteur du document"],
+      "answer": [1],
+      "explanation": "L'élément <style> est utilisé pour définir les informations de style directement pour une seule page HTML (CSS interne).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q023",
+      "question": "À quoi sert l'élément <link> dans le <head> ?",
+      "type": "single",
+      "options": ["Créer un lien vers des feuilles de style externes", "Créer un lien hypertexte visible dans la page", "Décrire les mots clés de la page", "Insérer une image"],
+      "answer": [0],
+      "explanation": "L'élément <link>, comme dans <link rel=\"stylesheet\" href=\"mystyle.css\">, est utilisé pour créer un lien vers des feuilles de style externes.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q024",
+      "question": "Quelles informations l'élément <meta> peut-il spécifier ?",
+      "type": "multiple",
+      "options": ["Le jeu de caractères utilisé", "La description de la page", "Les mots clés", "Le contenu visible du corps de la page"],
+      "answer": [0, 1, 2],
+      "explanation": "<meta> permet de spécifier le jeu de caractères, la description, les mots clés, l'auteur et d'autres métadonnées, mais pas le contenu visible du corps (body).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q025",
+      "question": "Qui utilise les métadonnées définies par la balise <meta> ?",
+      "type": "multiple",
+      "options": ["Les navigateurs (pour savoir comment afficher le contenu)", "Les moteurs de recherche (pour les mots clés)", "D'autres services Web", "Uniquement l'auteur du site, personne d'autre"],
+      "answer": [0, 1, 2],
+      "explanation": "Les métadonnées sont utilisées par les navigateurs, les moteurs de recherche et d'autres services Web.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q026",
+      "question": "Que fait la balise <meta http-equiv=\"refresh\" content=\"30\"> ?",
+      "type": "single",
+      "options": ["Elle recharge automatiquement la page toutes les 30 secondes", "Elle définit une police de taille 30", "Elle définit 30 mots clés", "Elle limite la page à 30 caractères"],
+      "answer": [0],
+      "explanation": "Cette balise meta avec http-equiv=\"refresh\" et content=\"30\" indique un rafraîchissement automatique de la page toutes les 30 secondes.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q027",
+      "question": "Qu'est-ce que le « viewport » d'une page Web ?",
+      "type": "single",
+      "options": ["La zone visible à l'utilisateur d'une page Web", "Le titre affiché dans l'onglet", "Le nom de domaine du site", "La liste des mots clés"],
+      "answer": [0],
+      "explanation": "Le viewport est la zone visible à l'utilisateur d'une page Web ; elle varie selon l'appareil (plus petite sur téléphone que sur ordinateur).",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q028",
+      "question": "Que définit la partie width=device-width dans la balise meta viewport ?",
+      "type": "single",
+      "options": ["La largeur de la page selon la largeur de l'écran du dispositif", "La hauteur maximale de la page", "Le nombre de colonnes du texte", "La couleur de fond de la page"],
+      "answer": [0],
+      "explanation": "width=device-width définit la largeur de la page selon la largeur de l'écran du dispositif utilisé, qui varie selon l'appareil.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q029",
+      "question": "Que définit la partie initial-scale=1.0 dans la balise meta viewport ?",
+      "type": "single",
+      "options": ["Le niveau de zoom initial lorsque la page est chargée", "La vitesse de chargement de la page", "Le nombre d'images affichées", "La langue par défaut du document"],
+      "answer": [0],
+      "explanation": "initial-scale=1.0 définit le niveau de zoom initial lorsque la page est chargée par le navigateur.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q030",
+      "question": "Que signifie l'acronyme URL ?",
+      "type": "single",
+      "options": ["Uniform Resource Locator", "Universal Reference Link", "Unified Resource Language", "User Requested Link"],
+      "answer": [0],
+      "explanation": "URL signifie Uniform Resource Locator, elle est utilisée pour traiter un document ou d'autres données sur le web.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q031",
+      "question": "Dans la syntaxe uri://host.domain:port/path/filename, que définit la partie « uri » ?",
+      "type": "single",
+      "options": ["Le type de service Internet", "Le nom du fichier", "Le numéro de port", "Le chemin d'accès au serveur"],
+      "answer": [0],
+      "explanation": "La partie uri définit le type de service Internet, le type le plus commun étant http.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q032",
+      "question": "Quel est le numéro de port par défaut pour HTTP ?",
+      "type": "single",
+      "options": ["21", "80", "443", "8080"],
+      "answer": [1],
+      "explanation": "Le numéro de port par défaut pour HTTP est 80.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q033",
+      "question": "Que se passe-t-il si la partie « path » est omise dans une URL ?",
+      "type": "single",
+      "options": ["Le document doit être stocké dans le répertoire racine du site web", "La page ne s'affiche jamais", "Le navigateur affiche une erreur 404 systématique", "Le port devient obligatoire"],
+      "answer": [0],
+      "explanation": "Si le chemin (path) est omis, le document doit être stocké dans le répertoire racine du site web.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q034",
+      "question": "Associez chaque uri à sa signification : https correspond à...",
+      "type": "single",
+      "options": ["Secure Hypertext Transfer Protocol, pour sécuriser les pages Web avec des informations cryptées", "File Transfer Protocol pour uploader des fichiers", "Un fichier local sur l'ordinateur", "HyperText Transfer Protocol non chiffré"],
+      "answer": [0],
+      "explanation": "https signifie Secure Hypertext Transfer Protocol : il sécurise les pages Web et toutes les informations échangées sont cryptées.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q035",
+      "question": "À quoi sert l'uri ftp ?",
+      "type": "single",
+      "options": ["Uploader ou télécharger des fichiers vers/depuis un site Web", "Afficher des pages web ordinaires non chiffrées", "Accéder à un fichier local sur l'ordinateur", "Envoyer des emails"],
+      "answer": [0],
+      "explanation": "ftp (File Transfer Protocol) est utilisé pour uploader ou télécharger des fichiers, notamment pour la maintenance de domaine.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q036",
+      "question": "Une URL peut être envoyée sur Internet en utilisant n'importe quel jeu de caractères.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Une URL ne peut être envoyée sur Internet qu'en utilisant le jeu de caractères ASCII ; les autres caractères doivent être encodés.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q037",
+      "question": "Comment l'encodage d'URL remplace-t-il les caractères non ASCII ?",
+      "type": "single",
+      "options": ["Par un \"%\" suivi de deux chiffres hexadécimaux", "Par un \"#\" suivi d'un nombre décimal", "Par un \"&\" suivi du nom du caractère", "Par un espace vide"],
+      "answer": [0],
+      "explanation": "L'encodage d'URL remplace les caractères non ASCII par un \"%\" suivi de deux chiffres hexadécimaux.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q038",
+      "question": "Une URL peut contenir directement des espaces.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Une URL ne peut pas contenir d'espace : l'encodage d'URL remplace normalement un espace par le signe %20.",
+      "image": null
+    },
+    {
+      "id": "ti-s3-q039",
+      "question": "Selon l'exemple du cours, comment le mot « Sénégal » est-il encodé en URL ?",
+      "type": "single",
+      "options": ["Senegal", "S%E9n%E9gal", "S#E9n#E9gal", "S20n20gal"],
+      "answer": [1],
+      "explanation": "Dans l'exemple du cours, « Sénégal » est encodé sous la forme S%E9n%E9gal, le caractère é étant remplacé par %E9.",
+      "image": null
+    }
+  ]
+}

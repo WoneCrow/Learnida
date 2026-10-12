@@ -1,0 +1,397 @@
+[
+  {
+    "id": "ti-s1-q001",
+    "question": "Quels sont les trois éléments requis pour une connexion à Internet ?",
+    "type": "multiple",
+    "options": ["Connexion physique", "Connexion logique", "Applications d'interprétation des données", "Carte graphique"],
+    "answer": [0, 1, 2],
+    "explanation": "La connexion à Internet englobe trois éléments : la connexion physique, la connexion logique (protocoles) et les applications servant à interpréter et afficher les données.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q002",
+    "question": "Que permet la connexion physique dans le cadre d'une connexion à Internet ?",
+    "type": "single",
+    "options": [
+      "Le transfert des signaux entre les PC d'un réseau LAN et les équipements distants d'Internet",
+      "L'interprétation des données affichées",
+      "La définition des règles de communication",
+      "Le téléchargement de fichiers"
+    ],
+    "answer": [0],
+    "explanation": "La connexion physique implique de relier une carte d'interface de PC (modem ou carte réseau) à un réseau, assurant le transfert des signaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q003",
+    "question": "Qu'est-ce qu'un protocole ?",
+    "type": "single",
+    "options": [
+      "Un ensemble formel de règles et de conventions régissant le mode de communication des unités réseau entre elles",
+      "Un composant physique de l'ordinateur",
+      "Un type de câble réseau",
+      "Un logiciel de navigation"
+    ],
+    "answer": [0],
+    "explanation": "Un protocole correspond à un ensemble formel de règles et de conventions régissant le mode de communication des unités réseau entre elles.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q004",
+    "question": "TCP/IP est l'ensemble de protocoles le plus largement utilisé pour la connexion à Internet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Les protocoles TCP/IP (Transmission Control Protocol/Internet Protocol) sont effectivement les plus largement utilisés parmi les protocoles de connexion à Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q005",
+    "question": "Que signifie l'acronyme FTP ?",
+    "type": "single",
+    "options": ["File Transfer Protocol", "Fast Transmission Protocol", "File Transmission Process", "Formal Transfer Program"],
+    "answer": [0],
+    "explanation": "FTP signifie File Transfer Protocol, un protocole qui permet de télécharger des fichiers et des programmes à partir d'Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q006",
+    "question": "Selon le support de cours, la transmission de données via Internet est une opération simple qui ne nécessite pas d'étude approfondie.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le cours précise qu'au fur et à mesure de leurs études, les étudiants constateront que la transmission de données via Internet est en réalité une opération complexe.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q007",
+    "question": "Quel composant est décrit comme un « dispositif qui amplifie un signal ou qui ouvre et ferme un circuit » ?",
+    "type": "single",
+    "options": ["Le transistor", "La résistance", "Le condensateur", "La diode électroluminescente"],
+    "answer": [0],
+    "explanation": "Le transistor est un dispositif qui amplifie un signal ou qui ouvre et ferme un circuit.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q008",
+    "question": "Quel composant électronique emmagasine de l'énergie sous forme de champ électrostatique ?",
+    "type": "single",
+    "options": ["Le condensateur", "Le transistor", "La résistance", "Le circuit intégré"],
+    "answer": [0],
+    "explanation": "Le condensateur emmagasine de l'énergie sous forme de champ électrostatique, constitué de deux plaques de métal conducteur séparées par un matériau isolant.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q009",
+    "question": "Quels éléments font partie de l'unité centrale d'un PC ?",
+    "type": "multiple",
+    "options": ["Le châssis", "Le microprocesseur", "La mémoire centrale", "Le clavier"],
+    "answer": [0, 1, 2],
+    "explanation": "L'unité centrale comprend le châssis, le microprocesseur, la mémoire centrale, le bus et les ports. Le clavier et les périphériques externes n'en font pas partie.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q010",
+    "question": "Que se passe-t-il avec les données stockées dans la mémoire RAM en cas de coupure de courant ?",
+    "type": "single",
+    "options": [
+      "Elles sont perdues",
+      "Elles sont automatiquement sauvegardées",
+      "Elles restent accessibles en lecture seule",
+      "Elles sont transférées vers la ROM"
+    ],
+    "answer": [0],
+    "explanation": "La mémoire RAM nécessite une alimentation électrique pour conserver les données. En cas de mise hors tension ou de coupure de courant, toutes les données stockées sont perdues.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q011",
+    "question": "Les données stockées sur une puce de mémoire ROM peuvent être supprimées facilement.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Les données stockées sur la puce de mémoire ROM sont accessibles uniquement en lecture et ne peuvent pas être supprimées.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q012",
+    "question": "Quelle est la capacité de stockage approximative d'une disquette standard de 3,5 pouces ?",
+    "type": "single",
+    "options": ["Environ 1 Mo", "Environ 100 Mo", "Environ 1 Go", "Environ 10 Mo"],
+    "answer": [0],
+    "explanation": "La capacité de stockage d'une disquette standard de 3,5 pouces est d'environ 1 Mo de données.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q013",
+    "question": "Qu'est-ce que la carte mère d'un ordinateur ?",
+    "type": "single",
+    "options": [
+      "La principale carte de circuits imprimés d'un ordinateur",
+      "Un dispositif de stockage utilisant des plateaux magnétisés",
+      "Un composant qui fournit le courant à l'ordinateur",
+      "Une carte qui donne à l'ordinateur ses capacités d'affichage"
+    ],
+    "answer": [0],
+    "explanation": "La carte mère est la principale carte de circuits imprimés d'un ordinateur ; elle contient le bus, le microprocesseur et les circuits intégrés utilisés pour contrôler les périphériques.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q014",
+    "question": "Quels emplacements d'extension sont mentionnés dans le cours pour l'insertion de cartes de circuits sur la carte mère ?",
+    "type": "multiple",
+    "options": ["PCI (Peripheral Component Interconnect)", "AGP (Accelerated Graphics Port)", "USB", "Firewire"],
+    "answer": [0, 1],
+    "explanation": "Le cours présente les emplacements d'extension PCI (Peripheral Component Interconnect) et AGP (Accelerated Graphics Port).",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q015",
+    "question": "À quoi sert le port AGP ?",
+    "type": "single",
+    "options": [
+      "Offrir une connexion à haut débit entre le dispositif graphique et la mémoire système",
+      "Connecter une souris à l'ordinateur",
+      "Fournir le courant à l'ordinateur",
+      "Transférer un seul bit à la fois"
+    ],
+    "answer": [0],
+    "explanation": "Le port AGP offre une connexion à haut débit entre le dispositif graphique et la mémoire système, utilisée notamment pour l'infographie tridimensionnelle.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q016",
+    "question": "Quelle est la différence principale entre le port série et le port parallèle ?",
+    "type": "single",
+    "options": [
+      "Le port parallèle transfère plusieurs bits à la fois, le port série un seul bit à la fois",
+      "Le port série transfère plusieurs bits à la fois, le port parallèle un seul bit à la fois",
+      "Les deux transfèrent le même nombre de bits",
+      "Le port parallèle sert uniquement à alimenter l'ordinateur"
+    ],
+    "answer": [0],
+    "explanation": "Le port parallèle est capable de transférer plusieurs bits à la fois, tandis que le port série ne transmet qu'un seul bit à la fois.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q017",
+    "question": "Que signifie l'acronyme USB ?",
+    "type": "single",
+    "options": ["Universal Serial Bus", "Unified System Board", "Universal System Bus", "United Serial Board"],
+    "answer": [0],
+    "explanation": "USB signifie Universal Serial Bus, un connecteur permettant de connecter aisément et rapidement un périphérique à l'ordinateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q018",
+    "question": "Qu'est-ce que le Firewire ?",
+    "type": "single",
+    "options": [
+      "Une norme d'interface série garantissant des communications à haut débit avec transmission en mode isochrone",
+      "Un type de mémoire morte",
+      "Un composant qui régule le flux de courant électrique",
+      "Un logiciel de navigation Internet"
+    ],
+    "answer": [0],
+    "explanation": "Firewire est une norme d'interface série qui garantit des communications à haut débit et offre des services de données en temps réel, transmises en mode isochrone.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q019",
+    "question": "Une carte réseau est également appelée :",
+    "type": "single",
+    "options": ["Adaptateur réseau", "Fond de panier", "Carte son", "Carte vidéo"],
+    "answer": [0],
+    "explanation": "Une carte réseau, également nommée adaptateur réseau, est nécessaire à l'ordinateur pour envoyer et recevoir des informations sur le réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q020",
+    "question": "Que signifie l'acronyme PCMCIA ?",
+    "type": "single",
+    "options": [
+      "Personal Computer Memory Card International Association",
+      "Personal Computer Memory Connection International Association",
+      "Portable Computer Memory Card Internal Association",
+      "Personal Card Memory Computer International Access"
+    ],
+    "answer": [0],
+    "explanation": "PCMCIA signifie Personal Computer Memory Card International Association ; ces cartes sont également désignées sous le nom de cartes PC.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q021",
+    "question": "Quels critères sont à prendre en compte pour choisir une carte réseau ?",
+    "type": "multiple",
+    "options": ["Protocoles (Ethernet, Token Ring ou FDDI)", "Types de média (paires torsadées, coaxial, fibre optique)", "Type de bus système (PCI ou ISA)", "Couleur du boîtier"],
+    "answer": [0, 1, 2],
+    "explanation": "Les critères de choix d'une carte réseau incluent les protocoles, les types de média et le type de bus système.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q022",
+    "question": "Que désigne une valeur d'IRQ (Interrupt Request) ?",
+    "type": "single",
+    "options": [
+      "Une adresse utilisée par un périphérique pour interrompre le processeur et lui envoyer des signaux",
+      "Une adresse mémoire réservée à la carte vidéo",
+      "Un protocole de transfert de fichiers",
+      "Un type de câble réseau"
+    ],
+    "answer": [0],
+    "explanation": "Une valeur d'IRQ désigne une adresse donnée, utilisée par un périphérique particulier pour interrompre le processeur et lui envoyer des signaux sur son fonctionnement.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q023",
+    "question": "Avant l'apparition des périphériques « plug-and-play », les utilisateurs devaient souvent définir manuellement les valeurs d'IRQ.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "En effet, avant le « plug-and-play », il fallait souvent définir manuellement les valeurs d'IRQ pour installer un nouveau périphérique.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q024",
+    "question": "À quoi sert un modem ?",
+    "type": "single",
+    "options": [
+      "Convertir les signaux numériques de l'ordinateur en signaux analogiques compatibles avec une ligne téléphonique, et inversement",
+      "Stocker les données de manière permanente",
+      "Afficher des pages web en HTML",
+      "Amplifier le signal électrique du processeur"
+    ],
+    "answer": [0],
+    "explanation": "Le modem (modulateur-démodulateur) convertit les signaux numériques en signaux analogiques pour la ligne téléphonique, et démodule les signaux reçus en données numériques.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q025",
+    "question": "Quelles situations peuvent nécessiter l'installation d'une nouvelle carte réseau ?",
+    "type": "multiple",
+    "options": [
+      "Installation sur un PC qui n'en est pas encore pourvu",
+      "Remplacement d'une carte endommagée",
+      "Mise à niveau d'une carte de 10 Mbits/s vers 10/100/1000 Mbits/s",
+      "Changement de fournisseur d'accès Internet uniquement"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "L'installation d'une carte réseau peut être requise pour un PC non équipé, le remplacement d'une carte défectueuse, la mise à niveau de vitesse, l'installation d'un type différent (sans fil) ou l'ajout d'une carte de secours.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q026",
+    "question": "TCP/IP signifie :",
+    "type": "single",
+    "options": [
+      "Transmission Control Protocol/Internet Protocol",
+      "Total Connection Protocol/Internal Process",
+      "Transfer Control Program/Internet Process",
+      "Transmission Command Protocol/Internal Protocol"
+    ],
+    "answer": [0],
+    "explanation": "TCP/IP signifie Transmission Control Protocol/Internet Protocol, un ensemble de protocoles et de règles permettant aux ordinateurs de partager les ressources d'un réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q027",
+    "question": "Le processus de configuration de TCP/IP diffère énormément entre Windows, Macintosh et Linux.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Le cours précise que le processus de configuration diffère très peu d'un système d'exploitation Windows à un système Macintosh ou Linux.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q028",
+    "question": "Quel type de paquets la commande ping utilise-t-elle ?",
+    "type": "single",
+    "options": [
+      "Des datagrammes ICMP (Internet Control Message Protocol)",
+      "Des paquets FTP",
+      "Des trames Ethernet uniquement",
+      "Des paquets UDP exclusivement"
+    ],
+    "answer": [0],
+    "explanation": "La commande ping utilise des paquets de données IP spéciaux nommés datagrammes ICMP (Internet Control Message Protocol) pour envoyer des messages de demande d'écho.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q029",
+    "question": "Que permet de vérifier la commande « ping 127.0.0.1 » ?",
+    "type": "single",
+    "options": [
+      "La configuration réseau TCP/IP via la boucle locale interne",
+      "L'accessibilité d'un hôte distant",
+      "La vitesse de la carte graphique",
+      "L'espace disque disponible"
+    ],
+    "answer": [0],
+    "explanation": "La commande ping 127.0.0.1 est utilisée pour tester la boucle locale interne et vérifier la configuration réseau TCP/IP.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q030",
+    "question": "Quelles informations la réponse à un ping indique-t-elle ?",
+    "type": "multiple",
+    "options": ["Le taux de réussite", "Le temps de parcours aller-retour", "L'adresse MAC de la carte réseau", "Le nom d'utilisateur connecté"],
+    "answer": [0, 1],
+    "explanation": "La réponse renvoyée par la commande ping indique le taux de réussite et le temps de parcours aller-retour entre les équipements source et de destination.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q031",
+    "question": "Pinguer la passerelle par défaut permet de vérifier si le routeur qui relie le réseau local à d'autres réseaux est accessible.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "En effet, l'exécution de la commande ping vers la passerelle par défaut sert à vérifier si le routeur reliant le réseau local à d'autres réseaux est accessible.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q032",
+    "question": "Quelles sont les étapes de la procédure de dépannage PC/réseau présentées dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "Définition du problème",
+      "Recueil des données factuelles",
+      "Conception d'un plan d'action",
+      "Suppression définitive du réseau"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "La procédure de dépannage comprend : définition du problème, recueil des données factuelles, étude des possibilités, conception d'un plan d'action, mise en œuvre, observation des résultats, et enregistrement des résultats.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q033",
+    "question": "Quel navigateur Internet est mentionné aux côtés d'Internet Explorer dans le support de cours ?",
+    "type": "single",
+    "options": ["Netscape", "Mozilla Firefox", "Google Chrome", "Safari"],
+    "answer": [0],
+    "explanation": "Le cours mentionne Internet Explorer et Netscape comme exemples de navigateurs Internet nécessaires pour afficher le code HTML sous forme de page Web.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q034",
+    "question": "Les modules d'extension des navigateurs Internet permettent d'afficher certains types de données comme les films ou les animations Flash.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "En effet, les navigateurs Internet peuvent utiliser des modules d'extension pour afficher certains types de données comme les films ou les animations Flash.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q035",
+    "question": "Qu'est-ce qu'un microprocesseur ?",
+    "type": "single",
+    "options": [
+      "Un processeur de très petite taille utilisant la technologie VLSI pour réunir mémoire, unité logique et unité de contrôle sur une seule puce",
+      "Un dispositif de stockage à disque dur",
+      "Un composant qui fournit le courant à l'ordinateur",
+      "Un type de connecteur pour câble réseau"
+    ],
+    "answer": [0],
+    "explanation": "Le microprocesseur est un processeur de très petite taille, utilisant la technologie VLSI (Very Large-Scale Integration) pour réunir la mémoire, l'unité logique et l'unité de contrôle sur une seule puce.",
+    "image": null
+  }
+]

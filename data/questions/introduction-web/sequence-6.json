@@ -1,0 +1,432 @@
+[
+  {
+    "id": "ti-s6-q001",
+    "question": "Que doit-on connaître pour accéder à un site internet (sans passer par un portail) ?",
+    "type": "single",
+    "options": ["Son adresse IP uniquement", "Son URL, c'est-à-dire son adresse", "Le nom de son hébergeur", "Son certificat SSL"],
+    "answer": [1],
+    "explanation": "Lorsqu'on accède à un site internet, il est essentiel de connaître son URL, c'est-à-dire son adresse, à moins de passer par un site portail.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q002",
+    "question": "À quoi ressemble généralement l'adresse d'une page personnelle hébergée par un hébergeur gratuit ?",
+    "type": "single",
+    "options": [
+      "http://www.votre-fournisseur.com/votrenom",
+      "http://www.nomdusite.com",
+      "http://www.icann.org",
+      "http://localhost/monsite"
+    ],
+    "answer": [0],
+    "explanation": "Lorsque le site est hébergé par un hébergeur gratuit, l'adresse de la page personnelle est généralement du type : http://www.votre-fournisseur.com/votrenom.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q003",
+    "question": "Comment appelle-t-on une adresse du type http://www.nomdusite.com ?",
+    "type": "single",
+    "options": ["Une URL absolue", "Un nom de domaine", "Un sous-domaine", "Un TLD"],
+    "answer": [1],
+    "explanation": "Ce type d'adresse (nomdusite.com, .sn, .net ou .org) est appelé nom de domaine.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q004",
+    "question": "Quel est le principal avantage d'un nom de domaine par rapport à une adresse d'hébergeur gratuit ?",
+    "type": "single",
+    "options": [
+      "Il est beaucoup plus simple à mémoriser",
+      "Il est toujours gratuit",
+      "Il ne nécessite pas d'hébergement",
+      "Il fonctionne sans navigateur"
+    ],
+    "answer": [0],
+    "explanation": "Un site possédant un nom de domaine est immédiatement beaucoup plus simple à mémoriser qu'une adresse de type hébergeur gratuit.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q005",
+    "question": "Quels avantages apporte un nom de domaine à un site internet ?",
+    "type": "multiple",
+    "options": ["Une touche de professionnalisme", "De la crédibilité", "Une mémorisation plus facile", "Une sécurité totale contre le piratage"],
+    "answer": [0, 1, 2],
+    "explanation": "Le nom de domaine donne une touche de professionnalisme à un site, ainsi que de la crédibilité, et permet une mémorisation plus facile.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q006",
+    "question": "Le nom de domaine peut conditionner le choix du nom de la marque d'une entreprise présente uniquement sur la toile.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Le nom de domaine a pris une importance capitale à tel point qu'il conditionne parfois le choix du nom de la marque ou de la raison sociale de l'entreprise, notamment pour les entreprises uniquement présentes sur la toile.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q007",
+    "question": "Selon quel principe un nom de domaine est-il attribué en cas de disponibilité ?",
+    "type": "single",
+    "options": [
+      "Le premier arrivé est le premier servi",
+      "Le plus offrant l'obtient toujours",
+      "Il est attribué par tirage au sort",
+      "Seules les entreprises peuvent en obtenir un"
+    ],
+    "answer": [0],
+    "explanation": "Il est capital de réserver son nom de domaine aussitôt que possible : le premier arrivé sera le premier servi, même si l'antériorité d'une marque peut parfois permettre de le récupérer.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q008",
+    "question": "Combien de lettres minimum un nom de domaine doit-il comporter ?",
+    "type": "single",
+    "options": ["Une seule lettre", "Deux lettres", "Cinq lettres", "Dix lettres"],
+    "answer": [1],
+    "explanation": "Un nom de domaine doit se composer, au minimum, de deux lettres.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q009",
+    "question": "Quel est le seul signe spécifique autorisé dans un nom de domaine (utilisé comme séparateur) ?",
+    "type": "single",
+    "options": ["Le tiret « - »", "L'espace", "Le point-virgule « ; »", "L'astérisque « * »"],
+    "answer": [0],
+    "explanation": "Un nom de domaine ne doit contenir ni signe spécifique, ni espace, excepté le tiret « - » utilisé comme séparateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q010",
+    "question": "Quel est le nombre de caractères autorisé pour un nom de domaine (sans compter l'extension) ?",
+    "type": "single",
+    "options": ["Entre 1 et 10", "Entre 2 et 63", "Entre 5 et 100", "Illimité"],
+    "answer": [1],
+    "explanation": "Un nom de domaine doit avoir un nombre de caractères compris entre 2 et 63, sans tenir compte de l'extension.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q011",
+    "question": "Quels caractères sont permis dans un nom de domaine ?",
+    "type": "multiple",
+    "options": ["Les chiffres de 0 à 9", "Les lettres de a à z", "Le tiret", "Les espaces"],
+    "answer": [0, 1, 2],
+    "explanation": "Les caractères permis sont les chiffres de 0 à 9 et les lettres de a à z, ainsi que le tiret (qui peut aussi commencer ou finir le nom). Les espaces ne sont pas autorisés.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q012",
+    "question": "Un nom de domaine peut-il commencer ou finir par un tiret ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Le nom de domaine peut commencer ou finir par un tiret.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q013",
+    "question": "Quel organisme permet de vérifier la disponibilité des noms de domaine en .com, .net et .org ?",
+    "type": "single",
+    "options": ["Network Solutions", "Nic Sénégal", "AfriNIC", "ICANN"],
+    "answer": [0],
+    "explanation": "Network Solutions est cité comme outil permettant de vérifier la disponibilité des noms de domaine .com, .net et .org.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q014",
+    "question": "Quel organisme permet de vérifier la disponibilité des noms de domaine en .sn ?",
+    "type": "single",
+    "options": ["Network Solutions", "Nic Sénégal (www.nic.sn)", "ICANN", "W3C"],
+    "answer": [1],
+    "explanation": "Nic Sénégal (www.nic.sn) permet de vérifier la disponibilité des noms de domaine en .sn.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q015",
+    "question": "Auprès de quel organisme international se dépose un nom de domaine ?",
+    "type": "single",
+    "options": ["Le W3C", "L'ICANN", "Le CERN", "L'AfriNIC uniquement"],
+    "answer": [1],
+    "explanation": "Le nom de domaine se dépose auprès d'un organisme international, l'ICANN, ou de l'un de ses sous-organismes (pour le Sénégal, il s'agit de Nic Sénégal).",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q016",
+    "question": "Quel est le sous-organisme chargé des noms de domaine pour le Sénégal ?",
+    "type": "single",
+    "options": ["Nic Sénégal", "AfriNIC", "Network Solutions", "W3C Sénégal"],
+    "answer": [0],
+    "explanation": "Pour le Sénégal, le sous-organisme chargé des noms de domaine est Nic Sénégal.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q017",
+    "question": "Que signifie l'acronyme TLD ?",
+    "type": "single",
+    "options": ["Top Level Domain", "Total Link Data", "Technical Level Design", "Transfer Layer Domain"],
+    "answer": [0],
+    "explanation": "TLD signifie Top Level Domain, soit domaines de plus haut niveau. Cette classification correspond à l'activité du site ou généralement à une répartition géographique.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q018",
+    "question": "Pourquoi toute adresse de nom de domaine doit-elle être unique ?",
+    "type": "single",
+    "options": [
+      "Pour permettre aux ordinateurs de s'identifier entre eux",
+      "Pour des raisons esthétiques uniquement",
+      "Pour respecter la loi du pays d'origine",
+      "Pour limiter le nombre de sites web"
+    ],
+    "answer": [0],
+    "explanation": "Toute adresse doit être unique pour permettre aux ordinateurs de s'identifier entre eux. L'ICANN coordonne ces identifiants uniques à l'échelle internationale.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q019",
+    "question": "Sans la coordination de l'ICANN, quel serait le résultat selon le cours ?",
+    "type": "single",
+    "options": [
+      "Nous n'aurions pas le réseau Internet mondial unique que nous connaissons",
+      "Internet serait plus rapide",
+      "Les sites web seraient tous gratuits",
+      "Aucun impact notable"
+    ],
+    "answer": [0],
+    "explanation": "Sans la coordination de l'ICANN, nous n'aurions pas le réseau Internet mondial unique que nous connaissons.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q020",
+    "question": "Qu'est-ce qu'un sous-domaine ?",
+    "type": "single",
+    "options": [
+      "La partie de l'adresse Internet d'un site qui précède le nom de domaine",
+      "La partie de l'adresse Internet d'un site qui succède le nom de domaine",
+      "Un synonyme d'extension",
+      "Un serveur de secours"
+    ],
+    "answer": [0],
+    "explanation": "Un sous-domaine est la partie de l'adresse Internet d'un site qui précède le nom de domaine.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q021",
+    "question": "Quelle est la syntaxe générale d'une adresse avec sous-domaine ?",
+    "type": "single",
+    "options": [
+      "sousdomaine.votre-domaine.extension",
+      "votre-domaine.sousdomaine.extension",
+      "extension.votre-domaine.sousdomaine",
+      "votre-domaine.extension.sousdomaine"
+    ],
+    "answer": [0],
+    "explanation": "La syntaxe est sousdomaine.votre-domaine.extension.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q022",
+    "question": "Quel est le sous-domaine le plus connu et le plus utilisé ?",
+    "type": "single",
+    "options": ["mail", "www", "ftp", "admin"],
+    "answer": [1],
+    "explanation": "Le sous-domaine le plus connu et le plus utilisé est www.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q023",
+    "question": "À quoi servent principalement les sous-domaines ?",
+    "type": "single",
+    "options": [
+      "À scinder un site en plusieurs sections distinctes, avec chacune une adresse bien définie",
+      "À remplacer complètement le nom de domaine",
+      "À masquer l'identité du propriétaire du site",
+      "À accélérer le chargement des pages"
+    ],
+    "answer": [0],
+    "explanation": "Les sous-domaines sont très pratiques pour scinder un site en plusieurs sections distinctes, avec chacune une adresse bien définie. Exemple : http://formation.uvs.sn",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q024",
+    "question": "Qu'est-ce qu'une extension dans une adresse de nom de domaine ?",
+    "type": "single",
+    "options": [
+      "La partie de l'adresse Internet qui succède le nom de domaine",
+      "La partie de l'adresse Internet qui précède le nom de domaine",
+      "Un synonyme de sous-domaine",
+      "Le nom du serveur d'hébergement"
+    ],
+    "answer": [0],
+    "explanation": "Une extension est la partie de l'adresse Internet d'un site qui succède le nom de domaine.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q025",
+    "question": "Qu'est-ce que le cybersquatting ?",
+    "type": "single",
+    "options": [
+      "Une pratique consistant à réserver un nom de domaine propre à une marque pour altérer sa visibilité",
+      "Une technique de sécurisation des serveurs",
+      "Un type de langage de programmation",
+      "Une méthode d'hébergement gratuit"
+    ],
+    "answer": [0],
+    "explanation": "Le cybersquatting est une pratique qui consiste à réserver un nom de domaine propre à une marque pour altérer la visibilité de cette dernière.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q026",
+    "question": "Que permet de faire l'enregistrement d'un nom de domaine sous plusieurs extensions ?",
+    "type": "single",
+    "options": [
+      "D'éviter les dangers du cybersquatting",
+      "D'obtenir un hébergement gratuit à vie",
+      "De supprimer le besoin d'un serveur",
+      "De contourner le protocole HTTP"
+    ],
+    "answer": [0],
+    "explanation": "Afin d'éviter les dangers du cybersquatting, il est possible d'enregistrer les noms de domaine sous plusieurs extensions, par exemple uvs.sn, uvs.com, uvs.net.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q027",
+    "question": "Enregistrer un nom de domaine sous plusieurs extensions nécessite d'avoir plusieurs sites internet distincts.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Cela ne nécessite pas d'avoir plusieurs sites internet, mais simplement de rediriger ces adresses sur l'adresse principale du site.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q028",
+    "question": "À quel secteur d'activité correspond l'extension .edu ?",
+    "type": "single",
+    "options": ["Aux organismes éducatifs", "Aux organismes gouvernementaux", "Aux organismes militaires", "Aux entreprises commerciales"],
+    "answer": [0],
+    "explanation": ".edu correspond aux organismes éducatifs.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q029",
+    "question": "À quel secteur d'activité correspond l'extension .gov ?",
+    "type": "single",
+    "options": ["Aux organismes gouvernementaux", "Aux organismes éducatifs", "Aux réseaux", "Aux entreprises à but non lucratif"],
+    "answer": [0],
+    "explanation": ".gov correspond aux organismes gouvernementaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q030",
+    "question": "À quel secteur d'activité correspond l'extension .mil ?",
+    "type": "single",
+    "options": ["Aux organismes militaires", "Aux organismes médicaux", "Aux entreprises commerciales", "Aux machines du réseau originel"],
+    "answer": [0],
+    "explanation": ".mil correspond aux organismes militaires.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q031",
+    "question": "À quel secteur d'activité correspond l'extension .org ?",
+    "type": "single",
+    "options": ["Aux entreprises à but non lucratif", "Aux entreprises commerciales", "Aux organismes gouvernementaux", "Aux organismes militaires"],
+    "answer": [0],
+    "explanation": ".org correspond aux entreprises à but non lucratif.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q032",
+    "question": "À quel secteur d'activité correspond l'extension .net ?",
+    "type": "single",
+    "options": ["Aux organismes ayant trait aux réseaux", "Aux organismes éducatifs", "Aux organismes militaires", "Aux entreprises à but non lucratif"],
+    "answer": [0],
+    "explanation": ".net correspond aux organismes ayant trait aux réseaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q033",
+    "question": "L'extension .com correspond toujours strictement aux entreprises à vocation commerciale américaine.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Bien que .com corresponde à l'origine aux entreprises à vocation commerciale, ce code de domaine ne rime désormais plus à grand-chose et est devenu international.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q034",
+    "question": "À quoi correspond l'extension .arpa ?",
+    "type": "single",
+    "options": ["Aux machines issues du réseau originel", "Aux organismes militaires", "Aux entreprises commerciales", "Aux universités"],
+    "answer": [0],
+    "explanation": ".arpa correspond aux machines issues du réseau originel.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q035",
+    "question": "Que signifie l'acronyme ICANN ?",
+    "type": "single",
+    "options": [
+      "Internet Corporation for Assigned Names and Numbers",
+      "International Council for Advanced Network Naming",
+      "Internet Committee for Access and Network Numbers",
+      "International Corporation for Applied Network Norms"
+    ],
+    "answer": [0],
+    "explanation": "ICANN signifie Internet Corporation for Assigned Names and Numbers.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q036",
+    "question": "Quel type de société est l'ICANN ?",
+    "type": "single",
+    "options": [
+      "Une société de droit californien à but non lucratif",
+      "Une agence gouvernementale américaine",
+      "Une société cotée en bourse",
+      "Un organisme international à but lucratif"
+    ],
+    "answer": [0],
+    "explanation": "L'ICANN est une société de droit californien à but non lucratif.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q037",
+    "question": "Quelles sont les principales missions de l'ICANN ?",
+    "type": "multiple",
+    "options": [
+      "Administrer l'adressage IP",
+      "Administrer les noms de domaines de premier niveau (TLD)",
+      "Coordonner les acteurs techniques",
+      "Héberger tous les sites web du monde"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "L'ICANN a pour principales missions d'administrer les ressources numériques d'Internet, telles que l'adressage IP et les noms de domaines de premier niveau (TLD), et de coordonner les acteurs techniques.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q038",
+    "question": "En quelle année l'ICANN a-t-elle été fondée ?",
+    "type": "single",
+    "options": ["1993", "1994", "1998", "2001"],
+    "answer": [2],
+    "explanation": "L'ICANN a été fondée le 18 septembre 1998.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q039",
+    "question": "Quelle est l'adresse web officielle de l'ICANN ?",
+    "type": "single",
+    "options": ["http://www.icann.org", "http://www.icann.com", "http://www.w3.org", "http://www.nic.sn"],
+    "answer": [0],
+    "explanation": "L'adresse web de l'ICANN est http://www.icann.org.",
+    "image": null
+  },
+  {
+    "id": "ti-s6-q040",
+    "question": "L'ICANN est une autorité de régulation de l'Internet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. L'ICANN est une autorité de régulation de l'Internet.",
+    "image": null
+  }
+]

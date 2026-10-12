@@ -1,0 +1,105 @@
+/* themes.css — jetons de couleur + système de teinte dynamique.
+ *
+ * Le concept : une seule variable --hue "dérive" lentement et délicatement
+ * dans le temps (via @property, qui rend une custom property animable).
+ * Tous les accents (--accent, --accent-2, --accent-3) sont calculés à
+ * partir de cette teinte : toute la palette évolue donc ensemble, en douceur,
+ * sans jamais devenir criarde. Les couleurs sémantiques (succès/erreur)
+ * restent fixes pour rester lisibles et prévisibles.
+ *
+ * Repli gracieux : si @property n'est pas supporté, --hue reste figée à sa
+ * valeur initiale — l'app garde une palette fixe cohérente, sans animation.
+ */
+
+@property --hue {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 250;
+}
+
+:root {
+  animation: hue-drift 70s ease-in-out infinite;
+}
+
+@keyframes hue-drift {
+  0%   { --hue: 250; }  /* indigo   */
+  30%  { --hue: 300; }  /* violet   */
+  55%  { --hue: 335; }  /* magenta  */
+  80%  { --hue: 205; }  /* bleu     */
+  100% { --hue: 250; }
+}
+
+:root,
+[data-theme="dark"] {
+  --bg: #0A0912;
+  --bg-elevated: #120F1E;
+  --aurora-a: hsl(var(--hue) 85% 58%);
+  --aurora-b: hsl(calc(var(--hue) + 60) 80% 60%);
+  --aurora-c: hsl(calc(var(--hue) + 200) 75% 55%);
+
+  --surface: rgba(255, 255, 255, 0.05);
+  --surface-2: rgba(255, 255, 255, 0.085);
+  --surface-solid: #15121F;
+  --border: rgba(255, 255, 255, 0.10);
+  --border-soft: rgba(255, 255, 255, 0.065);
+
+  --text: #F6F4FB;
+  --text-muted: #AEA6C8;
+  --text-faint: #766D93;
+
+  --accent: hsl(var(--hue) 88% 66%);
+  --accent-strong: hsl(var(--hue) 88% 58%);
+  --accent-soft: hsl(var(--hue) 88% 66% / 0.16);
+
+  --accent-2: hsl(calc(var(--hue) + 55) 82% 68%);
+  --accent-2-soft: hsl(calc(var(--hue) + 55) 82% 68% / 0.16);
+
+  --success: #37E39E;
+  --success-soft: rgba(55, 227, 158, 0.15);
+  --danger: #FF6083;
+  --danger-soft: rgba(255, 96, 131, 0.15);
+  --warning: #FFC168;
+
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 16px 44px rgba(3, 2, 10, 0.5);
+  --shadow-pop: 0 18px 50px hsl(var(--hue) 70% 30% / 0.35);
+  --glass-blur: blur(18px);
+}
+
+[data-theme="light"] {
+  --bg: #F7F4FC;
+  --bg-elevated: #FFFFFF;
+  --aurora-a: hsl(var(--hue) 90% 82%);
+  --aurora-b: hsl(calc(var(--hue) + 60) 85% 84%);
+  --aurora-c: hsl(calc(var(--hue) + 200) 80% 82%);
+
+  --surface: rgba(28, 16, 54, 0.035);
+  --surface-2: rgba(28, 16, 54, 0.065);
+  --surface-solid: #FFFFFF;
+  --border: rgba(28, 16, 54, 0.09);
+  --border-soft: rgba(28, 16, 54, 0.055);
+
+  --text: #18132A;
+  --text-muted: #5E5578;
+  --text-faint: #8F87A8;
+
+  --accent: hsl(var(--hue) 70% 45%);
+  --accent-strong: hsl(var(--hue) 70% 38%);
+  --accent-soft: hsl(var(--hue) 70% 45% / 0.12);
+
+  --accent-2: hsl(calc(var(--hue) + 55) 65% 46%);
+  --accent-2-soft: hsl(calc(var(--hue) + 55) 65% 46% / 0.12);
+
+  --success: #14966A;
+  --success-soft: rgba(20, 150, 106, 0.12);
+  --danger: #D8395F;
+  --danger-soft: rgba(216, 57, 95, 0.12);
+  --warning: #B5790A;
+
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.7) inset, 0 16px 36px rgba(40, 20, 70, 0.10);
+  --shadow-pop: 0 18px 40px hsl(var(--hue) 60% 60% / 0.25);
+  --glass-blur: blur(14px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { animation: none; }
+}

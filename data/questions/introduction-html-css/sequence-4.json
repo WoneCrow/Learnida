@@ -1,0 +1,346 @@
+{
+  "quiz": [
+    {
+      "id": "ti-s4-q001",
+      "question": "Quel attribut permet d'ajouter du style directement dans un élément HTML ?",
+      "type": "single",
+      "options": ["class", "css", "style", "format"],
+      "answer": [2],
+      "explanation": "L'attribut style peut être utilisé pour ajouter un style dans un élément, selon la syntaxe <nomelement style=\"propriete:valeur;\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q002",
+      "question": "Quelle est la syntaxe correcte de l'attribut style ?",
+      "type": "single",
+      "options": ["<nomelement style=\"propriete:valeur;\">", "<nomelement css=\"propriete=valeur\">", "<nomelement style=[propriete,valeur]>", "<style nomelement=\"propriete:valeur;\">"],
+      "answer": [0],
+      "explanation": "La syntaxe correcte est <nomelement style=\"propriete:valeur;\">, où propriete et valeur sont une propriété et une valeur CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q003",
+      "question": "Dans l'attribut style, propriete et valeur correspondent à quoi ?",
+      "type": "single",
+      "options": ["Une propriété et une valeur CSS", "Un nom de balise et son contenu", "Un attribut HTML et son identifiant", "Une fonction JavaScript et son paramètre"],
+      "answer": [0],
+      "explanation": "propriete et valeur sont respectivement une propriété et une valeur CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q004",
+      "question": "Quelle propriété CSS permet de changer la couleur de fond d'un élément ?",
+      "type": "single",
+      "options": ["color", "background-color", "font-color", "bg-color"],
+      "answer": [1],
+      "explanation": "La propriété background-color permet de changer la couleur de fond, comme dans <body style=\"background-color:yellow;\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q005",
+      "question": "Quelle propriété CSS permet de changer la couleur du texte ?",
+      "type": "single",
+      "options": ["text-color", "color", "font-color", "background-color"],
+      "answer": [1],
+      "explanation": "La propriété color permet de changer la couleur du texte, comme dans <h1 style=\"color:blue;\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q006",
+      "question": "Quelles propriétés CSS sont mentionnées dans le cours pour modifier l'apparence du texte ?",
+      "type": "multiple",
+      "options": ["font-family", "font-size", "text-align", "border-radius"],
+      "answer": [0, 1, 2],
+      "explanation": "font-family (police), font-size (taille) et text-align (alignement) sont mentionnées. border-radius n'est pas abordée dans ce cours.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q007",
+      "question": "Que permet de faire la propriété CSS text-align:center; ?",
+      "type": "single",
+      "options": ["Centrer le texte", "Mettre le texte en gras", "Agrandir le texte de 100%", "Souligner le texte"],
+      "answer": [0],
+      "explanation": "text-align:center; permet de centrer le texte, comme dans <h1 style=\"text-align:center;\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q008",
+      "question": "Les balises et attributs obsolètes de HTML 4 sont pleinement pris en charge dans HTML5.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Les balises et attributs obsolètes ne sont pas pris en charge dans les versions supérieures de HTML (HTML5) ; il faut éviter de les utiliser.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q009",
+      "question": "Parmi ces balises, lesquelles sont considérées comme obsolètes ?",
+      "type": "multiple",
+      "options": ["<center>", "<font>", "<s>", "<p>"],
+      "answer": [0, 1, 2],
+      "explanation": "<center>, <font>/<basefont>, <s>/<strike> et <u> sont obsolètes. <p> reste une balise valide et non obsolète.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q010",
+      "question": "Quelle balise obsolète définissait un texte souligné ?",
+      "type": "single",
+      "options": ["<u>", "<sous>", "<line>", "<sub>"],
+      "answer": [0],
+      "explanation": "La balise <u> était utilisée pour un texte souligné, mais elle est obsolète.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q011",
+      "question": "Parmi ces attributs, lesquels sont considérés comme obsolètes ?",
+      "type": "multiple",
+      "options": ["align", "bgcolor", "color", "style"],
+      "answer": [0, 1, 2],
+      "explanation": "align, bgcolor et color sont des attributs obsolètes. L'attribut style, lui, reste d'actualité pour ajouter du style.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q012",
+      "question": "Quelle balise HTML définit un texte en gras ?",
+      "type": "single",
+      "options": ["<b>", "<strong>", "<bold>", "<em>"],
+      "answer": [0],
+      "explanation": "<b> définit un texte en gras. <strong> met le texte en « valeur » (importance), même si les navigateurs l'affichent aussi en gras.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q013",
+      "question": "Quelle est la différence de sens entre <b>/<i> et <strong>/<em> ?",
+      "type": "single",
+      "options": ["<b> et <i> définissent respectivement le gras et l'italique, alors que <strong> et <em> mettent le texte en « valeur »", "Il n'y a aucune différence, ce sont des synonymes stricts", "<strong> et <em> sont obsolètes contrairement à <b> et <i>", "<b> et <i> ne fonctionnent que dans les tableaux"],
+      "answer": [0],
+      "explanation": "Bien que les navigateurs affichent <strong> comme <b> et <em> comme <i>, il y a une différence de sens : <strong>/<em> mettent le texte en valeur (importance), tandis que <b>/<i> sont purement visuels.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q014",
+      "question": "Quelle balise définit un texte en indice (ex : H2O) ?",
+      "type": "single",
+      "options": ["<sup>", "<sub>", "<small>", "<mark>"],
+      "answer": [1],
+      "explanation": "<sub> définit un texte en indice, tandis que <sup> définit un texte en exposant.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q015",
+      "question": "Quelle balise définit un texte mis en surbrillance ?",
+      "type": "single",
+      "options": ["<highlight>", "<mark>", "<em>", "<ins>"],
+      "answer": [1],
+      "explanation": "La balise <mark> définit un texte mis en surbrillance.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q016",
+      "question": "Associez chaque balise à sa description : <ins> définit...",
+      "type": "single",
+      "options": ["Un texte inséré", "Un texte supprimé", "Un texte plus petit", "Un texte en exposant"],
+      "answer": [0],
+      "explanation": "<ins> définit un texte inséré, alors que <del> définit un texte supprimé.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q017",
+      "question": "Quelle balise permet d'afficher un texte comme du code informatique ?",
+      "type": "single",
+      "options": ["<pre>", "<code>", "<var>", "<samp>"],
+      "answer": [1],
+      "explanation": "La balise <code> affiche du texte comme du code informatique.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q018",
+      "question": "Parmi ces balises, lesquelles font partie des balises de « sorties d'ordinateur » ?",
+      "type": "multiple",
+      "options": ["<code>", "<kbd>", "<samp>", "<blockquote>"],
+      "answer": [0, 1, 2],
+      "explanation": "<code>, <kbd>, <samp>, <var> et <pre> sont les balises de « sorties d'ordinateur ». <blockquote> appartient aux balises de citation.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q019",
+      "question": "À quoi sert la balise <kbd> ?",
+      "type": "single",
+      "options": ["Définir le texte du clavier", "Afficher une variable", "Définir un texte préformaté", "Afficher une sortie de programme"],
+      "answer": [0],
+      "explanation": "<kbd> définit le texte du clavier, c'est-à-dire une saisie faite par l'utilisateur.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q020",
+      "question": "Les balises comme <code>, <kbd>, <samp>, <var> et <pre> sont-elles obsolètes ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Ces balises ne sont pas obsolètes, mais il est possible d'obtenir un meilleur effet visuel avec CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q021",
+      "question": "Quelle balise définit une longue citation ?",
+      "type": "single",
+      "options": ["<q>", "<blockquote>", "<cite>", "<dfn>"],
+      "answer": [1],
+      "explanation": "<blockquote> définit une longue citation, alors que <q> définit une courte citation.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q022",
+      "question": "Quelle balise définit une abréviation ?",
+      "type": "single",
+      "options": ["<abbr>", "<acronym>", "<short>", "<dfn>"],
+      "answer": [0],
+      "explanation": "<abbr> définit une abréviation, tandis que <acronym> définit un acronyme.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q023",
+      "question": "Quelle balise permet de définir les coordonnées de l'auteur ou du propriétaire d'un document ?",
+      "type": "single",
+      "options": ["<author>", "<contact>", "<address>", "<owner>"],
+      "answer": [2],
+      "explanation": "La balise <address> définit les coordonnées de l'auteur ou du propriétaire d'un document.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q024",
+      "question": "Quelle balise définit un terme à définir (comme dans un glossaire) ?",
+      "type": "single",
+      "options": ["<dfn>", "<def>", "<term>", "<cite>"],
+      "answer": [0],
+      "explanation": "<dfn> définit un terme à définir.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q025",
+      "question": "Quelle balise permet de définir le sens d'affichage du texte (par exemple pour l'écriture de droite à gauche) ?",
+      "type": "single",
+      "options": ["<bdo>", "<dir>", "<rtl>", "<sense>"],
+      "answer": [0],
+      "explanation": "La balise <bdo> définit le sens du texte.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q026",
+      "question": "Combien de noms de couleurs prédéfinies sont pris en charge par tous les navigateurs ?",
+      "type": "single",
+      "options": ["16", "100", "140", "256"],
+      "answer": [2],
+      "explanation": "140 noms de couleurs sont pris en charge par tous les navigateurs : 16 noms de couleurs de base et 124 autres.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q027",
+      "question": "Combien de noms de couleurs de base composent le sous-ensemble historique ?",
+      "type": "single",
+      "options": ["8", "16", "24", "32"],
+      "answer": [1],
+      "explanation": "Il y a 16 noms de couleurs de base parmi les 140 noms pris en charge par les navigateurs.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q028",
+      "question": "Quelles méthodes permettent de spécifier une couleur en HTML/CSS selon ce cours ?",
+      "type": "multiple",
+      "options": ["Noms de couleurs prédéfinies", "Valeurs RGB / HEX", "Valeurs HSL / HSLA", "Valeurs en pouces (inches)"],
+      "answer": [0, 1, 2],
+      "explanation": "Les couleurs peuvent être spécifiées via des noms prédéfinis, des valeurs RGB, HEX, HSL, RGBA et HSLA. Les pouces n'ont rien à voir avec la couleur.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q029",
+      "question": "Dans la fonction rgb(R, V, B), entre quelles valeurs varient R, V et B ?",
+      "type": "single",
+      "options": ["De 0 à 1", "De 0 à 100", "De 0 à 255", "De 0 à 360"],
+      "answer": [2],
+      "explanation": "Les valeurs R (rouge), V (vert) et B (bleu) vont de 0 (noir) à 255 (blanc).",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q030",
+      "question": "Dans la fonction rgba(R, V, B, alpha), entre quelles valeurs varie le paramètre alpha ?",
+      "type": "single",
+      "options": ["De 0 (transparent) à 1 (visible)", "De 0 à 255", "De 0% à 100%", "De -1 à 1"],
+      "answer": [0],
+      "explanation": "La valeur Alpha va de 0 (totalement transparent) à 1 (totalement visible).",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q031",
+      "question": "Que représentent les lettres H, S et L dans la fonction hsl() ?",
+      "type": "single",
+      "options": ["Teinte (Hue), Saturation, Luminance (Light)", "Hauteur, Style, Largeur", "Horizontal, Sombre, Lumineux", "Hexadécimal, Saturation, Lumière"],
+      "answer": [0],
+      "explanation": "H (hue) désigne la teinte, S la saturation, et L la luminance dans la fonction hsl(H, S, L).",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q032",
+      "question": "Sur le cercle chromatique utilisé par hsl(), à quel angle se trouve la couleur rouge ?",
+      "type": "single",
+      "options": ["0° et 360°", "90° et 270°", "60° uniquement", "180° uniquement"],
+      "answer": [0],
+      "explanation": "La teinte va de 0° (Rouge) à 360° (Rouge), le cercle chromatique étant fermé sur lui-même.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q033",
+      "question": "À quel angle de teinte se trouve la couleur jaune sur le cercle chromatique du cours ?",
+      "type": "single",
+      "options": ["30°", "60°", "120°", "240°"],
+      "answer": [1],
+      "explanation": "Selon le cours, à 60° on trouve le jaune, à 120° le vert, à 180° le cyan, à 240° le bleu et à 300° le magenta.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q034",
+      "question": "Dans hsl(), entre quelles valeurs varie la saturation (S) ?",
+      "type": "single",
+      "options": ["De 0 à 255", "De 0 à 100%", "De 0° à 360°", "De 0 à 1"],
+      "answer": [1],
+      "explanation": "La saturation (S) va de 0 à 100%.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q035",
+      "question": "Dans hsl(), quelle valeur de Lumière/Luminance correspond à la teinte de base (couleur pure) ?",
+      "type": "single",
+      "options": ["0%", "25%", "50%", "100%"],
+      "answer": [2],
+      "explanation": "La Lumière (ou Luminance) va de 0 (entièrement noir) à 100% (entièrement blanc), et 50% correspond à la teinte de base.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q036",
+      "question": "Que représente la valeur 0 pour la Lumière (L) dans hsl() ?",
+      "type": "single",
+      "options": ["Entièrement noir", "Entièrement blanc", "La couleur pure", "Une transparence totale"],
+      "answer": [0],
+      "explanation": "La Lumière/Luminance de 0 correspond à un rendu entièrement noir, tandis que 100% correspond à entièrement blanc.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q037",
+      "question": "Quelle est la syntaxe correcte de la fonction hsla() incluant la transparence ?",
+      "type": "single",
+      "options": ["hsla(H, S, L, A)", "hsla(R, V, B, A)", "hsla(H, S, L)", "hsla(A, H, S, L)"],
+      "answer": [0],
+      "explanation": "La syntaxe de hsla() est hsla(H, S, L, A), où A est la valeur Alpha (transparence) allant de 0 à 1.",
+      "image": null
+    },
+    {
+      "id": "ti-s4-q038",
+      "question": "Le format HEX (comme #ff6347) permet-il aussi de spécifier une couleur en CSS ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Oui, les valeurs HEX (comme #ff6347 pour la couleur tomate) sont une des méthodes pour spécifier une couleur en HTML/CSS.",
+      "image": null
+    }
+  ]
+}

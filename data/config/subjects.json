@@ -1,0 +1,276 @@
+{
+  "ues": [
+    {
+      "id": "ue1-algorithme-programmation",
+      "name": "Algorithme et programmation",
+      "subjects": [
+        {
+          "id": "initiation-algorithme",
+          "name": "Initiation à l'algorithme",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Introduction à l'algorithme",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Structures de contrôle",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Tableaux",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Les sous-programmes",
+              "file": "sequence-4.json"
+            }
+          ]
+        },
+        {
+          "id": "initiation-programmation",
+          "name": "Initiation à la programmation",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Programme interactif",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Programme avec Scratch",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Atelier Scratch",
+              "file": "sequence-3.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ue2-programmation-web-client",
+      "name": "Initiation à la programmation web côté client",
+      "subjects": [
+        {
+          "id": "introduction-javascript",
+          "name": "Introduction au langage JavaScript",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Le langage JavaScript",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Les objets, tableaux et les fonctions",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "JavaScript et les navigateurs",
+              "file": "sequence-3.json"
+            }
+          ]
+        },
+        {
+          "id": "introduction-html-css",
+          "name": "Introduction aux langages HTML-CSS",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Introduction HTML-CSS",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Éléments et attributs HTML",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Jeux de caractères, symboles et métadonnées",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Styles et couleurs en HTML",
+              "file": "sequence-4.json"
+            },
+            {
+              "id": "sequence-5",
+              "name": "Les feuilles de styles CSS",
+              "file": "sequence-5.json"
+            },
+            {
+              "id": "sequence-6",
+              "name": "Les éléments multimédias en HTML",
+              "file": "sequence-6.json"
+            },
+            {
+              "id": "sequence-7",
+              "name": "Les tableaux et les listes",
+              "file": "sequence-7.json"
+            },
+            {
+              "id": "sequence-8",
+              "name": "La mise en page en HTML",
+              "file": "sequence-8.json"
+            },
+            {
+              "id": "sequence-9",
+              "name": "Les formulaires en HTML",
+              "file": "sequence-9.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ue3-technologie-internet",
+      "name": "Technologie et Internet",
+      "subjects": [
+        {
+          "id": "introduction-web",
+          "name": "Introduction au Web",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Réseau informatique et Internet",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Le Web et le concept client-serveur",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Site web et hébergement",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Le webmastering et les autres métiers du Web",
+              "file": "sequence-4.json"
+            },
+            {
+              "id": "sequence-5",
+              "name": "Les langages du Web",
+              "file": "sequence-5.json"
+            },
+            {
+              "id": "sequence-6",
+              "name": "Nom de domaine",
+              "file": "sequence-6.json"
+            }
+          ]
+        },
+        {
+          "id": "introduction-reseaux",
+          "name": "Introduction aux réseaux",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Présentation des réseaux",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Aspects mathématiques des réseaux",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Notions de base sur les réseaux",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Médias réseaux",
+              "file": "sequence-4.json"
+            },
+            {
+              "id": "sequence-5",
+              "name": "Câblage de réseaux locaux et distants",
+              "file": "sequence-5.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ue4-applications-mobiles",
+      "name": "Introduction aux applications mobiles",
+      "subjects": [
+        {
+          "id": "environnement-mobile",
+          "name": "Environnement mobile",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Introduction aux technologies mobiles",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Généralités sur les technologies mobiles",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Évolution des périphériques mobiles",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Plateformes et applications mobiles",
+              "file": "sequence-4.json"
+            },
+            {
+              "id": "sequence-5",
+              "name": "Approche de développement pour les environnements mobiles",
+              "file": "sequence-5.json"
+            },
+            {
+              "id": "sequence-6",
+              "name": "Environnement de développement intégré pour le mobile",
+              "file": "sequence-6.json"
+            }
+          ]
+        },
+        {
+          "id": "initiation-developpement-mobile",
+          "name": "Initiation au développement mobile",
+          "sequences": [
+            {
+              "id": "sequence-1",
+              "name": "Initiation au génie logiciel mobile",
+              "file": "sequence-1.json"
+            },
+            {
+              "id": "sequence-2",
+              "name": "Introduction à Android sous Android Studio",
+              "file": "sequence-2.json"
+            },
+            {
+              "id": "sequence-3",
+              "name": "Notions essentielles d'une application Android",
+              "file": "sequence-3.json"
+            },
+            {
+              "id": "sequence-4",
+              "name": "Les applications hybrides (Ionic)",
+              "file": "sequence-4.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

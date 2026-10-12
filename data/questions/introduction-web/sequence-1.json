@@ -1,0 +1,215 @@
+[
+  {
+    "id": "ti-s1-q001",
+    "question": "Qu'est-ce qu'un réseau informatique ?",
+    "type": "single",
+    "options": [
+      "Un ensemble d'éléments informatiques connectés entre eux pour échanger des informations",
+      "Un seul ordinateur puissant",
+      "Un logiciel de messagerie",
+      "Un type de câble Ethernet"
+    ],
+    "answer": [0],
+    "explanation": "Un réseau est un ensemble d'éléments informatiques (ordinateur, imprimante, hub, modem…) connectés les uns aux autres pour échanger des informations.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q002",
+    "question": "Quels sont les modes de connexion possibles entre les éléments d'un réseau ?",
+    "type": "multiple",
+    "options": ["Connexion filaire (Ethernet)", "Connexion sans fil (wifi)", "Connexion par ondes radio", "Connexion par satellite uniquement"],
+    "answer": [0, 1, 2],
+    "explanation": "La connexion entre les éléments d'un réseau peut se faire de manière physique (câble Ethernet) ou via des ondes radio (wifi).",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q003",
+    "question": "Combien d'ordinateurs reliés entre eux suffisent pour constituer un mini réseau ?",
+    "type": "single",
+    "options": ["Un seul", "Deux", "Cinq", "Dix"],
+    "answer": [1],
+    "explanation": "Deux ordinateurs reliés entre eux constituent déjà un mini réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q004",
+    "question": "Comment appelle-t-on l'installation de périphériques réseau dans un espace défini comme une maison ou une entreprise ?",
+    "type": "single",
+    "options": ["Un réseau étendu", "Un réseau local", "Un intranet public", "Un réseau satellite"],
+    "answer": [1],
+    "explanation": "On parle de réseau local pour désigner l'installation de périphériques dans un espace défini (maison, entreprise…).",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q005",
+    "question": "Par quel(s) équipement(s) un réseau local peut-il être connecté à un réseau externe comme Internet ?",
+    "type": "multiple",
+    "options": ["Un routeur", "Une box", "Un clavier", "Une imprimante"],
+    "answer": [0, 1],
+    "explanation": "Un réseau local peut être connecté à un réseau externe (Internet) par le biais d'un routeur ou d'une box.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q006",
+    "question": "Un réseau informatique permet de partager uniquement des documents.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Un réseau informatique permet de partager des données, des documents, des applications ET des imprimantes.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q007",
+    "question": "Le terme « Internet » est dérivé du concept d'« internetting ».",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. « Internet » est dérivé du concept d'internetting (interconnecter des réseaux), dont la première utilisation documentée remonte à octobre 1972.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q008",
+    "question": "Comment appelle-t-on les utilisateurs d'Internet ?",
+    "type": "single",
+    "options": ["Des internautes", "Des webmasters", "Des routeurs", "Des hébergeurs"],
+    "answer": [0],
+    "explanation": "Les utilisateurs d'Internet sont désignés par le néologisme « internaute ».",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q009",
+    "question": "Quel protocole de communication définit techniquement Internet ?",
+    "type": "single",
+    "options": ["HTTP", "IP (Internet Protocol)", "FTP", "SMTP"],
+    "answer": [1],
+    "explanation": "Techniquement, Internet se définit comme le réseau public mondial utilisant le protocole de communication IP (Internet Protocol).",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q010",
+    "question": "Qu'est-ce qu'un intranet ?",
+    "type": "single",
+    "options": [
+      "Un réseau public mondial",
+      "Un réseau privé au sein d'une entreprise ou d'une administration",
+      "Une interconnexion d'intranets via Internet",
+      "Un logiciel de messagerie instantanée"
+    ],
+    "answer": [1],
+    "explanation": "Un intranet est un réseau privé au sein des entreprises, administrations, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q011",
+    "question": "Qu'est-ce qu'un extranet ?",
+    "type": "single",
+    "options": [
+      "Un réseau purement militaire",
+      "Une interconnexion d'intranets pouvant emprunter Internet",
+      "Un synonyme d'Internet",
+      "Un type de câble réseau"
+    ],
+    "answer": [1],
+    "explanation": "Un extranet est une interconnexion d'intranets pouvant emprunter Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q012",
+    "question": "En quelle année l'US Air Force a-t-elle demandé la création d'un réseau de communication capable de résister à une attaque nucléaire ?",
+    "type": "single",
+    "options": ["1958", "1962", "1972", "1977"],
+    "answer": [1],
+    "explanation": "En 1962, dans un contexte de guerre froide, l'US Air Force a demandé à un petit groupe de chercheurs de créer ce réseau, qui deviendra ARPANET.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q013",
+    "question": "Le réseau ARPANET reposait sur un système centralisé afin de mieux contrôler les communications.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le concept d'ARPANET reposait sur un système décentralisé : si une ou plusieurs machines étaient détruites, le réseau continuait à fonctionner.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q014",
+    "question": "ARPANET était à l'origine un réseau purement militaire.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Il s'agissait d'un réseau purement militaire, conçu pour être « indestructible ».",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q015",
+    "question": "Qui a créé le premier réseau utilisant la commutation de paquets, dans les années 60 ?",
+    "type": "single",
+    "options": ["Vint Cerf", "Robert Kahn", "Donald Davies", "Tim Berners-Lee"],
+    "answer": [2],
+    "explanation": "Donald Davies, au Royaume-Uni, a créé le premier réseau utilisant la commutation de paquets, avec division des données en paquets et en-tête pour le routage.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q016",
+    "question": "En quelle année ARPANET a-t-il été créé par le US Department of Defense ?",
+    "type": "single",
+    "options": ["1962", "1969", "1977", "1983"],
+    "answer": [2],
+    "explanation": "ARPANET (Advanced Research Projects Agency Network) a été créé en 1977 par le US Department of Defense.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q017",
+    "question": "Qui a créé le protocole TCP/IP ?",
+    "type": "multiple",
+    "options": ["Robert Kahn", "Vint Cerf", "Donald Davies", "Tim Berners-Lee"],
+    "answer": [0, 1],
+    "explanation": "Le protocole TCP/IP a été créé par Robert Kahn et Vint Cerf. ARPANET fut le premier réseau à l'utiliser.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q018",
+    "question": "L'émergence des premiers fournisseurs d'accès à Internet a eu lieu avant l'apparition du World Wide Web.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Les premiers fournisseurs d'accès sont apparus à la fin des années 80, tout ceci avant l'apparition du web.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q019",
+    "question": "Quelles sont des applications populaires d'Internet ?",
+    "type": "multiple",
+    "options": ["Le Web", "La messagerie électronique", "La messagerie instantanée", "Le transfert de fichiers (FTP)"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Les applications les plus populaires d'Internet sont le Web, la messagerie électronique, la messagerie instantanée, les systèmes de partage de fichiers poste à poste et le FTP.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q020",
+    "question": "Internet et le World Wide Web désignent exactement la même chose.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Internet a été popularisé par l'apparition du Web, mais les deux notions sont parfois confondues à tort par le public non averti ; le Web n'est qu'une des applications d'Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q021",
+    "question": "Quel organisme coordonne les noms de domaine au niveau mondial ?",
+    "type": "single",
+    "options": ["ICANN", "AfriNIC", "NIC Sénégal", "W3C"],
+    "answer": [0],
+    "explanation": "L'ICANN est l'organisation coordonnant les noms de domaine, mentionnée dans les références du support de cours.",
+    "image": null
+  },
+  {
+    "id": "ti-s1-q022",
+    "question": "Quel est le registre régional d'adresses IP pour l'Afrique ?",
+    "type": "single",
+    "options": ["NIC Sénégal", "AfriNIC", "ICANN", "W3C"],
+    "answer": [1],
+    "explanation": "AfriNIC est le registre régional d'adresses IP pour l'Afrique.",
+    "image": null
+  }
+]

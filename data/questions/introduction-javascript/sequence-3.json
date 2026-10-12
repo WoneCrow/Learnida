@@ -1,0 +1,445 @@
+[
+  {
+    "id": "js-s3-q001",
+    "question": "Comment appelle-t-on communément l'utilisation de JavaScript dans les navigateurs Web ?",
+    "type": "single",
+    "options": ["JavaScript côté client", "JavaScript côté serveur", "JavaScript natif", "JavaScript compilé"],
+    "answer": [0],
+    "explanation": "L'utilisation de JavaScript dans les navigateurs Web est communément appelée JavaScript côté client.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q002",
+    "question": "Quel objet est le point d'entrée principal de toutes les fonctionnalités et API JavaScript côté client ?",
+    "type": "single",
+    "options": ["L'objet Window", "L'objet Document", "L'objet Element", "L'objet Node"],
+    "answer": [0],
+    "explanation": "L'objet Window est le point d'entrée principal de toutes les fonctionnalités et API JavaScript côté client ; il représente une fenêtre ou un cadre de navigateur.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q003",
+    "question": "À quel objet fait référence la propriété location de l'objet Window ?",
+    "type": "single",
+    "options": [
+      "Un objet Location qui spécifie l'URL actuellement affichée dans la fenêtre",
+      "Un objet Document représentant le contenu de la page",
+      "Un objet Event représentant les événements de la fenêtre",
+      "Un objet Array contenant tous les liens de la page"
+    ],
+    "answer": [0],
+    "explanation": "La propriété location fait référence à un objet Location qui spécifie l'URL actuellement affichée et permet à un script de charger une nouvelle URL.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q004",
+    "question": "Quelle méthode de l'objet Window affiche un message dans une boîte de dialogue ?",
+    "type": "single",
+    "options": ["alert()", "confirm()", "prompt()", "display()"],
+    "answer": [0],
+    "explanation": "L'objet Window définit la méthode alert(), qui affiche un message dans une boîte de dialogue.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q005",
+    "question": "Que fait la méthode setTimeout() de l'objet Window ?",
+    "type": "single",
+    "options": [
+      "Elle enregistre une fonction à appeler après une durée spécifiée",
+      "Elle appelle une fonction en boucle indéfiniment",
+      "Elle arrête l'exécution du script pendant un délai donné",
+      "Elle recharge automatiquement la page"
+    ],
+    "answer": [0],
+    "explanation": "setTimeout() enregistre une fonction à appeler après une durée spécifiée en millisecondes, et l'exécute une seule fois.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q006",
+    "question": "Dans le JavaScript côté client, l'objet Window est également l'objet global.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que l'objet Window est aussi l'objet global : ses propriétés et méthodes sont effectivement des variables et fonctions globales.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q007",
+    "question": "À quoi se réfère la propriété document de l'objet Window ?",
+    "type": "single",
+    "options": [
+      "Un objet Document qui représente le contenu affiché dans la fenêtre",
+      "Un objet Location qui gère l'URL",
+      "Un objet Array contenant les scripts de la page",
+      "Un objet Style représentant la feuille de style"
+    ],
+    "answer": [0],
+    "explanation": "La propriété document fait référence à un objet Document qui représente le contenu affiché dans la fenêtre.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q008",
+    "question": "Que renvoie la méthode getElementById() de l'objet Document ?",
+    "type": "single",
+    "options": [
+      "Un seul élément de document en fonction de la valeur de son attribut id",
+      "Une liste de tous les éléments du document",
+      "Le premier élément <p> du document",
+      "Un objet Array de nombres"
+    ],
+    "answer": [0],
+    "explanation": "getElementById() renvoie un seul élément de document (une paire de balises ouverte/fermée et son contenu) en fonction de son attribut id.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q009",
+    "question": "Quelles propriétés d'un objet Element permettent de spécifier des styles CSS ou de modifier les classes CSS ?",
+    "type": "multiple",
+    "options": ["style", "className", "innerHTML", "location"],
+    "answer": [0, 1],
+    "explanation": "Chaque objet Element possède des propriétés style et className qui permettent de spécifier des styles CSS ou de modifier les classes CSS appliquées.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q010",
+    "question": "Par quel mot commencent généralement les noms des propriétés de gestionnaire d'événements ?",
+    "type": "single",
+    "options": ["\"on\"", "\"do\"", "\"handle\"", "\"event\""],
+    "answer": [0],
+    "explanation": "Les propriétés du gestionnaire d'événements ont des noms qui commencent par le mot \"on\" (onclick, onload, etc.).",
+    "image": null
+  },
+  {
+    "id": "js-s3-q011",
+    "question": "Quand se déclenche le gestionnaire d'événement onload de l'objet Window ?",
+    "type": "single",
+    "options": [
+      "Lorsque le contenu du document affiché dans la fenêtre est stable et prêt à être manipulé",
+      "Lorsque l'utilisateur clique sur un lien",
+      "Lorsque l'utilisateur ferme la fenêtre",
+      "Toutes les secondes en continu"
+    ],
+    "answer": [0],
+    "explanation": "Le gestionnaire onload se déclenche lorsque le contenu du document affiché est stable et prêt à être manipulé ; le code JS y est souvent encapsulé.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q012",
+    "question": "Comment le DOM représente-t-il les éléments imbriqués d'un document HTML ou XML ?",
+    "type": "single",
+    "options": ["Sous forme d'une arborescence d'objets", "Sous forme d'une liste plate", "Sous forme d'une table de hachage", "Sous forme d'un tableau bidimensionnel"],
+    "answer": [0],
+    "explanation": "Le DOM représente les éléments imbriqués d'un document HTML ou XML en tant qu'arborescence d'objets.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q013",
+    "question": "Quels types de nœuds peuvent apparaître dans une représentation arborescente d'un document HTML selon le cours ?",
+    "type": "multiple",
+    "options": ["Nœuds représentant des balises/éléments HTML", "Nœuds représentant des chaînes de texte", "Nœuds représentant des commentaires HTML", "Nœuds représentant des fonctions JavaScript"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite trois types de nœuds dans un document HTML : les éléments (balises), les nœuds de texte, et les commentaires.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q014",
+    "question": "Dans la terminologie DOM empruntée aux arbres généalogiques, comment appelle-t-on les nœuds au même niveau et ayant le même parent ?",
+    "type": "single",
+    "options": ["Des frères et sœurs", "Des descendants", "Des ancêtres", "Des enfants"],
+    "answer": [0],
+    "explanation": "Les nœuds au même niveau et avec le même parent sont appelés frères et sœurs (siblings) dans la terminologie DOM.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q015",
+    "question": "Quelles classes sont des sous-classes de la classe Node selon le cours ?",
+    "type": "multiple",
+    "options": ["Document", "Element", "Text", "Window"],
+    "answer": [0, 1, 2],
+    "explanation": "Document, Element et Text sont des sous-classes de la classe Node ; Window n'est pas une sous-classe de Node.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q016",
+    "question": "Quels sont les moyens de sélectionner des éléments d'un document présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["Par attribut id", "Par attribut name", "Par nom de balise", "Par classes CSS", "Par sélecteur CSS"],
+    "answer": [0, 1, 2, 3, 4],
+    "explanation": "Le cours présente cinq moyens de sélectionner des éléments : par id, par name, par nom de balise, par classe CSS, et par sélecteur CSS.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q017",
+    "question": "La valeur de l'attribut id doit-elle être unique dans un document HTML ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que la valeur de l'attribut id doit être unique dans le document : aucun élément ne peut avoir le même id qu'un autre.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q018",
+    "question": "Contrairement à id, la valeur d'un attribut name doit-elle être unique ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : contrairement à id, la valeur d'un attribut name n'a pas besoin d'être unique ; plusieurs éléments peuvent avoir le même nom (boutons radio, cases à cocher).",
+    "image": null
+  },
+  {
+    "id": "js-s3-q019",
+    "question": "Quelle méthode permet de sélectionner des éléments HTML en fonction de la valeur de leur attribut name ?",
+    "type": "single",
+    "options": ["getElementsByName()", "getElementById()", "getElementsByTagName()", "querySelector()"],
+    "answer": [0],
+    "explanation": "getElementsByName() de l'objet Document permet de sélectionner des éléments HTML en fonction de la valeur de leurs attributs name.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q020",
+    "question": "Quel type d'objet est renvoyé par getElementsByName(), getElementsByTagName() et getElementsByClassName() ?",
+    "type": "single",
+    "options": ["Un objet NodeList", "Un objet Document", "Un objet Text", "Une chaîne de caractères"],
+    "answer": [0],
+    "explanation": "Ces trois méthodes renvoient un objet NodeList, qui se comporte comme un tableau en lecture seule d'objets Element.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q021",
+    "question": "getElementsByTagName() effectue-t-elle une comparaison de nom de balise sensible à la casse sur un document HTML ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : sur un document HTML, getElementsByTagName() effectue une comparaison insensible à la casse, incluant par exemple <SPAN> et <span>.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q022",
+    "question": "Comme class est un mot réservé en JavaScript, quelle propriété le JavaScript côté client utilise-t-il pour manipuler l'attribut de classe HTML ?",
+    "type": "single",
+    "options": ["className", "cssClass", "classList uniquement", "classAttr"],
+    "answer": [0],
+    "explanation": "Comme \"class\" est un mot réservé en JavaScript, le JavaScript côté client utilise la propriété className pour contenir la valeur de l'attribut de classe HTML.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q023",
+    "question": "Que fait la méthode getElementsByClassName() lorsqu'on lui passe une chaîne contenant plusieurs identifiants séparés par des espaces ?",
+    "type": "single",
+    "options": [
+      "Seuls les éléments qui incluent tous les identifiants spécifiés dans leur attribut de classe sont sélectionnés",
+      "Elle sélectionne les éléments correspondant à au moins un des identifiants",
+      "Elle génère une erreur de syntaxe",
+      "Elle ignore les identifiants supplémentaires après le premier"
+    ],
+    "answer": [0],
+    "explanation": "getElementsByClassName() ne sélectionne que les éléments dont l'attribut de classe inclut TOUS les identifiants spécifiés, l'ordre n'ayant pas d'importance.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q024",
+    "question": "Quelle méthode Document permet de sélectionner des éléments à l'aide d'un sélecteur CSS et renvoie tous les éléments correspondants ?",
+    "type": "single",
+    "options": ["querySelectorAll()", "getElementsByCSS()", "selectAll()", "findElements()"],
+    "answer": [0],
+    "explanation": "querySelectorAll() prend un sélecteur CSS en argument et retourne un NodeList de tous les éléments du document qui correspondent.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q025",
+    "question": "La liste retournée par querySelectorAll() se met-elle à jour automatiquement lorsque le document change ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : contrairement aux autres méthodes de sélection, la liste retournée par querySelectorAll() n'est pas active/en direct ; elle ne se met pas à jour.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q026",
+    "question": "Quelle est la différence entre querySelector() et querySelectorAll() ?",
+    "type": "single",
+    "options": [
+      "querySelector() renvoie uniquement le premier élément correspondant (ou null), tandis que querySelectorAll() renvoie tous les éléments correspondants",
+      "querySelector() ne fonctionne que sur les documents XML",
+      "querySelectorAll() ne fonctionne qu'avec les ID",
+      "Il n'y a aucune différence entre les deux"
+    ],
+    "answer": [0],
+    "explanation": "querySelector() renvoie uniquement le premier élément de correspondance (dans l'ordre du document) ou null, contrairement à querySelectorAll() qui renvoie tous les éléments.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q027",
+    "question": "Que renvoie la propriété innerHTML d'un élément ?",
+    "type": "single",
+    "options": [
+      "Le contenu de cet élément en tant que chaîne de balises",
+      "Uniquement le texte brut sans les balises",
+      "L'élément lui-même avec ses balises ouvrantes et fermantes",
+      "La liste des attributs de l'élément"
+    ],
+    "answer": [0],
+    "explanation": "La propriété innerHTML d'un élément renvoie le contenu de cet élément en tant que chaîne de balises.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q028",
+    "question": "Quelle différence existe-t-il entre innerHTML et outerHTML ?",
+    "type": "single",
+    "options": [
+      "outerHTML inclut les balises ouvrantes et fermantes de l'élément lui-même, contrairement à innerHTML",
+      "innerHTML n'est utilisable qu'avec des documents XML",
+      "outerHTML ne peut pas être défini, seulement lu",
+      "Il n'y a aucune différence entre les deux"
+    ],
+    "answer": [0],
+    "explanation": "outerHTML renvoie une chaîne incluant les balises ouvrantes et fermantes de l'élément lui-même, alors qu'innerHTML ne renvoie que le contenu interne.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q029",
+    "question": "Quelle propriété standard permet d'interroger ou de modifier le contenu d'un élément en texte brut ?",
+    "type": "single",
+    "options": ["textContent", "plainText", "rawContent", "elementText"],
+    "answer": [0],
+    "explanation": "La propriété textContent du nœud est la façon standard d'interroger ou de modifier le contenu en texte brut d'un élément.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q030",
+    "question": "Quelle propriété équivalente à textContent est utilisée sur IE, qui ne prenait pas en charge textContent ?",
+    "type": "single",
+    "options": ["innerText", "outerText", "plainContent", "docText"],
+    "answer": [0],
+    "explanation": "Sur IE, on peut utiliser la propriété innerText à la place de textContent ; les deux sont assez similaires et souvent interchangeables.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q031",
+    "question": "Que représente le CSS (Cascading Style Sheets) selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une norme pour spécifier la présentation visuelle des documents HTML",
+      "Un langage de programmation pour la logique métier",
+      "Une base de données pour stocker les styles",
+      "Un protocole réseau pour charger des pages"
+    ],
+    "answer": [0],
+    "explanation": "Le CSS est une norme pour spécifier la présentation visuelle des documents HTML : polices, couleurs, marges, bordures, position, etc.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q032",
+    "question": "Comment appelait-on autrefois les techniques combinant JavaScript et CSS pour produire des effets visuels animés ?",
+    "type": "single",
+    "options": ["DHTML (Dynamic HTML)", "AJAX", "jQuery", "SPA (Single Page Application)"],
+    "answer": [0],
+    "explanation": "Les techniques JavaScript et CSS produisant des effets visuels scénarisés étaient dénommées Dynamic HTML, ou DHTML.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q033",
+    "question": "La valeur de la propriété style d'un élément est-elle une simple chaîne de caractères ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est faux : la valeur de style n'est pas une chaîne, mais un objet CSSStyleDeclaration dont les propriétés JavaScript représentent les propriétés CSS.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q034",
+    "question": "Comment s'écrit en JavaScript la propriété CSS \"font-size\", qui contient un trait d'union ?",
+    "type": "single",
+    "options": ["fontSize", "font_size", "font-size (identique)", "FontSize"],
+    "answer": [0],
+    "explanation": "Le trait d'union est supprimé et la lettre suivante est capitalisée : \"font-size\" devient fontSize en JavaScript, car le trait d'union serait interprété comme un signe moins.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q035",
+    "question": "En JavaScript, toutes les valeurs de style CSS définies via l'objet CSSStyleDeclaration doivent être spécifiées comme :",
+    "type": "single",
+    "options": ["Des chaînes de caractères", "Des nombres uniquement", "Des booléens", "Des objets JSON"],
+    "answer": [0],
+    "explanation": "Toutes les valeurs de l'objet CSSStyleDeclaration doivent être spécifiées en tant que chaînes de caractères, y compris pour les nombres avec unités (ex: \"300px\").",
+    "image": null
+  },
+  {
+    "id": "js-s3-q036",
+    "question": "Quelle est l'erreur dans l'instruction \"e.style.left = 300;\" pour positionner un élément à 300 pixels ?",
+    "type": "single",
+    "options": [
+      "300 est un nombre et non une chaîne, et les unités (px) sont manquantes",
+      "La propriété left n'existe pas en CSS",
+      "Il faut utiliser e.left au lieu de e.style.left",
+      "Il n'y a aucune erreur, cette syntaxe est correcte"
+    ],
+    "answer": [0],
+    "explanation": "La bonne syntaxe est e.style.left = \"300px\"; il faut une chaîne de caractères et préciser l'unité (px).",
+    "image": null
+  },
+  {
+    "id": "js-s3-q037",
+    "question": "Quelle est la différence entre setTimeout() et setInterval() pour créer des animations ?",
+    "type": "single",
+    "options": [
+      "setTimeout() exécute la fonction une seule fois, setInterval() l'exécute à intervalles répétés jusqu'à clearInterval()",
+      "setInterval() exécute la fonction une seule fois, setTimeout() en boucle",
+      "Les deux méthodes sont strictement identiques",
+      "setTimeout() ne fonctionne qu'avec le CSS, pas setInterval()"
+    ],
+    "answer": [0],
+    "explanation": "setTimeout() appelle une fonction une seule fois après un délai, tandis que setInterval() continue d'appeler la fonction à intervalles réguliers jusqu'à ce que clearInterval() soit appelé.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q038",
+    "question": "Quel modèle de programmation les programmes JavaScript côté client utilisent-ils ?",
+    "type": "single",
+    "options": ["Un modèle asynchrone piloté par des événements", "Un modèle strictement synchrone et séquentiel", "Un modèle basé uniquement sur des boucles infinies", "Un modèle purement fonctionnel sans état"],
+    "answer": [0],
+    "explanation": "Le cours précise que les programmes JavaScript côté client utilisent un modèle de programmation asynchrone piloté par des événements.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q039",
+    "question": "Parmi les événements suivants, lequel se déclenche lorsqu'on relâche le bouton gauche de la souris sur un élément ?",
+    "type": "single",
+    "options": ["mouseup", "mousedown", "mouseover", "mouseout"],
+    "answer": [0],
+    "explanation": "mouseup se déclenche quand on relâche le bouton gauche de la souris sur l'élément, contrairement à mousedown (appui sans relâcher).",
+    "image": null
+  },
+  {
+    "id": "js-s3-q040",
+    "question": "Quel événement se déclenche lors de l'envoi d'un formulaire ?",
+    "type": "single",
+    "options": ["submit", "change", "select", "reset"],
+    "answer": [0],
+    "explanation": "L'événement submit se déclenche lorsqu'un formulaire est envoyé ; reset se déclenche lors de sa réinitialisation.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q041",
+    "question": "Dans l'exemple \"elm.onmouseout = normal;\", pourquoi n'écrit-on pas \"normal()\" avec des parenthèses ?",
+    "type": "single",
+    "options": [
+      "Car cela évaluerait immédiatement la fonction au moment de l'affectation, au lieu de l'assigner comme gestionnaire",
+      "Car les parenthèses sont interdites en JavaScript",
+      "Car onmouseout n'accepte que des chaînes de caractères",
+      "Car cela provoquerait une erreur de syntaxe"
+    ],
+    "answer": [0],
+    "explanation": "Si on écrivait normal(), la fonction serait évaluée immédiatement lors de l'affectation ; en omettant les parenthèses, on assigne bien la référence de la fonction comme gestionnaire d'événement.",
+    "image": null
+  },
+  {
+    "id": "js-s3-q042",
+    "question": "Peut-on accéder à un événement d'un élément comme une simple propriété de l'objet élément après l'avoir sélectionné avec getElementById ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours confirme que si un élément a été identifié (par exemple via getElementById), l'événement visé est accessible comme une simple propriété de l'objet élément (ex: elm.onmouseover).",
+    "image": null
+  }
+]

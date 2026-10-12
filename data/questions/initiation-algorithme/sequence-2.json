@@ -1,0 +1,292 @@
+[
+  {
+    "id": "algo-s2-q001",
+    "question": "Comment appelle-t-on les directives d'un algorithme qui décrivent les conditions et l'ordre dans lesquels les actions doivent être effectuées ?",
+    "type": "single",
+    "options": ["Les structures de contrôle", "Les identificateurs", "Les commentaires", "Les constantes"],
+    "answer": [0],
+    "explanation": "Les structures de contrôle permettent de décrire la structure logique d'un algorithme et facilitent sa traduction en programme.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q002",
+    "question": "Quels sont les trois schémas logiques de test présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["Conditionnel", "Alternatif", "Choix multiple", "Récursif"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite trois schémas possibles pour une structure logique de test : le conditionnel, l'alternatif et le choix multiple.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q003",
+    "question": "Dans un schéma conditionnel (Si...Alors...Finsi), l'instruction est exécutée uniquement si la condition est vraie.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le schéma conditionnel simple n'exécute la suite d'instructions que si la condition est vraie ; sinon rien ne se passe.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q004",
+    "question": "Quel mot-clé termine un bloc \"Si...Alors\" en pseudo-code ?",
+    "type": "single",
+    "options": ["Finsi", "Fin", "EndIf", "Ftanque"],
+    "answer": [0],
+    "explanation": "Le bloc conditionnel se termine par le mot-clé \"Finsi\".",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q005",
+    "question": "Quelle est la structure exacte du schéma alternatif ?",
+    "type": "single",
+    "options": [
+      "Si (condition) Alors instruction(s) Sinon Autres instruction(s) Finsi",
+      "Si (condition) Alors instruction(s) Finsi Sinon",
+      "Suivant choix faire ... FinCas",
+      "Répéter instruction(s) jusqu'à condition"
+    ],
+    "answer": [0],
+    "explanation": "Le schéma alternatif ajoute une branche Sinon exécutée quand la condition est fausse : Si...Alors...Sinon...Finsi.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q006",
+    "question": "Dans un schéma alternatif, si la condition renvoie FAUX, alors la suite d'instructions du Sinon est exécutée.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est exactement le fonctionnement du schéma alternatif décrit dans le cours.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q007",
+    "question": "Dans l'algorithme \"pair\" en version alternative, que se passe-t-il si n mod 2 est différent de 0 ?",
+    "type": "single",
+    "options": ["On écrit \"n est impair\"", "On écrit \"n est pair\"", "Rien ne s'exécute", "Une erreur se produit"],
+    "answer": [0],
+    "explanation": "Si n mod 2 = 0 est faux, la branche Sinon s'exécute et affiche que n est impair.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q008",
+    "question": "Qu'est-ce qu'une condition selon le cours ?",
+    "type": "single",
+    "options": [
+      "Une expression dont la valeur est VRAI ou FAUX",
+      "Une variable de type entier uniquement",
+      "Une instruction d'affichage",
+      "Un nom de variable"
+    ],
+    "answer": [0],
+    "explanation": "Une condition est une expression dont la valeur est VRAI ou FAUX : cela peut être une variable booléenne ou une expression (comparaison).",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q009",
+    "question": "Quels éléments composent une condition de type comparaison ?",
+    "type": "multiple",
+    "options": ["Une valeur", "Un opérateur de comparaison", "Une autre valeur", "Un identificateur de fonction"],
+    "answer": [0, 1, 2],
+    "explanation": "Une comparaison est composée de trois éléments : une valeur, un opérateur de comparaison, et une autre valeur.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q010",
+    "question": "Pour qu'une comparaison ait un sens, les deux valeurs comparées doivent être du même type.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que même si les valeurs peuvent être de n'importe quel type a priori, elles doivent être du même type pour que la comparaison soit valide.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q011",
+    "question": "Quelle structure de contrôle permet de traiter plusieurs cas possibles à partir d'une seule variable ou expression ?",
+    "type": "single",
+    "options": ["Le choix multiple (Suivant...faire...FinCas)", "La boucle Pour", "Le schéma conditionnel simple", "La boucle Répéter"],
+    "answer": [0],
+    "explanation": "Le choix multiple (Suivant choix faire ... FinCas) permet de dérouler plusieurs cas selon la valeur d'une variable ou expression \"choix\".",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q012",
+    "question": "Dans la structure de choix multiple, le terme \"choix\" doit être du même type que les constantes des ensembles <vali>.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que \"choix\" désigne une variable ou une expression de même type que les constantes des ensembles <vali>.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q013",
+    "question": "Quel mot-clé termine une structure de choix multiple ?",
+    "type": "single",
+    "options": ["FinCas", "Finsi", "Fin", "Ftanque"],
+    "answer": [0],
+    "explanation": "La structure \"Suivant choix faire ... FinCas\" se termine par le mot-clé FinCas.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q014",
+    "question": "Quels sont les trois types de boucles présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["La boucle Pour", "La boucle Tant que", "La boucle Répéter", "La boucle Faire...Fois"],
+    "answer": [0, 1, 2],
+    "explanation": "Les structures répétitives présentées sont : la boucle Pour, la boucle Tant que et la boucle Répéter.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q015",
+    "question": "Quelle boucle utilise-t-on lorsque le nombre d'itérations est connu à l'avance ?",
+    "type": "single",
+    "options": ["La boucle Pour", "La boucle Tant que", "La boucle Répéter", "Aucune de ces boucles"],
+    "answer": [0],
+    "explanation": "Le cours indique explicitement : \"Si le nombre d'itérations est connu à l'avance, on utilise le schéma [de la boucle Pour]\".",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q016",
+    "question": "Dans la boucle Pour, comment appelle-t-on la valeur qui fait progresser le compteur à chaque itération ?",
+    "type": "single",
+    "options": ["Le pas (ou incrément)", "Le choix", "La condition", "Le rang"],
+    "answer": [0],
+    "explanation": "Ce pas, généralement égal à 1, est aussi appelé incrément ; il permet de faire progresser le compteur de la valeur initiale à la valeur finale.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q017",
+    "question": "Le pas d'une boucle Pour peut être négatif.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que le pas peut être négatif, ce qui sous-entend que la valeur initiale est supérieure à la valeur finale.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q018",
+    "question": "Dans l'algorithme affichant les entiers de 1 à 100 avec une boucle Pour, quelle est la syntaxe utilisée ?",
+    "type": "single",
+    "options": ["pour i := 1 à 100 faire", "tant que i < 100 faire", "répéter ... jusqu'à i=100", "suivant i faire"],
+    "answer": [0],
+    "explanation": "L'exemple du cours utilise \"pour i :=1 à 100 faire\" suivi de \"ecrire(i)\".",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q019",
+    "question": "Dans une boucle Tant que, à quel moment la condition est-elle testée ?",
+    "type": "single",
+    "options": ["Avant chaque itération (avant l'exécution du corps de la boucle)", "Après chaque itération", "Une seule fois au milieu de la boucle", "Jamais, elle est ignorée"],
+    "answer": [0],
+    "explanation": "Dans une boucle tant que, la condition contrôlant la répétition est testée avant chaque itération, c'est-à-dire avant l'exécution du corps de la boucle.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q020",
+    "question": "Une boucle Tant que peut ne jamais exécuter son corps si la condition est fausse dès le départ.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Comme la condition est testée avant chaque itération, si elle est fausse dès le départ, le corps de la boucle n'est jamais exécuté.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q021",
+    "question": "Lorsque le corps d'une boucle Tant que contient plusieurs instructions, il faut les encadrer par...",
+    "type": "single",
+    "options": ["debut et fin", "Alors et Finsi", "Suivant et FinCas", "Répéter et jusqu'à"],
+    "answer": [0],
+    "explanation": "Le cours précise que lorsque le corps de la boucle tant que contient plus d'une instruction, il faut l'encadrer par les termes debut et fin.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q022",
+    "question": "Quel mot-clé termine une boucle Tant que ?",
+    "type": "single",
+    "options": ["ftanque", "Finsi", "FinCas", "jusqu'à"],
+    "answer": [0],
+    "explanation": "La syntaxe est : tant que <condition> faire ... ftanque.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q023",
+    "question": "Quelle est la principale différence entre la boucle Tant que et la boucle Répéter ?",
+    "type": "single",
+    "options": [
+      "Dans la boucle Répéter, la condition de sortie est testée après l'exécution des instructions",
+      "La boucle Répéter n'accepte pas de condition",
+      "La boucle Tant que s'exécute toujours au moins une fois",
+      "Il n'y a aucune différence entre les deux"
+    ],
+    "answer": [0],
+    "explanation": "La boucle Répéter est presque identique à la boucle Tant que, sauf que la condition de sortie est testée après exécution des instructions (et non avant).",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q024",
+    "question": "Le corps d'une boucle Répéter est garanti de s'exécuter au moins une fois.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Puisque la condition est testée après l'exécution des instructions, le corps de la boucle Répéter s'exécute toujours au moins une fois.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q025",
+    "question": "Dans une boucle Répéter contenant plusieurs instructions, faut-il les encadrer par debut et fin ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Contrairement à la boucle Tant que, le cours précise que dans une boucle Répéter, il n'est pas nécessaire d'encadrer les instructions par debut et fin.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q026",
+    "question": "Quelle est la syntaxe correcte de la boucle Répéter ?",
+    "type": "single",
+    "options": [
+      "Répéter <instruction(s)> jusqu'à <condition>",
+      "Répéter <condition> jusqu'à <instruction(s)>",
+      "jusqu'à <condition> Répéter <instruction(s)>",
+      "Répéter <instruction(s)> Finsi <condition>"
+    ],
+    "answer": [0],
+    "explanation": "La syntaxe est : Répéter <instruction(s)> jusqu'à <condition>.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q027",
+    "question": "Dans l'exemple de la boucle Répéter demandant \"Aimez-vous l'algorithmique (o/n) ?\", à quelle(s) condition(s) la boucle s'arrête-t-elle ?",
+    "type": "single",
+    "options": ["Quand rep vaut 'o' OU rep vaut 'n'", "Quand rep vaut 'o' ET rep vaut 'n'", "Après exactement 10 itérations", "Elle ne s'arrête jamais"],
+    "answer": [0],
+    "explanation": "La condition d'arrêt est \"jusqu'à (rep='o') ou (rep='n')\", la boucle continue tant que ni 'o' ni 'n' n'ont été saisis.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q028",
+    "question": "Si l'on veut garantir que le corps d'une boucle s'exécute au moins une fois, quelle structure choisir en priorité ?",
+    "type": "single",
+    "options": ["La boucle Répéter", "La boucle Tant que", "La boucle Pour", "Le schéma conditionnel"],
+    "answer": [0],
+    "explanation": "Le cours recommande de choisir la boucle Répéter si l'on veut que le corps de la boucle soit exécuté au moins une fois.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q029",
+    "question": "Les structures répétitives permettent d'effectuer plusieurs fois consécutives la même opération.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est la définition même des boucles (structures répétitives) donnée en introduction de la partie II du cours.",
+    "image": null
+  },
+  {
+    "id": "algo-s2-q030",
+    "question": "Dans l'exemple affichant dix fois \"Bonjour à tous les nouveaux programmeurs !\" avec une boucle Tant que, quelle instruction fait progresser le compteur Nbfois ?",
+    "type": "single",
+    "options": ["Nbfois := Nbfois + 1", "Nbfois := Nbfois - 1", "Nbfois := 10", "incrémenter(Nbfois)"],
+    "answer": [0],
+    "explanation": "Dans le corps de la boucle, l'instruction \"Nbfois := Nbfois + 1\" incrémente le compteur à chaque itération jusqu'à atteindre 10.",
+    "image": null
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "ti-s8-q001",
+    "question": "Avec quels éléments HTML peut-on regrouper d'autres éléments HTML ?",
+    "type": "multiple",
+    "options": ["<div>", "<span>", "<group>", "<block>"],
+    "answer": [0, 1],
+    "explanation": "Les éléments HTML peuvent être regroupés avec <div> (niveau bloc) et <span> (niveau ligne). <group> et <block> n'existent pas en HTML.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q002",
+    "question": "Comment se comporte un élément de niveau bloc lors de son affichage dans un navigateur ?",
+    "type": "single",
+    "options": [
+      "Il s'affiche sans démarrer une nouvelle ligne",
+      "Il commence et termine avec une nouvelle ligne",
+      "Il s'affiche toujours en gras",
+      "Il ne peut pas contenir d'autres éléments"
+    ],
+    "answer": [1],
+    "explanation": "Les éléments de niveau bloc commencent et se terminent avec une nouvelle ligne lors de l'affichage dans un navigateur.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q003",
+    "question": "Parmi ces balises, lesquelles sont des éléments de niveau bloc ?",
+    "type": "multiple",
+    "options": ["<h1>", "<p>", "<ul>", "<span>"],
+    "answer": [0, 1, 2],
+    "explanation": "<h1>, <p> et <ul> sont des éléments de niveau bloc. <span> est un élément de niveau ligne.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q004",
+    "question": "Parmi ces balises, lesquelles sont des éléments de niveau ligne ?",
+    "type": "multiple",
+    "options": ["<b>", "<td>", "<a>", "<table>"],
+    "answer": [0, 1, 2],
+    "explanation": "<b>, <td> et <a> sont des éléments de niveau ligne. <table> est un élément de niveau bloc.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q005",
+    "question": "<img> est un élément de niveau bloc.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : <img> est cité dans le cours comme un exemple d'élément de niveau ligne.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q006",
+    "question": "L'élément <div> a une signification sémantique particulière en HTML.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : div n'a aucune signification particulière ; c'est un simple conteneur de niveau bloc.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q007",
+    "question": "Pourquoi le navigateur affiche-t-il un saut de ligne avant et après un élément <div> ?",
+    "type": "single",
+    "options": [
+      "Parce que c'est un élément de niveau ligne",
+      "Parce que c'est un élément de niveau bloc",
+      "Parce qu'il contient toujours du texte",
+      "Parce qu'il a une bordure par défaut"
+    ],
+    "answer": [1],
+    "explanation": "Étant un élément de niveau bloc, <div> provoque un saut de ligne avant et après son affichage.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q008",
+    "question": "À quoi peut servir l'élément <div> combiné avec CSS ?",
+    "type": "multiple",
+    "options": [
+      "Définir du style pour de grands blocs de contenu",
+      "Définir la mise en page d'un document HTML",
+      "Colorer une seule lettre au milieu d'un mot sans saut de ligne",
+      "Regrouper des éléments HTML"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "div sert à styliser de grands blocs, à structurer la mise en page et à regrouper des éléments. Styliser une portion de texte sans saut de ligne est plutôt le rôle de <span>.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q009",
+    "question": "L'élément <span> est un élément de niveau bloc.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : <span> est un élément de niveau ligne utilisé comme conteneur de texte.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q010",
+    "question": "Quel élément utilise-t-on typiquement pour styliser seulement une partie d'un texte, sans créer de saut de ligne ?",
+    "type": "single",
+    "options": ["<div>", "<span>", "<p>", "<section>"],
+    "answer": [1],
+    "explanation": "<span>, élément de niveau ligne, permet de définir des attributs de style pour une partie d'un texte sans provoquer de saut de ligne.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q011",
+    "question": "Dans <h1>Le <span style=\"color:green\">vert</span> est ma couleur préférée</h1>, quel effet produit le span ?",
+    "type": "single",
+    "options": [
+      "Tout le titre devient vert",
+      "Seul le mot 'vert' est affiché en vert",
+      "Un saut de ligne est inséré avant 'vert'",
+      "Le mot 'vert' devient un lien cliquable"
+    ],
+    "answer": [1],
+    "explanation": "Le <span> cible uniquement le mot 'vert' pour lui appliquer color:green, sans affecter le reste du titre ni créer de saut de ligne.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q012",
+    "question": "Quel élément HTML5 sémantique définit l'en-tête d'un document ou d'une section ?",
+    "type": "single",
+    "options": ["<head>", "<header>", "<top>", "<title>"],
+    "answer": [1],
+    "explanation": "<header> définit un entête d'un document ou d'une section (à ne pas confondre avec <head>).",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q013",
+    "question": "Quel élément HTML5 sémantique définit un conteneur pour les liens de navigation ?",
+    "type": "single",
+    "options": ["<nav>", "<menu>", "<links>", "<navigation>"],
+    "answer": [0],
+    "explanation": "<nav> définit un conteneur pour les liens de navigation.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q014",
+    "question": "Quel élément HTML5 sémantique définit une section dans un document ?",
+    "type": "single",
+    "options": ["<div>", "<part>", "<section>", "<block>"],
+    "answer": [2],
+    "explanation": "<section> définit une section dans un document HTML5.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q015",
+    "question": "Quel élément HTML5 sémantique définit un article indépendant ?",
+    "type": "single",
+    "options": ["<article>", "<post>", "<content>", "<entry>"],
+    "answer": [0],
+    "explanation": "<article> définit un article indépendant dans une page web.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q016",
+    "question": "Quel élément HTML5 sémantique définit un contenu à part, comme une barre latérale ?",
+    "type": "single",
+    "options": ["<sidebar>", "<aside>", "<extra>", "<side>"],
+    "answer": [1],
+    "explanation": "<aside> définit un contenu à part dans un contenu, comme une barre latérale.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q017",
+    "question": "Quel élément HTML5 sémantique définit le pied de page d'un document ou d'une section ?",
+    "type": "single",
+    "options": ["<bottom>", "<end>", "<footer>", "<foot>"],
+    "answer": [2],
+    "explanation": "<footer> définit un pied de page d'un document ou d'une section.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q018",
+    "question": "Quel élément HTML5 permet d'ajouter des détails supplémentaires (que l'utilisateur peut afficher/masquer) ?",
+    "type": "single",
+    "options": ["<details>", "<info>", "<more>", "<extra>"],
+    "answer": [0],
+    "explanation": "<details> définit des détails supplémentaires que l'utilisateur peut consulter ou masquer.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q019",
+    "question": "Quel élément HTML5 définit l'entête visible pour l'élément <details> ?",
+    "type": "single",
+    "options": ["<summary>", "<caption>", "<legend>", "<header>"],
+    "answer": [0],
+    "explanation": "<summary> définit un entête (titre visible) pour l'élément <details>.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q020",
+    "question": "Associez chaque élément sémantique HTML5 à son rôle.",
+    "type": "multiple",
+    "options": [
+      "<header> = entête du document/section",
+      "<footer> = pied de page",
+      "<aside> = barre latérale",
+      "<article> = liens de navigation"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "header, footer et aside correspondent bien à leurs définitions. article définit un article indépendant, pas les liens de navigation (c'est le rôle de <nav>).",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q021",
+    "question": "Combien de techniques principales existe-t-il pour créer des mises en page sur plusieurs colonnes selon le cours ?",
+    "type": "single",
+    "options": ["2", "3", "4", "5"],
+    "answer": [2],
+    "explanation": "Il existe quatre techniques : les tableaux HTML, la propriété CSS float, les frameworks CSS, et les boîtes flexibles CSS (FlexBox).",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q022",
+    "question": "Quelles sont les quatre techniques de mise en page mentionnées dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "Les tableaux HTML",
+      "La propriété CSS float",
+      "Les frameworks CSS",
+      "Les boites flexibles CSS (FlexBox)"
+    ],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Les quatre techniques citées sont : tableaux HTML, propriété CSS float, frameworks CSS, et FlexBox.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q023",
+    "question": "Pourquoi est-il déconseillé d'utiliser les tableaux HTML pour faire une mise en page ?",
+    "type": "single",
+    "options": [
+      "Parce que les tableaux n'existent plus en HTML5",
+      "Parce que les tableaux sont conçus pour afficher des données tabulaires, pas pour la mise en page",
+      "Parce que les tableaux ne s'affichent pas dans les navigateurs modernes",
+      "Parce que CSS ne peut pas styliser les tableaux"
+    ],
+    "answer": [1],
+    "explanation": "Les tableaux n'ont pas été conçus pour la mise en page ; leur but est d'afficher des données tabulaires. Les utiliser pour la mise en page met du désordre dans le code et le rend difficile à mettre à jour.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q024",
+    "question": "Citez deux frameworks CSS mentionnés dans le cours pour créer rapidement des mises en page.",
+    "type": "multiple",
+    "options": ["W3.CSS", "Bootstrap", "Tailwind", "Foundation"],
+    "answer": [0, 1],
+    "explanation": "Le cours cite W3.CSS et Bootstrap comme frameworks CSS permettant de créer rapidement des mises en page.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q025",
+    "question": "Quelles propriétés CSS faut-il bien maîtriser pour faire une mise en page avec la technique float ?",
+    "type": "multiple",
+    "options": ["float", "clear", "flex", "grid"],
+    "answer": [0, 1],
+    "explanation": "Pour utiliser la technique float, il faut se rappeler comment fonctionnent les propriétés float et clear ensemble.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q026",
+    "question": "Quel est le principal inconvénient de la mise en page avec des éléments flottants (float) ?",
+    "type": "single",
+    "options": [
+      "Elle ne fonctionne dans aucun navigateur",
+      "Elle est liée au flux du document, ce qui peut nuire à la flexibilité",
+      "Elle nécessite obligatoirement JavaScript",
+      "Elle ne permet pas d'utiliser des couleurs"
+    ],
+    "answer": [1],
+    "explanation": "L'inconvénient des éléments flottants est lié au flux de documents, ce qui peut nuire à la flexibilité de la mise en page.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q027",
+    "question": "Dans l'exemple CSS du cours, quelle propriété est appliquée à <nav> pour le positionner à gauche dans une mise en page float ?",
+    "type": "single",
+    "options": ["position: left", "float: left", "text-align: left", "margin-left: auto"],
+    "answer": [1],
+    "explanation": "Dans l'exemple, nav { float: left; max-width: 160px; ... } positionne l'élément nav à gauche.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q028",
+    "question": "Flexbox est un nouveau mode de mise en page introduit en CSS3.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai : Flexbox est présenté comme un nouveau mode de mise en page en CSS3.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q029",
+    "question": "Quel est l'avantage principal de FlexBox pour une mise en page ?",
+    "type": "single",
+    "options": [
+      "Elle fonctionne uniquement sur les vieux navigateurs comme IE10",
+      "Elle assure que les éléments se comportent de manière prévisible sur différentes tailles d'écran et dispositifs",
+      "Elle remplace complètement le HTML",
+      "Elle ne nécessite aucun CSS"
+    ],
+    "answer": [1],
+    "explanation": "FlexBox assure que les éléments se comportent de manière prévisible lorsque la mise en page doit s'adapter à différentes tailles d'écran et différents dispositifs.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q030",
+    "question": "Quel est l'inconvénient principal de FlexBox mentionné dans le cours ?",
+    "type": "single",
+    "options": [
+      "Elle ne fonctionne pas avec IE10 et les versions antérieures",
+      "Elle est incompatible avec CSS3",
+      "Elle nécessite un framework externe",
+      "Elle ne peut pas être utilisée avec des <div>"
+    ],
+    "answer": [0],
+    "explanation": "L'inconvénient de FlexBox est qu'elle ne fonctionne pas avec Internet Explorer 10 et les versions antérieures.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q031",
+    "question": "Qu'est-ce que le Responsive Web Design ?",
+    "type": "single",
+    "options": [
+      "Une technique pour créer des animations CSS",
+      "Une approche permettant à une page web de bien s'afficher sur tous types d'appareils (PC, tablettes, téléphones)",
+      "Un framework JavaScript",
+      "Une balise HTML5 spécifique"
+    ],
+    "answer": [1],
+    "explanation": "Le Responsive Web Design (site web adaptatif) permet de rendre une page Web bien affichée sur tous types d'appareils : PC, tablettes et téléphones.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q032",
+    "question": "Quelles actions permet le Responsive Web Design avec HTML et CSS ?",
+    "type": "multiple",
+    "options": ["Redimensionner le contenu", "Cacher du contenu", "Agrandir ou rétrécir des éléments", "Convertir automatiquement le HTML en PHP"],
+    "answer": [0, 1, 2],
+    "explanation": "Le Responsive Web Design utilise HTML et CSS pour redimensionner, cacher, rétrécir, agrandir ou déplacer le contenu selon l'écran. La conversion HTML/PHP n'a aucun rapport.",
+    "image": null
+  },
+  {
+    "id": "ti-s8-q033",
+    "question": "Le Responsive Web Design est utile uniquement pour les ordinateurs de bureau.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux : il vise justement à adapter l'affichage sur tous types d'appareils, y compris tablettes et téléphones.",
+    "image": null
+  }
+]

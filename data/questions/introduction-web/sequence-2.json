@@ -1,0 +1,372 @@
+[
+  {
+    "id": "ti-s2-q001",
+    "question": "Qu'est-ce que le World Wide Web ?",
+    "type": "single",
+    "options": [
+      "Un système hypertexte public fonctionnant sur Internet",
+      "Un protocole de routage réseau",
+      "Un fournisseur d'accès à Internet",
+      "Un type de câble réseau"
+    ],
+    "answer": [0],
+    "explanation": "Le World Wide Web, communément appelé le Web, est un système hypertexte public fonctionnant sur Internet et qui permet de consulter, avec un navigateur, des pages mises en ligne dans des sites web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q002",
+    "question": "D'où vient l'image de « toile » associée au Web ?",
+    "type": "single",
+    "options": [
+      "Des câbles physiques du réseau",
+      "Des hyperliens qui lient les pages Web entre elles",
+      "Des serveurs répartis dans le monde",
+      "Des navigateurs web"
+    ],
+    "answer": [1],
+    "explanation": "L'image de la toile vient des hyperliens qui lient les pages Web entre elles.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q003",
+    "question": "Le Web est un synonyme d'Internet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le Web est une des applications d'Internet, pas Internet lui-même.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q004",
+    "question": "Qui a publié en 1945 l'article « As we may think » décrivant le Memex ?",
+    "type": "single",
+    "options": ["Tim Berners-Lee", "Ted Nelson", "Vannevar Bush", "Doug Engelbart"],
+    "answer": [2],
+    "explanation": "En 1945, Vannevar Bush, ingénieur, publie l'article « As we may think » qui décrit le Memex, un ordinateur analogique électro-mécanique avec microfilms.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q005",
+    "question": "Qu'était le Memex décrit par Vannevar Bush ?",
+    "type": "single",
+    "options": [
+      "Un langage de programmation",
+      "Un ordinateur analogique électro-mécanique relié à une bibliothèque de microfilms",
+      "Le premier navigateur web",
+      "Un protocole réseau militaire"
+    ],
+    "answer": [1],
+    "explanation": "Le Memex était un ordinateur analogique, électro-mécanique, avec microfilms, relié à une bibliothèque permettant d'afficher des livres et de projeter des films. Les liens entre paires d'images de microfilms constituent la première idée basique de lien.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q006",
+    "question": "Qui a créé le prototype NLS (oN-Line System) à Stanford dans les années 60 ?",
+    "type": "single",
+    "options": ["Ted Nelson", "Doug Engelbart", "Tim Berners-Lee", "Vannevar Bush"],
+    "answer": [1],
+    "explanation": "Doug Engelbart a créé à Stanford, dans les années 60, le prototype NLS, révolutionnaire car il utilisait des liens, mais aussi un écran, une souris, des fenêtres et des programmes.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q007",
+    "question": "Quels éléments révolutionnaires le système NLS de Doug Engelbart intégrait-il ?",
+    "type": "multiple",
+    "options": ["Des liens", "Un écran", "Une souris", "Une connexion satellite"],
+    "answer": [0, 1, 2],
+    "explanation": "Le NLS était révolutionnaire car il utilisait des liens, mais aussi un écran, une souris, des fenêtres et des programmes.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q008",
+    "question": "Qui a inventé le terme « hypertexte » et créé le Projet Xanadu en 1960 ?",
+    "type": "single",
+    "options": ["Tim Berners-Lee", "Doug Engelbart", "Ted Nelson", "Robert Kahn"],
+    "answer": [2],
+    "explanation": "En 1960, à Harvard, Ted Nelson crée le Projet Xanadu, premier système hypertexte, et invente le terme « hypertexte ».",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q009",
+    "question": "Le Projet Xanadu de Ted Nelson a été un immense succès commercial dès sa création.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le Projet Xanadu était en avance sur son temps et très complexe ; ce ne fut pas un succès mais il fut influent.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q010",
+    "question": "Dans le système hypertexte de Ted Nelson, comment appelle-t-on l'unité minimale d'information (par exemple un paragraphe) ?",
+    "type": "single",
+    "options": ["Un lien", "Un nœud", "Un hypermédia", "Un fragment"],
+    "answer": [1],
+    "explanation": "Un nœud est l'unité minimale d'information, par exemple un paragraphe. Le système hypertexte est un ensemble de nœuds liés entre eux par des hyperliens.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q011",
+    "question": "Comment appelle-t-on un système hypertexte dont les nœuds sont audiovisuels ?",
+    "type": "single",
+    "options": ["Un système hypermédia", "Un système Memex", "Un système NLS", "Un système client/serveur"],
+    "answer": [0],
+    "explanation": "Lorsque les nœuds peuvent aussi être audiovisuels, on parle de système hypermédia.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q012",
+    "question": "L'hypertexte permet une navigation linéaire, dans l'ordre strict du document.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. L'hypertexte permet une navigation non-linéaire et personnalisée, avec un accès à l'information de manière associative.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q013",
+    "question": "En 1980, Tim Berners-Lee crée ENQUIRE. Qu'était-ce ?",
+    "type": "single",
+    "options": [
+      "Le premier navigateur web",
+      "Une base de données de personnes et logiciels, premier logiciel à utiliser les liens hypertexte",
+      "Un serveur HTTP",
+      "Un protocole réseau"
+    ],
+    "answer": [1],
+    "explanation": "En 1980, au CERN en Suisse, Tim Berners-Lee crée ENQUIRE, une base de données de personnes et logiciels, qui fut le premier logiciel à utiliser les liens hypertexte.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q014",
+    "question": "Dans quel pays et institution Tim Berners-Lee a-t-il développé les bases du Web ?",
+    "type": "single",
+    "options": ["Le MIT aux États-Unis", "Le CERN en Suisse", "Stanford aux États-Unis", "Harvard aux États-Unis"],
+    "answer": [1],
+    "explanation": "Tim Berners-Lee a développé ENQUIRE puis le World Wide Web au CERN, en Suisse.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q015",
+    "question": "Quels outils Tim Berners-Lee avait-il créés en 1990 ?",
+    "type": "multiple",
+    "options": ["Le protocole HTTP", "Le langage HTML", "Le premier navigateur web", "Le premier serveur HTTP"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "En 1990, Tim Berners-Lee avait créé tous les outils nécessaires : le protocole HTTP, le langage HTML, le premier navigateur web et le premier serveur HTTP.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q016",
+    "question": "Sur quelle station de travail Tim Berners-Lee a-t-il commencé à implémenter le World Wide Web ?",
+    "type": "single",
+    "options": ["Une station Apple", "Une station NeXT", "Une station IBM", "Une station Sun"],
+    "answer": [1],
+    "explanation": "Tim Berners-Lee a fait l'acquisition d'une station de travail NeXT, sur laquelle il a commencé à implémenter le World Wide Web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q017",
+    "question": "Quelle date marque le versement de toutes les technologies du WWW dans le domaine public par le CERN ?",
+    "type": "single",
+    "options": ["30 avril 1990", "30 avril 1993", "octobre 1994", "1965"],
+    "answer": [1],
+    "explanation": "Le 30 avril 1993, le CERN verse toutes les technologies autour du WWW dans le domaine public.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q018",
+    "question": "Quel a été un des tout premiers navigateurs web ?",
+    "type": "single",
+    "options": ["Netscape Navigator", "NCSA Mosaic", "Internet Explorer", "Chrome"],
+    "answer": [1],
+    "explanation": "NCSA Mosaic fut l'un des tout premiers navigateurs web, et sa sortie en 1993 marqua l'explosion d'Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q019",
+    "question": "Que signifie le sigle W3C ?",
+    "type": "single",
+    "options": ["World Wide Web Consortium", "World Web Communication", "Web 3 Committee", "Worldwide Web Certification"],
+    "answer": [0],
+    "explanation": "Le sigle W3C est l'abréviation de World Wide Web Consortium.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q020",
+    "question": "En quelle année et par qui le W3C a-t-il été mis en place ?",
+    "type": "single",
+    "options": [
+      "En 1990 par Vannevar Bush",
+      "En octobre 1994 par Tim Berners-Lee",
+      "En 1993 par Ted Nelson",
+      "En 1965 par Doug Engelbart"
+    ],
+    "answer": [1],
+    "explanation": "Le W3C a été mis en place en octobre 1994 par Tim Berners-Lee, afin de promouvoir l'évolutivité du Web et la compatibilité de ses technologies.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q021",
+    "question": "Quel est le rôle principal du W3C ?",
+    "type": "single",
+    "options": [
+      "Vendre des noms de domaine",
+      "Superviser le développement des standards du web (technologies et protocoles)",
+      "Héberger des sites web",
+      "Fournir un accès Internet"
+    ],
+    "answer": [1],
+    "explanation": "Le rôle du W3C est de superviser le développement des standards du web, c'est-à-dire des différentes technologies et protocoles utilisés sur le Web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q022",
+    "question": "Le W3C définit des normes obligatoires que tous les fabricants doivent suivre par la loi.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le W3C ne définit pas des normes au sens européen, mais publie des recommandations à valeur de standards industriels, en laissant aux fabricants le soin de les suivre.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q023",
+    "question": "De quel langage le HTML créé par Tim Berners-Lee est-il issu ?",
+    "type": "single",
+    "options": ["XML", "SGML", "CSS", "JSON"],
+    "answer": [1],
+    "explanation": "Tim Berners-Lee créa le langage HTML, issu d'un sous-ensemble du SGML, en s'appuyant sur les travaux de Ted Nelson à l'origine du terme hypertexte (1965).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q024",
+    "question": "Le Web a été inventé en même temps qu'Internet.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Le Web est un service d'Internet inventé plusieurs années après Internet, qui a rendu les médias grand public attentifs à Internet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q025",
+    "question": "Qu'est-ce qu'un serveur web au niveau matériel (hardware) ?",
+    "type": "single",
+    "options": [
+      "Un logiciel de navigation",
+      "Un ordinateur connecté en permanence à Internet et hébergeant des sites web",
+      "Un protocole de communication",
+      "Une adresse IP"
+    ],
+    "answer": [1],
+    "explanation": "Au niveau des composants matériels, un serveur web est un ordinateur connecté en permanence à Internet et hébergeant des sites web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q026",
+    "question": "Un serveur web ne peut faire référence qu'à des composants matériels, jamais logiciels.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Un serveur web peut faire référence à des composants logiciels, à des composants matériels, ou aux deux fonctionnant ensemble.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q027",
+    "question": "Qu'est-ce qu'un serveur HTTP ?",
+    "type": "single",
+    "options": [
+      "Un ordinateur personnel",
+      "Un logiciel qui comprend les URL et le protocole HTTP",
+      "Une base de données",
+      "Un navigateur web"
+    ],
+    "answer": [1],
+    "explanation": "Un serveur HTTP est un logiciel qui comprend les URL et le protocole HTTP, le protocole utilisé par le navigateur pour afficher les pages web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q028",
+    "question": "Quel est le serveur HTTP le plus populaire, distribué selon les termes de sa propre licence ?",
+    "type": "single",
+    "options": ["Nginx", "Apache", "IIS", "Tomcat"],
+    "answer": [1],
+    "explanation": "Apache est le serveur HTTP le plus populaire. Il est distribué selon les termes de la licence Apache.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q029",
+    "question": "Quels autres services un serveur web peut-il contenir en plus du HTTP ?",
+    "type": "multiple",
+    "options": ["L'envoi d'e-mails", "Le streaming", "Le transfert de fichiers par FTP", "Le GPS"],
+    "answer": [0, 1, 2],
+    "explanation": "Un serveur web peut contenir d'autres services liés comme l'envoi d'e-mails, du streaming, le transfert de fichiers par FTP, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q030",
+    "question": "Quels serveurs sont inclus dans l'outil XAMPP ?",
+    "type": "multiple",
+    "options": ["Un serveur HTTP", "Un serveur MySQL", "Un serveur FTP", "Un serveur Mail"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "XAMPP contient un serveur HTTP, un serveur MySQL, un serveur FTP et un serveur Mail, permettant de mettre en place facilement un serveur web complet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q031",
+    "question": "Dans un réseau informatique, qu'est-ce qu'un client ?",
+    "type": "single",
+    "options": [
+      "Un logiciel qui envoie des demandes à un serveur",
+      "Un ordinateur hébergeant des sites web",
+      "Un protocole de routage",
+      "Un nom de domaine"
+    ],
+    "answer": [0],
+    "explanation": "Dans un réseau informatique, un client est un logiciel qui envoie des demandes à un serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q032",
+    "question": "Que peut désigner le terme « client » dans le contexte du Web ?",
+    "type": "multiple",
+    "options": [
+      "L'ordinateur depuis lequel les demandes sont envoyées",
+      "Le logiciel qui contient les instructions de formulation des demandes",
+      "La personne qui opère les demandes",
+      "Le serveur qui héberge le site"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "Sont appelés clients : l'ordinateur depuis lequel les demandes sont envoyées, le logiciel qui contient les instructions relatives à la formulation des demandes, et la personne qui opère les demandes.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q033",
+    "question": "Quel type de logiciel est généralement installé sur l'ordinateur client pour naviguer sur le World Wide Web ?",
+    "type": "single",
+    "options": ["Un serveur HTTP", "Un navigateur web", "Un serveur FTP", "Un serveur de messagerie"],
+    "answer": [1],
+    "explanation": "L'ordinateur client est équipé de logiciels relatifs aux différents types de demandes, comme un navigateur web, un logiciel client pour le World Wide Web.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q034",
+    "question": "Où doit-on placer le dossier d'un site pour le tester avec XAMPP ?",
+    "type": "single",
+    "options": ["c:\\xampp\\www", "c:\\xampp\\hdocs", "c:\\xampp\\sites", "c:\\xampp\\public"],
+    "answer": [1],
+    "explanation": "Pour créer un site avec XAMPP, il faut créer un dossier dans c:\\xampp\\hdocs, puis tester le site via http://localhost/monsite.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q035",
+    "question": "Quelle adresse permet de tester un site local avec XAMPP nommé « monsite » ?",
+    "type": "single",
+    "options": [
+      "http://www.monsite.com",
+      "http://localhost/monsite",
+      "http://xampp.com/monsite",
+      "http://127.0.0.1:80/hdocs"
+    ],
+    "answer": [1],
+    "explanation": "Pour tester le site, il faut ouvrir l'adresse http://localhost/monsite depuis un navigateur.",
+    "image": null
+  }
+]

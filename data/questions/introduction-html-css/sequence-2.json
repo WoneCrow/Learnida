@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": "ti-s2-q001",
+      "question": "Un élément HTML est généralement constitué de quoi ?",
+      "type": "multiple",
+      "options": ["Une balise de début", "Une balise de fin", "Le contenu inséré entre les deux balises", "Un attribut obligatoire"],
+      "answer": [0, 1, 2],
+      "explanation": "Un élément HTML est constitué d'une balise de début, de sa balise de fin, et du contenu inséré entre les deux. Un attribut n'est pas obligatoire.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q002",
+      "question": "Quelle balise permet de créer un paragraphe en HTML ?",
+      "type": "single",
+      "options": ["<par>", "<p>", "<paragraph>", "<text>"],
+      "answer": [1],
+      "explanation": "La balise <p> définit un paragraphe, comme dans l'exemple <p> Mon premier paragraphe. </p>.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q003",
+      "question": "La balise <br> possède une balise de fin.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "<br> est un élément vide (sans contenu), il n'a donc pas de balise de fin. C'est le cas typique d'élément vide en HTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q004",
+      "question": "Les éléments sans contenu, comme <br>, sont appelés :",
+      "type": "single",
+      "options": ["Des éléments nuls", "Des éléments vides", "Des éléments orphelins", "Des éléments fermés"],
+      "answer": [1],
+      "explanation": "On appelle « éléments vides » les éléments HTML qui n'ont pas de contenu et donc pas de balise de fin.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q005",
+      "question": "Quelle balise permet de créer un lien hypertexte ?",
+      "type": "single",
+      "options": ["<link>", "<href>", "<a>", "<url>"],
+      "answer": [2],
+      "explanation": "La balise <a> (avec l'attribut href) crée un lien, par exemple <a href=\"default.htm\">.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q006",
+      "question": "La plupart des éléments HTML peuvent être imbriqués les uns dans les autres.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Un document HTML est une imbrication d'éléments HTML : par exemple head, title et body sont imbriqués dans html.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q007",
+      "question": "Dans un document HTML classique, quels éléments sont imbriqués directement dans <html> ?",
+      "type": "multiple",
+      "options": ["<head>", "<body>", "<title>", "<h1>"],
+      "answer": [0, 1],
+      "explanation": "<head> et <body> sont imbriqués directement dans <html>. <title> est imbriqué dans <head>, et <h1> dans <body>.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q008",
+      "question": "Les éléments <h1> et <p> sont imbriqués dans quel élément ?",
+      "type": "single",
+      "options": ["<head>", "<title>", "<body>", "<html>"],
+      "answer": [2],
+      "explanation": "Dans l'exemple du cours, <h1> et <p> sont imbriqués dans l'élément <body>.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q009",
+      "question": "Si on oublie la balise de fin d'un paragraphe, la page ne s'affichera jamais correctement.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "L'exemple fonctionne dans la plupart des navigateurs car la balise de fermeture est considérée comme facultative, mais il ne faut jamais s'y fier : d'autres éléments produiront des erreurs.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q010",
+      "question": "HTML5 exige-t-il la fermeture des éléments vides comme <br> ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "HTML5 n'exige pas la fermeture des éléments vides, mais une écriture comme <br /> est nécessaire pour une validation stricte (XML, XHTML).",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q011",
+      "question": "Comment peut-on « fermer » un élément vide dans sa balise de début ?",
+      "type": "single",
+      "options": ["<br></br>", "<br />", "<br closed>", "<br end>"],
+      "answer": [1],
+      "explanation": "Un élément vide peut être fermé directement dans la balise de début, comme ceci : <br />.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q012",
+      "question": "Les noms de balises HTML sont sensibles à la casse : <P> est différent de <p>.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Les noms de balises HTML ne sont pas sensibles à la casse : <P> signifie la même chose que <p>.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q013",
+      "question": "Qui recommande d'utiliser les noms de balises en minuscules, et l'exige pour des types de documents stricts comme XHTML ?",
+      "type": "single",
+      "options": ["Le W3C", "Google", "Le navigateur", "L'éditeur de code"],
+      "answer": [0],
+      "explanation": "Le W3C recommande l'utilisation des noms de balises HTML en minuscules et l'exige pour des documents plus stricts comme XHTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q014",
+      "question": "Où les attributs HTML sont-ils toujours spécifiés ?",
+      "type": "single",
+      "options": ["Dans la balise de fin", "Dans la balise de début", "Entre les deux balises", "Dans le fichier CSS"],
+      "answer": [1],
+      "explanation": "Les attributs sont toujours spécifiés dans la balise de début, généralement sous forme de paires nom/valeur : name=\"value\".",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q015",
+      "question": "Quel attribut permet de déclarer la langue d'un document HTML ?",
+      "type": "single",
+      "options": ["language", "lang", "locale", "idiom"],
+      "answer": [1],
+      "explanation": "L'attribut lang, utilisé par exemple dans <html lang=\"wo-SN\">, déclare la langue du document, ce qui est important pour l'accessibilité et les moteurs de recherche.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q016",
+      "question": "Parmi ces attributs, lesquels sont cités comme attributs standards pour la plupart des éléments HTML ?",
+      "type": "multiple",
+      "options": ["class", "id", "style", "colspan"],
+      "answer": [0, 1, 2],
+      "explanation": "class, id et style sont cités comme attributs standards, tout comme title. colspan est spécifique aux tableaux et n'est pas mentionné ici.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q017",
+      "question": "Associez chaque attribut à sa description : class indique un nom de classe, id indique un identifiant unique, style spécifie un style en ligne, et title...",
+      "type": "single",
+      "options": ["Indique des informations supplémentaires affichées comme infobulle", "Définit la couleur du texte", "Crée un lien hypertexte", "Définit la police du document"],
+      "answer": [0],
+      "explanation": "L'attribut title indique des informations supplémentaires sur un élément, affichées comme un outil de pointe (tooltip).",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q018",
+      "question": "En HTML5, les noms des attributs sont sensibles à la casse.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "En HTML5, les noms des attributs ne sont pas sensibles à la casse, même si le W3C recommande les minuscules.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q019",
+      "question": "La norme HTML5 exige-t-elle des guillemets autour des valeurs d'attribut ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "HTML5 n'exige pas de guillemets autour des valeurs d'attribut (ex: <a href=https://www.gouv.sn> est valide), mais le W3C le recommande et l'exige pour XHTML.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q020",
+      "question": "Quelles balises permettent de définir des titres en HTML ?",
+      "type": "single",
+      "options": ["<title1> à <title6>", "<h1> à <h6>", "<t1> à <t6>", "<head1> à <head6>"],
+      "answer": [1],
+      "explanation": "Les titres sont définis avec les balises <h1> à <h6>, <h1> étant le titre le plus important et <h6> le moins important.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q021",
+      "question": "Quelle balise de titre est la plus importante ?",
+      "type": "single",
+      "options": ["<h1>", "<h3>", "<h6>", "Elles ont toutes la même importance"],
+      "answer": [0],
+      "explanation": "<h1> définit le titre le plus important, tandis que <h6> définit le moins important.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q022",
+      "question": "Il est recommandé d'utiliser les balises <h1> à <h6> uniquement pour rendre un texte gros ou gras.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Il faut utiliser les entêtes HTML uniquement pour les titres, et non pour rendre un texte gros ou gras (cela relève du CSS).",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q023",
+      "question": "Pourquoi les rubriques (h1, h2, h3...) sont-elles importantes pour un document HTML ?",
+      "type": "multiple",
+      "options": ["Les moteurs de recherche les utilisent pour indexer la structure", "Elles permettent aux utilisateurs de parcourir la page par rubrique", "Elles remplacent obligatoirement le CSS", "Elles montrent la structure du document"],
+      "answer": [0, 1, 3],
+      "explanation": "Les entêtes servent à indexer la structure pour les moteurs de recherche, à faciliter la navigation par rubrique et à montrer la structure du document. Elles ne remplacent pas le CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q024",
+      "question": "Selon les bonnes pratiques, comment doivent s'enchaîner les rubriques dans un document ?",
+      "type": "single",
+      "options": ["H3 puis H1 puis H2", "H1 comme rubrique principale, suivi de H2, puis H3, etc.", "L'ordre n'a aucune importance", "H6 doit toujours être en premier"],
+      "answer": [1],
+      "explanation": "Les rubriques H1 doivent être utilisées comme rubriques principales, suivies des rubriques H2, puis H3, et ainsi de suite.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q025",
+      "question": "Quelle balise permet de créer une ligne horizontale dans une page HTML ?",
+      "type": "single",
+      "options": ["<line />", "<hr />", "<hl />", "<div-line />"],
+      "answer": [1],
+      "explanation": "La balise <hr /> crée une ligne horizontale, souvent utilisée pour séparer visuellement du contenu.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q026",
+      "question": "Où est placé l'élément <head> dans un document HTML ?",
+      "type": "single",
+      "options": ["Après </body>", "Avant <html>", "Entre les balises <html> et <body>", "À l'intérieur de <body>"],
+      "answer": [2],
+      "explanation": "L'élément <head> est placé entre les balises <html> et <body>. Il n'a rien à voir avec les titres (h1-h6).",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q027",
+      "question": "Que contient l'élément <head> ?",
+      "type": "single",
+      "options": ["Le texte visible principal de la page", "Des métadonnées non affichées sur la page", "Uniquement des images", "Les liens de navigation visibles"],
+      "answer": [1],
+      "explanation": "<head> est un conteneur pour les métadonnées, c'est-à-dire des données sur le document HTML, qui ne sont pas affichées à l'écran.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q028",
+      "question": "Que définissent généralement les métadonnées placées dans <head> ?",
+      "type": "multiple",
+      "options": ["Le titre du document", "Le jeu de caractères", "Les styles et scripts", "Le contenu des paragraphes visibles"],
+      "answer": [0, 1, 2],
+      "explanation": "Les métadonnées définissent généralement le titre du document, le jeu de caractères, les styles, des liens et des scripts, mais pas le contenu visible des paragraphes.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q029",
+      "question": "Que font automatiquement les navigateurs avant et après un paragraphe <p> ?",
+      "type": "single",
+      "options": ["Rien du tout", "Ils ajoutent une ligne vide", "Ils centrent automatiquement le texte", "Ils changent la couleur du texte"],
+      "answer": [1],
+      "explanation": "Les navigateurs ajoutent automatiquement une ligne vide avant et après un paragraphe.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q030",
+      "question": "Quelle balise permet d'insérer un saut de ligne sans commencer un nouveau paragraphe ?",
+      "type": "single",
+      "options": ["<p>", "<newline>", "<br>", "<div>"],
+      "answer": [2],
+      "explanation": "L'élément <br> définit un saut de ligne, utilisé pour passer à la ligne sans créer un nouveau paragraphe.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q031",
+      "question": "L'écriture <br /> est-elle exigée en XHTML et XML ?",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Même si <br> fonctionne dans tous les navigateurs, écrire <br /> est exigé en XHTML et en XML, où les éléments sans balise de fin ne sont pas autorisés.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q032",
+      "question": "Quelle balise permet d'afficher un texte préformaté, en préservant les espaces et sauts de ligne ?",
+      "type": "single",
+      "options": ["<code>", "<pre>", "<format>", "<raw>"],
+      "answer": [1],
+      "explanation": "L'élément <pre> définit un texte préformaté : il est affiché dans une police à largeur fixe (généralement Courier) et préserve les espaces et sauts de ligne.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q033",
+      "question": "Quelle est la syntaxe correcte d'un commentaire en HTML ?",
+      "type": "single",
+      "options": ["// Ceci est un commentaire", "<!-- Ceci est un commentaire -->", "/* Ceci est un commentaire */", "# Ceci est un commentaire"],
+      "answer": [1],
+      "explanation": "La syntaxe d'un commentaire HTML est <!-- Ceci est un commentaire -->. Les commentaires sont ignorés par le navigateur et ne sont pas affichés.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q034",
+      "question": "Dans la syntaxe d'un commentaire HTML, où se trouve le point d'exclamation ?",
+      "type": "single",
+      "options": ["Après le crochet ouvrant seulement", "Avant le crochet fermant seulement", "Avant le crochet ouvrant et avant le crochet fermant", "Il n'y a jamais de point d'exclamation"],
+      "answer": [0],
+      "explanation": "Il y a un point d'exclamation après le crochet ouvrant (<!--), mais pas avant le crochet fermant (-->).",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q035",
+      "question": "Un commentaire conditionnel comme <!--[if IE 9]> ... <![endif]--> permet de définir des balises exécutées uniquement par Internet Explorer.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [0],
+      "explanation": "Les commentaires conditionnels permettent en effet de définir des balises à exécuter uniquement par Internet Explorer.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q036",
+      "question": "Pour voir le code HTML et CSS constituant un élément précis d'une page, que faut-il faire ?",
+      "type": "single",
+      "options": ["Afficher la source de la page uniquement", "Faire un clic droit sur l'élément et choisir « Vérifier » ou « Inspecter l'élément »", "Télécharger la page en PDF", "Ouvrir le gestionnaire de tâches"],
+      "answer": [1],
+      "explanation": "Pour inspecter un élément, on fait un clic droit dessus et on choisit « Vérifier » ou « Inspecter l'élément », ce qui montre à la fois le HTML et le CSS.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q037",
+      "question": "Dans <img src=\"images/image.jpg\">, où se trouve image.jpg ?",
+      "type": "single",
+      "options": ["Dans le même dossier que la page courante", "Dans le dossier images du dossier courant", "Dans le dossier images à la racine du site", "Dans le dossier parent du dossier courant"],
+      "answer": [1],
+      "explanation": "Le chemin \"images/image.jpg\" indique que l'image se trouve dans le dossier images, situé dans le dossier courant.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q038",
+      "question": "Que signifie le chemin <img src=\"../picture.jpg\"> ?",
+      "type": "single",
+      "options": ["L'image est dans le dossier courant", "L'image est dans le dossier parent du dossier courant", "L'image est à la racine du site", "L'image est dans un sous-dossier nommé .."],
+      "answer": [1],
+      "explanation": "Les deux points \"../\" indiquent le dossier parent : picture.jpg est donc situé dans le dossier parent du dossier courant.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q039",
+      "question": "Que signifie le chemin <img src=\"/images/image.jpg\"> avec un slash au début ?",
+      "type": "single",
+      "options": ["L'image se trouve dans le dossier images à la racine du site Web", "L'image se trouve dans un dossier caché", "L'image se trouve sur le disque dur local uniquement", "Cela provoque toujours une erreur"],
+      "answer": [0],
+      "explanation": "Un chemin commençant par un slash (/) part de la racine du site Web : l'image se trouve donc dans le dossier images à la racine.",
+      "image": null
+    },
+    {
+      "id": "ti-s2-q040",
+      "question": "Les chemins de fichiers en HTML sont utilisés uniquement pour localiser des images.",
+      "type": "boolean",
+      "options": ["Vrai", "Faux"],
+      "answer": [1],
+      "explanation": "Les chemins de fichiers servent à localiser divers fichiers externes : pages Web, images, feuilles de style et fichiers de scripts JavaScript.",
+      "image": null
+    }
+  ]
+}

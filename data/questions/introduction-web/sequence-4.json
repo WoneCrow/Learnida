@@ -1,0 +1,500 @@
+[
+  {
+    "id": "ti-s4-q001",
+    "question": "Quelles sont les deux principales facettes de la vie d'un site web ?",
+    "type": "multiple",
+    "options": ["La création", "L'exploitation", "La destruction", "La duplication"],
+    "answer": [0, 1],
+    "explanation": "La vie d'un site web possède deux principales facettes : la création (concrétisation d'un projet en un site en ligne, référencé et visité) et l'exploitation (gestion quotidienne, suivi de l'évolution et mise à jour régulière).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q002",
+    "question": "Que correspond la phase de « création » dans la vie d'un site web ?",
+    "type": "single",
+    "options": [
+      "La gestion quotidienne du site",
+      "La concrétisation d'un projet en un site en ligne, référencé et visité",
+      "La suppression définitive du site",
+      "L'achat d'un serveur physique"
+    ],
+    "answer": [1],
+    "explanation": "La création correspond à la concrétisation d'un projet en un site en ligne, référencé et visité.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q003",
+    "question": "Que correspond la phase d'« exploitation » dans la vie d'un site web ?",
+    "type": "single",
+    "options": [
+      "La gestion quotidienne du site, le suivi de son évolution et sa mise à jour régulière",
+      "L'achat du nom de domaine uniquement",
+      "La conception graphique initiale",
+      "Le choix de l'hébergeur"
+    ],
+    "answer": [0],
+    "explanation": "L'exploitation correspond à la gestion quotidienne du site, au suivi de son évolution et à sa mise à jour régulière.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q004",
+    "question": "La mise en place d'un site web est une activité multidisciplinaire.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. La mise en place d'un site web est une activité multidisciplinaire faisant appel à un grand nombre de compétences.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q005",
+    "question": "Qu'est-ce que les métiers du web ?",
+    "type": "single",
+    "options": [
+      "L'ensemble des métiers ayant pour but le développement et la maintenance de sites web",
+      "Uniquement les métiers de programmation",
+      "Uniquement les métiers de gestion de serveurs",
+      "Un seul métier universel appelé webmaster"
+    ],
+    "answer": [0],
+    "explanation": "Les métiers du web sont l'ensemble des métiers ayant pour but le développement et la maintenance de sites web.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q006",
+    "question": "La classification des métiers du web est fixe et identique dans tous les pays.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. La classification des différents métiers du web est changeante selon les études, les pays et les différents auteurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q007",
+    "question": "Les métiers du web sont figés et n'évoluent plus depuis leur création.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Ces métiers sont en pleine évolution, tant au niveau des outils techniques que des missions attribuées aux professionnels.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q008",
+    "question": "Quel professionnel dirige la conception et la réalisation d'un site web ?",
+    "type": "single",
+    "options": ["Le développeur", "Le chef de projet web", "Le webdesigner", "Le référenceur"],
+    "answer": [1],
+    "explanation": "Le chef de projet web dirige la conception et la réalisation du site.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q009",
+    "question": "Quel professionnel organise et classifie l'information à publier sur un site ?",
+    "type": "single",
+    "options": ["L'architecte de l'information", "Le graphiste", "L'intégrateur", "Le webmarketeur"],
+    "answer": [0],
+    "explanation": "L'architecte de l'information organise et classifie l'information à publier.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q010",
+    "question": "Quels métiers appartiennent à la famille « programmation et développement » ?",
+    "type": "multiple",
+    "options": ["Développeur", "Programmeur", "Animateur (2D-3D)", "Juriste"],
+    "answer": [0, 1, 2],
+    "explanation": "La famille programmation et développement comprend le développeur, le programmeur, l'animateur, l'intégrateur et le spécialiste bases de données. Le juriste appartient à la gestion de l'information.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q011",
+    "question": "Quel professionnel organise et intègre les différentes « briques » d'un site web ?",
+    "type": "single",
+    "options": ["L'intégrateur", "Le référenceur", "L'ergonome", "Le documentaliste"],
+    "answer": [0],
+    "explanation": "L'intégrateur organise et intègre les différentes « briques » du site.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q012",
+    "question": "Quel professionnel conçoit, crée et gère les bases de données d'un site ?",
+    "type": "single",
+    "options": ["Le spécialiste bases de données", "Le graphiste", "L'animateur de site", "Le webmarketeur"],
+    "answer": [0],
+    "explanation": "Le spécialiste bases de données conçoit, crée et gère les bases de données du site.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q013",
+    "question": "Quels métiers appartiennent à la famille « Graphisme et webdesign » ?",
+    "type": "multiple",
+    "options": ["Webdesigner", "Graphiste", "Illustrateur", "Programmeur"],
+    "answer": [0, 1, 2],
+    "explanation": "La famille Graphisme et webdesign comprend le webdesigner, le graphiste, l'illustrateur et l'ergonome. Le programmeur appartient à la famille programmation et développement.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q014",
+    "question": "Quel professionnel conçoit le site avec ses différentes parties, réalisées par lui-même ou d'autres intervenants ?",
+    "type": "single",
+    "options": ["Le webdesigner", "Le journaliste Internet", "Le webmaster", "Le gestionnaire de communauté"],
+    "answer": [0],
+    "explanation": "Le webdesigner conçoit le site, avec ses différentes parties qui seront réalisées par lui-même ou d'autres intervenants.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q015",
+    "question": "Quel professionnel renforce l'accessibilité du site pour des publics particuliers ?",
+    "type": "single",
+    "options": ["L'illustrateur", "L'ergonome", "Le graphiste", "Le référenceur"],
+    "answer": [1],
+    "explanation": "L'ergonome renforce l'accessibilité du site pour des publics particuliers et s'assure que les informations sont facilement accessibles à tous.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q016",
+    "question": "Quel professionnel collecte, vérifie et valide les informations avant publication ?",
+    "type": "single",
+    "options": ["Le documentaliste", "Le juriste", "Le référenceur", "L'animateur"],
+    "answer": [0],
+    "explanation": "Le documentaliste collecte les informations qui seront publiées, il les vérifie et les valide avant publication.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q017",
+    "question": "Quel professionnel vérifie la légalité des informations publiées sur un site ?",
+    "type": "single",
+    "options": ["Le juriste", "Le gestionnaire de contenus", "L'intégrateur", "Le webmarketeur"],
+    "answer": [0],
+    "explanation": "Le juriste vérifie la légalité des informations publiées.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q018",
+    "question": "Quel professionnel écrit les textes en prenant en compte les besoins du référencement (SEO) ?",
+    "type": "single",
+    "options": ["Le journaliste Internet", "Le documentaliste", "L'architecte de l'information", "Le webmaster"],
+    "answer": [0],
+    "explanation": "Le journaliste Internet écrit les textes, en prenant en compte les besoins du référencement moteurs de recherche (SEO).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q019",
+    "question": "Que signifie l'acronyme SEO mentionné à propos du journaliste Internet ?",
+    "type": "single",
+    "options": [
+      "Search Engine Optimization (référencement moteurs de recherche)",
+      "Site Editing Online",
+      "Secure Encryption Online",
+      "System Engine Operator"
+    ],
+    "answer": [0],
+    "explanation": "SEO fait référence au référencement auprès des moteurs de recherche (Search Engine Optimization), un aspect que le journaliste Internet doit prendre en compte.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q020",
+    "question": "Quel professionnel favorise le référencement naturel du site auprès des moteurs de recherche ?",
+    "type": "single",
+    "options": ["Le référenceur", "Le webmarketeur", "Le gestionnaire de contenus", "L'ergonome"],
+    "answer": [0],
+    "explanation": "Le référenceur favorise le référencement naturel du site auprès des moteurs de recherche.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q021",
+    "question": "Quel professionnel élabore et met en place la stratégie marketing internet du site ou de l'organisation ?",
+    "type": "single",
+    "options": ["Le webmarketeur", "Le référenceur", "Le documentaliste", "L'animateur de site"],
+    "answer": [0],
+    "explanation": "Le webmarketeur élabore et met en place, avec les autres acteurs, la stratégie marketing internet du site ou de l'organisation.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q022",
+    "question": "De quoi est chargée l'équipe « exploitation » d'un site web ?",
+    "type": "multiple",
+    "options": ["La disponibilité", "La performance", "La résilience et la sécurité", "La création graphique initiale"],
+    "answer": [0, 1, 2],
+    "explanation": "L'équipe d'exploitation est chargée de l'hébergement, de la bonne marche du site web et de ses différents services en termes de disponibilité, de performance, de résilience et de sécurité.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q023",
+    "question": "Quel professionnel gère l'ensemble des contributeurs de contenus d'un site ?",
+    "type": "single",
+    "options": ["L'animateur de site", "Le gestionnaire de communauté", "Le webmaster", "Le documentaliste"],
+    "answer": [0],
+    "explanation": "L'animateur de site gère l'ensemble des contributeurs de contenus du site.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q024",
+    "question": "Quel professionnel anime la communauté au travers du site, des réseaux sociaux et des forums ?",
+    "type": "single",
+    "options": ["Le gestionnaire de communauté", "L'ergonome", "Le référenceur", "L'intégrateur"],
+    "answer": [0],
+    "explanation": "Le gestionnaire de communauté anime la communauté au travers du site, des réseaux sociaux, forums, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q025",
+    "question": "Qu'est-ce qu'un webmaster ?",
+    "type": "single",
+    "options": [
+      "La personne en charge d'un site web, qui conçoit le site et le met à jour",
+      "Un logiciel de création de sites",
+      "Un type de serveur web",
+      "Un format d'image utilisé sur le web"
+    ],
+    "answer": [0],
+    "explanation": "La personne en charge d'un site web, c'est-à-dire généralement la personne qui conçoit un site web et le met à jour, est appelée webmaster.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q026",
+    "question": "Le webmaster gère au quotidien le site web et est aussi souvent responsable du développement du trafic.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Le webmaster gère au quotidien le site web et le met à jour ; il est aussi souvent responsable du développement du trafic.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q027",
+    "question": "Que désigne le terme « webmastering » ?",
+    "type": "single",
+    "options": [
+      "L'ensemble des tâches que le webmaster doit effectuer pour créer, faire connaître et héberger le site",
+      "Un langage de programmation spécifique",
+      "Un seul logiciel d'édition HTML",
+      "Le nom d'un hébergeur professionnel"
+    ],
+    "answer": [0],
+    "explanation": "Le terme webmastering désigne l'ensemble des tâches que le webmaster doit effectuer pour créer le site, le faire connaître, le faire héberger, etc.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q028",
+    "question": "Dans quels domaines un webmaster doit-il nécessairement avoir des connaissances ?",
+    "type": "multiple",
+    "options": ["HTML", "JavaScript", "PHP, ASP ou JSP", "Base de données (MySQL, Oracle)"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le webmaster doit nécessairement avoir des connaissances en HTML (le langage de base du web), JavaScript, PHP/ASP/JSP, et bases de données (MySQL ou Oracle, etc.).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q029",
+    "question": "Quelles sont les différentes façons de réaliser un site web après sa conception ?",
+    "type": "multiple",
+    "options": [
+      "Développer soi-même avec un éditeur simple ou Wysiwyg",
+      "Utiliser des outils en ligne comme Google Sites",
+      "Utiliser un CMS préconçu comme Joomla ou WordPress",
+      "Utiliser des Frameworks comme CodeIgniter"
+    ],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Un site peut être réalisé en développant soi-même (éditeur simple ou Wysiwyg), en utilisant des outils en ligne (Google Sites), un CMS préconçu (Joomla, WordPress), ou des Frameworks (CodeIgniter).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q030",
+    "question": "Que signifie l'acronyme CMS ?",
+    "type": "single",
+    "options": [
+      "Un site web préconçu (Content Management System)",
+      "Un client FTP",
+      "Un serveur HTTP",
+      "Un langage de script"
+    ],
+    "answer": [0],
+    "explanation": "Un CMS est un site web préconçu, comme Joomla et WordPress, qui permet de réaliser un site sans tout développer soi-même.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q031",
+    "question": "Quels sont des exemples de CMS cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Joomla", "WordPress", "Dreamweaver", "Notepad++"],
+    "answer": [0, 1],
+    "explanation": "Les exemples de CMS (site web préconçu) cités sont Joomla et WordPress. Dreamweaver est un éditeur WYSIWYG et Notepad++ un éditeur de texte simple.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q032",
+    "question": "Quel est un exemple de Framework cité dans le cours ?",
+    "type": "single",
+    "options": ["CodeIgniter", "WordPress", "Filezilla", "Gimp"],
+    "answer": [0],
+    "explanation": "CodeIgniter est cité comme exemple de Framework utilisable pour réaliser un site web.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q033",
+    "question": "Quelles sont les deux façons de créer un fichier HTML mentionnées dans le cours ?",
+    "type": "multiple",
+    "options": [
+      "Éditer le fichier HTML « à la main » avec un éditeur simple",
+      "Utiliser un éditeur HTML WYSIWYG",
+      "Utiliser uniquement un logiciel de retouche d'image",
+      "Utiliser uniquement un client FTP"
+    ],
+    "answer": [0, 1],
+    "explanation": "Il existe deux façons de créer un fichier HTML : l'éditer « à la main » avec un éditeur simple (Notepad++, TextEdit), ou utiliser un éditeur HTML WYSIWYG (Dreamweaver, Visual Studio).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q034",
+    "question": "Que signifie l'acronyme WYSIWYG ?",
+    "type": "single",
+    "options": [
+      "What You See Is What You Get",
+      "Web Your Site Is With Google",
+      "What You Save Is What Gets",
+      "Web Yield System Is Working Great"
+    ],
+    "answer": [0],
+    "explanation": "WYSIWYG signifie « What You See Is What You Get », traduit par « Ce que vous voyez est ce que vous obtenez ».",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q035",
+    "question": "Quels sont des exemples d'éditeurs HTML simples cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Notepad++", "TextEdit (Mac)", "Dreamweaver", "Photoshop"],
+    "answer": [0, 1],
+    "explanation": "Les exemples d'éditeurs simples cités sont Notepad++ et TextEdit (Mac). Dreamweaver est un éditeur WYSIWYG et Photoshop un logiciel de retouche d'image.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q036",
+    "question": "Quels sont des exemples d'éditeurs HTML WYSIWYG cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Dreamweaver", "Visual Studio", "Notepad++", "Filezilla"],
+    "answer": [0, 1],
+    "explanation": "Les exemples d'éditeurs WYSIWYG cités sont Dreamweaver et Visual Studio.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q037",
+    "question": "Éditer un fichier HTML « à la main » est la meilleure façon d'apprendre à faire un site et de comprendre son fonctionnement.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Vrai. Bien que fastidieuse, éditer le HTML à la main est la meilleure façon d'apprendre à faire un site, de comprendre son fonctionnement, et d'avoir un code optimisé et propre.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q038",
+    "question": "Avec un éditeur WYSIWYG, qui se charge de créer le code HTML ?",
+    "type": "single",
+    "options": [
+      "Le logiciel se charge de créer le code HTML à la place de l'utilisateur",
+      "L'utilisateur doit taper tout le code lui-même",
+      "Le serveur génère le code automatiquement",
+      "Un webmaster distant écrit le code"
+    ],
+    "answer": [0],
+    "explanation": "Avec un éditeur WYSIWYG, le logiciel se charge de créer le code HTML à la place de l'utilisateur, qui place visuellement des objets et des contrôles.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q039",
+    "question": "Quel est l'inconvénient potentiel d'un éditeur WYSIWYG mentionné dans le cours ?",
+    "type": "single",
+    "options": [
+      "Il peut s'avérer très ennuyeux de ne pas arriver à faire ce que l'on veut",
+      "Il ne fonctionne que sur Mac",
+      "Il ne permet pas de créer de pages web",
+      "Il nécessite obligatoirement une connexion Internet"
+    ],
+    "answer": [0],
+    "explanation": "S'il s'agit d'une solution pratique pour créer de petites pages, il peut s'avérer très ennuyeux de ne pas arriver à faire exactement ce que l'on veut avec un éditeur WYSIWYG.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q040",
+    "question": "Pour créer des images destinées à un site web, quel type de logiciel est nécessaire ?",
+    "type": "single",
+    "options": ["Un logiciel de dessin/traitement d'image", "Un client FTP", "Un serveur HTTP", "Un CMS"],
+    "answer": [0],
+    "explanation": "Un site internet doit contenir des images ; il faut donc un logiciel de dessin capable d'égayer le site avec des images au format GIF ou JPG.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q041",
+    "question": "Quels sont des exemples de logiciels de traitement d'image cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Photoshop", "Fireworks", "Gimp", "Dreamweaver"],
+    "answer": [0, 1, 2],
+    "explanation": "Les exemples de logiciels de traitement d'image cités sont Photoshop, Fireworks et Gimp. Dreamweaver est un éditeur HTML WYSIWYG.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q042",
+    "question": "Est-il nécessaire d'être connecté à Internet pour créer les fichiers HTML et les images d'un site web ?",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "Faux. Il n'est pas nécessaire d'être connecté à Internet lors de la création, car il s'agit uniquement, dans un premier temps, de créer les fichiers HTML et les images.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q043",
+    "question": "Que signifie « mettre en ligne » un site web ?",
+    "type": "single",
+    "options": [
+      "Transférer (copier) les fichiers de son ordinateur sur le serveur",
+      "Créer uniquement les fichiers HTML",
+      "Installer un logiciel de traitement d'image",
+      "Rédiger le contenu textuel du site"
+    ],
+    "answer": [0],
+    "explanation": "Mettre en ligne un site web signifie transférer (copier) les fichiers de son ordinateur sur le serveur.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q044",
+    "question": "Quels paramètres sont nécessaires pour se connecter à un serveur afin de transférer un site web ?",
+    "type": "multiple",
+    "options": ["Nom du serveur (Host)", "Nom d'utilisateur (Username)", "Mot de passe (Password)", "Adresse IP publique de l'ordinateur client"],
+    "answer": [0, 1, 2],
+    "explanation": "Pour se connecter au serveur, il faut les paramètres de connexion : nom du serveur (Host), login (Username) et mot de passe (Password).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q045",
+    "question": "Qu'est-ce qu'un client FTP ?",
+    "type": "single",
+    "options": [
+      "Un logiciel permettant de se connecter à un serveur afin d'y échanger des fichiers",
+      "Un langage de programmation web",
+      "Un type de navigateur web",
+      "Une base de données"
+    ],
+    "answer": [0],
+    "explanation": "Un client FTP est un logiciel permettant de se connecter à un serveur afin d'y échanger des fichiers.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q046",
+    "question": "Quels sont des exemples de clients FTP cités dans le cours ?",
+    "type": "multiple",
+    "options": ["Filezilla", "CuteFTP", "Dreamweaver", "Gimp"],
+    "answer": [0, 1, 2],
+    "explanation": "Les exemples de clients FTP cités sont Filezilla, CuteFTP et Dreamweaver (qui possède aussi des fonctionnalités FTP). Gimp est un logiciel de traitement d'image.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q047",
+    "question": "Une fois connecté via un client FTP, que devient-il possible de faire ?",
+    "type": "single",
+    "options": [
+      "Publier des fichiers afin qu'ils soient accessibles depuis le site Internet",
+      "Modifier directement le protocole HTTP",
+      "Créer automatiquement un nom de domaine",
+      "Générer un certificat SSL"
+    ],
+    "answer": [0],
+    "explanation": "Une fois connecté via un client FTP, il est possible de publier des fichiers afin que ceux-ci soient accessibles depuis le site Internet.",
+    "image": null
+  }
+]

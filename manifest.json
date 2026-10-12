@@ -1,0 +1,50 @@
+{
+  "id": "learnida",
+  "name": "Learnida — Maîtrisez vos cours",
+  "short_name": "Learnida",
+  "description": "Un jeu de quiz pour maîtriser tes cours grâce au rappel actif et à la répétition intelligente. Fonctionne hors ligne.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0A0912",
+  "theme_color": "#0A0912",
+  "categories": ["education", "games", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jouer",
+      "short_name": "Jouer",
+      "description": "Choisir un mode de quiz",
+      "url": "./index.html#/play",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Mode aléatoire",
+      "short_name": "Aléatoire",
+      "description": "Toutes les questions, mélangées",
+      "url": "./index.html#/play/random",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Statistiques",
+      "short_name": "Stats",
+      "description": "Voir ma progression",
+      "url": "./index.html#/stats",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    { "src": "assets/screenshots/home.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Accueil : niveau, série et reprise en un tap" },
+    { "src": "assets/screenshots/question.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Une question de quiz" },
+    { "src": "assets/screenshots/explanation.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "L'explication de la réponse, au centre de l'écran" },
+    { "src": "assets/screenshots/home-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Learnida sur ordinateur" }
+  ]
+}

@@ -1,0 +1,425 @@
+[
+  {
+    "id": "ti-s4-q001",
+    "question": "Qu'est-ce qu'un système d'exploitation mobile ?",
+    "type": "single",
+    "options": ["Un logiciel qui gère un appareil mobile intelligent (tablette, smartphone)", "Un langage de programmation pour mobile", "Un navigateur web mobile", "Un magasin d'applications"],
+    "answer": [0],
+    "explanation": "Un système d'exploitation mobile, aussi appelé système mobile, est un logiciel qui gère un appareil mobile intelligent tel qu'une tablette ou un smartphone.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q002",
+    "question": "Les systèmes d'exploitation mobiles modernes combinent les caractéristiques d'un OS d'ordinateur personnel avec d'autres fonctionnalités.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Les systèmes d'exploitation mobiles modernes combinent les caractéristiques d'un système d'exploitation d'ordinateur personnel avec d'autres fonctionnalités comme l'écran cellulaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q003",
+    "question": "Selon les chiffres IDC de mai 2017 (2017Q1), quelle est approximativement la part de marché mondiale d'Android ?",
+    "type": "single",
+    "options": ["50%", "65%", "85%", "95%"],
+    "answer": [2],
+    "explanation": "Au 1er trimestre 2017, Android détenait environ 85% du marché mondial des OS mobiles, contre 14,7% pour iOS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q004",
+    "question": "D'après le cours, Android équipe environ combien de smartphones sur 10 ?",
+    "type": "single",
+    "options": ["5 sur 10", "7 sur 10", "9 sur 10", "10 sur 10"],
+    "answer": [2],
+    "explanation": "Le cours indique qu'Android est présent sur près de 9 smartphones sur 10.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q005",
+    "question": "D'après les chiffres présentés, quelle plateforme mobile est décrite comme faisant \"naufrage\" ?",
+    "type": "single",
+    "options": ["iOS", "Windows Phone", "Android", "BlackBerry"],
+    "answer": [1],
+    "explanation": "Le cours mentionne explicitement que \"Windows fait naufrage\" au vu de l'effondrement de sa part de marché mondiale.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q006",
+    "question": "Quelles sont les principales plateformes mobiles citées dans le cours ?",
+    "type": "multiple",
+    "options": ["Android", "iOS", "Windows Phone", "BlackBerry OS"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Les principales plateformes mobiles citées sont Android, iOS, Windows Phone et BlackBerry OS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q007",
+    "question": "Que fournit une plate-forme mobile, en plus de l'OS de base ?",
+    "type": "multiple",
+    "options": ["Un environnement de développement", "Un market pour publier les applications", "Un opérateur téléphonique dédié", "Aucun élément supplémentaire"],
+    "answer": [0, 1],
+    "explanation": "Les plates-formes mobiles offrent l'OS de base, un environnement de développement et un market pour publier les applications.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q008",
+    "question": "Quels sont les paramètres permettant de choisir la plate-forme mobile la plus adaptée pour développer une application ?",
+    "type": "multiple",
+    "options": ["Le public cible", "Le marché (parts de marché)", "Les caractéristiques spécifiques de la plateforme", "Le nombre de couleurs de l'icône de l'application"],
+    "answer": [0, 1, 2],
+    "explanation": "Les paramètres de choix sont le public cible, le marché (comparaison des parts de marché) et les caractéristiques spécifiques de chaque plateforme.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q009",
+    "question": "Quel éditeur développe Android ?",
+    "type": "single",
+    "options": ["Apple", "Microsoft", "Google", "BlackBerry"],
+    "answer": [2],
+    "explanation": "Android est un système d'exploitation développé par Google Inc.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q010",
+    "question": "En quelle année Android a-t-il été publié, suivi du lancement d'Android Market ?",
+    "type": "single",
+    "options": ["2005", "2007", "2008", "2010"],
+    "answer": [2],
+    "explanation": "Android a été publié en septembre 2008, suivi du lancement d'Android Market en octobre 2008.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q011",
+    "question": "iOS est développé par Apple et distribué exclusivement pour le matériel Apple.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "iOS est un système d'exploitation mobile développé par Apple Inc. et distribué exclusivement au matériel Apple. Il a été dévoilé en 2007 pour l'iPhone.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q012",
+    "question": "Quel noyau open source est à la base d'iOS ?",
+    "type": "single",
+    "options": ["Linux", "Darwin OS", "Windows NT", "FreeBSD"],
+    "answer": [1],
+    "explanation": "iOS est fermé et à source exclusive mais est construit sur le noyau open source Darwin OS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q013",
+    "question": "Quelle plate-forme a la troisième plus grande base installée de smartphones après Android et iOS ?",
+    "type": "single",
+    "options": ["BlackBerry OS", "Symbian", "Windows Phone", "Palm OS"],
+    "answer": [2],
+    "explanation": "Windows Phone, édité par Microsoft et lancé en octobre 2010, a la troisième plus grande base installée de smartphones après Android et iOS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q014",
+    "question": "À quelle date Microsoft a-t-il annoncé la fin du développement de l'OS Windows Phone ?",
+    "type": "single",
+    "options": ["9 octobre 2015", "9 octobre 2016", "9 octobre 2017", "9 octobre 2018"],
+    "answer": [2],
+    "explanation": "Le 9 octobre 2017, Microsoft a annoncé la fin du développement de l'OS Windows Phone ; seules des mises à jour de sécurité continueraient d'être développées.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q015",
+    "question": "En quelle année l'App Store de BlackBerry a-t-il été lancé ?",
+    "type": "single",
+    "options": ["2007", "2008", "2009", "2010"],
+    "answer": [2],
+    "explanation": "L'App Store de BlackBerry 10, la plate-forme de nouvelle génération pour smartphones et tablettes BlackBerry, a été lancé en avril 2009.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q016",
+    "question": "À la fin de l'année 2014, la part de marché mondiale de BlackBerry OS était réduite à moins de 1%.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Depuis avoir été l'une des plates-formes dominantes, la part de marché globale de BlackBerry OS a été réduite à moins de 1% en fin 2014.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q017",
+    "question": "Selon l'anecdote racontée dans le cours, quelle entreprise a d'abord refusé de recevoir les représentants de la société Android ?",
+    "type": "single",
+    "options": ["Apple", "Samsung", "HTC", "Motorola"],
+    "answer": [1],
+    "explanation": "La société Android est allée voir en premier Samsung, qui a renvoyé gentiment les représentants de la société Android.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q018",
+    "question": "En quelle année Google a-t-il racheté Android ?",
+    "type": "single",
+    "options": ["2003", "2005", "2008", "2010"],
+    "answer": [1],
+    "explanation": "Google a par la suite racheté Android en 2005, puis a lancé son propre OS mobile.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q019",
+    "question": "Quels facteurs expliquent principalement le succès d'Android d'après le cours ?",
+    "type": "multiple",
+    "options": ["Sa licence open source", "Un environnement de développement basé sur le langage Java", "Son exclusivité au matériel Google", "Son coût de licence de 100€/an"],
+    "answer": [0, 1],
+    "explanation": "Le succès d'Android est principalement dû à sa licence open source ainsi qu'à son environnement de développement basé sur le langage Java.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q020",
+    "question": "Que signifie le sigle OHA, structure responsable de l'évolution d'Android ?",
+    "type": "single",
+    "options": ["Open Handset Alliance", "Open Hardware Association", "Official Handset Authority", "Open Handheld Alliance"],
+    "answer": [0],
+    "explanation": "L'évolution d'Android est sous la responsabilité de l'Open Handset Alliance (OHA), un consortium regroupant des dizaines de grandes entreprises du secteur.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q021",
+    "question": "Quels types d'acteurs composent l'Open Handset Alliance (OHA) ?",
+    "type": "multiple",
+    "options": ["Opérateurs mobiles (Vodafone, China Mobile...)", "Fabricants de téléphones (Asus, HTC, LG...)", "Fabricants de semi-conducteurs (Intel, Nvidia, ARM...)", "Uniquement des distributeurs de vêtements"],
+    "answer": [0, 1, 2],
+    "explanation": "L'OHA se compose d'opérateurs mobiles, de fabricants de téléphones mobiles, de fabricants de semi-conducteurs, d'éditeurs logiciels et de distributeurs.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q022",
+    "question": "Associez chaque nom de version Android à son numéro : Cupcake correspond à quelle version ?",
+    "type": "single",
+    "options": ["Android 1.5", "Android 2.0", "Android 4.0", "Android 5.0"],
+    "answer": [0],
+    "explanation": "Cupcake correspond à Android 1.5, la première des versions Android à porter un nom de dessert.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q023",
+    "question": "Quel est le nom de code d'Android 6.0 ?",
+    "type": "single",
+    "options": ["Lollipop", "Marshmallow", "Nougat", "KitKat"],
+    "answer": [1],
+    "explanation": "Android 6.0 porte le nom de code Marshmallow.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q024",
+    "question": "Quelles sont les couches qui composent l'architecture du framework Android ?",
+    "type": "multiple",
+    "options": ["Le noyau Linux", "Les librairies de classe et le runtime Android", "Le framework applicatif", "Les applications"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "L'architecture d'Android est divisée en couches : le noyau Linux, les librairies de classe, le runtime d'exécution Android, le framework applicatif, et les applications.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q025",
+    "question": "Android est défini comme un stack logiciel pour terminaux mobiles qui inclut un système d'exploitation, du middleware et des applications clés.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "C'est la définition donnée dans le cours : Android est un stack logiciel pour terminaux mobiles qui inclut un système d'exploitation, du middleware et des applications clés.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q026",
+    "question": "Quelle machine virtuelle est présente dans le runtime Android (Android Runtime) illustré dans l'architecture du framework ?",
+    "type": "single",
+    "options": ["JVM (Java Virtual Machine)", "Dalvik Virtual Machine", "V8 Engine", "CLR (Common Language Runtime)"],
+    "answer": [1],
+    "explanation": "Le schéma de l'architecture Android présente la Dalvik Virtual Machine au sein de l'Android Runtime, aux côtés des Core Libraries.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q027",
+    "question": "Selon les statistiques Google Play Store présentées (2 octobre 2017), quelle version d'Android était la plus utilisée ?",
+    "type": "single",
+    "options": ["KitKat", "Lollipop", "Marshmallow", "Nougat"],
+    "answer": [2],
+    "explanation": "Marshmallow représentait 32% des appareils connectés au Google Play Store, la part la plus élevée de toutes les versions à cette date.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q028",
+    "question": "Que signifie le sigle AOSP ?",
+    "type": "single",
+    "options": ["Android Open Source Project", "Apple Open Software Project", "Android Official Store Program", "Android Operating System Platform"],
+    "answer": [0],
+    "explanation": "AOSP signifie Android Open Source Project, qui permet de modifier Android comme l'on veut (nombreuses ROM disponibles).",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q029",
+    "question": "Quel est le coût financier pour publier une application à vie sur le Play Store, selon le cours ?",
+    "type": "single",
+    "options": ["Gratuit", "25 € à vie", "100 € à vie", "25 € par an"],
+    "answer": [1],
+    "explanation": "Le coût financier pour publier sur le Play Store est de 25 € à vie, contre 100 € par an sur iOS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q030",
+    "question": "Le développement Android est possible depuis n'importe quelle machine (MAC OS X, Windows, Linux, Android).",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Contrairement à iOS, le développement Android est possible depuis n'importe quelle machine : MAC OS X, Windows, Linux ou même Android.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q031",
+    "question": "Quelles sont les quatre couches d'abstraction d'iOS mentionnées dans le cours ?",
+    "type": "multiple",
+    "options": ["Core OS", "Core Services", "Media", "Cocoa"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "iOS comporte quatre couches d'abstraction similaires à celles de macOS : Core OS, Core Services, Media et Cocoa.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q032",
+    "question": "Quelle est la capacité mémoire maximale que peut occuper le système d'exploitation iOS, selon l'appareil ?",
+    "type": "single",
+    "options": ["1 Go", "2 Go", "3 Go", "4 Go"],
+    "answer": [2],
+    "explanation": "Le système d'exploitation iOS occupe au maximum 3 Go de la capacité mémoire totale de l'appareil, selon l'appareil.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q033",
+    "question": "Quels langages de programmation ont été utilisés pour développer des applications iOS ?",
+    "type": "multiple",
+    "options": ["Objective-C", "Swift", "C#", "HTML5/CSS3/JavaScript"],
+    "answer": [0, 1],
+    "explanation": "Objective-C est utilisé depuis le début du développement iOS, et Swift depuis 2014.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q034",
+    "question": "Le développement d'applications iOS nécessite obligatoirement un Mac.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "L'environnement de développement iOS (Xcode) n'existe que sur MacOS : il faut donc un Mac, ainsi qu'un device iOS, et généralement la dernière version de MacOS.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q035",
+    "question": "Dans l'architecture logicielle de l'iPhone, quel élément peut être considéré comme un BIOS pour l'iPhone ?",
+    "type": "single",
+    "options": ["Firmware", "BootLoader", "BaseBand", "SeckPack"],
+    "answer": [2],
+    "explanation": "Le BaseBand peut être considéré comme un BIOS pour l'iPhone.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q036",
+    "question": "Quel élément de l'architecture logicielle de l'iPhone assure le démarrage, le contrôle de l'activation et la compatibilité avec la carte SIM insérée ?",
+    "type": "single",
+    "options": ["BaseBand", "BootLoader", "Firmware", "SeckPack"],
+    "answer": [1],
+    "explanation": "Le BootLoader est une partie du BaseBand dont le rôle principal est d'assurer le démarrage de l'iPhone, de contrôler son activation, et sa compatibilité avec la carte SIM insérée.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q037",
+    "question": "Quel élément de l'architecture de l'iPhone peut être considéré comme un mot de passe, contenant des informations sur le verrouillage de l'appareil ?",
+    "type": "single",
+    "options": ["Firmware", "BaseBand", "SeckPack", "BootLoader"],
+    "answer": [2],
+    "explanation": "Le SeckPack est une partie de la mémoire flash de l'appareil contenant entre autres des informations sur le verrouillage de celui-ci, et peut être considéré comme un mot de passe.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q038",
+    "question": "Comment le cours définit-il une application mobile ?",
+    "type": "single",
+    "options": ["Un logiciel applicatif développé pour un appareil électronique mobile", "Un site web accessible depuis un smartphone", "Un service cloud accessible en ligne", "Un système d'exploitation allégé"],
+    "answer": [0],
+    "explanation": "Une application mobile est un logiciel applicatif développé pour un appareil électronique mobile, tel qu'un assistant personnel, un téléphone portable, un smartphone, un baladeur numérique ou une tablette tactile.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q039",
+    "question": "Quelles sont les plateformes de téléchargement citées pour distribuer des applications mobiles ?",
+    "type": "multiple",
+    "options": ["App Store (Apple)", "Play Store (Google/Android)", "Windows Phone Store (Microsoft)", "Amazon Prime Video"],
+    "answer": [0, 1, 2],
+    "explanation": "Les applications mobiles sont pour la plupart distribuées depuis des plateformes de téléchargement comme l'App Store, le Play Store ou le Windows Phone Store.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q040",
+    "question": "En 2016, environ combien de nouvelles applications ont été téléchargées sur l'App Store et Google Play, selon le cours ?",
+    "type": "single",
+    "options": ["9 milliards", "35 milliards", "90 milliards", "180 milliards"],
+    "answer": [2],
+    "explanation": "En 2016, 90 milliards de nouvelles applications ont été téléchargées sur l'App Store et Google Play.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q041",
+    "question": "Selon la société App Annie citée dans le cours, à combien s'élèveraient les revenus des éditeurs d'applications depuis les stores d'Apple et de Google ?",
+    "type": "single",
+    "options": ["6,8 milliards de dollars", "35 milliards de dollars", "90 milliards de dollars", "140 milliards de dollars"],
+    "answer": [1],
+    "explanation": "Selon App Annie, les éditeurs d'applications devraient enregistrer 35 milliards de dollars de revenus depuis les stores d'Apple et de Google.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q042",
+    "question": "En mars 2017, combien d'applications étaient disponibles sur le Google Play Store, d'après le graphique présenté ?",
+    "type": "single",
+    "options": ["1,3 million", "1,8 million", "2,4 millions", "2,8 millions"],
+    "answer": [3],
+    "explanation": "Le graphique indique environ 2,8 millions d'applications disponibles sur le Google Play Store en mars 2017.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q043",
+    "question": "Quel IDE (environnement de développement) est associé à iOS dans le tableau de comparaison des plateformes ?",
+    "type": "single",
+    "options": ["Android Studio", "Xcode", "Visual Studio", "Eclipse"],
+    "answer": [1],
+    "explanation": "Xcode est l'IDE associé au développement iOS, avec les langages Objective-C et Swift.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q044",
+    "question": "Quels IDE sont cités pour le développement Android dans le tableau de comparaison ?",
+    "type": "multiple",
+    "options": ["Android Studio", "Eclipse", "NetBeans", "Xcode"],
+    "answer": [0, 1, 2],
+    "explanation": "Le tableau de comparaison cite Android Studio, Eclipse et NetBeans comme IDE possibles pour le développement Android.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q045",
+    "question": "D'après le tableau de comparaison, Windows Phone est compatible uniquement avec quelle marque de smartphones ?",
+    "type": "single",
+    "options": ["Samsung", "Nokia Lumia", "HTC", "Sony"],
+    "answer": [1],
+    "explanation": "Windows Phone est décrit comme compatible uniquement avec la marque Lumia, avec Visual Studio comme IDE et le langage C#.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q046",
+    "question": "Quel est l'avantage cité pour iOS concernant la sécurité des applications, par rapport à Android ?",
+    "type": "single",
+    "options": ["Les applications iOS sont gratuites", "Les applications iOS sont vérifiées et contiennent moins de virus", "iOS a plus d'utilisateurs qu'Android", "iOS fonctionne sur toutes les machines"],
+    "answer": [1],
+    "explanation": "Le tableau de comparaison indique qu'iOS propose des applications vérifiées et contenant moins de virus que les applications Android.",
+    "image": null
+  },
+  {
+    "id": "ti-s4-q047",
+    "question": "Android est devenu l'OS le plus utilisé dans le monde selon les chiffres de StarCounter, toutes plateformes confondues.",
+    "type": "true_false",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Selon les chiffres de StarCounter cités dans le cours, Android est devenu l'OS le plus utilisé dans le monde, toutes plateformes confondues, dépassant pour la première fois Microsoft.",
+    "image": null
+  }
+]

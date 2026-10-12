@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ti-s2-q001",
+    "question": "Quels sont les deux états électroniques que peuvent prendre les commutateurs d'un ordinateur ?",
+    "type": "single",
+    "options": ["En fonction (ON) / Hors fonction (OFF)", "Haut / Bas", "Actif / Inactif", "Plein / Vide"],
+    "answer": [0],
+    "explanation": "Les ordinateurs gèrent les données à l'aide de commutateurs électroniques pouvant prendre deux états : « En fonction » (ON) et « Hors fonction » (OFF).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q002",
+    "question": "À quelle tension électrique correspond le chiffre binaire 1 ?",
+    "type": "single",
+    "options": ["0 volt", "+5 volts", "+12 volts", "-5 volts"],
+    "answer": [1],
+    "explanation": "Le chiffre binaire 1 est représenté par une tension électrique de +5 volts, tandis que le 0 correspond à 0 volt.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q003",
+    "question": "Combien de bits composent un octet ?",
+    "type": "single",
+    "options": ["4 bits", "8 bits", "16 bits", "32 bits"],
+    "answer": [1],
+    "explanation": "Les ordinateurs sont conçus pour traiter des groupes de huit bits, chaque groupe constituant un octet.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q004",
+    "question": "Combien de combinaisons différentes peut-on obtenir avec un octet (8 bits) ?",
+    "type": "single",
+    "options": ["64", "128", "256", "512"],
+    "answer": [2],
+    "explanation": "Huit commutateurs pouvant chacun prendre la valeur 0 ou 1 donnent lieu à 2^8 = 256 combinaisons possibles.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q005",
+    "question": "Vrai ou faux : Le code binaire du caractère 'A' en ASCII est 01000001.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "D'après le tableau du cours, le caractère A correspond à la valeur ASCII 65, soit 01000001 en binaire.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q006",
+    "question": "Quel système de numération est basé sur les puissances de 10 ?",
+    "type": "single",
+    "options": ["Le système binaire", "Le système décimal", "Le système hexadécimal", "Le système octal"],
+    "answer": [1],
+    "explanation": "Le système de numération décimal, ou système à base 10, repose sur les puissances de 10.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q007",
+    "question": "Combien de symboles utilise le système décimal ?",
+    "type": "single",
+    "options": ["2", "8", "10", "16"],
+    "answer": [2],
+    "explanation": "La base 10 utilise les dix symboles 0, 1, 2, 3, 4, 5, 6, 7, 8 et 9.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q008",
+    "question": "Dans le nombre décimal 2134, à quoi correspond le chiffre '1' selon la décomposition en puissances de 10 ?",
+    "type": "single",
+    "options": ["1 x 10⁰", "1 x 10¹", "1 x 10²", "1 x 10³"],
+    "answer": [2],
+    "explanation": "2134 = (2 x 10³) + (1 x 10²) + (3 x 10¹) + (4 x 10⁰), donc le chiffre 1 correspond à 1 x 10².",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q009",
+    "question": "Combien de symboles utilise le système binaire (base 2) ?",
+    "type": "single",
+    "options": ["2", "8", "10", "16"],
+    "answer": [0],
+    "explanation": "Le système binaire utilise seulement deux symboles : le 0 et le 1.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q010",
+    "question": "Quelles sont les valeurs de rang (de droite à gauche) utilisées dans un octet binaire ?",
+    "type": "multiple",
+    "options": ["1", "2", "4", "10"],
+    "answer": [0, 1, 2],
+    "explanation": "Les valeurs de rang d'un octet binaire sont 1, 2, 4, 8, 16, 32, 64 et 128 (puissances de 2). 10 n'en fait pas partie.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q011",
+    "question": "Quel est l'équivalent décimal du nombre binaire 10110₂ ?",
+    "type": "single",
+    "options": ["18", "20", "22", "24"],
+    "answer": [2],
+    "explanation": "10110₂ = (1x2⁴)+(0x2³)+(1x2²)+(1x2¹)+(0x2⁰) = 16+0+4+2+0 = 22.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q012",
+    "question": "Vrai ou faux : Dans l'algorithme de conversion décimal → binaire à 8 bits, on compare toujours le reste avec 128 en premier.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "L'algorithme démarre en vérifiant si le nombre est supérieur ou égal à 128, puis descend successivement à 64, 32, 16, 8, 4, 2 et 1.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q013",
+    "question": "Quelle est la représentation binaire à 8 bits du nombre décimal 168 ?",
+    "type": "single",
+    "options": ["10101000", "11001000", "10110000", "01101000"],
+    "answer": [0],
+    "explanation": "128+32+8 = 168, ce qui donne le nombre binaire 10101000, comme démontré dans l'exercice du cours.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q014",
+    "question": "Quel est l'équivalent décimal du nombre binaire 00111010 ?",
+    "type": "single",
+    "options": ["48", "56", "58", "62"],
+    "answer": [2],
+    "explanation": "Selon l'exemple du cours, 00111010 correspond à 58 en décimal.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q015",
+    "question": "Quel est l'équivalent décimal du nombre binaire 01110000 ?",
+    "type": "single",
+    "options": ["96", "104", "112", "120"],
+    "answer": [2],
+    "explanation": "0+0+0+0+16+32+64+0 = 112, comme démontré dans l'exemple du cours.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q016",
+    "question": "Une adresse IPv4 exprimée en notation décimale à points de séparation est composée de combien d'octets ?",
+    "type": "single",
+    "options": ["2", "3", "4", "8"],
+    "answer": [2],
+    "explanation": "Un nombre binaire à 32 bits est représenté par une notation décimale à quatre octets séparés par des points (ex : 200.114.6.51).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q017",
+    "question": "Quels sont les quatre octets décimaux correspondant à 11001000.01110010.00000110.00110011 ?",
+    "type": "single",
+    "options": ["200.114.6.51", "196.112.4.49", "128.93.15.170", "200.116.8.53"],
+    "answer": [0],
+    "explanation": "Selon l'exemple du cours : 11001000=200, 01110010=114, 00000110=6, 00110011=51.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q018",
+    "question": "Combien de symboles compose le système hexadécimal ?",
+    "type": "single",
+    "options": ["8", "10", "16", "32"],
+    "answer": [2],
+    "explanation": "Le système hexadécimal utilise 16 symboles : les chiffres 0 à 9 et les lettres A à F.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q019",
+    "question": "Quel préfixe est couramment utilisé pour désigner une valeur hexadécimale ?",
+    "type": "single",
+    "options": ["0b", "0x", "0h", "#"],
+    "answer": [1],
+    "explanation": "Les nombres hexadécimaux ont souvent comme préfixe 0x. Par exemple, 2102 s'écrit 0x2102.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q020",
+    "question": "Quel symbole hexadécimal correspond au nombre binaire 1010 ?",
+    "type": "single",
+    "options": ["8", "9", "A", "F"],
+    "answer": [2],
+    "explanation": "D'après la table de correspondance binaire/hexadécimal du cours, 1010 correspond à A (soit 10 en décimal).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q021",
+    "question": "Combien de chiffres hexadécimaux sont nécessaires pour représenter un octet (8 bits) ?",
+    "type": "single",
+    "options": ["1", "2", "3", "4"],
+    "answer": [1],
+    "explanation": "Un nombre binaire de huit bits peut toujours être représenté par exactement deux chiffres hexadécimaux, ce qui réduit les risques de confusion.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q022",
+    "question": "Vrai ou faux : Le registre de configuration des routeurs Cisco a une longueur de 16 bits.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours précise que les routeurs Cisco possèdent un registre de configuration d'une longueur de 16 bits, représenté par 4 chiffres hexadécimaux.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q023",
+    "question": "Quel est l'équivalent hexadécimal du nombre binaire à 16 bits 0010000100000010 ?",
+    "type": "single",
+    "options": ["0x1245", "0x2102", "0x1F5D", "0x2201"],
+    "answer": [1],
+    "explanation": "Le cours donne l'exemple : 0010000100000010 est égal à 2102 dans le système hexadécimal, soit 0x2102.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q024",
+    "question": "Quelles opérations booléennes sont présentées dans le cours à l'aide de portes logiques ?",
+    "type": "multiple",
+    "options": ["NON", "ET", "OU", "XOR"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours présente les portes logiques NON, ET et OU, mais ne mentionne pas la porte XOR.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q025",
+    "question": "Dans une porte logique NON, si x égale 1, que vaut f ?",
+    "type": "single",
+    "options": ["0", "1", "x", "Indéterminé"],
+    "answer": [0],
+    "explanation": "Si x égale 1 alors f égale 0. Sinon, f égale 1 : la porte NON inverse la valeur d'entrée.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q026",
+    "question": "Dans une porte logique ET, quelle condition donne f = 1 ?",
+    "type": "single",
+    "options": ["x=0 et y=0", "x=1 ou y=1", "x=1 et y=1", "x différent de y"],
+    "answer": [2],
+    "explanation": "Si x égale 1 et y égale 1 alors f égale 1. Sinon, f égale 0 (table de vérité de la porte ET).",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q027",
+    "question": "Dans une porte logique OU, quelle est la seule combinaison qui donne f = 0 ?",
+    "type": "single",
+    "options": ["x=0, y=0", "x=1, y=0", "x=0, y=1", "x=1, y=1"],
+    "answer": [0],
+    "explanation": "Si x égale 1 ou y égale 1 alors f égale 1. Sinon, f égale 0 : seule la combinaison x=0 et y=0 donne f=0.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q028",
+    "question": "De quoi se compose l'adresse IP d'un ordinateur sur un réseau ?",
+    "type": "single",
+    "options": ["Une partie réseau et une partie hôte", "Une partie masque et une partie hôte", "Une partie classe et une partie port", "Une partie MAC et une partie IP"],
+    "answer": [0],
+    "explanation": "L'adresse IP de chaque ordinateur se compose d'une partie réseau et d'une partie hôte.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q029",
+    "question": "À quoi sert le masque de sous-réseau ?",
+    "type": "single",
+    "options": ["À chiffrer les données", "À indiquer combien de bits sont réservés à l'identification du réseau", "À convertir le binaire en hexadécimal", "À définir la vitesse de connexion"],
+    "answer": [1],
+    "explanation": "Le masque de sous-réseau fournit un guide pour l'interprétation de l'adresse IP et indique combien de bits identifient le réseau.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q030",
+    "question": "Vrai ou faux : Dans un masque de sous-réseau, les bits à 1 identifient la partie hôte de l'adresse.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [1],
+    "explanation": "C'est l'inverse : les bits à 1 identifient la partie réseau, tandis que les bits à 0 identifient l'hôte.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q031",
+    "question": "En appliquant l'opération ET à l'adresse IP 10.34.23.134 et au masque 255.0.0.0, quelle adresse réseau obtient-on ?",
+    "type": "single",
+    "options": ["10.0.0.0", "10.34.0.0", "10.34.23.0", "255.0.0.0"],
+    "answer": [0],
+    "explanation": "L'opération booléenne ET entre 10.34.23.134 et 255.0.0.0 donne 10.0.0.0, la partie réseau de l'adresse.",
+    "image": null
+  },
+  {
+    "id": "ti-s2-q032",
+    "question": "Avec un masque de sous-réseau 255.255.0.0, combien de bits (en partant de la gauche) représentent la partie réseau ?",
+    "type": "single",
+    "options": ["8 bits", "16 bits", "24 bits", "32 bits"],
+    "answer": [1],
+    "explanation": "255.255.0.0 en binaire est 11111111.11111111.00000000.00000000, soit 16 bits de 1 représentant la partie réseau.",
+    "image": null
+  }
+]

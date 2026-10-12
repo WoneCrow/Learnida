@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Learnida — Maîtrisez vos cours</title>
+<meta name="description" content="Learnida, un jeu de quiz pour maîtriser vos cours grâce au rappel actif et à la répétition intelligente." />
+<meta name="theme-color" content="#0A0912" />
+<meta name="application-name" content="Learnida" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="assets/icons/icon-192.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Learnida" />
+<meta name="mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" href="css/themes.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+<link rel="stylesheet" href="css/splash.css" />
+</head>
+<body>
+
+<!-- Splash screen : affiché dès le premier rendu, retiré par js/splash.js -->
+<div id="splash" class="splash" role="dialog" aria-modal="true" aria-label="Chargement de Learnida">
+  <div class="splash__head">
+    <div class="splash__logo" aria-hidden="true"><img src="assets/icons/icon-192.png" alt="" width="104" height="104" /></div>
+    <h1 class="splash__title">Learnida</h1>
+    <p class="splash__tagline">Maîtrisez vos cours</p>
+  </div>
+  <div class="splash__loader">
+    <div class="splash__bar" role="progressbar" aria-label="Chargement des questions" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="splash__bar-fill"></div>
+    </div>
+    <p class="splash__status" role="status" aria-live="polite">Chargement des questions…</p>
+  </div>
+  <p class="splash__tip"></p>
+</div>
+
+<div class="aurora" aria-hidden="true">
+  <span class="aurora__blob aurora__blob--a"></span>
+  <span class="aurora__blob aurora__blob--b"></span>
+  <span class="aurora__blob aurora__blob--c"></span>
+</div>
+<div id="app-shell">
+  <nav id="nav" aria-label="Navigation principale"></nav>
+  <main id="app" role="main"></main>
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/progression.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/stats.js"></script>
+<script src="js/milestones.js"></script>
+<script src="js/splash.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/pwa.js"></script>
+<script src="js/router.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

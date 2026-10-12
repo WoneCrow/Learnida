@@ -1,0 +1,295 @@
+[
+  {
+    "id": "tm-s2-q001",
+    "question": "Quels sont les objectifs annoncés de cette séquence sur les généralités des technologies mobiles ?",
+    "type": "multiple",
+    "options": ["Énoncer les chiffres clés liés au mobile", "Interpréter les statistiques liées au mobile dans le contexte sénégalais en 2016", "Citer les causes du succès du mobile", "Développer une application Android native"],
+    "answer": [0, 1, 2],
+    "explanation": "Les objectifs annoncés sont : énoncer les chiffres clés liés au mobile, interpréter les statistiques liées au mobile dans le contexte sénégalais en 2016, et citer les causes du succès du mobile.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q002",
+    "question": "Combien d'utilisateurs mobiles dans le monde ont généré 742 milliards de dollars de revenus en 2008 ?",
+    "type": "single",
+    "options": ["3,8 milliards", "5 milliards", "1 milliard", "850 millions"],
+    "answer": [0],
+    "explanation": "En 2008, 3,8 milliards d'utilisateurs mobiles dans le monde ont généré 742 milliards de dollars de revenus.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q003",
+    "question": "Que représente la GSM Association (GSMA) selon le cours ?",
+    "type": "single",
+    "options": ["850 opérateurs de téléphonie mobile à travers 218 pays du monde", "Un fabricant de smartphones", "Un organisme régulateur uniquement au Sénégal", "Une norme de réseau 5G"],
+    "answer": [0],
+    "explanation": "La GSMA représente 850 opérateurs de téléphonie mobile à travers 218 pays du monde, et évalue à environ 5 milliards le nombre d'abonnés mobiles dans le monde.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q004",
+    "question": "D'après le cours, il y aurait désormais environ combien d'abonnés mobiles dans le monde ?",
+    "type": "single",
+    "options": ["5 milliards", "3,8 milliards", "850 millions", "218 millions"],
+    "answer": [0],
+    "explanation": "Selon la GSMA citée dans le cours, il y aurait désormais quelque 5 milliards d'abonnés mobiles de par le monde.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q005",
+    "question": "Quel était le chiffre d'affaires de la téléphonie mobile au Sénégal en 2011 selon l'ARTP, et pour combien d'abonnés ?",
+    "type": "single",
+    "options": ["366 milliards de FCFA pour 10,7 millions d'abonnés", "905 milliards de FCFA pour 15,7 millions d'abonnés", "742 milliards de dollars pour 3,8 milliards d'abonnés", "15 millions de FCFA pour 88 000 abonnés"],
+    "answer": [0],
+    "explanation": "En 2011, selon l'ARTP, le chiffre d'affaires était de 366 milliards de FCFA au Sénégal pour 10,7 millions d'abonnés (88%), au 30 juin 2012.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q006",
+    "question": "Quel chiffre d'affaires a été réalisé par la SONATEL en 2016 pour la téléphonie mobile ?",
+    "type": "single",
+    "options": ["905 milliards de FCFA", "366 milliards de FCFA", "35 milliards de dollars", "15,7 millions de FCFA"],
+    "answer": [0],
+    "explanation": "Un chiffre d'affaires de 905 milliards de FCFA a été réalisé par la SONATEL en 2016, pour un parc de téléphonie mobile de plus de 15 765 524 lignes.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q007",
+    "question": "Quelle était, selon le cours, la taille du parc de téléphonie mobile de la SONATEL en 2016 ?",
+    "type": "single",
+    "options": ["Plus de 15.765.524 lignes", "Plus de 10,7 millions de lignes", "Plus de 366 millions de lignes", "Plus de 5 milliards de lignes"],
+    "answer": [0],
+    "explanation": "Le parc actuel de téléphonie mobile de la SONATEL en 2016 comptait plus de 15.765.524 lignes.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q008",
+    "question": "Au Sénégal, quelle part du parc Internet total est représentée par l'Internet mobile (hors clés) ?",
+    "type": "single",
+    "options": ["96,19%", "2,32%", "1,27%", "0,22%"],
+    "answer": [0],
+    "explanation": "L'Internet mobile (hors clés) représente 96,19% du parc Internet total au Sénégal, contre 2,32% pour les clés Internet et 1,27% pour l'ADSL.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q009",
+    "question": "Quelle part du parc Internet total au Sénégal est représentée par le parc ADSL et le parc bas débit ?",
+    "type": "multiple",
+    "options": ["1,27% pour l'ADSL", "0,22% pour le bas débit", "96,19% pour l'ADSL", "2,32% pour le bas débit"],
+    "answer": [0, 1],
+    "explanation": "Le parc ADSL représente 1,27% du parc Internet total, et le parc bas débit 0,22%, contre 96,19% pour l'Internet mobile (hors clés) et 2,32% pour les clés Internet.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q010",
+    "question": "Selon le cours, quel pays compte à lui seul 1 milliard d'abonnés mobiles ?",
+    "type": "single",
+    "options": ["La Chine", "L'Inde", "Le Sénégal", "Les États-Unis"],
+    "answer": [0],
+    "explanation": "Le cours indique qu'à elle seule, la Chine compte 1 milliard d'abonnés, tandis que l'Inde devrait atteindre la barre de plus de 730 millions.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q011",
+    "question": "Combien de temps a-t-il fallu pour franchir le cap du milliard d'utilisateurs mobiles dans le monde ?",
+    "type": "single",
+    "options": ["20 ans", "40 mois", "24 mois", "5 ans"],
+    "answer": [0],
+    "explanation": "Il a fallu 20 ans pour franchir le cap du milliard d'utilisateurs mobiles, puis 40 mois pour dépasser les 2 milliards et 24 mois pour atteindre les 3 milliards (juillet 2007).",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q012",
+    "question": "Combien de mois ont été nécessaires pour passer de 1 à 2 milliards d'utilisateurs mobiles, puis de 2 à 3 milliards ?",
+    "type": "single",
+    "options": ["40 mois puis 24 mois", "24 mois puis 40 mois", "20 mois puis 12 mois", "60 mois puis 30 mois"],
+    "answer": [0],
+    "explanation": "Il a fallu 40 mois pour dépasser les 2 milliards d'utilisateurs mobiles, puis 24 mois supplémentaires pour atteindre les 3 milliards en juillet 2007.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q013",
+    "question": "Selon eMarketer, quelle part de la population mondiale possède un téléphone mobile ?",
+    "type": "single",
+    "options": ["55%", "88%", "96,19%", "71%"],
+    "answer": [0],
+    "explanation": "Selon eMarketer, on estime que 55% de la population mondiale possède un téléphone mobile, dont un certain nombre de smartphones.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q014",
+    "question": "Quelle est la hausse du parc de lignes de téléphonie mobile au Sénégal entre mars 2016 et juin 2016, et quels opérateurs y ont le plus contribué ?",
+    "type": "multiple",
+    "options": ["Une hausse de 2,68% au global", "Expresso a connu la plus forte hausse relative (6,76%)", "Orange a connu la plus forte hausse relative (0,77%)", "Tigo a connu une baisse du parc"],
+    "answer": [0, 1, 2],
+    "explanation": "Le parc de lignes a augmenté de 2,68% entre mars et juin 2016, porté par les hausses de Tigo (3,58%), Orange (0,77%) et surtout Expresso (6,76%), la plus forte progression relative.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q015",
+    "question": "Selon le graphique présenté, le parc global de lignes de téléphonie mobile au Sénégal a connu une croissance continue entre juin 2015 et juin 2016.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le graphique montre une progression continue du parc de lignes : de 14 819 053 (juin-15) à 15 765 524 (juin-16).",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q016",
+    "question": "Quelle génération de réseau mobile a été lancée en 1981 avec un débit d'environ 2 Kbps pour un service vocal basique en analogique ?",
+    "type": "single",
+    "options": ["1G", "2G", "3G", "4G"],
+    "answer": [0],
+    "explanation": "La 1G, lancée en 1981, offrait environ 2 Kbps pour un service vocal basique utilisant des protocoles analogiques.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q017",
+    "question": "Quelle génération de réseau mobile a introduit les standards numériques GSM/CDMA en 1992 ?",
+    "type": "single",
+    "options": ["2G", "1G", "3G", "5G"],
+    "answer": [0],
+    "explanation": "La 2G, lancée en 1992, était principalement conçue pour la voix en utilisant les standards numériques GSM/CDMA, avec un débit de 64 Kbps.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q018",
+    "question": "Associez chaque génération de réseau mobile à sa technologie principale.",
+    "type": "multiple",
+    "options": ["3G = WCDMA/CDMA2000 (haut débit mobile via IP)", "4G = LTE (unified standard)", "1G = LTE", "5G = 'Tactile Internet' avec débits proches de la fibre"],
+    "answer": [0, 1, 3],
+    "explanation": "La 3G (2001) utilise WCDMA/CDMA2000 avec des protocoles IP, la 4G (2010) repose sur le standard unifié LTE, et la 5G (attendue vers 2020) promet un « Tactile Internet » à débits proches de la fibre. La 1G utilisait des protocoles analogiques, pas LTE.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q019",
+    "question": "Quel débit théorique est associé à la 4G (LTE) dans le tableau présenté ?",
+    "type": "single",
+    "options": ["100 Mbps", "10 Gbps", "2 Mbps", "64 Kbps"],
+    "answer": [0],
+    "explanation": "La 4G (LTE), lancée en 2010, est associée à un débit théorique de 100 Mbps, contre 2 Mbps pour la 3G et 10 Gbps annoncés pour la 5G.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q020",
+    "question": "Quels facteurs contribuent à la fragmentation croissante du paysage des médias numériques selon le cours ?",
+    "type": "multiple",
+    "options": ["L'explosion du nombre de canaux (Web, blogs, RSS, messagerie instantanée, microblogging)", "L'augmentation rapide des objets connectés (Internet des objets)", "Un utilisateur de plus en plus « Always On »", "La disparition progressive des réseaux sociaux"],
+    "answer": [0, 1, 2],
+    "explanation": "La fragmentation s'explique par l'explosion des canaux d'information, la multiplication des objets connectés (IoT) et un utilisateur de plus en plus « Always On », avec le téléphone mobile au cœur de ce nouvel écosystème.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q021",
+    "question": "Quels sont, parmi les propositions suivantes, des avantages du média mobile cités dans le cours ?",
+    "type": "multiple",
+    "options": ["C'est le premier « Personal Mass Media »", "Il est porté en permanence par son détenteur", "Il peut embarquer un système de paiement", "Il est moins pertinent en mesures d'audience que le Web"],
+    "answer": [0, 1, 2],
+    "explanation": "Le cours cite 7 avantages, dont être le premier « Personal Mass Media », être porté en permanence, être toujours connecté, embarquer un système de paiement, etc. Le mobile est présenté comme PLUS pertinent en mesures d'audience que le Web, pas moins.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q022",
+    "question": "Selon la citation de Tomi Ahonen rapportée dans le cours, le mobile est décrit comme le média le plus intensément impliquant, plutôt que le média à plus large portée.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "La citation exacte est : « The Mobile is not the Widest Reaching Media, but the Most Intensely Involving Media » (Tomi Ahonen).",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q023",
+    "question": "Que signifie l'expression « Everyone is in the Shop » utilisée dans le cours à propos des mobinautes ?",
+    "type": "single",
+    "options": [
+      "Le consommateur attend que les contenus soient disponibles n'importe où, n'importe quand",
+      "Tous les utilisateurs achètent uniquement via des boutiques physiques",
+      "Les opérateurs mobiles vendent exclusivement en magasin",
+      "Les applications mobiles sont toutes payantes"
+    ],
+    "answer": [0],
+    "explanation": "Cette expression illustre l'exigence des mobinautes « Always On » : le consommateur attend des offreurs de services que leurs contenus soient disponibles n'importe où, n'importe quand.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q024",
+    "question": "En France, quelle part des utilisateurs accède à Internet via un mobile ou une tablette, contre quelle part via un ordinateur ?",
+    "type": "single",
+    "options": ["51,3% via mobile/tablette contre 48,7% via ordinateur", "48,7% via mobile/tablette contre 51,3% via ordinateur", "71% via mobile/tablette contre 29% via ordinateur", "59% via mobile/tablette contre 41% via ordinateur"],
+    "answer": [0],
+    "explanation": "51,3% des utilisateurs en France accèdent à Internet via un mobile ou une tablette, contre 48,7% via un ordinateur ; depuis octobre 2016, le mobile et la tablette dépassent l'ordinateur.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q025",
+    "question": "Depuis quel mois et quelle année l'accès à Internet via mobile et tablette a-t-il dépassé l'accès via ordinateur en France ?",
+    "type": "single",
+    "options": ["Octobre 2016", "Janvier 2016", "Juin 2015", "Mars 2017"],
+    "answer": [0],
+    "explanation": "Le cours précise que depuis octobre 2016, l'accès à Internet via mobile et tablette a dépassé l'accès à Internet via l'ordinateur.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q026",
+    "question": "Quelle proportion de Britanniques déclarent utiliser leur téléphone mobile comme réveil-matin ?",
+    "type": "single",
+    "options": ["71%", "59%", "39%", "18%"],
+    "answer": [0],
+    "explanation": "71% des Britanniques déclarent utiliser leur téléphone mobile comme réveil-matin, selon le cours.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q027",
+    "question": "En 2015, quelle proportion de Français consultait son smartphone dans l'heure suivant le réveil, et pour quels usages en priorité ?",
+    "type": "single",
+    "options": ["59% des Français, en priorité messages (39%) et emails (18%)", "18% des Français, en priorité réseaux sociaux", "39% des Français, en priorité appels téléphoniques", "71% des Français, en priorité jeux vidéo"],
+    "answer": [0],
+    "explanation": "En 2015, 59% des Français consultaient leur smartphone dans l'heure suivant leur réveil, leur premier réflexe étant la consultation de messages (39%) puis d'emails (18%).",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q028",
+    "question": "Quelle proportion des 18-24 ans consulte leur smartphone moins de 5 minutes avant de se coucher ?",
+    "type": "single",
+    "options": ["39%", "18%", "59%", "71%"],
+    "answer": [0],
+    "explanation": "18% des Français en général consultent leur smartphone moins de 5 minutes avant de se coucher, une proportion qui monte à 39% chez les 18-24 ans.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q029",
+    "question": "Quels sont les trois ingrédients du succès pour l'industrie mobile présentés dans le cours ?",
+    "type": "multiple",
+    "options": ["Technologie (fonctionnelle, rapide, stable)", "Coût (applications et services abordables)", "Besoin (perception d'utilité par le consommateur)", "Publicité (omniprésence des campagnes marketing)"],
+    "answer": [0, 1, 2],
+    "explanation": "Les 3 ingrédients du succès pour l'industrie mobile sont la Technologie (fonctionnelle, rapide, stable), le Coût (applications/services abordables) et le Besoin (perception d'utilité par le consommateur).",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q030",
+    "question": "Parmi les plateformes/stratégies mobiles historiques citées dans le cours, lesquelles figurent effectivement ?",
+    "type": "multiple",
+    "options": ["Android", "Symbian", "RIM (BlackBerry)", "Palm"],
+    "answer": [0, 1, 2, 3],
+    "explanation": "Le cours illustre plusieurs plateformes mobiles historiques : Android, Symbian, RIM (BlackBerry), Palm, ainsi que Windows Mobile, Apple, J2ME et Linux.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q031",
+    "question": "Combien de lignes de téléphonie mobile ont été recensées au Sénégal durant le premier trimestre 2017, selon l'article cité ?",
+    "type": "single",
+    "options": ["15.281.488", "15.765.524", "10.700.000", "905.000.000"],
+    "answer": [0],
+    "explanation": "Selon l'article Seneweb cité dans le cours, le parc de lignes de téléphonie mobile recensé au Sénégal durant le premier trimestre 2017 s'est élevé à 15.281.488 lignes.",
+    "image": null
+  },
+  {
+    "id": "tm-s2-q032",
+    "question": "L'initiative « Mobile Senegal » présentée dans le cours correspond à un projet de renforcement de capacités communautaires ayant duré 5 ans, entre 2008 et 2012.",
+    "type": "boolean",
+    "options": ["Vrai", "Faux"],
+    "answer": [0],
+    "explanation": "Le cours mentionne « Mobile Senegal – 5 years of capacity and community building with impact, 2008-2012 ».",
+    "image": null
+  }
+]
